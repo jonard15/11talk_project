@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "author": "htmlstream",
   "scripts": {
-    "build": "npm install"
+    "build": "npm install --global gulp-sass gulp-autoprefixer gulp-nunjucks-render gulp-html-prettify gulp-rtlcss gulp-rename"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
