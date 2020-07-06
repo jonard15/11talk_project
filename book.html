@@ -44,20 +44,20 @@
               </a>
           </li>
           <li class="nav-item g-px-14 ">
-              <a class="nav-link g-brd-around g-brd-gray-light-v4 g-brd-primary--active g-color-text g-color-white--active g-bg-secondary g-bg-primary--active g-rounded-left-3" href="book1.html">
+              <a class="nav-link g-brd-around g-brd-gray-light-v4 g-color-text g-color-white--active g-bg-secondary g-rounded-left-3" href="book1.html">
               Level 1-3
               </a>
           </li>
-          <li class="nav-item g-px-14 ">
-              <a class="nav-link g-brd-around g-brd-gray-light-v4 g-brd-main--active g-color-text g-color-white--active g-bg-secondary g-bg-main--active g-rounded-left-3" data-toggle="tab" href="#nav-1-1-default-hor-left--3" role="tab">
+          <!-- <li class="nav-item g-px-14 ">
+              <a class="nav-link g-brd-around g-brd-gray-light-v4 g-brd-main--active g-color-text g-color-white--active g-bg-secondary g-bg-main--active g-rounded-left-3" data-toggle="tab" href="#nav-1-1-default-hor-left--1" role="tab">
               Level 4-5
               </a>
           </li>
           <li class="nav-item g-px-14 ">
-              <a class="nav-link g-brd-around g-brd-gray-light-v4 g-brd-main--active g-color-text g-color-white--active g-bg-secondary g-bg-main--active g-rounded-left-3" data-toggle="tab" href="#" role="tab">
+              <a class="nav-link g-brd-around g-brd-gray-light-v4 g-brd-main--active g-color-text g-color-white--active g-bg-secondary g-bg-main--active g-rounded-left-3" data-toggle="tab" href="#nav-1-1-default-hor-left--1" role="tab">
               Level 6-10
               </a>
-          </li>
+          </li> -->
         </ul>
         <hr>
         <div id="nav-1-1-default-hor-left" class="tab-content">
@@ -76,10 +76,12 @@
                     <h3 class="h5 text-uppercase g-font-size-16 g-color-black g-mb-10 g-font-weight-500">Senior Speaking (Beginner)</h3>
                     <hr class = "g-bg-main">
                     <div class="g-brd-around g-brd-gray-light-v4 g-bg-white rounded g-pa-10 g-mb-20">
-                      <figcaption class="col-lg-5 g-mb-5 g-px-15 g-mr-15 g-bg-pink text-center">
-                          <a class="g-color-white g-font-size-13 text-uppercase g-letter-spacing-1 g-font-weight-500 g-text-underline--none--hover" href="#" tabindex="0">Level 1-3</a>
-                      </figcaption>
-                      <span class="h6 d-block g-font-weight-500 g-color-black g-mr-50">Pre-Basic English Conversion</span>
+                      <a href="book1.html">
+                        <figcaption class="col-lg-5 g-mb-5 g-px-15 g-mr-15 g-bg-pink text-center">
+                            <span class="g-color-white g-font-size-13 text-uppercase g-letter-spacing-1 g-font-weight-500 g-text-underline--none--hover" tabindex="0">Level 1-3</span>
+                        </figcaption>
+                        <span class="h6 d-block g-font-weight-500 g-color-black g-mr-50">Pre-Basic English Conversion</span>
+                      </a>
                     </div>
                     <div class="g-brd-around g-brd-gray-light-v4 g-bg-white rounded g-pa-10 g-mb-20">
                       <figcaption class="col-lg-5 g-mb-5 g-px-15 g-mr-15 g-bg-pink text-center">
@@ -453,6 +455,7 @@
       <script src="assets/js/components/hs.popup.js"></script>
       <script src="assets/js/components/hs.carousel.js"></script>
       <script src="assets/js/components/hs.go-to.js"></script>
+      <script src="assets/js/components/hs.tabs.js"></script>
       <!-- JS Customization -->
       <script src="assets/js/custom.js"></script>
       <!-- JS Plugins Init. -->
@@ -481,6 +484,9 @@
          
            // initialization of carousel
            $.HSCore.components.HSCarousel.init('.js-carousel');
+
+          // initialization of tabs
+          $.HSCore.components.HSTabs.init('[role="tablist"]'); 
          
            // initialization of go to
            $.HSCore.components.HSGoTo.init('.js-go-to');
@@ -489,6 +495,12 @@
         $("#header").load("header.html"); 
         $("#footer").load("footer.html"); 
          });
+
+         $(window).on('resize', function () {
+        setTimeout(function () {
+          $.HSCore.components.HSTabs.init('[role="tablist"]');
+        }, 200);
+      });
       </script>
    </body>
 </html>
