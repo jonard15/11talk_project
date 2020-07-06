@@ -2,7 +2,7 @@
 .g-bg-pink--hover:hover {
     background-color: #E81C62 !important;
   }
-  .g-bg-primary--active.active,
-  .active .g-bg-primary--active {
+  .g-bg-pink--active.active,
+  .active .g-bg-pink--active {
     background-color: #E81C62 !important;
   }
