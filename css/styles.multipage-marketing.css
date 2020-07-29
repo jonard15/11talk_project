@@ -25638,9 +25638,9 @@ img.u-block-hover__main--magnifier-top-left {
   .u-info-v9-1::before {
     position: absolute;
     top: 111px;
-    left: 17%;
-    width: 66%;
-    border-top: 1px dotted #ddd;
+    /* left: 17%; */
+    width: 100%;
+    border-top: 1px solid #ddd;
     content: " ";
   }
 }
