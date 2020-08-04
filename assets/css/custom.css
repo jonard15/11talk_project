@@ -14,3 +14,21 @@
   .active .g-bg-pink--active {
     background-color: #18BA9B !important;
   }
+
+  .beginner{
+    display:none;
+  }
+
+  .advance{
+    display:none;
+  }
+
+  .inter{
+    display:none;
+  }
+  .go{
+    display:none;
+  }
+  .test{
+    display:none;
+  }
