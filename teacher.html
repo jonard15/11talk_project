@@ -1,4 +1,3 @@
-<? include("../common_member.lib.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -9,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       <!-- Favicon -->
-      <link rel="shortcut icon" href="favicon1.ico">
+      <link rel="shortcut icon" href="../favicon1.ico">
       <!-- Google Fonts -->
       <link href="https://fonts.googleapis.com/css?family=Encode+Sans:400,500,600" rel="stylesheet">
       <!-- CSS Global Compulsory -->
@@ -26,6 +25,7 @@
       <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
       <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css">
       <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
+      <link  rel="stylesheet" href="assets/vendor/custombox/custombox.min.css">
       <!-- CSS Unify Theme -->
       <link rel="stylesheet" href="css/styles.multipage-marketing.css">
       <!-- CSS Customization -->
@@ -42,7 +42,7 @@
             <div class="d-flex align-items-center g-mb-40">
                <div>
                   <span class="d-block text-uppercase g-color-gray-dark-v5 g-font-weight-500 g-font-size-13 mb-4">Experts</span>
-                  <h2 class="mr-5 mb-0">Best Teachers </h2>
+                  <h2 class="mr-5 mb-0">Best Teachers</h2>
                </div>
                <!-- Nav tabs -->
                <ul class="nav u-nav-v1-1 ml-auto mt-auto" role="tablist" data-target="nav-1-1-default-hor-left" data-tabs-mobile-type="slide-up-down" data-btn-classes="btn btn-md btn-block rounded-0 u-btn-outline-lightgray">
@@ -88,12 +88,29 @@
                                        </a>
                                     </article>
                                  </div>
-                                 <div class="text-center">
-                                    <!-- <span class="g-color-main">Rating</span> -->
-                                    <div class="js-rating g-color-yellow" data-rating="5"></div>
-                                 </div>
-
                                  <!-- End Video Article -->
+                                 <a class="btn btn-block u-btn-primary g-brd-main--hover g-color-main g-color-primary--hover g-color-main--focus g-bg-main--hover g-font-weight-600 g-font-size-12 text-uppercase rounded-0 g-px-25 g-py-8" href="#modal3" data-modal-target="#modal3" data-modal-effect="newspaper">
+                                    Contact Me
+                                  </a>
+
+                                  <!-- Demo modal window -->
+                                    <div id="modal3" class="text-left g-max-width-600 g-bg-white g-overflow-y-auto g-pa-20" style="display: none;">
+                                       <button type="button" class="close" onclick="Custombox.modal.close();">
+                                       <i class="hs-icon hs-icon-close"></i>
+                                       </button>
+                                       <h4 class="g-mb-20">Teacher Jamil</h4>
+                                       <ul class="list-unstyled">
+                                          <li>SKYPE ID</li>
+                                          <ul>
+                                             <li>live:a23e6c0468314833</li>
+                                          </ul>
+                                          <li>QQ ID</li>
+                                          <ul>
+                                             <li>3094692003</li>
+                                          </ul>
+                                       </ul>
+                                    </div>
+                                 <!-- End Demo modal window -->
                               </div>
                               <div class="col-md-8">
                                  <!-- Consultants Content -->
@@ -124,6 +141,7 @@
                                     </h6>
                                  </div>
                                  <!-- End Card -->
+                                 <div class="js-rating g-color-yellow" data-rating="5"></div>
                                  <div class="row">
                                     <div class="col-md-6">
                                        <!-- Junior Speaking -->
@@ -178,7 +196,7 @@
                            <div class="row">
                               <div class="col-md-4 g-mb-30">
                                  <!-- Video Article -->
-                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-10" data-bg-img-src="img/teacher/Nadja.jpg" style="background-image: url(&quot;img/teacher/Nadja.jpg&quot;);">
+                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-30" data-bg-img-src="img/teacher/Nadja.jpg" style="background-image: url(&quot;img/teacher/Nadja.jpg&quot;);">
                                     <article class="text-center g-pos-rel g-z-index-1 g-px-20 g-mt-50">
                                        <a class="js-fancybox d-inline-block g-text-underline--none--hover mb-3" href="javascript:;" data-src="https://www.youtube.com/embed/ec2onAujcTQ" data-speed="350" data-caption="Video Popup">
                                        <span class="u-icon-v3 u-icon-size--md u-icon-scale-1_2--hover g-bg-primary g-color-white rounded-circle g-cursor-pointer">
@@ -188,10 +206,6 @@
                                     </article>
                                  </div>
                                  <!-- End Video Article -->
-                                 <div class="text-center">
-                                    <!-- <span class="g-color-main">Rating</span> -->
-                                    <div class="js-rating g-color-yellow" data-rating="4.5"></div>
-                                 </div>
                               </div>
                               <div class="col-md-8">
                                  <!-- Consultants Content -->
@@ -220,6 +234,7 @@
                                     </h6>
                                  </div>
                                  <!-- End Card -->
+                                 <div class="js-rating g-color-yellow" data-rating="4.5"></div>
                                  <div class="row">
                                     <div class="col-md-6">
                                        <!-- Junior Speaking -->
@@ -258,7 +273,7 @@
                            <div class="row">
                               <div class="col-md-4 g-mb-30">
                                  <!-- Video Article -->
-                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-10" data-bg-img-src="img/teacher/Camela.png" style="background-image: url(&quot;img/teacher/Camela.png&quot;);">
+                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-30" data-bg-img-src="img/teacher/Camela.png" style="background-image: url(&quot;img/teacher/Camela.png&quot;);">
                                     <article class="text-center g-pos-rel g-z-index-1 g-px-20 g-mt-50">
                                        <a class="js-fancybox d-inline-block g-text-underline--none--hover mb-3" href="javascript:;" data-src="https://www.youtube.com/embed/wfBHGIDaCc8" data-speed="350" data-caption="Video Popup">
                                        <span class="u-icon-v3 u-icon-size--md u-icon-scale-1_2--hover g-bg-primary g-color-white rounded-circle g-cursor-pointer">
@@ -268,10 +283,6 @@
                                     </article>
                                  </div>
                                  <!-- End Video Article -->
-                                 <div class="text-center">
-                                    <!-- <span class="g-color-main">Rating</span> -->
-                                    <div class="js-rating g-color-yellow" data-rating="5"></div>
-                                 </div>
                               </div>
                               <div class="col-md-8">
                                  <!-- Consultants Content -->
@@ -300,6 +311,7 @@
                                     </h6>
                                  </div>
                                  <!-- End Card -->
+                                 <div class="js-rating g-color-yellow" data-rating="5"></div>
                                  <div class="row">
                                     <div class="col-md-6">
                                        <!-- Junior Speaking -->
@@ -372,10 +384,6 @@
                                     </article>
                                  </div>
                                  <!-- End Video Article -->
-                                 <div class="text-center">
-                                    <!-- <span class="g-color-main">Rating</span> -->
-                                    <div class="js-rating g-color-yellow" data-rating="5"></div>
-                                 </div>
                               </div>
                               <div class="col-md-8">
                                  <!-- Consultants Content -->
@@ -406,6 +414,7 @@
                                     </h6>
                                  </div>
                                  <!-- End Card -->
+                                 <div class="js-rating g-color-yellow" data-rating="5"></div>
                                  <div class="row">
                                     <div class="col-md-6">
                                        <!-- Junior Speaking -->
@@ -476,7 +485,7 @@
                            <div class="row">
                               <div class="col-md-4 g-mb-30">
                                  <!-- Video Article -->
-                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-10" data-bg-img-src="img/teacher/Ramon.png" style="background-image: url(&quot;img/teacher/Ramon.png&quot;);">
+                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-30" data-bg-img-src="img/teacher/Ramon.png" style="background-image: url(&quot;img/teacher/Ramon.png&quot;);">
                                     <article class="text-center g-pos-rel g-z-index-1 g-px-20 g-mt-50">
                                        <a class="js-fancybox d-inline-block g-text-underline--none--hover mb-3" href="javascript:;" data-src="https://www.youtube.com/embed/Z_i6mKn_26I" data-speed="350" data-caption="Video Popup">
                                        <span class="u-icon-v3 u-icon-size--md u-icon-scale-1_2--hover g-bg-primary g-color-white rounded-circle g-cursor-pointer">
@@ -486,10 +495,6 @@
                                     </article>
                                  </div>
                                  <!-- End Video Article -->
-                                 <div class="text-center">
-                                    <!-- <span class="g-color-main">Rating</span> -->
-                                    <div class="js-rating g-color-yellow" data-rating="5"></div>
-                                 </div>
                               </div>
                               <div class="col-md-8">
                                  <!-- Consultants Content -->
@@ -518,6 +523,7 @@
                                     </h6>
                                  </div>
                                  <!-- End Card -->
+                                 <div class="js-rating g-color-yellow" data-rating="5"></div>
                                  <div class="row">
                                     <div class="col-md-6">
                                        <!-- Junior Speaking -->
@@ -596,7 +602,7 @@
                            <div class="row">
                               <div class="col-md-4 g-mb-30">
                                  <!-- Video Article -->
-                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-10" data-bg-img-src="img/teacher/Nissa.png" style="background-image: url(&quot;img/teacher/Nissa.png&quot;);">
+                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-30" data-bg-img-src="img/teacher/Nissa.png" style="background-image: url(&quot;img/teacher/Nissa.png&quot;);">
                                     <article class="text-center g-pos-rel g-z-index-1 g-px-20 g-mt-50">
                                        <a class="js-fancybox d-inline-block g-text-underline--none--hover mb-3" href="javascript:;" data-src="https://www.youtube.com/embed/08GUMzFjrx8" data-speed="350" data-caption="Video Popup">
                                        <span class="u-icon-v3 u-icon-size--md u-icon-scale-1_2--hover g-bg-primary g-color-white rounded-circle g-cursor-pointer">
@@ -606,10 +612,6 @@
                                     </article>
                                  </div>
                                  <!-- End Video Article -->
-                                 <div class="text-center">
-                                    <!-- <span class="g-color-main">Rating</span> -->
-                                    <div class="js-rating g-color-yellow" data-rating="5"></div>
-                                 </div>
                               </div>
                               <div class="col-md-8">
                                  <!-- Consultants Content -->
@@ -638,6 +640,7 @@
                                     </h6>
                                  </div>
                                  <!-- End Card -->
+                                 <div class="js-rating g-color-yellow" data-rating="5"></div>
                                  <div class="row">
                                     <div class="col-md-6">
                                        <!-- Junior Speaking -->
@@ -693,7 +696,7 @@
                            <div class="row">
                               <div class="col-md-4 g-mb-30">
                                  <!-- Video Article -->
-                                 <div class="g-bg-size-cover g-bg-pos-top-center g-bg-cover g-pos-rel g-py-60 g-mb-10" data-bg-img-src="img/teacher/Shanon.jpg" style="background-image: url(&quot;img/teacher/Devy.jpg&quot;);">
+                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-30" data-bg-img-src="img/teacher/Shanon.jpg" style="background-image: url(&quot;img/teacher/Shanon.jpg&quot;);">
                                     <article class="text-center g-pos-rel g-z-index-1 g-px-20 g-mt-50">
                                        <a class="js-fancybox d-inline-block g-text-underline--none--hover mb-3" href="javascript:;" data-src="https://www.youtube.com/embed/Zev5i-6FeLY" data-speed="350" data-caption="Video Popup">
                                        <span class="u-icon-v3 u-icon-size--md u-icon-scale-1_2--hover g-bg-primary g-color-white rounded-circle g-cursor-pointer">
@@ -703,10 +706,6 @@
                                     </article>
                                  </div>
                                  <!-- End Video Article -->
-                                 <div class="text-center">
-                                    <!-- <span class="g-color-main">Rating</span> -->
-                                    <div class="js-rating g-color-yellow" data-rating="5"></div>
-                                 </div>
                               </div>
                               <div class="col-md-8">
                                  <!-- Consultants Content -->
@@ -735,6 +734,7 @@
                                     </h6>
                                  </div>
                                  <!-- End Card -->
+                                 <div class="js-rating g-color-yellow" data-rating="5"></div>
                                  <div class="row">
                                     <div class="col-md-6">
                                        <!-- Junior Speaking -->
@@ -789,7 +789,7 @@
                            <div class="row">
                               <div class="col-md-4 g-mb-30">
                                  <!-- Video Article -->
-                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-10" data-bg-img-src="img/teacher/Devy.jpg" style="background-image: url(&quot;img/teacher/Devy.jpg&quot;);">
+                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-30" data-bg-img-src="img/teacher/Devy.jpg" style="background-image: url(&quot;img/teacher/Devy.jpg&quot;);">
                                     <article class="text-center g-pos-rel g-z-index-1 g-px-20 g-mt-50">
                                        <a class="js-fancybox d-inline-block g-text-underline--none--hover mb-3" href="javascript:;" data-src="https://www.youtube.com/embed/Mj6ljzWcNVQ" data-speed="350" data-caption="Video Popup">
                                        <span class="u-icon-v3 u-icon-size--md u-icon-scale-1_2--hover g-bg-primary g-color-white rounded-circle g-cursor-pointer">
@@ -799,10 +799,6 @@
                                     </article>
                                  </div>
                                  <!-- End Video Article -->
-                                 <div class="text-center">
-                                    <!-- <span class="g-color-main">Rating</span> -->
-                                    <div class="js-rating g-color-yellow" data-rating="5"></div>
-                                 </div>
                               </div>
                               <div class="col-md-8">
                                  <!-- Consultants Content -->
@@ -831,6 +827,7 @@
                                     </h6>
                                  </div>
                                  <!-- End Card -->
+                                 <div class="js-rating g-color-yellow" data-rating="5"></div>
                                  <div class="row">
                                     <div class="col-md-6">
                                        <!-- Junior Speaking -->
@@ -885,7 +882,7 @@
                            <div class="row">
                               <div class="col-md-4 g-mb-30">
                                  <!-- Video Article -->
-                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-10" data-bg-img-src="img/teacher/kenneth.jpg" style="background-image: url(&quot;img/teacher/kenneth.jpg&quot;);">
+                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-30" data-bg-img-src="img/teacher/kenneth.jpg" style="background-image: url(&quot;img/teacher/kenneth.jpg&quot;);">
                                     <article class="text-center g-pos-rel g-z-index-1 g-px-20 g-mt-50">
                                        <a class="js-fancybox d-inline-block g-text-underline--none--hover mb-3" href="javascript:;" data-src="https://www.youtube.com/embed/dI8vmSChzV0" data-speed="350" data-caption="Video Popup">
                                        <span class="u-icon-v3 u-icon-size--md u-icon-scale-1_2--hover g-bg-primary g-color-white rounded-circle g-cursor-pointer">
@@ -895,10 +892,6 @@
                                     </article>
                                  </div>
                                  <!-- End Video Article -->
-                                 <div class="text-center">
-                                    <!-- <span class="g-color-main">Rating</span> -->
-                                    <div class="js-rating g-color-yellow" data-rating="5"></div>
-                                 </div>
                               </div>
                               <div class="col-md-8">
                                  <!-- Consultants Content -->
@@ -927,6 +920,7 @@
                                     </h6>
                                  </div>
                                  <!-- End Card -->
+                                 <div class="js-rating g-color-yellow" data-rating="5"></div>
                                  <div class="row">
                                     <div class="col-md-6">
                                        <!-- Junior Speaking -->
@@ -981,7 +975,7 @@
                            <div class="row">
                               <div class="col-md-4 g-mb-30">
                                  <!-- Video Article -->
-                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-10" data-bg-img-src="img/teacher/Emma.png" style="background-image: url(&quot;img/teacher/Emma.png&quot;);">
+                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-30" data-bg-img-src="img/teacher/Emma.png" style="background-image: url(&quot;img/teacher/Emma.png&quot;);">
                                     <article class="text-center g-pos-rel g-z-index-1 g-px-20 g-mt-50">
                                        <a class="js-fancybox d-inline-block g-text-underline--none--hover mb-3" href="javascript:;" data-src="https://www.youtube.com/embed/27YXruunqGU" data-speed="350" data-caption="Video Popup">
                                        <span class="u-icon-v3 u-icon-size--md u-icon-scale-1_2--hover g-bg-primary g-color-white rounded-circle g-cursor-pointer">
@@ -991,10 +985,6 @@
                                     </article>
                                  </div>
                                  <!-- End Video Article -->
-                                 <div class="text-center">
-                                    <!-- <span class="g-color-main">Rating</span> -->
-                                    <div class="js-rating g-color-yellow" data-rating="5"></div>
-                                 </div>
                               </div>
                               <div class="col-md-8">
                                  <!-- Consultants Content -->
@@ -1023,6 +1013,7 @@
                                     </h6>
                                  </div>
                                  <!-- End Card -->
+                                 <div class="js-rating g-color-yellow" data-rating="5"></div>
                                  <div class="row">
                                     <!-- <div class="col-md-6"></div> -->
                                     <div class="col-md-6">
@@ -1052,7 +1043,7 @@
                               <div class="row">
                                  <div class="col-md-4 g-mb-30">
                                     <!-- Video Article -->
-                                    <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-10" data-bg-img-src="img/teacher/Glendalyn.png" style="background-image: url(&quot;img/teacher/Glendalyn.png&quot;);">
+                                    <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-30" data-bg-img-src="img/teacher/Glendalyn.png" style="background-image: url(&quot;img/teacher/Glendalyn.png&quot;);">
                                        <article class="text-center g-pos-rel g-z-index-1 g-px-20 g-mt-50">
                                           <a class="js-fancybox d-inline-block g-text-underline--none--hover mb-3" href="javascript:;" data-src="https://www.youtube.com/embed/NMmLgNB6ddM" data-speed="350" data-caption="Video Popup">
                                           <span class="u-icon-v3 u-icon-size--md u-icon-scale-1_2--hover g-bg-primary g-color-white rounded-circle g-cursor-pointer">
@@ -1062,10 +1053,6 @@
                                        </article>
                                     </div>
                                     <!-- End Video Article -->
-                                    <div class="text-center">
-                                       <!-- <span class="g-color-main">Rating</span> -->
-                                       <div class="js-rating g-color-yellow" data-rating="5"></div>
-                                    </div>
                                  </div>
                                  <div class="col-md-8">
                                     <!-- Consultants Content -->
@@ -1095,6 +1082,7 @@
                                        </h6>
                                     </div>
                                     <!-- End Card -->
+                                    <div class="js-rating g-color-yellow" data-rating="5"></div>
                                     <div class="row">
                                        <div class="col-md-6">
                                           <!-- Junior Speaking -->
@@ -1157,7 +1145,7 @@
                            <div class="row">
                               <div class="col-md-4 g-mb-30">
                                  <!-- Video Article -->
-                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-10" data-bg-img-src="img/teacher/Reagan.jpg" style="background-image: url(&quot;img/teacher/Reagan.jpg&quot;);">
+                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-30" data-bg-img-src="img/teacher/Reagan.jpg" style="background-image: url(&quot;img/teacher/Reagan.jpg&quot;);">
                                     <article class="text-center g-pos-rel g-z-index-1 g-px-20 g-mt-50">
                                        <a class="js-fancybox d-inline-block g-text-underline--none--hover mb-3" href="javascript:;" data-src="https://www.youtube.com/embed/F2TQ-irO-wU" data-speed="350" data-caption="Video Popup">
                                        <span class="u-icon-v3 u-icon-size--md u-icon-scale-1_2--hover g-bg-primary g-color-white rounded-circle g-cursor-pointer">
@@ -1167,10 +1155,6 @@
                                     </article>
                                  </div>
                                  <!-- End Video Article -->
-                                 <div class="text-center">
-                                    <!-- <span class="g-color-main">Rating</span> -->
-                                    <div class="js-rating g-color-yellow" data-rating="5"></div>
-                                 </div>
                               </div>
                               <div class="col-md-8">
                                  <!-- Consultants Content -->
@@ -1201,6 +1185,7 @@
                                     </h6>
                                  </div>
                                  <!-- End Card -->
+                                 <div class="js-rating g-color-yellow" data-rating="5"></div>
                                  <div class="row">
                                     <div class="col-md-6">
                                        <!-- Junior Speaking -->
@@ -1255,7 +1240,7 @@
                            <div class="row">
                               <div class="col-md-4 g-mb-30">
                                  <!-- Video Article -->
-                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-10" data-bg-img-src="img/teacher/Froilan.png" style="background-image: url(&quot;img/teacher/Froilan.png&quot;);">
+                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-30" data-bg-img-src="img/teacher/Froilan.png" style="background-image: url(&quot;img/teacher/Froilan.png&quot;);">
                                     <article class="text-center g-pos-rel g-z-index-1 g-px-20 g-mt-50">
                                        <a class="js-fancybox d-inline-block g-text-underline--none--hover mb-3" href="javascript:;" data-src="https://www.youtube.com/embed/SsREE9fTZr0" data-speed="350" data-caption="Video Popup">
                                        <span class="u-icon-v3 u-icon-size--md u-icon-scale-1_2--hover g-bg-primary g-color-white rounded-circle g-cursor-pointer">
@@ -1265,10 +1250,6 @@
                                     </article>
                                  </div>
                                  <!-- End Video Article -->
-                                 <div class="text-center">
-                                    <!-- <span class="g-color-main">Rating</span> -->
-                                    <div class="js-rating g-color-yellow" data-rating="5"></div>
-                                 </div>
                               </div>
                               <div class="col-md-8">
                                  <!-- Consultants Content -->
@@ -1298,6 +1279,7 @@
                                     </h6>
                                  </div>
                                  <!-- End Card -->
+                                 <div class="js-rating g-color-yellow" data-rating="5"></div>
                                  <div class="row">
                                     <div class="col-md-6">
                                        <!-- Junior Speaking -->
@@ -1344,7 +1326,7 @@
                            <div class="row">
                               <div class="col-md-4 g-mb-30">
                                  <!-- Video Article -->
-                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-10" data-bg-img-src="img/teacher/John-Paul.png" style="background-image: url(&quot;img/teacher/John-Paul.png&quot;);">
+                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-30" data-bg-img-src="img/teacher/John-Paul.png" style="background-image: url(&quot;img/teacher/John-Paul.png&quot;);">
                                     <article class="text-center g-pos-rel g-z-index-1 g-px-20 g-mt-50">
                                        <a class="js-fancybox d-inline-block g-text-underline--none--hover mb-3" href="javascript:;" data-src="https://www.youtube.com/embed/-iSzHB--dM0" data-speed="350" data-caption="Video Popup">
                                        <span class="u-icon-v3 u-icon-size--md u-icon-scale-1_2--hover g-bg-primary g-color-white rounded-circle g-cursor-pointer">
@@ -1354,10 +1336,6 @@
                                     </article>
                                  </div>
                                  <!-- End Video Article -->
-                                 <div class="text-center">
-                                    <!-- <span class="g-color-main">Rating</span> -->
-                                    <div class="js-rating g-color-yellow" data-rating="5"></div>
-                                 </div>
                               </div>
                               <div class="col-md-8">
                                  <!-- Consultants Content -->
@@ -1386,6 +1364,7 @@
                                     </h6>
                                  </div>
                                  <!-- End Card -->
+                                 <div class="js-rating g-color-yellow" data-rating="5"></div>
                                  <div class="row">
                                     <div class="col-md-6">
                                        <!-- Junior Speaking -->
@@ -1432,7 +1411,7 @@
                            <div class="row">
                               <div class="col-md-4 g-mb-30">
                                  <!-- Video Article -->
-                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-10" data-bg-img-src="img/teacher/Fernan.jpg" style="background-image: url(&quot;img/teacher/Fernan.jpg&quot;);">
+                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-30" data-bg-img-src="img/teacher/Fernan.jpg" style="background-image: url(&quot;img/teacher/Fernan.jpg&quot;);">
                                     <article class="text-center g-pos-rel g-z-index-1 g-px-20 g-mt-50">
                                        <a class="js-fancybox d-inline-block g-text-underline--none--hover mb-3" href="javascript:;" data-src="https://www.youtube.com/embed/tM2dHawx_XI" data-speed="350" data-caption="Video Popup">
                                        <span class="u-icon-v3 u-icon-size--md u-icon-scale-1_2--hover g-bg-primary g-color-white rounded-circle g-cursor-pointer">
@@ -1442,10 +1421,6 @@
                                     </article>
                                  </div>
                                  <!-- End Video Article -->
-                                 <div class="text-center">
-                                    <!-- <span class="g-color-main">Rating</span> -->
-                                    <div class="js-rating g-color-yellow" data-rating="5"></div>
-                                 </div>
                               </div>
                               <div class="col-md-8">
                                  <!-- Consultants Content -->
@@ -1476,6 +1451,7 @@
                                     </h6>
                                  </div>
                                  <!-- End Card -->
+                                 <div class="js-rating g-color-yellow" data-rating="5"></div>
                                  <div class="row">
                                     <div class="col-md-6">
                                        <!-- Junior Speaking -->
@@ -1546,7 +1522,7 @@
                            <div class="row">
                               <div class="col-md-4 g-mb-30">
                                  <!-- Video Article -->
-                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-10" data-bg-img-src="img/teacher/Gemma.jpg" style="background-image: url(&quot;img/teacher/Gemma.jpg&quot;);">
+                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-30" data-bg-img-src="img/teacher/Gemma.jpg" style="background-image: url(&quot;img/teacher/Gemma.jpg&quot;);">
                                     <article class="text-center g-pos-rel g-z-index-1 g-px-20 g-mt-50">
                                        <a class="js-fancybox d-inline-block g-text-underline--none--hover mb-3" href="javascript:;" data-src="https://www.youtube.com/embed/fPf5V3WQylQ" data-speed="350" data-caption="Video Popup">
                                        <span class="u-icon-v3 u-icon-size--md u-icon-scale-1_2--hover g-bg-primary g-color-white rounded-circle g-cursor-pointer">
@@ -1556,10 +1532,6 @@
                                     </article>
                                  </div>
                                  <!-- End Video Article -->
-                                 <div class="text-center">
-                                    <!-- <span class="g-color-main">Rating</span> -->
-                                    <div class="js-rating g-color-yellow" data-rating="5"></div>
-                                 </div>
                               </div>
                               <div class="col-md-8">
                                  <!-- Consultants Content -->
@@ -1590,6 +1562,7 @@
                                     </h6>
                                  </div>
                                  <!-- End Card -->
+                                 <div class="js-rating g-color-yellow" data-rating="5"></div>
                                  <div class="row">
                                     <div class="col-md-6">
                                        <!-- Junior Speaking -->
@@ -1619,7 +1592,7 @@
                            <div class="row">
                               <div class="col-md-4 g-mb-30">
                                  <!-- Video Article -->
-                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-10" data-bg-img-src="img/teacher/Mitchelle.jpg" style="background-image: url(&quot;img/teacher/Mitchelle.jpg&quot;);">
+                                 <div class="g-bg-size-cover g-bg-pos-center g-bg-cover g-pos-rel g-py-60 g-mb-30" data-bg-img-src="img/teacher/Mitchelle.jpg" style="background-image: url(&quot;img/teacher/Mitchelle.jpg&quot;);">
                                     <article class="text-center g-pos-rel g-z-index-1 g-px-20 g-mt-50">
                                        <a class="js-fancybox d-inline-block g-text-underline--none--hover mb-3" href="javascript:;" data-src="https://www.youtube.com/embed/TCYMIP3edfY" data-speed="350" data-caption="Video Popup">
                                        <span class="u-icon-v3 u-icon-size--md u-icon-scale-1_2--hover g-bg-primary g-color-white rounded-circle g-cursor-pointer">
@@ -1629,10 +1602,6 @@
                                     </article>
                                  </div>
                                  <!-- End Video Article -->
-                                 <div class="text-center">
-                                    <!-- <span class="g-color-main">Rating</span> -->
-                                    <div class="js-rating g-color-yellow" data-rating="5"></div>
-                                 </div>
                               </div>
                               <div class="col-md-8">
                                  <!-- Consultants Content -->
@@ -1662,6 +1631,7 @@
                                     </h6>
                                  </div>
                                  <!-- End Card -->
+                                 <div class="js-rating g-color-yellow" data-rating="5"></div>
                                  <div class="row">
                                     <div class="col-md-6">
                                        <!-- Junior Speaking -->
@@ -1714,7 +1684,6 @@
          </a>
          <!-- End Go to Top -->
       </main>
-
       <!-- JS Global Compulsory -->
       <script src="assets/vendor/jquery/jquery.min.js"></script>
       <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
@@ -1727,6 +1696,7 @@
       <script src="assets/vendor/dzsparallaxer/advancedscroller/plugin.js"></script>
       <script src="assets/vendor/fancybox/jquery.fancybox.min.js"></script>
       <script src="assets/vendor/slick-carousel/slick/slick.js"></script>
+      <script  src="assets/vendor/custombox/custombox.min.js"></script>
       <!-- JS Unify -->
       <script src="assets/js/hs.core.js"></script>
       <script src="assets/js/components/hs.header.js"></script>
@@ -1737,6 +1707,7 @@
       <script src="assets/js/components/hs.go-to.js"></script>
       <script src="assets/js/components/hs.tabs.js"></script>
       <script src="assets/js/components/hs.rating.js"></script>
+      <script  src="assets/js/components/hs.modal-window.js"></script>
       <!-- JS Customization -->
       <script src="assets/js/custom.js"></script>
       <!-- JS Plugins Init. -->
@@ -1786,7 +1757,11 @@
              $.HSCore.components.HSTabs.init('[role="tablist"]');
            }, 200);
          });
+
+         $(document).on('ready', function () {
+         // initialization of popups
+         $.HSCore.components.HSModalWindow.init('[data-modal-target]');
+         });
       </script>
    </body>
-   ?>
 </html>
