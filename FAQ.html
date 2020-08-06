@@ -835,6 +835,7 @@
     <script src="assets/js/components/hs.popup.js"></script>
     <script src="assets/js/components/hs.carousel.js"></script>
     <script src="assets/js/components/hs.go-to.js"></script>
+    <script src="../assets/js/components/hs.tabs.js"></script>
 
     <!-- JS Customization -->
     <script src="assets/js/custom.js"></script>
@@ -871,6 +872,15 @@
 
         // initialization of go to
         $.HSCore.components.HSGoTo.init('.js-go-to');
+
+        // Tabs
+        $.HSCore.components.HSTabs.init('[role="tablist"]');
+      });
+
+      $(window).on('resize', function () {
+        setTimeout(function () {
+          $.HSCore.components.HSTabs.init('[role="tablist"]');
+        }, 200);
       });
     </script>
   </body>
