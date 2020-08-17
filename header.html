@@ -80,23 +80,42 @@
                       Class&nbsp;System
                     </a>
                   </li>
+
+                    <!-- Language -->
+                <li class="hs-has-mega-menu nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg" data-animation-in="fadeIn" data-animation-out="fadeOut" data-max-width="60%" data-position="right">
+                  <a id="mega-menu-home" class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="#" aria-haspopup="true" aria-expanded="false">Language<i class="hs-icon hs-icon-arrow-bottom g-font-size-11 g-ml-7"></i></a>
+
+                  <!-- Mega Menu -->
+                  <div class="hs-mega-menu u-shadow-v11 font-weight-normal g-brd-top g-brd-primary g-brd-top-2 g-bg-white g-mt-2 g-mt-8--lg--scrolling" aria-labelledby="mega-menu-home">
+                    <div class="align-items-stretch no-gutters">
+                      <div class="g-brd-left--lg g-brd-gray-light-v5">
+                        <ul class="list-unstyled">
+                          <li class="dropdown-item ">
+                            <a id="en" href="#english" class="nav-link translate">English</a>
+                          </li>
+                          <li class="dropdown-item ">
+                            <a id="km" href="#chinese" class="nav-link translate">Chinese</a>
+                          </li>
+                          <li class="dropdown-item ">
+                            <a href="#" class="nav-link">Japanese</a>
+                          </li>
+                          <li class="dropdown-item ">
+                            <a href="#" class="nav-link">Korean</a>
+                          </li>
+                          <li class="dropdown-item ">
+                            <a href="#" class="nav-link">Vietnamese</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Mega Menu -->
+                </li>
+                <!-- End Language -->
+
                 </ul>
               </div>
               <!-- End Navigation -->
-
-              <!-- Social Icons -->
-              <ul class="col-auto list-inline g-pos-abs g-right-0 g-pos-rel--lg g-top-minus-3 g-py-20 g-py-6--lg g-pr-5 g-mr-60 g-mr-0--lg ml-auto ml-lg-0 mb-0">
-                <li class="list-inline-item g-mx-0">
-                  <a class="u-icon-v3 u-icon-size--xs g-bg-transparent g-bg-main--hover rounded" href="#"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li class="list-inline-item g-mx-0">
-                  <a class="u-icon-v3 u-icon-size--xs g-bg-transparent g-bg-main--hover rounded" href="#"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li class="list-inline-item g-mx-0">
-                  <a class="u-icon-v3 u-icon-size--xs g-bg-transparent g-bg-main--hover rounded" href="#"><i class="fa fa-instagram"></i></a>
-                </li>
-              </ul>
-              <!-- End Social Icons -->
 
               <div class="col-auto g-hidden-md-down g-pr-0">
                 <div class="g-bg-main g-cursor-pointer g-px-25 g-py-20">
@@ -109,5 +128,18 @@
         </div>
       </header>
       <!-- End Header -->
+    <!-- JS Implementing Plugins -->
+    <script src="assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+
+    <!-- JS Customization -->
+    <script src="language/translation.js"></script>
+    <script>
+      // initialization of HSMegaMenu component
+      $('.js-mega-menu').HSMegaMenu({
+        event: 'hover',
+        pageContainer: $('.container'),
+        breakpoint: 991
+      });
+    </script>
 </body>
 </html>

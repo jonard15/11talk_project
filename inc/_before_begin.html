@@ -1,0 +1,43 @@
+<?php
+
+$sel_lang = $_SESSION['language'];
+if (empty($sel_lang) || strlen($sel_lang) != 2) {
+    if (substr($HTTP_ACCEPT_LANGUAGE, 0, 2) == "ko") {
+        $sel_lang = "ko";
+    } else if (substr($HTTP_ACCEPT_LANGUAGE, 0, 2) == "ja") {
+        $sel_lang = "jp";
+    } else if (substr($HTTP_ACCEPT_LANGUAGE, 0, 5) == "zh-cn") {
+        $sel_lang = "ch";
+    } else if (substr($HTTP_ACCEPT_LANGUAGE, 0, 5) == "zh-tw") {
+        $sel_lang = "tw";
+    } else if (substr($HTTP_ACCEPT_LANGUAGE, 0, 2) == "ts") {
+        $sel_lang = "th";
+    } else if (substr($HTTP_ACCEPT_LANGUAGE, 0, 2) == "vi") {
+        $sel_lang = "vi";
+    } else {
+        $sel_lang = "en";
+    }
+}
+
+if (isset($_GET['lang']) && $_GET['lang'] != "") {
+    $sel_lang = $_GET['lang'];
+
+    if ($sel_lang != "en" && $sel_lang != "ko"
+        && $sel_lang != "jp" && $sel_lang != "ch"
+        && $sel_lang != "tw" && $sel_lang != "th"
+        && $sel_lang != "vi") {
+        $sel_lang = "en";
+    }
+}
+?>
+
+<?php
+$_SESSION['language'] = $sel_lang;
+
+include_once($_SERVER['DOCUMENT_ROOT'] . '/11talk/language/' . $sel_lang . '/main_lang.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/11talk/language/' . $sel_lang . '/email_lang.php');
+
+$lang_postfix = "";
+if ($sel_lang != "en") $lang_postfix = "_" . $sel_lang;
+
+?>
