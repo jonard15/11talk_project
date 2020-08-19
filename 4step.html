@@ -40,61 +40,137 @@
 
   <body>
     <main>
-      <!-- Header -->
-      <div id="header"></div>
-      <!-- End Header -->
+     <!-- Header -->
+     <header id="js-header" class="u-header u-header--static u-header--toggle-section u-header--change-appearance u-shadow-v19">
+      <div class="u-header__section g-bg-white g-transition-0_3">
+        <nav class="js-mega-menu navbar navbar-expand-lg g-pa-0">
+          <div class="container">
+              <!-- Logo -->
+              <a class="navbar-brand g-pl-10 py-3" href="home.html">
+                <img class="g-width-100" src="img/header/logo.png" alt="Logo">
+              </a>
+              <!-- End Logo -->
+            <!-- Responsive Toggle Button -->
+            <button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pos-abs g-top-10 g-right-0 g-pa-0 g-mt-2" type="button"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false"
+                    aria-controls="navBar"
+                    data-toggle="collapse"
+                    data-target="#navBar">
+              <span class="hamburger hamburger--slider g-px-15">
+                <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                </span>
+              </span>
+            </button>
+            <!-- End Responsive Toggle Button -->
 
-      <div id="js-scroll-nav" class="g-mt-80 g-bg-white g-color-white fixed-top">
-        <!-- 4-Step Learning -->
-        <div  class="list-inline-item g-pos-rel g-py-7 ml-4">
-          <a id="jump-to-dropdown-invoker" class="d-block d-lg-none u-link-v5 g-color-black g-color-primary--hover g-font-weight-600 g-font-size-14 text-uppercase g-py-7" href="#"
-              aria-controls="jump-to-dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-              data-dropdown-event="hover"
-              data-dropdown-target="#jump-to-dropdown"
-              data-dropdown-type="css-animation"
-              data-dropdown-duration="0"
-              data-dropdown-hide-on-scroll="true"
-              data-dropdown-animation-in="fadeIn"
-              data-dropdown-animation-out="fadeOut">
-            4-Step Learning
-            <i class="g-ml-3 fa fa-angle-down"></i>
-          </a>
-          <ul id="jump-to-dropdown" class="list-unstyled u-shadow-v39 g-brd-around g-brd-4 g-brd-white g-bg-secondary g-pos-abs g-left-0 g-z-index-99 g-mt-13"
-              aria-labelledby="jump-to-dropdown-invoker">
-            <li class="dropdown-item g-brd-bottom g-brd-2 g-brd-white g-px-0 g-py-2">
-              <a class="nav-link g-color-main g-color-primary--hover g-bg-secondary-dark-v2--hover g-font-size-default" href="#self-study">1. Regular Self-Study Time Allotment</a>
-            </li>
-            <li class="dropdown-item g-brd-bottom g-brd-2 g-brd-white g-px-0 g-py-2">
-              <a class="nav-link g-color-main g-color-primary--hover g-bg-secondary-dark-v2--hover g-font-size-default" href="#review">2. Classified Review</a>
-            </li>
-            <li class="dropdown-item g-brd-bottom g-brd-2 g-brd-white g-px-0 g-py-2">
-              <a class="nav-link g-color-main g-color-primary--hover g-bg-secondary-dark-v2--hover g-font-size-default" href="#homework">3. Homework and Correction Service</a>
-            </li>
-            <li class="dropdown-item g-brd-bottom g-brd-2 g-brd-white g-px-0 g-py-2">
-              <a class="nav-link g-color-main g-color-primary--hover g-bg-secondary-dark-v2--hover g-font-size-default" href="#cefr">4. CEFR Aligned Periodic level tests</a>
-            </li>
-          </ul>
-        </div>
-        <!-- End 4-Step Learning -->
-        <!-- Nav tabs -->
-        <ul class="container navigation align-items-center nav nav-fill u-nav-v5-2 u-nav-primary g-brd-bottom--md g-brd-gray-dark-v4">
-          <li class="nav-item active">
-            <a class="nav-link g-color-black g-font-weight-700 d-none d-lg-inline-block" href="#self-study">1. Regular Self-Study Time Allotment</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link g-color-black g-font-weight-700 d-none d-lg-inline-block" href="#review">2. Classified Review</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link g-color-black g-font-weight-700 d-none d-lg-inline-block" href="#homework">3. Homework and Correction Service</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link g-color-black g-font-weight-700 d-none d-lg-inline-block" href="#cefr">4. CEFR Aligned Periodic level tests</a>
-          </li>
-        </ul>
-        <!-- End Nav tabs -->
+            <!-- Navigation -->
+            <div id="navBar" class="collapse navbar-collapse align-items-center flex-sm-row">
+              <ul class="navbar-nav ml-auto g-pb-30 g-pb-0--lg">
+                <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
+                  <a class="lang nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-9 g-py-10" key="home" href="home.html">
+                    Home
+                  </a>
+                </li>
+                <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
+                  <a class="lang nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-9 g-py-10" key="About" href="company.html">
+                    About 11talk
+                  </a>
+                </li>
+                <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
+                  <a class="lang nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-9 g-py-10" key="Book" href="book.html">
+                    Book
+                  </a>
+                </li>
+                <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
+                  <a class="lang nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-9 g-py-10" key="Tuition" href="price.html">
+                    Tuition
+                  </a>
+                </li>
+                <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
+                  <a class="lang nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-9 g-py-10" key="Teacher" href="teacher.html">
+                    Teacher
+                  </a>
+                </li>
+                <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
+                  <a class="lang nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-9 g-py-10" key="FAQ's" href="FAQ.html">
+                    FAQ's
+                  </a>
+                </li>
+                <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
+                  <a class="lang nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-9 g-py-10" key="Testimonials" href="testimonilas.html">
+                    Testimonials
+                  </a>
+                </li>
+                <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
+                  <a class="lang nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-9 g-py-10" key="Blog" href="blog.html">
+                    Blog
+                  </a>
+                </li>
+                <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
+                  <a class="lang nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-9 g-py-10" key="Class system" href="https://pinesonline.cafe24.com/m/logins.html">
+                    Class System
+                  </a>
+                </li>
+
+                  <!-- Language -->
+                  <li class="nav-item hs-has-sub-menu g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
+                    <a class="lang nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-9 g-py-10" key="language" href="#">
+                      English (US)
+                    </a>
+
+                    <!-- Submenu -->
+                    <ul id="nav-submenu--pages" class="hs-sub-menu list-unstyled u-shadow-v11 g-min-width-220 g-brd-top g-brd-primary g-brd-top-2 g-mt-17 animated" aria-labelledby="nav-link--pages" style="display: none;">
+                      <li class="dropdown-item ">
+                        <a href="#" class="nav-link"  onClick="window.location.reload()">English (US)</a>
+                      </li>
+                      <li class="dropdown-item ">
+                        <a href="#" class="nav-link" onClick="window.location.reload()">中文 (Chinese)</a>
+                      </li>
+                      <li class="dropdown-item ">
+                        <a href="#" class="nav-link" onClick="window.location.reload()">日本語 (Japanese)</a>
+                      </li>
+                      <li class="dropdown-item ">
+                        <a href="#" class="nav-link" onClick="window.location.reload()">한국어 (Korean)</a>
+                      </li>
+                      <li class="dropdown-item ">
+                        <a href="#" class="nav-link" onClick="window.location.reload()">台灣 (Taiwanese)</a>
+                      </li>
+                      <li class="dropdown-item ">
+                        <a href="#" class="nav-link" onClick="window.location.reload()">ไทย (Thai)</a>
+                      </li>
+                      <li class="dropdown-item ">
+                        <a href="#" class="nav-link" onClick="window.location.reload()">Tiếng việt (Vietnamese)</a>
+                      </li>
+                    </ul>
+                    <!-- End Submenu -->
+                  </li>
+              <!-- End Language -->
+
+              <!-- <li class="nav-item hs-has-sub-menu g-mx-10--lg g-mx-20--xl"> -->
+                <div class="col-auto g-pr-0">
+                  <div class="g-bg-main g-cursor-pointer g-px-15 g-py-15">
+                    <!-- <span class="d-block g-color-primary g-font-size-11 mb-1">(074) 1644-4518</span> -->
+                    <span class="d-block g-color-primary"> <a href="junior.html">11talk Junior</a> </span>
+                  </div>
+                </div>
+              <!-- </li> -->
+              </ul>
+            </div>
+            <!-- End Navigation -->
+
+            <!-- <div class="col-auto g-hidden-md-down g-pr-0">
+              <div class="g-bg-main g-cursor-pointer g-px-25 g-py-20">
+                <span class="d-block g-color-primary"> <a href="junior.html">11talk Junior</a> </span>
+              </div>
+            </div> -->
+          </div>
+        </nav>
       </div>
+    </header>
+    <!-- End Header -->
+
     <section class="dzsparallaxer auto-init height-is-based-on-content use-loading" data-options="{direction: 'reverse', settings_mode_oneelement_max_offset: '150'}">
       <!-- Parallax Image -->
       <div class="divimage dzsparallaxer--target w-100 u-bg-overlay g-bg-black-opacity-0_4--after" style="height: 140%; background-image: url(img/home/Step\ 2.jpeg);"></div>
@@ -106,6 +182,58 @@
         <p class="lead g-px-100--md g-mb-40 g-color-white">You need an impactful learning system that supports your English goals. 11TALK’s learning system is proven to have  helped in improving students’ skills through its detailed  Online English video classes.</p>
       </div>
     </section>
+
+    <div id="js-scroll-nav" class="g-bg-white g-color-white sticky-top">
+      <!-- 4-Step Learning -->
+      <div  class="list-inline-item g-pos-rel g-py-7 ml-4">
+        <a id="jump-to-dropdown-invoker" class="d-block d-lg-none u-link-v5 g-color-black g-color-primary--hover g-font-weight-600 g-font-size-14 text-uppercase g-py-7" href="#"
+            aria-controls="jump-to-dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            data-dropdown-event="hover"
+            data-dropdown-target="#jump-to-dropdown"
+            data-dropdown-type="css-animation"
+            data-dropdown-duration="0"
+            data-dropdown-hide-on-scroll="true"
+            data-dropdown-animation-in="fadeIn"
+            data-dropdown-animation-out="fadeOut">
+          4-Step Learning
+          <i class="g-ml-3 fa fa-angle-down"></i>
+        </a>
+        <ul id="jump-to-dropdown" class="list-unstyled u-shadow-v39 g-brd-around g-brd-4 g-brd-white g-bg-secondary g-pos-abs g-left-0 g-z-index-99 g-mt-13"
+            aria-labelledby="jump-to-dropdown-invoker">
+          <li class="dropdown-item g-brd-bottom g-brd-2 g-brd-white g-px-0 g-py-2">
+            <a class="nav-link g-color-main g-color-primary--hover g-bg-secondary-dark-v2--hover g-font-size-default" href="#self-study">1. Regular Self-Study Time Allotment</a>
+          </li>
+          <li class="dropdown-item g-brd-bottom g-brd-2 g-brd-white g-px-0 g-py-2">
+            <a class="nav-link g-color-main g-color-primary--hover g-bg-secondary-dark-v2--hover g-font-size-default" href="#review">2. Classified Review</a>
+          </li>
+          <li class="dropdown-item g-brd-bottom g-brd-2 g-brd-white g-px-0 g-py-2">
+            <a class="nav-link g-color-main g-color-primary--hover g-bg-secondary-dark-v2--hover g-font-size-default" href="#homework">3. Homework and Correction Service</a>
+          </li>
+          <li class="dropdown-item g-brd-bottom g-brd-2 g-brd-white g-px-0 g-py-2">
+            <a class="nav-link g-color-main g-color-primary--hover g-bg-secondary-dark-v2--hover g-font-size-default" href="#cefr">4. CEFR Aligned Periodic level tests</a>
+          </li>
+        </ul>
+      </div>
+      <!-- End 4-Step Learning -->
+      <!-- Nav tabs -->
+      <ul class="container navigation align-items-center nav nav-fill u-nav-v5-2 u-nav-primary g-brd-bottom--md g-brd-gray-dark-v4">
+        <li class="nav-item active">
+          <a class="nav-link g-color-black g-font-weight-700 d-none d-lg-inline-block" href="#self-study">1. Regular Self-Study Time Allotment</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link g-color-black g-font-weight-700 d-none d-lg-inline-block" href="#review">2. Classified Review</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link g-color-black g-font-weight-700 d-none d-lg-inline-block" href="#homework">3. Homework and Correction Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link g-color-black g-font-weight-700 d-none d-lg-inline-block" href="#cefr">4. CEFR Aligned Periodic level tests</a>
+        </li>
+      </ul>
+      <!-- End Nav tabs -->
+    </div>
      
       <section id="self-study" class="g-flex-centered g-min-height-600 g-bg-gray-light-v5 g-py-30">
         <div class="container">
