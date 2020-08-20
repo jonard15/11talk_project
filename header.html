@@ -35,7 +35,7 @@
               <div id="navBar" class="collapse navbar-collapse align-items-center flex-sm-row">
                 <ul class="navbar-nav ml-auto g-pb-30 g-pb-0--lg">
                   <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
-                    <a class="lang nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-9 g-py-10" key="home" href="home.html">
+                    <a id="demo" class="lang nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-9 g-py-10" key="home" href="home.html">
                       Home
                     </a>
                   </li>
@@ -88,13 +88,13 @@
                       <!-- Submenu -->
                       <ul id="nav-submenu--pages" class="hs-sub-menu list-unstyled u-shadow-v11 g-min-width-220 g-brd-top g-brd-primary g-brd-top-2 g-mt-17 animated" aria-labelledby="nav-link--pages" style="display: none;">
                         <li class="dropdown-item ">
-                          <a href="#" class="nav-link" onClick="window.location.reload()">English (US)</a>
+                          <a href="#" class="nav-link translate" onClick="window.location.reload()">English (US)</a>
                         </li>
                         <li class="dropdown-item ">
-                          <a href="#" class="nav-link" onClick="window.location.reload()">中文 (Chinese)</a>
+                          <a href="#" class="nav-link" onclick="$.MultiLanguage('language/ch.json', 'fr')">中文 (Chinese)</a>
                         </li>
                         <li class="dropdown-item ">
-                          <a href="#" class="nav-link" onClick="window.location.reload()">日本語 (Japanese)</a>
+                          <a href="#" class="nav-link" onclick="$.MultiLanguage('language/language.json', 'en')">日本語 (Japanese)</a>
                         </li>
                         <li class="dropdown-item ">
                           <a href="#" class="nav-link" onClick="window.location.reload()">한국어 (Korean)</a>
@@ -137,16 +137,21 @@
       <!-- End Header -->
     <!-- JS Implementing Plugins -->
     <script src="assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-
+    <script src="assets/js/components/jquery.MultiLanguage.min.js"></script>
     <!-- JS Customization -->
     <!-- <script src="language/translation.js"></script> -->
+    <script src="translate.js"></script>
     <script>
       // initialization of HSMegaMenu component
       $('.js-mega-menu').HSMegaMenu({
         event: 'hover',
         pageContainer: $('.container'),
         breakpoint: 991
-      });
+      })
+
+ $(document).ready(function(){
+        $.MultiLanguage('language.json');
+      })
     </script>
 </body>
 </html>

@@ -1,29 +1,29 @@
-var arrLang = {
-    "en": {
-      "Home": "Home",
-      "About": "About 11talk",
-      "Book": "Book",
-      "Tuition": "Tuition",
-      "Teacher": "Teacher",
-      "FAQ's": "FAQ's",
-      "Testimonials": "Testimonials",
-      "Blog": "Blog",
-      "Class system": "Class System",
-      "language": "English (US)"
-    },
-    "ch": {
-      "home": "家",
-      "About": "关于 11talk",
-      "Book": "书",
-      "Tuition": "学费",
-      "Teacher": "老师",
-      "FAQ's": "常问问题",
-      "Testimonials": "感言",
-      "Blog": "博客",
-      "Class system": "类系统",
-      "language": "中文 (Chinese)",
-    }
-  };
+// var arrLang = {
+//     "en": {
+//       "Home": "Home",
+//       "About": "About 11talk",
+//       "Book": "Book",
+//       "Tuition": "Tuition",
+//       "Teacher": "Teacher",
+//       "FAQ's": "FAQ's",
+//       "Testimonials": "Testimonials",
+//       "Blog": "Blog",
+//       "Class system": "Class System",
+//       "language": "English (US)"
+//     },
+//     "ch": {
+//       "home": "家",
+//       "About": "关于 11talk",
+//       "Book": "书",
+//       "Tuition": "学费",
+//       "Teacher": "老师",
+//       "FAQ's": "常问问题",
+//       "Testimonials": "感言",
+//       "Blog": "博客",
+//       "Class system": "类系统",
+//       "language": "中文 (Chinese)",
+//     }
+//   };
 
 
 // The default language is English

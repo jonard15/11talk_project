@@ -1,0 +1,16 @@
+{
+  "config": {
+    "default": "en"
+  },
+  "language": {
+    "en": {
+      ".lang": "Hello World"
+    },
+    "fr": {
+      "#demo": "Bonjour le monde"
+    },
+    "de": {
+      "#demo": "Hallo Welt"
+    }
+  }
+}
