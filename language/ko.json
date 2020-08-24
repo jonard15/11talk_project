@@ -1,0 +1,17 @@
+{
+    "language": {
+      "ko": {
+        ".home": "ko_Home",
+        ".about": "ko_About 11talk",
+        ".book": "ko_Book",
+        ".tuition": "ko_Tuition",
+        ".teacher": "ko_Teacher",
+        ".faq": "ko_FAQ's",
+        ".testimonials": "ko_Testimonials",
+        ".blog": "ko_Blog",
+        ".class_system": "ko_Class System",
+        ".language": "한국어 (Korean)"
+      }
+    }
+  }
+  

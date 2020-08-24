@@ -1,0 +1,143 @@
+<? include_once("../common_member.lib.php"); ?>
+<? include_once("inc/_begin.html"); ?>
+
+<?php
+$bo_id = $_GET['bo_id'];
+if (!isset($bo_id)) return;
+
+$sql = "
+select * 
+    , (select min(un_num) from lms_unit where un_bo_id=b.bo_id) min_unit
+    , (select max(un_num) from lms_unit where un_bo_id=b.bo_id) max_unit
+from lms_textbook b
+where bo_id=$bo_id ";
+$book = sqlToSingle($sql);
+
+$sql = "SELECT * FROM lms_unit where un_bo_id = $bo_id order by un_num";
+$unit_list = sqlToArray($sql);
+?>
+
+    <div class="container g-pt-100">
+        <? include_once("book_level_tab.html"); ?>
+    </div>
+
+    <div class="g-min-height-450 g-flex-centered g-bg-img-hero g-bg-pos-top-center g-bg-size-cover g-pt-30" style="background-image: url(img/home/book.jpg);">
+        <div class="container text-center g-pos-rel g-z-index-1 g-pt-100 g-pb-80">
+            <!-- Promo Block Info -->
+            <div class="g-mb-40">
+                <h1 class="g-color-black g-font-size-50--lg">Level <?=$sel_level?></h1>
+                <p class="lead g-color-black-opacity-0_8 g-font-size-22">Can read and understand very simple instructions and written notices; can ask and answer typical questions about time, date, and prices can express him/herself using memorized formulaic sentence patterns can catch key points and follow basic instructions provided they are delivered in a very slow and clear manner.
+                </p>
+            </div>
+            <!-- End Promo Block Info -->
+        </div>
+    </div>
+    <div id="accordion" class="container u-accordion u-accordion-color-primary g-pt-10" role="tablist" aria-multiselectable="true">
+        <div class="row u-timeline-v2-wrap list-unstyled">
+
+            <div class="col-lg-6 text-center g-px-30 g-py-20 mx-auto g-max-width-600">
+                <h2 class="g-color-black mb-4"><?=$book[bo_title]?></h2>
+                <p class="g-line-height-2 g-color-black "><?=$book[bo_content]?></p>
+            </div>
+
+            <div class="col-md-12 g-brd-bottom g-brd-0--md g-brd-gray-light-v4 g-pb-30 g-pb-0--md g-mb-30 g-mb-0--md">
+                <div class="row">
+                    <!-- Timeline Date -->
+                    <div class="col-md-3 align-self-center text-md-right g-pr-40--md g-mb-20 g-mb-0--md"></div>
+                    <!-- End Timeline Date -->
+                    <!-- Timeline Content -->
+                    <div class="col-md-9 align-self-center g-orientation-left g-pl-40--md">
+                        <!-- Timeline Dot -->
+                        <div class="g-hidden-sm-down u-timeline-v2__icon g-top-35">
+                        </div>
+                        <!-- End Timeline Dot -->
+                        <? if($book[min_unit]>0) { ?>
+                        <div class="row">
+                            <div class="col-5">
+                                <h1 class="h1 g-font-size-50"><?=$book[max_unit]?><span class="g-font-size-16 g-color-pink">&nbsp;Units</span>
+                                </h1>
+                            </div>
+                        </div>
+                        <? } ?>
+                    </div>
+                    <!-- End Timeline Content -->
+                </div>
+            </div>
+
+    <? if($book[min_unit]>0) { ?>
+            <div class="col-md-12">
+                <div class="row">
+                    <!-- Timeline Date -->
+                    <div class="col-md-3 align-self-center text-md-right g-pr-40--md g-mb-20 g-mb-0--md">
+                        <h4 class="h5 g-font-weight-300">Day <?=$book[min_unit]?>-<?=$book[max_unit]?></h4>
+                    </div>
+                    <!-- End Timeline Date -->
+                    <!-- Timeline Content -->
+                    <div class="col-md-9 align-self-center g-orientation-left g-pl-40--md">
+                        <!-- Timeline Dot -->
+                        <div class="g-hidden-sm-down u-timeline-v2__icon g-top-35">
+                            <i class="d-block g-width-18 g-height-18 g-bg-pink g-brd-around g-brd-4 g-brd-gray-light-v4 rounded-circle"></i>
+                        </div>
+                        <!-- End Timeline Dot -->
+                        <div id="accordion" class="u-accordion u-accordion-color-primary" role="tablist" aria-multiselectable="true">
+                            <!-- Card -->
+                            <div class="card g-brd-none rounded g-mb-20">
+                                <div id="accordion-heading-<?=$book[bo_id]?>" class="g-pa-0" role="tab">
+                                    <h5 class="mb-0">
+                                        <a class="d-flex justify-content-between u-shadow-v19 g-color-main g-text-underline--none--hover rounded g-px-30 g-py-20 collapsed"
+                                           href="#accordion-body-<?=$book[bo_id]?>" data-toggle="collapse" data-parent="#accordion" aria-expanded="false"
+                                           aria-controls="accordion-body-<?=$book[bo_id]?>">
+                                            Unit <?=$book[min_unit]?>-<?=$book[max_unit]?>
+                                            <span class="u-accordion__control-icon g-color-pink">
+                                                <i class="fa fa-angle-down"></i>
+                                                <i class="fa fa-angle-up"></i>
+                                            </span>
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div id="accordion-body-<?=$book[bo_id]?>" class="collapse" role="tabpanel"
+                                     aria-labelledby="accordion-heading-<?=$book[bo_id]?>" data-parent="#accordion" style="">
+                                    <div class="u-accordion__body g-color-gray-dark-v4 g-pa-30">
+                                        <? foreach($unit_list as $unit) {
+                                            if ($unit[un_bo_id] == $book[bo_id]) {
+                                                ?>
+                                                <div class="g-mb-10">
+                                                    <h3 class="h5 mb-3">
+                                                        <span class="g-color-pink g-font-weight-600"><?=$unit[un_num]?>.</span> <?=$unit[un_title]?>
+                                                    </h3>
+                                                </div>
+                                            <? }
+                                        }?>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Card -->
+                        </div>
+                    </div>
+                    <!-- End Timeline Content -->
+                </div>
+            </div>
+    <? } ?>
+
+        </div>
+        <!-- Buttons -->
+        <div class="text-center g-pb-20">
+            <a class="btn u-btn-black g-brd-main g-brd-primary--hover g-bg-main g-bg-primary--hover g-font-weight-600 g-font-size-12 text-uppercase g-px-25 g-py-13" href="https://pinestalking.com/m/signup.html?lang=en">
+                free class
+                <i class="g-pos-rel g-top-minus-1 ml-2 fa fa-angle-right"></i>
+            </a>
+            <a class="btn u-btn-black g-brd-main g-brd-primary--hover g-bg-main g-bg-primary--hover g-font-weight-600 g-font-size-12 text-uppercase g-px-25 g-py-13" href="book.html">
+                all books
+                <i class="g-pos-rel g-top-minus-1 ml-2 fa fa-angle-right"></i>
+            </a>
+        </div>
+        <!-- End Buttons -->
+    </div>
+
+    <script>
+        $(document).ready(function () {
+        });
+
+    </script>
+
+<? include_once("inc/_end.html"); ?>

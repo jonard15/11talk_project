@@ -1,15 +1,15 @@
 {
   "language": {
     "ch": {
-      ".home": "家",
-      ".about": "关于 11talk",
-      ".book": "书",
-      ".tuition": "学费",
-      ".teacher": "老师",
-      ".faq": "常问问题",
-      ".testimonials": "感言",
-      ".blog": "博客",
-      ".class_system": "类系统",
+      ".home": "ch_Home",
+      ".about": "ch_About 11talk",
+      ".book": "ch_Book",
+      ".tuition": "ch_Tuition",
+      ".teacher": "ch_Teacher",
+      ".faq": "ch_FAQ's",
+      ".testimonials": "ch_Testimonials",
+      ".blog": "ch_Blog",
+      ".class_system": "ch_Class System",
       ".language": "中文 (Chinese)"
     }
   }

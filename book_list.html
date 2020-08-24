@@ -3,96 +3,17 @@
 
 <?php
 $sel_level = $_GET['l'];
+if (!isset($sel_level)) $sel_level = "0";
 $group_list = sqlToArray("SELECT * FROM lms_book_group where bg_use_yn='Y' order by bg_order");
-$book_list = sqlToArray("select * from lms_textbook where bo_use_yn='Y' order by bo_level_low, bo_level_high");
-$where = "";
+if($sel_level != "0") {
+    $where = " and $sel_level between bo_level_low and bo_level_high ";
+}
+$book_list = sqlToArray("select * from lms_textbook where bo_use_yn='Y' $where order by bo_level_low, bo_level_high");
 ?>
 
     <div class="container g-pt-100">
 
-        <!--Level Tab-->
-        <ul class="nav text-uppercase g-font-weight-700 g-font-size-10" role="tablist" data-target="nav-1-1-default-hor-left"
-            data-tabs-mobile-type="slide-up-down" data-btn-classes="btn btn-md btn-block rounded-0 u-btn-outline-lightgray">
-            <li class="nav-item g-px-5">
-                <a class="nav-link g-brd-around g-brd-gray-light-v4 g-color-text g-bg-secondary g-rounded-left-3
-                        <? if ($sel_level == "0") echo "active g-color-white--active g-bg-main--active" ?> "
-                   href="book_list.html?l=0" role="tab">
-                    All
-                </a>
-            </li>
-            <li class="nav-item g-px-5">
-                <a class="nav-link g-brd-around g-brd-gray-light-v4 g-color-text g-bg-secondary g-rounded-left-3
-                        <? if ($sel_level == "1") echo "active g-color-white--active g-bg-main--active" ?> "
-                   href="book_list.html?l=1">
-                    Level 1
-                </a>
-            </li>
-            <li class="nav-item g-px-5">
-                <a class="nav-link g-brd-around g-brd-gray-light-v4 g-color-text g-bg-secondary g-rounded-left-3
-                        <? if ($sel_level == "2") echo "active g-color-white--active g-bg-main--active" ?> "
-                   href="book_list.html?l=2">
-                    Level 2
-                </a>
-            </li>
-            <li class="nav-item g-px-5">
-                <a class="nav-link g-brd-around g-brd-gray-light-v4 g-color-text g-bg-secondary g-rounded-left-3
-                        <? if ($sel_level == "3") echo "active g-color-white--active g-bg-main--active" ?> "
-                   href="book_list.html?l=3">
-                    Level 3
-                </a>
-            </li>
-            <li class="nav-item g-px-5">
-                <a class="nav-link g-brd-around g-brd-gray-light-v4 g-color-text g-bg-secondary g-rounded-left-3
-                        <? if ($sel_level == "4") echo "active g-color-white--active g-bg-main--active" ?> "
-                   href="book_list.html?l=4">
-                    Level 4
-                </a>
-            </li>
-            <li class="nav-item g-px-5">
-                <a class="nav-link g-brd-around g-brd-gray-light-v4 g-color-text g-bg-secondary g-rounded-left-3
-                        <? if ($sel_level == "5") echo "active g-color-white--active g-bg-main--active" ?> "
-                   href="book_list.html?l=5">
-                    Level 5
-                </a>
-            </li>
-            <li class="nav-item g-px-5">
-                <a class="nav-link g-brd-around g-brd-gray-light-v4 g-color-text g-bg-secondary g-rounded-left-3
-                        <? if ($sel_level == "6") echo "active g-color-white--active g-bg-main--active" ?> "
-                   href="book_list.html?l=6">
-                    Level 6
-                </a>
-            </li>
-            <li class="nav-item g-px-5">
-                <a class="nav-link g-brd-around g-brd-gray-light-v4 g-color-text g-bg-secondary g-rounded-left-3
-                        <? if ($sel_level == "7") echo "active g-color-white--active g-bg-main--active" ?> "
-                   href="book_list.html?l=7">
-                    Level 7
-                </a>
-            </li>
-            <li class="nav-item g-px-5">
-                <a class="nav-link g-brd-around g-brd-gray-light-v4 g-color-text g-bg-secondary g-rounded-left-3
-                        <? if ($sel_level == "8") echo "active g-color-white--active g-bg-main--active" ?> "
-                   href="book_list.html?l=8">
-                    Level 8
-                </a>
-            </li>
-            <li class="nav-item g-px-5">
-                <a class="nav-link g-brd-around g-brd-gray-light-v4 g-color-text g-bg-secondary g-rounded-left-3
-                        <? if ($sel_level == "9") echo "active g-color-white--active g-bg-main--active" ?> "
-                   href="book_list.html?l=9">
-                    Level 9
-                </a>
-            </li>
-            <li class="nav-item g-px-5">
-                <a class="nav-link g-brd-around g-brd-gray-light-v4 g-color-text g-bg-secondary g-rounded-left-3
-                        <? if ($sel_level == "10") echo "active g-color-white--active g-bg-main--active" ?> "
-                   href="book_list.html?l=10">
-                    Level 10
-                </a>
-            </li>
-        </ul>
-        <hr>
-        <!-- End Tab -->
+        <? include_once("book_level_tab.html"); ?>
 
         <div class="text-center g-py-50">
             <div class="container g-max-width-770">
@@ -115,69 +36,33 @@ $where = "";
                     <? foreach ($group_list as $group) { ?>
                         <div class="col-lg-4 g-px-30 g-mb-40">
                             <!--book-->
-                            <h3 class="h5 text-uppercase g-font-size-16 g-color-black g-mb-10 g-font-weight-500">Level 1-3 <?= $group[bg_name] ?></h3>
+                            <h3 class="h5 text-uppercase g-font-size-16 g-color-black g-mb-10 g-font-weight-500"><?= $group[bg_name] ?></h3>
                             <hr class="g-bg-main">
-                            <? foreach ($book_list as $book) {
-                                if (1 <= intval($book[bo_level_low]) && intval($book[bo_level_low]) <= 3) {
-                                    ?>
-                                    <div class="beginner g-brd-around g-brd-gray-light-v4 g-bg-white rounded g-pa-10 g-mb-20" id="group_1_<?=$group[bg_id]?>">
-                                        <a class="u-link-v5" href="book1.html">
-                                            <span class="h6 g-font-weight-500 g-color-pink float-right"><?=$book[bo_cefr]?></span>
-                                            <figcaption class="col-lg-5 g-mb-5 g-px-15 g-mr-15 g-bg-pink text-center">
-                                                <span class="g-color-white g-font-size-13 text-uppercase g-letter-spacing-1 g-font-weight-500 g-text-underline--none--hover" tabindex="0">Level <?=$book[bo_level_low]?></span>
-                                            </figcaption>
-                                            <span class="h6 d-block g-font-weight-500 g-color-black g-mr-50"><?=$book[bo_title]?></span>
-                                        </a>
-                                    </div>
-                                <? }
+                            <?
+                            $cnt = 0;
+                            foreach ($book_list as $book) {
+                                if($group[bg_id] == $book[bo_bg_id]) {
+                                        $cnt++;
+                                        ?>
+                                        <div class=" g-brd-around g-brd-gray-light-v4 g-bg-white rounded g-pa-10 g-mb-20" id="group_1_<?= $group[bg_id] ?>">
+                                            <a class="u-link-v5" href="book_item.html?bo_id=<?=$book[bo_id]?>" >
+                                                <span class="h6 g-font-weight-500 g-color-pink float-right"><?= $book[bo_cefr] ?></span>
+                                                <figcaption class="col-lg-5 g-mb-5 g-px-15 g-mr-15 g-bg-pink text-center">
+                                                    <span class="g-color-white g-font-size-13 text-uppercase g-letter-spacing-1 g-font-weight-500 g-text-underline--none--hover" tabindex="0">Level <?= $book[bo_level_low] ?></span>
+                                                </figcaption>
+                                                <span class="h6 d-block g-font-weight-500 g-color-black g-mr-50"><?= $book[bo_title] ?></span>
+                                            </a>
+                                        </div>
+                                    <?
+                                }
                             } ?>
-                            <a href="#" class="load-more-beg g-flex-centered btn btn-md u-btn-outline-gradient-v1 g-mr-10 g-mb-15" id="btn_load_1_<?=$group[bg_id]?>">Load More</a>
+                            <? if($cnt>4) { ?>
+                            <a href="javascript:void(0)" class="load-more-beg g-flex-centered btn btn-md u-btn-outline-gradient-v1 g-mr-10 g-mb-15"
+                               id="btn_load_1_<?=$group[bg_id]?>">Load More</a>
+                            <? } ?>
                             <!--End book-->
                         </div>
 
-                        <div class="col-lg-4 g-px-30 g-mb-40">
-                            <!--book-->
-                            <h3 class="h5 text-uppercase g-font-size-16 g-color-black g-mb-10 g-font-weight-500">Level 4-6 <?= $group[bg_name] ?></h3>
-                            <hr class="g-bg-main">
-                            <? foreach ($book_list as $book) {
-                                if (4 <= intval($book[bo_level_low]) && intval($book[bo_level_low]) <= 6) {
-                                    ?>
-                                    <div class="beginner g-brd-around g-brd-gray-light-v4 g-bg-white rounded g-pa-10 g-mb-20" id="group_2_<?=$group[bg_id]?>">
-                                        <a class="u-link-v5" href="book1.html">
-                                            <span class="h6 g-font-weight-500 g-color-pink float-right"><?=$book[bo_cefr]?></span>
-                                            <figcaption class="col-lg-5 g-mb-5 g-px-15 g-mr-15 g-bg-pink text-center">
-                                                <span class="g-color-white g-font-size-13 text-uppercase g-letter-spacing-1 g-font-weight-500 g-text-underline--none--hover" tabindex="0">Level <?=$book[bo_level_low]?></span>
-                                            </figcaption>
-                                            <span class="h6 d-block g-font-weight-500 g-color-black g-mr-50"><?=$book[bo_title]?></span>
-                                        </a>
-                                    </div>
-                                <? }
-                            } ?>
-                            <a href="#" class="load-more-beg g-flex-centered btn btn-md u-btn-outline-gradient-v1 g-mr-10 g-mb-15" id="btn_load_1_<?=$group[bg_id]?>">Load More</a>
-                            <!--End book-->
-                        </div>
-
-                        <div class="col-lg-4 g-px-30 g-mb-40">
-                            <!--book-->
-                            <h3 class="h5 text-uppercase g-font-size-16 g-color-black g-mb-10 g-font-weight-500">Level 7-10 <?= $group[bg_name] ?></h3>
-                            <hr class="g-bg-main">
-                            <? foreach ($book_list as $book) {
-                                if (7 <= intval($book[bo_level_low]) && intval($book[bo_level_low]) <= 10) {
-                                    ?>
-                                    <div class="beginner g-brd-around g-brd-gray-light-v4 g-bg-white rounded g-pa-10 g-mb-20" id="group_3_<?=$group[bg_id]?>">
-                                        <a class="u-link-v5" href="book1.html">
-                                            <span class="h6 g-font-weight-500 g-color-pink float-right"><?=$book[bo_cefr]?></span>
-                                            <figcaption class="col-lg-5 g-mb-5 g-px-15 g-mr-15 g-bg-pink text-center">
-                                                <span class="g-color-white g-font-size-13 text-uppercase g-letter-spacing-1 g-font-weight-500 g-text-underline--none--hover" tabindex="0">Level <?=$book[bo_level_low]?></span>
-                                            </figcaption>
-                                            <span class="h6 d-block g-font-weight-500 g-color-black g-mr-50"><?=$book[bo_title]?></span>
-                                        </a>
-                                    </div>
-                                <? }
-                            } ?>
-                            <a href="#" class="load-more-beg g-flex-centered btn btn-md u-btn-outline-gradient-v1 g-mr-10 g-mb-15" id="btn_load_1_<?=$group[bg_id]?>">Load More</a>
-                            <!--End book-->
-                        </div>
                     <? } ?>
                     <!--End group -->
 
@@ -188,71 +73,9 @@ $where = "";
     </div>
 
 <script>
-    //group_3_
     $(document).ready(function () {
-        console.log("#1");
-        $(".beginner").slice(0, 4).show();
-        $("body").on('click touchstart', '.load-more-beg', function (e) {
-            console.log(this);
-            console.log(this.id);
-            let unit_id = this.id.replace('btn_load_', '');
-            console.log(unit_id);
-            let div_id = 'group_' + unit_id;
-
-            e.preventDefault();
-            $("#" + div_id + ":hidden").slice(0, 3).slideDown();
-            if $("#" + div_id + ":hidden").length == 0) {
-                //$("#" + div_id + ":hidden").css('visibility', 'hidden');
-            }
-
-
-            /*$(".beginner:hidden").slice(0, 3).slideDown();
-            if ($(".beginner:hidden").length == 0) {
-                $(".load-more-beg").css('visibility', 'hidden');
-            }*/
-
-
-        });
     });
 
-    // $(function () {
-    //     $(".level_list").slice(0, 4).show();
-    //     $("body").on('click touchstart', '.load-more-beg', function (e) {
-    //         e.preventDefault();
-    //         $(".beginner:hidden").slice(0, 3).slideDown();
-    //         if ($(".beginner:hidden").length == 0) {
-    //             $(".load-more-beg").css('visibility', 'hidden');
-    //         }
-    //     });
-    // });
-    //
-    // $(function () {
-    //     $(".advance").slice(0, 4).show();
-    //     $("body").on('click touchstart', '.load-more-ad', function (e) {
-    //         e.preventDefault();
-    //         $(".advance:hidden").slice(0, 3).slideDown();
-    //         if ($(".advance:hidden").length == 0) {
-    //             $(".load-more-ad").css('visibility', 'hidden');
-    //         }
-    //         // $('html,body').animate({
-    //         //     scrollTop: $(this).offset().top
-    //         // }, 1000);
-    //     });
-    // });
-    //
-    // $(function () {
-    //     $(".inter").slice(0, 4).show();
-    //     $("body").on('click touchstart', '.load-more-int', function (e) {
-    //         e.preventDefault();
-    //         $(".inter:hidden").slice(0, 3).slideDown();
-    //         if ($(".inter:hidden").length == 0) {
-    //             $(".load-more-int").css('visibility', 'hidden');
-    //         }
-    //         // $('html,body').animate({
-    //         //     scrollTop: $(this).offset().top
-    //         // }, 1000);
-    //     });
-    // });
 </script>
 
 <? include_once("inc/_end.html"); ?>

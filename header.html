@@ -50,6 +50,11 @@
                     </a>
                   </li>
                   <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
+                    <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="book_list.html">
+                        Book(DB)
+                    </a>
+                </li>
+                  <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
                     <a class="tuition nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-9 g-py-10" key="Tuition" href="price.html">
                       Tuition
                     </a>
@@ -82,36 +87,43 @@
                     <!-- Language -->
                     <li class="nav-item hs-has-sub-menu g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
                       <a class="language nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-9 g-py-10" href="#">
-                        English (US)
+                        English (US) 
                       </a>
   
                       <!-- Submenu -->
                       <ul id="nav-submenu--pages" class="hs-sub-menu list-unstyled u-shadow-v11 g-min-width-220 g-brd-top g-brd-primary g-brd-top-2 g-mt-17 animated" aria-labelledby="nav-link--pages" style="display: none;">
                         <li class="dropdown-item ">
-                          <a href="#" class="nav-link translate" onclick="$.MultiLanguage('language/en.json', 'en')">English (US)</a>
+                          <a href="#" class="nav-link" onclick="$.MultiLanguage('language/en.json', 'en'),window.location.reload()">English (US)</a>
                         </li>
                         <li class="dropdown-item ">
-                          <a href="#" class="nav-link" onclick="$.MultiLanguage('language/ch.json', 'ch')">中文 (Chinese)</a>
+                          <a href="#" class="nav-link test-ch" onclick="$.MultiLanguage('language/ch.json', 'ch'),window.location.reload()"> 中文 (Chinese)</a>
                         </li>
                         <li class="dropdown-item ">
-                          <a href="#" class="nav-link" >日本語 (Japanese)</a>
+                          <a href="#" class="nav-link" onclick="$.MultiLanguage('language/jp.json', 'jp'),window.location.reload()" >日本語 (Japanese)</a>
                         </li>
                         <li class="dropdown-item ">
-                          <a href="#" class="nav-link" onClick="window.location.reload()">한국어 (Korean)</a>
+                          <a href="#" class="nav-link" onclick="$.MultiLanguage('language/ko.json', 'ko'),window.location.reload()">한국어 (Korean)</a>
                         </li>
                         <li class="dropdown-item ">
-                          <a href="#" class="nav-link" onClick="window.location.reload()">台灣 (Taiwanese)</a>
+                          <a href="#" class="nav-link" onclick="$.MultiLanguage('language/th.json', 'th'),window.location.reload()">台灣 (Taiwanese)</a>
                         </li>
                         <li class="dropdown-item ">
-                          <a href="#" class="nav-link" onClick="window.location.reload()">ไทย (Thai)</a>
+                          <a href="#" class="nav-link" onclick="$.MultiLanguage('language/tw.json', 'tw'),window.location.reload()">ไทย (Thai)</a>
                         </li>
                         <li class="dropdown-item ">
-                          <a href="#" class="nav-link" onClick="window.location.reload()">Tiếng việt (Vietnamese)</a>
+                          <a href="#" class="nav-link" onclick="$.MultiLanguage('language/vi.json', 'vi'),window.location.reload()">Tiếng việt (Vietnamese)</a>
                         </li>
                       </ul>
                       <!-- End Submenu -->
                     </li>
                 <!-- End Language -->
+                <!-- <div class="language"> -->
+                <!-- <select id="select">
+                  <option id="english" value="english" >English (US)</option>
+                 <option id="spanish" value="chinese">中文 (Chinese)</option>
+                 <option id="portuguese" value="japanese">日本語 (Japanese)</option>
+             </select> -->
+             <!-- </div> -->
 
                 <!-- <li class="nav-item hs-has-sub-menu g-mx-10--lg g-mx-20--xl"> -->
                   <div class="col-auto g-pr-0">
@@ -138,22 +150,36 @@
     <!-- JS Implementing Plugins -->
     <script src="assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
     <script src="assets/js/components/jquery.MultiLanguage.min.js"></script>
+    <script src="assets/js/custom.js"></script>
     <!-- JS Customization -->
-    <!-- <script src="language/translation.js"></script> -->
-    <script src="translate.js"></script>
     <script>
       // initialization of HSMegaMenu component
+      $(document).ready(function(){
       $('.js-mega-menu').HSMegaMenu({
         event: 'hover',
         pageContainer: $('.container'),
         breakpoint: 991
       })
-
- $(document).ready(function(){
+      // initialization of multilanguage component
         $.MultiLanguage('language/en.json');
         $.MultiLanguage('language/ch.json');
+        $.MultiLanguage('language/jp.json');
+        $.MultiLanguage('language/ko.json');
+        $.MultiLanguage('language/th.json');
+        $.MultiLanguage('language/tw.json');
+        $.MultiLanguage('language/vi.json');
       })
 
+    //   $("#select").bind('change', function() {
+    //   var selectVal = $('#select').val();
+    //   if (selectVal=='english') {
+    //     $.MultiLanguage('language/en.json', 'en');
+    //   }else if (selectVal=='chinese'){
+    //     $.MultiLanguage('language/ch.json', 'ch');
+    //   }else if (selectVal=='japanese'){
+    //     $.MultiLanguage('language/jp.json', 'jp');
+    //   }
+    // });
     </script>
 </body>
 </html>
