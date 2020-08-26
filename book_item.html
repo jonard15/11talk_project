@@ -21,17 +21,16 @@ $unit_list = sqlToArray($sql);
         <? include_once("book_level_tab.html"); ?>
     </div>
 
-    <div class="g-min-height-450 g-flex-centered g-bg-img-hero g-bg-pos-top-center g-bg-size-cover g-pt-30" style="background-image: url(img/home/book.jpg);">
+<!--    <div class="g-min-height-450 g-flex-centered g-bg-img-hero g-bg-pos-top-center g-bg-size-cover g-pt-30" style="background-image: url(img/home/book.jpg);">
         <div class="container text-center g-pos-rel g-z-index-1 g-pt-100 g-pb-80">
-            <!-- Promo Block Info -->
             <div class="g-mb-40">
-                <h1 class="g-color-black g-font-size-50--lg">Level <?=$sel_level?></h1>
+                <h1 class="g-color-black g-font-size-50--lg">Level <?/*=$sel_level*/?></h1>
                 <p class="lead g-color-black-opacity-0_8 g-font-size-22">Can read and understand very simple instructions and written notices; can ask and answer typical questions about time, date, and prices can express him/herself using memorized formulaic sentence patterns can catch key points and follow basic instructions provided they are delivered in a very slow and clear manner.
                 </p>
             </div>
-            <!-- End Promo Block Info -->
         </div>
     </div>
+-->
     <div id="accordion" class="container u-accordion u-accordion-color-primary g-pt-10" role="tablist" aria-multiselectable="true">
         <div class="row u-timeline-v2-wrap list-unstyled">
 
@@ -84,8 +83,8 @@ $unit_list = sqlToArray($sql);
                             <div class="card g-brd-none rounded g-mb-20">
                                 <div id="accordion-heading-<?=$book[bo_id]?>" class="g-pa-0" role="tab">
                                     <h5 class="mb-0">
-                                        <a class="d-flex justify-content-between u-shadow-v19 g-color-main g-text-underline--none--hover rounded g-px-30 g-py-20 collapsed"
-                                           href="#accordion-body-<?=$book[bo_id]?>" data-toggle="collapse" data-parent="#accordion" aria-expanded="false"
+                                        <a class="d-flex justify-content-between u-shadow-v19 g-color-main g-text-underline--none--hover rounded g-px-30 g-py-20"
+                                           href="#accordion-body-<?=$book[bo_id]?>" data-toggle="collapse" data-parent="#accordion" aria-expanded="true"
                                            aria-controls="accordion-body-<?=$book[bo_id]?>">
                                             Unit <?=$book[min_unit]?>-<?=$book[max_unit]?>
                                             <span class="u-accordion__control-icon g-color-pink">
@@ -95,7 +94,7 @@ $unit_list = sqlToArray($sql);
                                         </a>
                                     </h5>
                                 </div>
-                                <div id="accordion-body-<?=$book[bo_id]?>" class="collapse" role="tabpanel"
+                                <div id="accordion-body-<?=$book[bo_id]?>" class="collapse show" role="tabpanel"
                                      aria-labelledby="accordion-heading-<?=$book[bo_id]?>" data-parent="#accordion" style="">
                                     <div class="u-accordion__body g-color-gray-dark-v4 g-pa-30">
                                         <? foreach($unit_list as $unit) {
