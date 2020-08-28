@@ -1,0 +1,40 @@
+/* Add here all your css styles (customizations) */
+.g-bg-pink--hover:hover {
+    background-color: #E81C62 !important;
+  }
+  .g-bg-pink--active.active,
+  .active .g-bg-pink--active {
+    background-color: #E81C62 !important;
+  }
+
+  .g-bg-teal--hover:hover {
+    background-color: #18BA9B !important;
+  }
+  .g-bg-teal--active.active,
+  .active .g-bg-pink--active {
+    background-color: #18BA9B !important;
+  }
+
+  .beginner{
+    display:none;
+  }
+
+  .advance{
+    display:none;
+  }
+
+  .inter{
+    display:none;
+  }
+  .go{
+    display:none;
+  }
+  .test{
+    display:none;
+  }
+  .g-bg-cool{
+    background-color: #88bdbc !important;
+  }
+  .g-color-cool{
+    color:#25274d !important;
+  }

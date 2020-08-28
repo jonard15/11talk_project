@@ -1,0 +1,81 @@
+<? include_once("../common_member.lib.php"); ?>
+<? include_once("inc/_begin.html"); ?>
+
+<?php
+$sel_level = $_GET['l'];
+if (!isset($sel_level)) $sel_level = "0";
+$group_list = sqlToArray("SELECT * FROM lms_book_group where bg_use_yn='Y' order by bg_order");
+if($sel_level != "0") {
+    $where = " and $sel_level between bo_level_low and bo_level_high ";
+}
+$book_list = sqlToArray("select * from lms_textbook where bo_use_yn='Y' $where order by bo_level_low, bo_level_high");
+?>
+
+    <div class="container g-pt-100">
+
+        <? include_once("book_level_tab.html"); ?>
+
+        <div class="text-center g-py-50">
+            <div class="container g-max-width-770">
+                <h2 class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-30 g-color-gray-dark-v1 g-mb-30">LESSON MATERIALS</h2>
+
+                <p class="mb-0 g-font-size-20">11talk materials are free to use!
+                    <a class="u-link-v5" href="CERF_level.html"><span class="g-color-blue">Learn more about CEFR levels.</span></a>
+                </p>
+            </div>
+        </div>
+
+        <div id="nav-1-1-default-hor-left" class="tab-content">
+
+
+            <!-- tab1 All -->
+            <div class="tab-pane show active" id="nav-1-1-default-hor-left--1" role="tabpanel">
+                <div class="row">
+
+                    <!-- group -->
+                    <? foreach ($group_list as $group) { ?>
+                        <div class="col-lg-4 g-px-30 g-mb-40">
+                            <!--book-->
+                            <h3 class="h5 text-uppercase g-font-size-16 g-color-black g-mb-10 g-font-weight-500"><?= $group[bg_name] ?></h3>
+                            <hr class="g-bg-main">
+                            <?
+                            $cnt = 0;
+                            foreach ($book_list as $book) {
+                                if($group[bg_id] == $book[bo_bg_id]) {
+                                        $cnt++;
+                                        ?>
+                                        <div class=" g-brd-around g-brd-gray-light-v4 g-bg-white rounded g-pa-10 g-mb-20" id="group_1_<?= $group[bg_id] ?>">
+                                            <a class="u-link-v5" href="book_item.html?bo_id=<?=$book[bo_id]?>" >
+                                                <span class="h6 g-font-weight-500 g-color-pink float-right"><?= $book[bo_cefr] ?></span>
+                                                <figcaption class="col-lg-5 g-mb-5 g-px-15 g-mr-15 g-bg-pink text-center">
+                                                    <span class="g-color-white g-font-size-13 text-uppercase g-letter-spacing-1 g-font-weight-500 g-text-underline--none--hover" tabindex="0">Level <?= $book[bo_level_low] ?></span>
+                                                </figcaption>
+                                                <span class="h6 d-block g-font-weight-500 g-color-black g-mr-50"><?= $book[bo_title] ?></span>
+                                            </a>
+                                        </div>
+                                    <?
+                                }
+                            } ?>
+                            <? if($cnt>4) { ?>
+                            <a href="javascript:void(0)" class="load-more-beg g-flex-centered btn btn-md u-btn-outline-gradient-v1 g-mr-10 g-mb-15"
+                               id="btn_load_1_<?=$group[bg_id]?>">Load More</a>
+                            <? } ?>
+                            <!--End book-->
+                        </div>
+
+                    <? } ?>
+                    <!--End group -->
+
+                </div>
+            </div>
+            <!-- End tab1 All -->
+        </div>
+    </div>
+
+<script>
+    $(document).ready(function () {
+    });
+
+</script>
+
+<? include_once("inc/_end.html"); ?>

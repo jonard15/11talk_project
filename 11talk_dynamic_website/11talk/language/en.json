@@ -1,0 +1,19 @@
+{
+  "config": {
+    "default": "en"
+  },
+  "language": {
+    "en": {
+      ".home": "Home",
+      ".about": "About 11talk",
+      ".book": "Book",
+      ".tuition": "Tuition",
+      ".teacher": "Teacher",
+      ".faq": "FAQ's",
+      ".testimonials": "Testimonials",
+      ".blog": "Blog",
+      ".class_system": "Class System",
+      ".language": "English (US) "
+    }
+  }
+}
