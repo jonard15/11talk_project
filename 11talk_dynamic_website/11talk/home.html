@@ -1,43 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Title -->
-    <title>11talk - New Website</title>
-
-    <!-- Required Meta Tags Always Come First -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon1.ico">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Encode+Sans:400,500,600" rel="stylesheet">
-
-    <!-- CSS Global Compulsory -->
-    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
-
-    <!-- CSS Implementing Plugins -->
-    <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/vendor/icon-line-pro/style.css">
-    <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
-    <link rel="stylesheet" href="assets/vendor/dzsparallaxer/dzsparallaxer.css">
-    <link rel="stylesheet" href="assets/vendor/dzsparallaxer/dzsscroller/scroller.css">
-    <link rel="stylesheet" href="assets/vendor/dzsparallaxer/advancedscroller/plugin.css">
-    <link rel="stylesheet" href="assets/vendor/animate.css">
-    <link rel="stylesheet" href="assets/vendor/hs-megamenu/src/hs.megamenu.css">
-    <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
-    <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css">
-    <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
-    <link  rel="stylesheet" href="assets/vendor/custombox/custombox.min.css">
-
-    <!-- CSS Unify Theme -->
-    <link rel="stylesheet" href="css/styles.multipage-marketing.css">
-
-    <!-- CSS Customization -->
-    <link rel="stylesheet" href="assets/css/custom.css">
-  </head>
+<? include_once("../common_member.lib.php"); ?>
+<? include_once("inc/_begin.html"); ?>
 
   <body>
     <main>
@@ -48,10 +10,10 @@
           <div class="container">
             <div class="g-pa-40 g-pa-60--md g-width-380 g-bg-black-opacity-0_3">
               <div class=" align-self-center">
-                <h3 class="h3 text-uppercase g-letter-spacing-3 g-font-size-default g-color-white g-mb-10 g-font-weight-500">Learn from the</h3>
-                <h2 class="h2 text-uppercase g-color-white g-letter-spacing-2 g-font-weight-600 g-font-size-23 g-font-size-35--md g-mb-20">Top Online<br>English&nbsp;School</h2>
-                <p class="g-line-height-1_8 g-letter-spacing-2 g-color-white g-font-weight-500 g-mb-20 g-font-size-16" >anytime, anywhere in the world, <br>and reach global success.</p>
-                <a href="https://pinestalking.com/m/signup.html?lang=en" class="btn g-letter-spacing-1 text-uppercase g-bg-main g-color-white g-font-weight-600 g-bg-primary--hover text-uppercase rounded-0 g-pa-20 g-font-size-12">1 FREE Class  & English Level Test</a>
+                <h3 class="h3 text-uppercase g-letter-spacing-3 g-font-size-default g-color-white g-mb-10 g-font-weight-500"><?=$lang['learn_from']?></h3>
+                <h2 class="h2 text-uppercase g-color-white g-letter-spacing-2 g-font-weight-600 g-font-size-23 g-font-size-35--md g-mb-20"><?=$lang['top_online']?><br><?=$lang['english_school']?></h2>
+                <p class="g-line-height-1_8 g-letter-spacing-2 g-color-white g-font-weight-500 g-mb-20 g-font-size-16" ><?=$lang['anytime_anywhere']?></p>
+                <a href="https://pinestalking.com/m/signup.html?lang=en" class="btn g-letter-spacing-1 text-uppercase g-bg-main g-color-white g-font-weight-600 g-bg-primary--hover text-uppercase rounded-0 g-pa-20 g-font-size-12"><?=$lang['free_class']?></a>
               </div>
             </div>
           </div>
@@ -66,18 +28,18 @@
           <div class="col-lg-7 g-mb-50">
             <!-- About Info -->
             <div class="mb-5">
-              <h2 class="mb-4">11talk offers high quality and affordable online classes</h2>
+              <h2 class="mb-4"><?=$lang['affordable_online']?></h2>
               <div class="row">
                 <div class="col-sm-12">
                   <div id="nav-1-1-accordion-primary-ver" class="tab-content">
-                      <p class="lead g-width-450">thru the direct management of the best language school PINES ACADEMY that has been operating for 20 years. Be one of our globally successful students! Learn English online with us now.
+                      <p class="lead g-width-450"><?=$lang['affordable_online_para']?>
                         </p>
                   </div>
                 </div>
               </div>
             </div>
             <a class="btn u-btn-black g-brd-main g-brd-primary--hover g-bg-main g-bg-primary--hover g-font-weight-600 g-font-size-12 text-uppercase g-px-25 g-py-13 mr-3" href="company.html">
-              Know more about 11talk
+              <?=$lang['about_11talk']?>
             </a>
           </div>
 
@@ -85,9 +47,9 @@
             <!-- About Info -->
             <div class="d-inline-block u-shadow-v20 g-width-300 g-height-300 g-brd-around g-brd-10 g-brd-white g-bg-cover g-bg-main-opacity-0_9--after g-rounded-circle--after text-center rounded-circle g-pa-50" style="background-image: url(img/home/thumbnail.png);">
               <div class="g-pos-rel g-z-index-1">
-                <span class="d-block g-color-white-opacity-0_6 g-font-size-13 text-uppercase">Join our</span>
-                <span class="d-block g-color-white g-font-weight-300 g-font-size-90 g-line-height-1_2 mb-2">30k</span>
-                <span class="d-block g-color-white g-font-weight-300 g-font-size-13 text-uppercase">Successful<br>Graduates</span>
+                <span class="d-block g-color-white-opacity-0_6 g-font-size-13 text-uppercase"><?=$lang['join_our']?></span>
+                <span class="d-block g-color-white g-font-weight-300 g-font-size-90 g-line-height-1_2 mb-2"><?=$lang['30k']?></span>
+                <span class="d-block g-color-white g-font-weight-300 g-font-size-13 text-uppercase"><?=$lang['successsful_graduates']?></span>
               </div>
 
               <a class="js-fancybox d-flex g-text-underline--none--hover ml-auto g-mt-15" href="javascript:;"
@@ -110,7 +72,7 @@
         <div class="container g-pos-rel g-z-index-1 g-pt-100 g-pb-120">
           <!-- Heading -->
           <div class="g-max-width-645 text-center mx-auto g-mb-30">
-            <h2 class="h1 text-center g-color-primary">Be Globally Successful With 11talk</h2>
+            <h2 class="h1 text-center g-color-primary"><?=$lang['be_global']?></h2>
           </div>
           <!-- End Heading -->
 
@@ -127,26 +89,26 @@
                 <ul id="js-scroll-nav" class="list-unstyled mb-0">
                   <li class=" g-py-10">
                     <a class="u-link-v5 g-color-white g-color-primary--hover g-font-size-16" href="teacher.html">
-                      <span class="d-block g-color-primary g-font-weight-600 text-uppercase mb-1">100+instructors with Certain Specialization </span>
-                      Our  professional teachers have 3-5 course specializations making them flexible and remarkable in handling online English classes
+                      <span class="d-block g-color-primary g-font-weight-600 text-uppercase mb-1"><?=$lang['100_instructor']?> </span>
+                      <?=$lang['100_instructor_para']?>
                     </a>
                   </li>
                   <li class="g-py-10">
                     <a class="u-link-v5 g-color-white g-color-primary--hover g-font-size-16" href="#stable">
-                      <span class="d-block g-color-primary g-font-weight-600 text-uppercase mb-1">6 general courses</span>
-                      11talk Courses  guarantee improvement on  4 Core English Skills for getting higher English standardized test scores and gaining confidence in facing current global needs.
+                      <span class="d-block g-color-primary g-font-weight-600 text-uppercase mb-1"><?=$lang['general_courses']?></span>
+                      <?=$lang['general_courses_para']?>
                     </a>
                   </li>
                   <li class="g-py-10">
                     <a class="u-link-v5 g-color-white g-color-primary--hover g-font-size-16" href="price.html">
-                      <span class="d-block g-color-primary g-font-weight-600 text-uppercase mb-1">2 booking types</span>
-                      We support what works for our students based on their lifestyle 
+                      <span class="d-block g-color-primary g-font-weight-600 text-uppercase mb-1"><?=$lang['book_types']?></span>
+                      <?=$lang['book_types_para']?>
                     </a>
                   </li>
                   <li class="g-py-10">
                     <a class="u-link-v5 g-color-white g-color-primary--hover g-font-size-16" href="book.html">
-                      <span class="d-block g-color-primary g-font-weight-600 text-uppercase mb-1">2000 + TOPICS </span>
-                      Achieve English fluency through our  2000+ new and trending discussion topics and get immediate class feedback   
+                      <span class="d-block g-color-primary g-font-weight-600 text-uppercase mb-1"><?=$lang['2000_topics']?></span>
+                      <?=$lang['2000_topics_para']?>   
                     </a>
                   </li>
                 </ul>
@@ -187,8 +149,8 @@
 
                 <!-- Research - Info -->
                 <div class="text-center g-absolute-centered--y g-left-0 g-right-0 g-px-35">
-                  <h4 class="h2 g-font-primary">Top Choice</h4>
-                  <span class="d-block">among 400 PH Academies</span>
+                  <h4 class="h2 g-font-primary"><?=$lang['top_choice']?></h4>
+                  <span class="d-block"><?=$lang['top_choice_para']?></span>
                 </div>
                 <!-- Research - Info -->
               </div>
@@ -212,8 +174,8 @@
 
                 <!-- Research - Info -->
                 <div class="text-center g-absolute-centered--y g-left-0 g-right-0 g-px-35">
-                  <h4 class="h2 g-font-primary">20 Years</h4>
-                  <span class="d-block">of History</span>
+                  <h4 class="h2 g-font-primary"><?=$lang['20_years']?></h4>
+                  <span class="d-block"><?=$lang['20_years_para']?></span>
                 </div>
                 <!-- Research - Info -->
               </div>
@@ -237,8 +199,8 @@
 
                 <!-- Research - Info -->
                 <div class="text-center g-absolute-centered--y g-left-0 g-right-0 g-px-35">
-                  <h4 class="h2 g-color-main">99.9%</h4>
-                  <span class="d-block">student satisfaction</span>
+                  <h4 class="h2 g-color-main"><?=$lang['student_statisfaction_percent']?></h4>
+                  <span class="d-block"><?=$lang['student_statisfaction']?></span>
                 </div>
                 <!-- Research - Info -->
               </div>
@@ -262,8 +224,8 @@
 
                 <!-- Research - Info -->
                 <div class="text-center g-absolute-centered--y g-left-0 g-right-0 g-px-35">
-                  <h4 class="h2 g-font-primary">30,000</h4>
-                  <span class="d-block">successful graduates</span>
+                  <h4 class="h2 g-font-primary"><?=$lang['num_successful_graduates']?></h4>
+                  <span class="d-block"><?=$lang['successful_graduates_2']?></span>
                 </div>
                 <!-- Research - Info -->
               </div>
@@ -344,7 +306,7 @@
             <section class="g-bg-secondary">
               <!-- Heading -->
               <div class="g-max-width-645 text-center mx-auto g-mb-30 g-pt-30">
-                <h2 class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-30 g-color-main g-mb-30">11talk's Perfect Learning Features</h2>
+                <h2 class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-30 g-color-main g-mb-30"><?=$lang['learning_features']?></h2>
               </div>
               <!-- End Heading -->
     
@@ -358,7 +320,7 @@
                         <span class="u-icon-v2 u-icon-size--lg u-shadow-v35 g-brd-5 g-brd-blue g-bg-blue rounded-circle mb-2">
                           <i class="icon-education-063 u-line-icon-pro g-color-white"></i>
                         </span>
-                        <a href="book.html"><h3 class="h5">Customized<br>Courses</h3></a>
+                        <a href="book.html"><h3 class="h5"><?=$lang['customized_courses']?></h3></a>
                         <!-- <p class="g-color-gray-dark-v4 g-mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, praesentium.</p> -->
                       </div>
                       <!-- End Faculty Links -->
@@ -370,7 +332,7 @@
                         <span class="u-icon-v2 u-icon-size--lg u-shadow-v35 g-brd-5 g-brd-orange g-bg-orange rounded-circle mb-2">
                           <i class="icon-education-031 u-line-icon-pro g-color-white"></i>
                         </span>
-                        <a href="teacher.html"><h3 class="h5">7.0 IELTS<br>Instructors</h3></a>
+                        <a href="teacher.html"><h3 class="h5"><?=$lang['7.0_ielts_instructor']?></h3></a>
                         <!-- <p class="g-color-gray-dark-v4 g-mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, praesentium.</p> -->
                       </div>
                       <!-- End Faculty Links -->
@@ -382,7 +344,7 @@
                         <span class="u-icon-v2 u-icon-size--lg u-shadow-v35 g-brd-5 g-brd-pink g-bg-pink rounded-circle mb-2">
                           <i class="icon-finance-067 u-line-icon-pro g-color-white"></i>
                         </span>
-                        <a href="teacher.html"><h3 class="h5">Professional<br>Teachers</h3></a>
+                        <a href="teacher.html"><h3 class="h5"><?=$lang['professional_teachers']?></h3></a>
                         <!-- <p class="g-color-gray-dark-v4 g-mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, praesentium.</p> -->
                       </div>
                       <!-- End Faculty Links -->
@@ -394,7 +356,7 @@
                         <span class="u-icon-v2 u-icon-size--lg u-shadow-v35 g-brd-5 g-brd-teal g-bg-teal rounded-circle mb-2">
                           <i class="icon-education-126 u-line-icon-pro g-color-white"></i>
                         </span>
-                        <a href="CERF_level.html"><h3 class="h5">CEFR Aligned Level System</h3></a>
+                        <a href="CERF_level.html"><h3 class="h5"><?=$lang['cefr_level']?></h3></a>
                         <!-- <p class="g-color-gray-dark-v4 g-mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, praesentium.</p> -->
                       </div>
                       <!-- End Faculty Links -->
@@ -406,7 +368,7 @@
                         <span class="u-icon-v2 u-icon-size--lg u-shadow-v35 g-brd-5 g-brd-purple g-bg-purple rounded-circle mb-2">
                           <i class="icon-education-080 u-line-icon-pro g-color-white"></i>
                         </span>
-                        <a href="FAQ.html"><h3 class="h5">Device-Friendly Options</h3></a>
+                        <a href="FAQ.html"><h3 class="h5"><?=$lang['device_options']?></h3></a>
                         <!-- <p class="g-color-gray-dark-v4 g-mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, praesentium.</p> -->
                       </div>
                       <!-- End Faculty Links -->
@@ -418,7 +380,7 @@
                         <span class="u-icon-v2 u-icon-size--lg u-shadow-v35 g-brd-5 g-brd-primary g-bg-primary rounded-circle mb-2">
                           <i class="icon-finance-245 u-line-icon-pro g-color-white"></i>
                         </span>
-                        <a href="price.html"><h3 class="h5">Reasonable<br>Price</h3></a>
+                        <a href="price.html"><h3 class="h5"><?=$lang['reasonable_price']?></h3></a>
                         <!-- <p class="g-color-gray-dark-v4 g-mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, praesentium.</p> -->
                       </div>
                       <!-- End Faculty Links -->
@@ -430,8 +392,8 @@
               <!-- Heading -->
               <div class="text-center g-pb-30">
                 <div class="container g-max-width-770">
-                  <h2 class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-30 g-color-main g-mb-30">SYSTEMATIC AND EFFECTIVE LEARNING METHOD</h2>
-                  <p class="mb-0 g-font-size-20">11talk's 4-step learning method has created great results in improving students' English macro skills from listening, writing, and reading, and speaking.</span></a></p>
+                  <h2 class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-30 g-color-main g-mb-30"><?=$lang['systematic_learning_method']?></h2>
+                  <p class="mb-0 g-font-size-20"><?=$lang['systematic_learning_method_para']?></span></a></p>
                 </div>
               </div>
               <!-- End Heading -->
@@ -443,9 +405,9 @@
                   <div class="col-md-6 col-lg-3 g-mb-30">
                     <!-- Icon Blocks -->
                     <div class="u-shadow-v19 g-bg-primary-opacity-0_1 text-center rounded g-pa-40">
-                      <h3 class="g-color-main g-font-weight-600 g-font-size-20 text-uppercase mb-20">Step 1<br>Preview</h3>
+                      <h3 class="g-color-main g-font-weight-600 g-font-size-20 text-uppercase mb-20"><?=$lang['step1']?></h3>
                       <!-- <div class="d-inline-block g-width-30 g-brd-bottom g-brd-gray-dark-v5 g-my-15"></div> -->
-                      <p class="g-color-gray-dark-v1 g-mb-0">Invest time for self-studying to achieve the 100% online class result.</p>
+                      <p class="g-color-gray-dark-v1 g-mb-0"><?=$lang['step1_para']?></p>
                     </div>
                     <!-- End Icon Blocks -->
                   </div>
@@ -453,9 +415,9 @@
                   <div class="col-md-6 col-lg-3 g-mb-30">
                     <!-- Icon Blocks -->
                     <div class="u-shadow-v19 g-bg-primary-opacity-0_2 text-center rounded g-pa-40">
-                      <h3 class="g-color-main g-font-weight-600 g-font-size-20 text-uppercase mb-20">Step 2<br>Class</h3>
+                      <h3 class="g-color-main g-font-weight-600 g-font-size-20 text-uppercase mb-20"><?=$lang['step2']?></h3>
                       <!-- <div class="d-inline-block g-width-30 g-brd-bottom g-brd-gray-dark-v5 g-my-15"></div> -->
-                      <p class="g-color-gray-dark-v1 g-mb-0">Have a consistent<br> English practice with <br>your teacher</p>
+                      <p class="g-color-gray-dark-v1 g-mb-0"><?=$lang['step2_para']?></p>
                     </div>
                     <!-- End Icon Blocks -->
                   </div>
@@ -463,9 +425,9 @@
                   <div class="col-md-6 col-lg-3 g-mb-30">
                     <!-- Icon Blocks -->
                     <div class="u-shadow-v19 g-bg-primary-opacity-0_3 text-center rounded g-pa-40">
-                      <h3 class="g-color-main g-font-weight-600 g-font-size-20 text-uppercase mb-20">Step 3<br>Homework</h3>
+                      <h3 class="g-color-main g-font-weight-600 g-font-size-20 text-uppercase mb-20"><?=$lang['step3']?></h3>
                       <!-- <div class="d-inline-block g-width-30 g-brd-bottom g-brd-gray-dark-v5 g-my-15"></div> -->
-                      <p class="g-color-gray-dark-v1 g-mb-0">Extend your learning <br>hours by doing your <br>homework</p>
+                      <p class="g-color-gray-dark-v1 g-mb-0"><?=$lang['step3_para']?></p>
                     </div>
                     <!-- End Icon Blocks -->
                   </div>
@@ -473,9 +435,9 @@
                   <div class="col-md-6 col-lg-3 g-mb-30">
                     <!-- Icon Blocks -->
                     <div class="u-shadow-v19 g-bg-primary-opacity-0_4 text-center rounded g-pa-40">
-                      <h3 class="g-color-main g-font-weight-600 g-font-size-20 text-uppercase mb-20">Step 4<br>Review</h3>
+                      <h3 class="g-color-main g-font-weight-600 g-font-size-20 text-uppercase mb-20"><?=$lang['step4']?></h3>
                       <!-- <div class="d-inline-block g-width-30 g-brd-bottom g-brd-gray-dark-v5 g-my-15"></div> -->
-                      <p class="g-color-gray-dark-v1  g-mb-0">Learn from your teacher's comments by checking the daily class memo</p>
+                      <p class="g-color-gray-dark-v1  g-mb-0"><?=$lang['step4_para']?></p>
                     </div>
                     <!-- End Icon Blocks -->
                   </div>
@@ -483,7 +445,7 @@
                 <!-- End Icon Blocks -->
                 <div class="text-center g-pb-30">
                   <a class="btn u-btn-black g-brd-main g-brd-primary--hover g-bg-main g-bg-primary--hover g-font-weight-600 g-font-size-12 text-uppercase g-px-25 g-py-13 mr-3" href="4step.html">
-                  View 4-STEP LEARNING SYSTEM
+                    <?=$lang['view_4_step']?>
                   </a>
                 </div>
               </div>
@@ -498,7 +460,7 @@
             <div class="col-lg-7 order-lg-2">
               <div class="g-pos-rel g-pl-15--lg">
                 <div class="text-center g-bg-main">
-                  <span class="g-font-size-30 g-color-white g-font-weight-600"> Advanced and Convenient Learning System</span>
+                  <span class="g-font-size-30 g-color-white g-font-weight-600"> <?=$lang['advance_convenient']?></span>
                 </div>
                 <img class="img-fluid w-100 u-shadow-v19 g-brd-around g-brd-7 g-brd-secondary rounded" src="img/home/test.gif" alt="Image Description">
 
@@ -537,7 +499,7 @@
                   </span>
                 </div>
                 <h3 class="g-color-main g-font-weight-600 g-font-size-16 text-uppercase mb-3">
-                  Free<br>Learning<br>Materials                  
+                  <?=$lang['free_learning_materials']?>                 
                 </h3>
                 <!-- <p class="g-font-size-12">Class notification and feedback is available through user-friendly platforms like kakaotalk</p> -->
               </div>
@@ -559,7 +521,7 @@
                 </div>
                 <a class="u-link-v5" href="https://pinestalking.com/m/signup.html">
                 <h3 class="g-color-main g-font-weight-600 g-font-size-16 text-uppercase mb-3">
-                  Easy<br>Video<br>Audio Sharing
+                  <?=$lang['easy_video_sharing']?>
                 </h3>
               </a>
                 <!-- <p class="g-font-size-12">We allow class re-scheduling 30 minutes before the scheduled class</p> -->
@@ -581,7 +543,7 @@
                   </span>
                 </div>
                 <h3 class="g-color-main g-font-weight-600 g-font-size-16 text-uppercase mb-3">
-                  Improved<br>Chat<br>System
+                  <?=$lang['improve_chat_sysytem']?>
                 </h3>
                 <!-- <p class="g-font-size-12">We motivate students to perform well in their classes by applying discounts on their extension</p> -->
               </div>
@@ -602,7 +564,7 @@
                   </span>
                 </div>
                 <h3 class="g-color-main g-font-weight-600 g-font-size-16 text-uppercase mb-3">
-                  Complete<br>Vitual Classroom<br>tools
+                  <?=$lang['virtual_classroom']?>
                 </h3>
                 <!-- <p class="g-font-size-12">We guarantee improvement through the integrated CEFR level test</p> -->
               </div>
@@ -627,9 +589,9 @@
               <!-- Icon Blocks -->
               <div>
                 <div class="text-center">
-                <p class="g-font-size-18 g-font-weight-600 g-color-main">"Experience barrier-free classes like<br>studying OFFLINE made possible  with zoom"</p>
+                <p class="g-font-size-18 g-font-weight-600 g-color-main"><?=$lang['experience_barrier_free']?></p>
                   <a class="btn u-btn-black g-brd-main g-brd-primary--hover g-bg-main g-bg-primary--hover g-font-weight-600 g-font-size-12 text-uppercase g-px-25 g-py-13 mr-3" href="https://pinestalking.com/m/signup.html?lang=en">
-                    Free Class+Level Test
+                    <?=$lang['free_class+_level_test']?>
                   </a>
                 </div>
               </div>
@@ -643,9 +605,9 @@
   <section id="stable" class="clearfix g-bg-secondary g-py-50">
     <div class="text-center g-pb-30">
       <div class="container g-max-width-770">
-        <h2 class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-30 g-color-main g-mb-30">Stable and Tested Curriculum</h2>
+        <h2 class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-30 g-color-main g-mb-30"><?=$lang['stable_tested_curriculum']?></h2>
 
-        <p class="mb-0 g-font-size-20">Our integrated and customized courses guarantee over-all English skills improvement.Students see great results like getting higher English standardized test scores and gaining confidence in using the English language. Check out our learning material overview.</span></a></p>
+        <p class="mb-0 g-font-size-20"><?=$lang['stable_tested_curriculum_para']?></span></a></p>
       </div>
     </div>
     <div class="container g-pb-50">
@@ -653,7 +615,7 @@
         <div class="col-lg-4">
           <!-- Icon Blocks -->
           <div class="u-block-hover g-color-white text-center g-py-120 g-px-50 g-bg-img-hero" style="background-image: url(img/home/Job-interview-final-min.jpg);">
-            <h3 class="h3 g-font-weight-600 mb-30">Job Interview</h3>
+            <h3 class="h3 g-font-weight-600 mb-30"><?=$lang['job_interview']?></h3>
             <!-- <p class="g-color-white-opacity-0_8 mb-5">One stop English job interview <br>preparation</p> -->
 
             <div class="u-block-hover__additional--fade u-block-hover__additional--fade-up">
@@ -668,23 +630,23 @@
           <button type="button" class="close" onclick="Custombox.modal.close();">
             <i class="hs-icon hs-icon-close"></i>
           </button>
-          <h4 class="g-mb-20">Job Interview</h4>
+          <h4 class="g-mb-20"><?=$lang['job_interview']?></h4>
           <div class="text-center g-mb-20">
             <img class="g-mb-20 img-fluid" src="img/home/Senior-Speaking-final-min.jpg" alt="">
-            <p>We offer two job interview courses; a general job interview and an interview for flight attendants course. In class, practice the interview with common interview questions and teachers would check your answer and teach a better answer. The goal is to answer your thoughts and opinions in fluent English in a real interview. This course is for intermediate-level English proficiency.</p>
+            <p><?=$lang['job_interview_dsc']?></p>
           </div>
           <ul class="list-unstyled">          
             <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">
               <div class="align-self-center g-px-10">
-                <h3 class="m-0">Interview course</h3>
+                <h3 class="m-0"><?=$lang['interview_title_modal1_1']?></h3>
                 <ul>
-                  <li>Preferred Level of student : intermediate or above</li>
-                  <li>Contents of the textbook</li>
+                  <li><?=$lang['interview_list_modal1_1']?></li>
+                  <li><?=$lang['interview_list_modal1_2']?></li>
                     <ul>
-                      <li>Passion For Business</li>
-                      <li>Motivation and Purpose</li>
-                      <li>Skills and Experience</li>
-                      <li>Diligence and Professionalism</li>
+                      <li><?=$lang['interview_list_modal1_2_1']?></li>
+                      <li><?=$lang['interview_list_modal1_2_2']?></li>
+                      <li><?=$lang['interview_list_modal1_2_3']?></li>
+                      <li><?=$lang['interview_list_modal1_2_4']?></li>
                     </ul>
                 </ul>
               </div>
@@ -692,15 +654,15 @@
           
             <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">
               <div class="align-self-center g-px-10">
-                <h3 class="m-0">Interview for flight attendant course</h3>
+                <h3 class="m-0"><?=$lang['interview_title_modal1_2']?></h3>
                 <ul>
-                  <li>Preferred Level of student: intermediate or above</li>
-                  <li>Preferred student: Those who are preparing an interview for domestic airline and foreign airline crew</li>
-                  <li>Contents of the textbook.</li>
+                  <li><?=$lang['interview_title_modal1_2_1']?></li>
+                  <li><?=$lang['interview_title_modal1_2_2']?></li>
+                  <li><?=$lang['interview_title_modal1_2_3']?></li>
                     <ul>
-                      <li>Personal Information</li>
-                      <li>Career</li>
-                      <li>(Total questions: 87 questions)</li>
+                      <li><?=$lang['interview_title_modal1_2_3_1']?></li>
+                      <li><?=$lang['interview_title_modal1_2_3_2']?></li>
+                      <li><?=$lang['interview_title_modal1_2_3_3']?></li>
                     </ul>
                 </ul>
               </div>
@@ -712,7 +674,7 @@
         <div class="col-lg-4">
           <!-- Icon Blocks -->
           <div class="u-block-hover g-color-white text-center g-py-120 g-px-50 g-bg-img-hero" style="background-image: url(img/home/Senior-Speaking-final-min.jpg);">
-            <h3 class="h3 g-font-weight-600 mb-30">Senior English</h3>
+            <h3 class="h3 g-font-weight-600 mb-30"><?=$lang['senior_english']?></h3>
             <!-- <p class="g-color-white-opacity-0_8 mb-5">Focuses on English conversation based on student’s level (1~10). Class types available are expressions, discussion or pre-basic English coversation class (for beginners).</p> -->
             <div class="u-block-hover__additional--fade u-block-hover__additional--fade-up">
               <p class="g-color-white-opacity-0_8 mb-5">Focuses on English conversation based on student’s level (1~10). Class types available are expressions, discussion or pre-basic English coversation class (for beginners).</p>
@@ -727,46 +689,44 @@
           <button type="button" class="close" onclick="Custombox.modal.close();">
             <i class="hs-icon hs-icon-close"></i>
           </button>
-          <h4 class="g-mb-20">Senior English Speaking Course</h4>
+          <h4 class="g-mb-20"><?=$lang['senior_english']?></h4>
           <div class="text-center g-mb-20">
             <img class="img-fluid g-mb-20" src="img/home/Senior-Speaking-final-min.jpg" alt="">
-            <p>11Talk has variety of textbooks. Classes are tailored to the student’s level. Textbooks are assigned based on trial class  assessment. Check our trial classes now!</p>
+            <p><?=$lang['senior_english']?></p>
           </div>
           <ul class="list-unstyled">          
             <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">
               <div class="align-self-center g-px-10">
-                <h3 class="m-0">Pattern textbook </h3>
+                <h3 class="m-0"><?=$lang['interview_title_modal2_1']?> </h3>
                 <ul>
-                  <li>Preferred level of students: Beginner ~ Intermediate</li>
-                  <li>Level of textbook: level 1 to level 5</li>
-                  <li>Textbook level 1 : Learn basic pronunciation, vocabulary and basic English expressions. Makes the students get accustomed with English sentence structures and phrases.</li>
-                  <li>Textbook level 2 ~ 3 : Focuses on learning basic conversation patterns and frequently used vocabulary words. The book targets speaking fluency and expressing thoughts in English.</li>
-                  <li>Textbook level 4 ~ 5 :Focuses on learning patterns and expressions while practicing  to express your thoughts in specific English situation
-                  </li>
+                  <li><?=$lang['interview_list_modal2_1']?></li>
+                  <li><?=$lang['interview_list_modal2_2']?></li>
+                  <li><?=$lang['interview_list_modal2_3']?></li>
+                  <li><?=$lang['interview_list_modal2_4']?></li>
+                  <li><?=$lang['interview_list_modal2_5']?></li>
                 </ul>
               </div>
             </li>
           
             <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">
               <div class="align-self-center g-px-10">
-                <h3 class="m-0">Discussion textbook</h3>
+                <h3 class="m-0"><?=$lang['interview_title_modal2_2']?></h3>
                 <ul>
-                  <li>Preferred Level of student: Intermediate ~ Advanced</li>
-                  <li>Level of textbook: level 4 to level 10</li>
-                  <li>Textbooks levels 4 ~ 7 : Read short stories and express your thoughts  and opinions about the stories. You can practice choosing proper vocabularies  as well as comprehension.</li>
-                  <li>Textbook level 8 ~ 10 : Read a long passage and discuss with a teacher about the topic. The goal of this level is to have  depth in language execution.</li>
+                  <li><?=$lang['interview_list_modal2_6']?></li>
+                  <li><?=$lang['interview_list_modal2_7']?></li>
+                  <li><?=$lang['interview_list_modal2_8']?></li>
+                  <li><?=$lang['interview_list_modal2_9']?></li>
                 </ul>
               </div>
             </li>
 
             <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">
               <div class="align-self-center g-px-10">
-                <h3 class="m-0">Conversation textbook for beginners</h3>
+                <h3 class="m-0"><?=$lang['interview_title_modal2_3']?></h3>
                 <ul>
-                  <li>Preferred level of student : The person who starts English conversation for the first time</li>
-                  <li>Level of textbook : Pre-level 1</li>
-                  <li>Learning basic questions and answers used in daily conversation. Aims to eliminate fear and  build confidence in speaking English.
-                    (Ex) Self introduction, shopping and ordering.</li>
+                  <li><?=$lang['interview_list_modal2_10']?></li>
+                  <li><?=$lang['interview_list_modal2_11']?></li>
+                  <li><?=$lang['interview_list_modal2_12']?></li>
                 </ul>
               </div>
             </li>
@@ -777,7 +737,7 @@
         <div class="col-lg-4">
           <!-- Icon Blocks -->
           <div class="u-block-hover g-color-white text-center g-py-120 g-px-50 g-bg-img-hero" style="background-image: url(img/home/Business-English-final-min.jpg);">
-            <h3 class="h3 g-font-weight-600 mb-30">Business English</h3>
+            <h3 class="h3 g-font-weight-600 mb-30"><?=$lang['bussiness_english']?></h3>
             <!-- <p class="g-color-white-opacity-0_8 mb-5"> Acquire English skills necessary for business activities such as business communication, presentation and coping ability in unexpected situations.</p> -->
             <div class="u-block-hover__additional--fade u-block-hover__additional--fade-up">
               <p class="g-color-white-opacity-0_8 mb-5"> Acquire English skills necessary for business activities such as business communication, presentation and coping ability in unexpected situations.</p>
@@ -791,40 +751,40 @@
             <button type="button" class="close" onclick="Custombox.modal.close();">
               <i class="hs-icon hs-icon-close"></i>
             </button>
-            <h4 class="g-mb-20">Bussiness English</h4>
+            <h4 class="g-mb-20"><?=$lang['bussiness_english']?></h4>
             <div class="text-center g-mb-20">
               <img class="img-fluid g-mb-20" src="img/home/Business-English-final-min.jpg" alt="">
-              <p>Learning Objectives: In business situations, you can reach the stage wherein you need to use sophisticated and accurate business-related English expressions and words for phone conversation, meeting and discussion with foreigners.</p>
+              <p><?=$lang['business_eng_dsc']?></p>
             </div>
             <ul class="list-unstyled">
               <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">
                 <div class="align-self-center g-px-10">
-                  <p class="m-0">Textbook </p>
+                  <p class="m-0"><?=$lang['business_list_modal3_1']?> </p>
                 </div>
               </li>
             
               <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">
                 <div class="align-self-center g-px-10">
-                  <p class="m-0">Organization</p>
+                  <p class="m-0"><?=$lang['business_list_modal3_2']?></p>
                 </div>
               </li>
             
               <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">
                 <div class="align-self-center g-px-10">
-                  <p class="m-0">Become familiar with business English situations through discussion and business conversation drills.   
+                  <p class="m-0"><?=$lang['business_list_modal3_3']?>   
                   </p>
                 </div>
               </li>
             
               <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">
                 <div class="align-self-center g-px-10">
-                  <p class="m-0">Increase your business English vocabulary and expression  use it on drills that are related to business set-ups like interviews and meetings
+                  <p class="m-0"><?=$lang['business_list_modal3_4']?>
                   </p>
                 </div>
               </li>
               <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">
                 <div class="align-self-center g-px-10">
-                  <p class="m-0">Deepend your understanding on words and expressions you learned through writing drills</p>
+                  <p class="m-0"><?=$lang['business_list_modal3_5']?></p>
                 </div>
               </li>
             </ul>
@@ -834,7 +794,7 @@
           <div class="col-lg-4">
             <!-- Icon Blocks -->
             <div class="u-block-hover g-color-white text-center g-py-120 g-px-50 g-bg-img-hero" style="background-image: url(img/home/IELTS-final-min.jpg);">
-              <h3 class="h3 g-font-weight-600 mb-30">IELTS</h3>
+              <h3 class="h3 g-font-weight-600 mb-30"><?=$lang['ielts']?></h3>
               <!-- <p class="g-color-white-opacity-0_8 mb-5">Prepare for the test with expected test questions and recent test questions to help you achieve your target band score.</p> -->
               <div class="u-block-hover__additional--fade u-block-hover__additional--fade-up">
                 <p class="g-color-white-opacity-0_8 mb-5">Prepare for the test with expected test questions and recent test questions to help you achieve your target band score.</p> 
@@ -849,41 +809,41 @@
           <button type="button" class="close" onclick="Custombox.modal.close();">
             <i class="hs-icon hs-icon-close"></i>
           </button>
-          <h4 class="g-mb-20">IELTS</h4>
+          <h4 class="g-mb-20"><?=$lang['ielts']?></h4>
           <div class="text-center g-mb-20">
             <img class="img-fluid g-mb-20" src="img/home/IELTS-final-min.jpg" alt="">
-            <p>We offer IELTS Speaking, Reading and Writing classes. This course is for students who have intermediate level of English or above.</p>
+            <p><?=$lang['ielts_dsc']?></p>
           </div>
           <ul class="list-unstyled">          
             <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">
               <div class="align-self-center g-px-10">
-                <h3 class="m-0">IELTS Speaking </h3>
+                <h3 class="m-0"><?=$lang['ielts_title_modal4_1']?></h3>
                 <ul>
-                  <li>Practice various types of questions in IELTS Speaking and give you the tips to gain high scores</li>
-                  <li>A teacher gives you corrections of the wrong sentences in grammar you said that are difficult to grasp by self-study</li>
-                  <li>We have Basic, Intermediate, and Advanced level textbooks</li>
+                  <li><?=$lang['ielts_list_modal4_1']?></li>
+                  <li><?=$lang['ielts_list_modal4_2']?></li>
+                  <li><?=$lang['ielts_list_modal4_3']?></li>
                 </ul>
               </div>
             </li>
           
             <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">
               <div class="align-self-center g-px-10">
-                <h3 class="m-0">IELTS Reading (Academic)</h3>
+                <h3 class="m-0"><?=$lang['ielts_title_modal4_2']?></h3>
                 <ul>
-                  <li>Grasp the types of questions and strategies</li>
-                  <li>Practice IELTS test with past test questions</li>
-                  <li>Class process : Submit your answer before the class. In class, check the answers. For wrong answer, the teacher explains the question and the correct answer and gives you feedback</li>
+                  <li><?=$lang['ielts_list_modal4_4']?></li>
+                  <li><?=$lang['ielts_list_modal4_5']?></li>
+                  <li><?=$lang['ielts_list_modal4_6']?></li>
                 </ul>
               </div>
             </li>
 
             <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">
               <div class="align-self-center g-px-10">
-                <h3 class="m-0">IELTS Writing</h3>
+                <h3 class="m-0"><?=$lang['ielts_title_modal4_3']?></h3>
                 <ul>
-                  <li>Grasp the types of questions and strategies</li>
-                  <li>Practice IELTS test with past test questions</li>
-                  <li>Class process : Submit your writing before the class. Teacher provides feedback regarding your writing in class.</li>
+                  <li><?=$lang['ielts_list_modal4_7']?></li>
+                  <li><?=$lang['ielts_list_modal4_8']?></li>
+                  <li><?=$lang['ielts_list_modal4_9']?></li>
                 </ul>
               </div>
             </li>
@@ -893,7 +853,7 @@
           <div class="col-lg-4">
             <!-- Icon Blocks -->
             <div class="u-block-hover g-color-white text-center g-py-120 g-px-50 g-bg-img-hero" style="background-image: url(img/home/TOEFL-final-min.jpg);">
-              <h3 class="h3 g-font-weight-600 mb-30">TOEFL</h3>
+              <h3 class="h3 g-font-weight-600 mb-30"><?=$lang['toefl']?></h3>
               <!-- <p class="g-color-white-opacity-0_8 mb-5"> Comprehensive test preparation through review of expected questions and recent test questions to excel on the test.</p> -->
               <div class="u-block-hover__additional--fade u-block-hover__additional--fade-up">
                 <p class="g-color-white-opacity-0_8 mb-5"> Comprehensive test preparation through review of expected questions and recent test questions to excel on the test.</p>
@@ -907,30 +867,30 @@
           <button type="button" class="close" onclick="Custombox.modal.close();">
             <i class="hs-icon hs-icon-close"></i>
           </button>
-          <h4 class="g-mb-20">TOEFL</h4>
+          <h4 class="g-mb-20"><?=$lang['toefl']?></h4>
           <div class="text-center g-mb-20">
             <img class="img-fluid g-mb-20" src="img/home/TOEFL-final-min.jpg" alt="">
-            <p>TOEFL Speaking and Writing classes are offered.  This course is for students who have intermediate level of English or above.</p>
+            <p><?=$lang['toefl_dsc']?></p>
           </div>
           <ul class="list-unstyled">          
             <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">
               <div class="align-self-center g-px-10">
-                <h3 class="m-0">TOEFL Speaking </h3>
+                <h3 class="m-0"><?=$lang['toefl_title_modal5_1']?></h3>
                 <ul>
-                  <li>Practice various types of questions in TOEFL and check tips to gain high score with sample answers</li>
-                  <li>A teacher gives you corrections of the wrong sentences in grammar you said that are difficult to grasp by self-study.</li>
-                  <li>Basic and Intermediate level textbook</li>
+                  <li><?=$lang['toefl_list_modal5_1']?></li>
+                  <li><?=$lang['toefl_list_modal5_2']?></li>
+                  <li><?=$lang['toefl_list_modal5_3']?></li>
                 </ul>
               </div>
             </li>
           
             <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">
               <div class="align-self-center g-px-10">
-                <h3 class="m-0">TOEFL Reading (Academic)</h3>
+                <h3 class="m-0"><?=$lang['toefl_title_modal5_2']?></h3>
                 <ul>
-                  <li>TOEFL Writing</li>
-                  <li>Practice writing with 185 past test topics</li>
-                  <li>Class process : Submit your writing before the class. Teacher provides feedback regarding your writing in class.</li>
+                  <li><?=$lang['toefl_list_modal5_4']?></li>
+                  <li><?=$lang['toefl_list_modal5_5']?></li>
+                  <li><?=$lang['toefl_list_modal5_6']?></li>
                 </ul>
               </div>
             </li>
@@ -940,7 +900,7 @@
           <div class="col-lg-4">
             <!-- Icon Blocks -->
             <div class="u-block-hover g-color-white text-center g-py-120 g-px-50 g-bg-img-hero" style="background-image: url(img/home/toeic.jpg);">
-              <h3 class="h3 g-font-weight-600 mb-30">TOEIC</h3>
+              <h3 class="h3 g-font-weight-600 mb-30"><?=$lang['toeic']?></h3>
               <!-- <p class="g-color-white-opacity-0_8 mb-5"> TOEIC Scores &<br>Conversion Table</p> -->
               <div class="u-block-hover__additional--fade u-block-hover__additional--fade-up">
                 <p class="g-color-white-opacity-0_8 mb-5"> TOEIC Scores & Conversion Table</p> 
@@ -954,60 +914,60 @@
           <button type="button" class="close" onclick="Custombox.modal.close();">
             <i class="hs-icon hs-icon-close"></i>
           </button>
-          <h4 class="g-mb-20">TOEIC</h4>
+          <h4 class="g-mb-20"><?=$lang['toeic']?></h4>
           <div class="text-center g-mb-20">
             <img class="img-fluid g-mb-20" src="img/home/toeic.jpg" alt="">
-            <p>The TOEIC Listening & Reading Test is a 2-session multiple-choice test consisting of 200 questions. Each candidate receives independent scores for listening and reading comprehension on a scale that ranges from 5 to 495 points.  The total score adds up to a scale of 10 to 990 points. The table below summarizes the test scores and what they mean.</p>
+            <p><?=$lang['toeic_dsc']?></p>
           </div>
           <ul class="list-unstyled">          
-            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">Score Level</li>
-            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">905 – 990
+            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1"><?=$lang['toeic_list_modal6_1']?></li>
+            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1"><?=$lang['toeic_list_modal6_2']?>
             </li>
-            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">(91% – 100%)
+            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1"><?=$lang['toeic_list_modal6_3']?>
             </li>
-            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">International Professional Proficiency
+            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1"><?=$lang['toeic_list_modal6_4']?>
             </li>
-            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">Able to communicate effectively in any situation.
+            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1"><?=$lang['toeic_list_modal6_5']?>
             </li>
-            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">785 – 900
+            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1"><?=$lang['toeic_list_modal6_6']?>
             </li>
-            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">(79% – 90%)
+            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1"><?=$lang['toeic_list_modal6_7']?>
             </li>
-            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">Working Proficiency Plus
+            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1"><?=$lang['toeic_list_modal6_8']?>
             </li>
-            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">Able to satisfy most work requirements with language that is often, but not always, acceptable and effective.
+            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1"><?=$lang['toeic_list_modal6_9']?>
             </li>
-            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">605 – 780
+            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1"><?=$lang['toeic_list_modal6_10']?>
             </li>
-            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">(61% – 78%)
+            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1"><?=$lang['toeic_list_modal6_11']?>
             </li>
-            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">Limited Working Proficiency
+            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1"><?=$lang['toeic_list_modal6_12']?>
             </li>
-            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">Able to satisfy most social demands and limited work requirements.
+            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1"><?=$lang['toeic_list_modal6_13']?>
             </li>
-            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">405 – 600
+            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1"><?=$lang['toeic_list_modal6_14']?>
             </li>
-            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">(41% – 60%)
+            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1"><?=$lang['toeic_list_modal6_15']?>
             </li>
-            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">Elementary Proficiency Plus
+            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1"><?=$lang['toeic_list_modal6_16']?>
             </li>
-            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">Can initiate and maintain predictable face-to-face conversations and satisfy limited social demands.
+            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1"><?=$lang['toeic_list_modal6_17']?>
             </li>
-            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">255 – 400
+            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1"><?=$lang['toeic_list_modal6_18']?>
             </li>
-            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">(26% – 40%)
+            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1"><?=$lang['toeic_list_modal6_19']?>
             </li>
-            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">Elementary Proficiency
+            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1"><?=$lang['toeic_list_modal6_20']?>
             </li>
-            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">Speaker has functional, but limited proficiency. Able to maintain very simple face-to-face conversations on familiar topics.
+            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1"><?=$lang['toeic_list_modal6_21']?>
             </li>
-            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">10 – 250
+            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1"><?=$lang['toeic_list_modal6_22']?>
             </li>
-            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">(0% – 25%)
+            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1"><?=$lang['toeic_list_modal6_23']?>
             </li>
-            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">Basic Proficiency
+            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1"><?=$lang['toeic_list_modal6_24']?>
             </li>
-            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1">Able to satisfy immediate survival needs.
+            <li class="d-flex justify-content-start g-brd-around g-brd-gray-light-v4 g-pa-20 g-mb-minus-1"><?=$lang['toeic_list_modal6_25']?>
             </li>
           </ul>
         </div>
@@ -1016,7 +976,7 @@
     </div>
     <div class="text-center">
       <a class="btn u-btn-black g-brd-main g-brd-primary--hover g-bg-main g-bg-primary--hover g-font-weight-600 g-font-size-12 text-uppercase g-px-25 g-py-13 mr-3" href="book.html">
-      View Course Details
+        <?=$lang['view_course_details']?>
       </a>
     </div>
   </section>
@@ -1026,7 +986,7 @@
 <section class="g-bg-se">
   <div class="text-center">
     <div class="container g-max-width-770 g-pt-50">
-      <h2 class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-30 g-color-main">Study Online with Well-trained and Professional Teachers </h2>
+      <h2 class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-30 g-color-main"> <?=$lang['study_with_professional_teachers']?> </h2>
     </div>
   </div>
   <div class="g-flex-centered g-min-height-450">
@@ -1037,11 +997,11 @@
           </div>
 
           <div class="col-md-6 align-self-center g-py-20">
-            <p class="lead mb-0 g-line-height-2">11talk teachers have completed Pines Academy’s 14-stage recruitment process. After getting hired, they also attend regular training sessions to elevate their teaching credentials to teach a higher grade of English classes. We train them to become flexible in teaching both ESL courses and Test Module Courses like IELTS. 
+            <p class="lead mb-0 g-line-height-2"> <?=$lang['study_with_professional_teachers_para']?> 
             </p>
             <br>
             <a class="btn u-btn-black g-brd-main g-brd-primary--hover g-bg-main g-bg-primary--hover g-font-weight-600 g-font-size-12 text-uppercase g-px-25 g-py-13 mr-3" href="teacher.html">
-              Meet More Teachers
+              <?=$lang['meet_more_teachers']?> 
             </a>
           </div>
         </div>
@@ -1054,16 +1014,15 @@
   <section class="container">
     <div class="text-center g-pb-30">
       <div class="container g-max-width-770">
-        <h2 class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-30 g-color-main g-mb-30">KAKAO Customer Service Assistance</h2>
+        <h2 class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-30 g-color-main g-mb-30"><?=$lang['kakao_customer_service']?> </h2>
 
-        <p class="mb-0 g-font-size-20">11talk takes good care of its students through its 1-step KAKAO Assistance. It is not a general customer center that only answers and handles customer requests or inquiries; it's a customer center that cares!
-            </p>
+        <p class="mb-0 g-font-size-20"><?=$lang['kakao_customer_service_para']?></p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-4 g-mb-50">
         <!-- Testimonials -->
-        <blockquote class="lead u-blockquote-v1 rounded g-pl-60 g-pr-30 g-py-30 g-mb-40">Hi this is Amy Lee I have to postpone my class <br>tommorow because of my university activity</blockquote>
+        <blockquote class="lead u-blockquote-v1 rounded g-pl-60 g-pr-30 g-py-30 g-mb-40"><?=$lang['Girl2']?></blockquote>
         <div class="media">
             <img class="d-flex align-self-center g-brd-around g-brd-3 g-brd-white g-height-150 g-width-280" src="img/home/82.jpg" alt="Image Description">
         </div>
@@ -1078,14 +1037,14 @@
             </figure>
             <div class="w-100 g-absolute-centered g-px-20">
                 <ul class="list-unstyled text-center g-font-size-12 g-color-black ml-4">
-                  <span>Send in your concerns</span>
-                  <li>Long-absences</li>
-                  <li>Learning Material Consultation</li>
-                  <li>Daily Feedback Consultation</li>
-                  <li>Class Quality Check</li>
+                  <span><?=$lang['phone_list1']?></span>
+                  <li><?=$lang['phone_list2']?></li>
+                  <li><?=$lang['phone_list3']?></li>
+                  <li><?=$lang['phone_list4']?></li>
+                  <li><?=$lang['phone_list5']?></li>
                   <li><img class="g-height-100 g-width-100" src="img/home/global_ryan.gif" alt="Image Description"></li>
                   <li><a class="btn u-btn-black g-brd-main g-brd-primary--hover g-bg-main g-bg-primary--hover g-font-weight-600 g-font-size-11 text-uppercase g-px-10 g-py-10 " href="https://pinestalking.com/m/signup.html?lang=en">
-                    Apply for free class
+                    <?=$lang['phone_list6']?>
                   </a>
                 </li>
                 </ul>
@@ -1096,7 +1055,7 @@
 
           <div class="col-md-4 g-mb-50">
             <!-- Testimonials -->
-            <blockquote class="lead u-blockquote-v1 rounded g-pl-60 g-pr-30 g-py-30 g-mb-40">Greetings Amy Lee! Your request has been successfully processed.You may re-schedule your classes at 2pm tommorow</blockquote>
+            <blockquote class="lead u-blockquote-v1 rounded g-pl-60 g-pr-30 g-py-30 g-mb-40"><?=$lang['Girl1']?></blockquote>
             <div class="media">
                 <img class="d-flex align-self-center g-brd-around g-brd-3 g-brd-white g-height-150 g-width-280" src="img/home/Girl1.jpg" alt="Image Description">
             </div>
@@ -1110,7 +1069,7 @@
 <section class="g-bg-secondary g-py-30">
   <div class="text-center">
     <div class="container g-max-width-770">
-      <h2 class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-30 g-color-main g-mb-30">Testimonials From Real 11talk Students</h2>
+      <h2 class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-30 g-color-main g-mb-30"><?=$lang['feeback_title']?></h2>
     </div>
   </div>
 <div class="container">
@@ -1121,7 +1080,7 @@
         <img class="g-width-70 g-height-70 g-brd-2 g-brd-style-solid g-brd-primary rounded-circle g-mb-20" src="img/home/feedback 3.jpg" alt="Image Description">
         <h4 class="h5 g-color-main g-font-weight-700 g-mb-0">Park Hee Seo</h4>
         <em class="d-block g-color-gray-dark-v4 g-font-style-normal g-font-size-13 g-mb-20">Working Mom</em>
-        <p class="g-color-gray-dark-v4 g-font-size-default mb-0">11talk Junior Course was perfect for my son and daughter. Both of them have tried the "Let's Go Series" class, and it was very beneficial for them...</p>
+        <p class="g-color-gray-dark-v4 g-font-size-default mb-0"><?=$lang['comment_1']?></p>
       </div>
       <!-- End Testimonials -->
     </div>
@@ -1132,7 +1091,7 @@
         <img class="g-width-70 g-height-70 g-brd-2 g-brd-style-solid g-brd-primary rounded-circle g-mb-20" src="img/home/feedback 2.gif" alt="Image Description">
         <h4 class="h5 g-color-main g-font-weight-700 g-mb-0">Song Ju Ho</h4>
         <em class="d-block g-color-gray-dark-v4 g-font-style-normal g-font-size-13 g-mb-20">Student</em>
-        <p class="g-color-gray-dark-v4 g-font-size-default mb-0">I was a student who always had hesitations when speaking in English. Through the 11Talk online English class, I had the opportunity to break the language barrier...</p>
+        <p class="g-color-gray-dark-v4 g-font-size-default mb-0"><?=$lang['comment_2']?></p>
       </div>
       <!-- End Testimonials -->
     </div>
@@ -1143,7 +1102,7 @@
         <img class="g-width-70 g-height-70 g-brd-2 g-brd-style-solid g-brd-primary rounded-circle g-mb-20" src="img/home/feedback 1.GIF" alt="Image Description">
         <h4 class="h5 g-color-main g-font-weight-700 g-mb-0">Park Hee Seo</h4>
         <em class="d-block g-color-gray-dark-v4 g-font-style-normal g-font-size-13 g-mb-20">Businessman</em>
-        <p class="g-color-gray-dark-v4 g-font-size-default mb-0">Since I was a student, I wanted to study English continuously, but when I started working, I didn't have enough time to attend an Offline...</p>
+        <p class="g-color-gray-dark-v4 g-font-size-default mb-0"><?=$lang['comment_3']?></p>
       </div>
       <!-- End Testimonials -->
     </div>
@@ -1154,7 +1113,7 @@
         <img class="g-width-70 g-height-70 g-brd-2 g-brd-style-solid g-brd-primary rounded-circle g-mb-20" src="img/home/feedback 6.gif" alt="Image Description">
         <h4 class="h5 g-color-main g-font-weight-700 g-mb-0">AKang Young Seok</h4>
         <em class="d-block g-color-gray-dark-v4 g-font-style-normal g-font-size-13 g-mb-20">Student</em>
-        <p class="g-color-gray-dark-v4 g-font-size-default mb-0">While studying at the university,I have already gained a TOEIC score, but I found out that my conversation skill was insufficient...</p>
+        <p class="g-color-gray-dark-v4 g-font-size-default mb-0"><?=$lang['comment_4']?></p>
       </div>
       <!-- End Testimonials -->
     </div>
@@ -1162,7 +1121,7 @@
 </div>
   <div class="text-center">
     <a class="btn u-btn-black g-brd-main g-brd-primary--hover g-bg-main g-bg-primary--hover g-font-weight-600 g-font-size-16 text-uppercase g-px-55 g-py-30 mr-3" href="testimonilas.html">
-      See more Comments
+      <?=$lang['see_more_comments']?>
     </a>
   </div>
 
@@ -1173,7 +1132,7 @@
     <section class="g-bg-white g-py-50">
       <div class="text-center g-pb-50">
         <div class="container g-max-width-770">
-          <h2 class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-30 g-color-main">11talk Registration Steps</h2>
+          <h2 class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-30 g-color-main"><?=$lang['11talk_register_step']?></h2>
         </div>
       </div>
       <div class="container">
@@ -1186,7 +1145,7 @@
                 <span class="u-icon-v1 u-icon-size--2xl g-line-height-1 g-color-primary g-pull-50x-up">
                   <i class="fa fa-user-plus" aria-hidden="true"></i>
                 </span>
-                <h3 class="h5 g-font-weight-600 g-mt-minus-35 g-mb-10">Sign up for a trial class <a href="https://pinestalking.com/m/signup.html?lang=en">pinestalking.com</a></h3>
+                <h3 class="h5 g-font-weight-600 g-mt-minus-35 g-mb-10"><?=$lang['signup_trial_class']?><br> <a href="https://pinestalking.com/m/signup.html?lang=en">pinestalking.com</a></h3>
               </div>
             </div>
             <!-- End Icon Blocks -->
@@ -1199,7 +1158,7 @@
                 <span class="u-icon-v1 u-icon-size--2xl g-line-height-1 g-color-primary g-pull-50x-up">
                   <i class="fa fa-video-camera" aria-hidden="true"></i>
                 </span>
-                <h3 class="h5 g-font-weight-600 g-mt-minus-35 g-mb-10">Avail 1 Free trial class via<br> zoom or skype</h3>
+                <h3 class="h5 g-font-weight-600 g-mt-minus-35 g-mb-10"><?=$lang['avail_trial_class']?></h3>
               </div>
             </div>
             <!-- End Icon Blocks -->
@@ -1212,7 +1171,7 @@
                 <span class="u-icon-v1 u-icon-size--2xl g-line-height-1 g-color-primary g-pull-50x-up">
                   <i class="fa fa-calendar" aria-hidden="true"></i>
                 </span>
-                <h3 class="h5 g-font-weight-600 g-mt-minus-35 g-mb-10">Check out your trial<br> class assessment</h3>
+                <h3 class="h5 g-font-weight-600 g-mt-minus-35 g-mb-10"><?=$lang['checkout_trial_class']?></h3>
               </div>
             </div>
             <!-- End Icon Blocks -->
@@ -1229,7 +1188,7 @@
                 <span class="u-icon-v1 u-icon-size--2xl g-line-height-1 g-color-primary g-pull-50x-up">
                   <i class="fa fa-book" aria-hidden="true"></i>
                 </span>
-                <h3 class="h5 g-font-weight-600 g-mt-minus-35 g-mb-10">Select your course and<br> tuition package</h3>
+                <h3 class="h5 g-font-weight-600 g-mt-minus-35 g-mb-10"><?=$lang['course_tuition_package']?></h3>
               </div>
             </div>
             <!-- End Icon Blocks -->
@@ -1242,7 +1201,7 @@
                 <span class="u-icon-v1 u-icon-size--2xl g-line-height-1 g-color-primary g-pull-50x-up">
                   <i class="fa fa-money" aria-hidden="true"></i>
                 </span>
-                <h3 class="h5 g-font-weight-600 g-mt-minus-35 g-mb-10">Choose your payment term<br> for registration</h3>
+                <h3 class="h5 g-font-weight-600 g-mt-minus-35 g-mb-10"><?=$lang['payment_term']?></h3>
               </div>
             </div>
             <!-- End Icon Blocks -->
@@ -1253,53 +1212,13 @@
       
       <div class="text-center">
         <a class="btn u-btn-black g-brd-main g-brd-primary--hover g-bg-main g-bg-primary--hover g-font-weight-600 g-font-size-12 text-uppercase g-px-25 g-py-13 mr-3" href="https://pinestalking.com/m/signup.html?lang=en">
-          Free Class+Level Test
+          <?=$lang['free_class+_level_test']?>
         </a>
       </div>
     </section>
     <!-- End Registration -->
       
-      <!-- footer -->
-      <div id="footer"></div>
-      <!-- end footer -->
-
-      <!-- Go to Top -->
-      <a class="js-go-to u-go-to-v1 g-width-40 g-height-40 g-color-primary g-bg-main-opacity-0_5 g-bg-main--hover g-bg-main--focus g-font-size-12 rounded" href="#" data-type="fixed" data-position='{
-        "bottom": 15,
-        "right": 15
-      }' data-offset-top="400" data-compensation="#js-header" data-show-effect="zoomIn">
-          <i class="hs-icon hs-icon-arrow-top"></i>
-        </a>
-      <!-- End Go to Top -->
-    </main>
-
-    <!-- JS Global Compulsory -->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
-    <script src="assets/vendor/popper.js/popper.min.js"></script>
-    <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
-
-    <!-- JS Implementing Plugins -->
-    <script src="assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-    <script src="assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
-    <script src="assets/vendor/dzsparallaxer/dzsscroller/scroller.js"></script>
-    <script src="assets/vendor/dzsparallaxer/advancedscroller/plugin.js"></script>
-    <script src="assets/vendor/fancybox/jquery.fancybox.min.js"></script>
-    <script src="assets/vendor/slick-carousel/slick/slick.js"></script>
-    <script  src="assets/vendor/custombox/custombox.min.js"></script>
-
-    <!-- JS Unify -->
-    <script src="assets/js/hs.core.js"></script>
-    <script src="assets/js/components/hs.header.js"></script>
-    <script src="assets/js/helpers/hs.hamburgers.js"></script>
-    <script src="assets/js/components/hs.dropdown.js"></script>
-    <script src="assets/js/components/hs.popup.js"></script>
-    <script src="assets/js/components/hs.carousel.js"></script>
-    <script src="assets/js/components/hs.go-to.js"></script>
-    <script  src="assets/js/components/hs.modal-window.js"></script>
-
-    <!-- JS Customization -->
-    <script src="assets/js/custom.js"></script>
+    <? include_once("inc/_end.html"); ?>
 
     <!-- JS Plugins Init. -->
     <script>
@@ -1331,10 +1250,6 @@
         // initialization of go to
         $.HSCore.components.HSGoTo.init('.js-go-to');
 
-        //load header & footer
-        $("#header").load("header.html"); 
-        $("#footer").load("footer.html"); 
-
       });
 
 
@@ -1342,6 +1257,11 @@
         // initialization of popups
         $.HSCore.components.HSModalWindow.init('[data-modal-target]');
       });
+
+      function change_language() {
+        var sel_lang = $("#select_language").val();
+          location.href = "home.html?lang=" + sel_lang;
+      }
     </script>
   </body>
 </html>

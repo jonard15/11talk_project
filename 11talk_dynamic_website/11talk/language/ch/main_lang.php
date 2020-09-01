@@ -1,425 +1,219 @@
 <?php
 $lang = array();
 
-//#########
-//Common
-$lang['english'] = '英文';
-$lang['korean'] = '韩文';
-$lang['japanese'] = '日文';
-$lang['chinese'] = '简体中文';
-$lang['taiwanese'] = '繁体中文';
-$lang['vietnamese'] = '越南文';
+//Navigation
+$lang['home'] = '首&nbsp;页';
+$lang['about'] = 'About 11talk';
+$lang['book'] = '教&nbsp;材';
+$lang['tuition'] = '费&nbsp;用';
+$lang['teacher'] = '老&nbsp;师';
+$lang['faq'] = '常&nbsp;见&nbsp;问&nbsp;题';
+$lang['testimonials'] = 'Testimonials';
+$lang['blog'] = '论&nbsp;坛';
+$lang['class_system'] = 'Class System';
 
-$lang['Korea'] = '韩国';
-$lang['Vietnam'] = '越南';
-$lang['Thailand'] = '泰国';
-$lang['China'] = '中国';
-$lang['Japan'] = '日本';
-$lang['Taiwan'] = '台湾';
-$lang['Mongolia'] = '蒙古';
+//Home section1
+$lang['top_online'] = '在顶级的线上英';
+$lang['english_school'] = '语学校上课';
+$lang['anytime_anywhere'] = '在世界的任何地方，任何时间都 <br> 可以用来提升自己，掌握未来。';
+$lang['free_class'] = '免费试课与水平测试';
 
-$lang['Nationality'] = '国籍';
-$lang['Timezone'] = '时区';
-$lang['Are_you_sure_you_want_to_close'] = '您确定要关闭吗?';
-$lang['popup_no_more_open'] = '我不想再看到24个小时了。';
-$lang['ID'] = 'ID';
-$lang['Email'] = '电子邮件';
+//Home section2
+$lang['affordable_online'] = '11Talk提供性价比最高的在线英语教学服务';
+$lang['affordable_online_para'] = '11Talk由经营20年的菲律宾顶级国际语言学校PIA (Pines International Academy)直接运营管理 现在就加入我们，成为我们众多成功英语学习者中的一员吧
+';
+$lang['about_11talk'] = ' 了解更多';
+$lang['join_our'] = '加入我们';
+$lang['30k'] = '300000';
+$lang['successsful_graduates'] = '成功的英语研修生';
 
-//Menu
-$lang['Classes'] = '课程';
-$lang['My_Class'] = '我的课程';
-$lang['Schedule_Change'] = '更改时间';
-$lang['Payment'] = '付款';
-$lang['Change_Info'] = '更改讯息';
-$lang['My_Information'] = '我的讯息';
-$lang['Language'] = '语言';
-$lang['Logout'] = '注销';
-$lang['Confirm_logout'] = '您要登出吗?';
+//Home section3
+$lang['be_global'] = '加入11talk 开始您成功迈向世界的第一步';
+$lang['100_instructor'] = '超过100位专业的英语老师';
+$lang['100_instructor_para'] = '我们的老师拥有3-5类课程的专业知识，这使他们能够灵活又出色地教授线上英语课程';
+$lang['general_courses'] = '6种常规课程';
+$lang['general_courses_para'] = '11talk课程可确保4种核心英语技能得到提高，以获得更高的英语标准化考试成绩，并且让你有信心面对全世界';
+$lang['book_types'] = '2种预订课程的方式';
+$lang['book_types_para'] = '学生可以根据自己的工作或学习安排，选择不同的布课方式';
+$lang['2000_topics'] = '2000 +主题';
+$lang['2000_topics_para'] = '通过我们2000多个最新的讨论主题来提高英语表达水平，且每节课后均有最专业的课上反馈报告';
 
-//Login
-$lang['Trial_Class_Sign_up'] = '试用班 & 注册';
-$lang['Enter_Login_ID'] = '登入账号';
-$lang['Login_ID'] = '账号';
-$lang['Login'] = '登入';
-$lang['Enter_password'] = '登入密码';
-$lang['Password'] = '密码';
-$lang['Remember_me'] = '记住账号';
-$lang['Forgot_Password'] = '忘记密码?';
-$lang['Trial_Class'] = '试听课程';
-$lang['Dont_have_an_account'] = '没有账号?';
-$lang['Sign_Up'] = '注册';
-$lang['Confirm_logout'] = '确定注销吗?';
+//Home section4
+$lang['top_choice'] = '最佳选择';
+$lang['top_choice_para'] = '菲律宾400多所英语学校中的佼佼者';
+$lang['20_years'] = '20年';
+$lang['20_years_para'] = '丰富的教学经验';
+$lang['student_statisfaction_percent'] = '99.9%';
+$lang['student_statisfaction'] = '学生满意度';
+$lang['num_successful_graduates'] = '超过30,000学生';
+$lang['successful_graduates_2'] = '成功迈向全世界';
 
-$lang['Not_a_valid_approach'] = '无效的账号';
-$lang['ID_or_Password_do_not_match'] = '账号或密码不正确';
-$lang['Please_enter_both_your_ID_and_password'] = '请输入账号及密码';
-$lang['Please_enter_all_information'] = '请输入所有信息';
-$lang['No_matching_member_information_found'] = '找不到该注册的会员讯息';
-$lang['Expired_access'] = '访问权限已过期。 请登录。';
+//Home section5
+$lang['learning_features'] = '11talk的完美学习功能';
+$lang['customized_courses'] = '定制化课程';
+$lang['7.0_ielts_instructor'] = '7.0雅思老师';
+$lang['professional_teachers'] = '专业的教师';
+$lang['cefr_level'] = 'CEFR分级标准';
+$lang['device_options'] = '可使用任何平台';
+$lang['reasonable_price'] = '合理的价格';
+$lang['systematic_learning_method'] = '高效且系统化的学习方式';
+$lang['systematic_learning_method_para'] = '高效且系统化的学习方式 11talk 的四个学习方法让学生在听. 说. 读 .写方面取得了显著成绩';
+$lang['step1'] = '第1步<br>预习';
+$lang['step1_para'] = '花时间进行自学，以达到100％的线上课堂效果';
+$lang['step2'] = '第2步<br>上课';
+$lang['step2_para'] = '与您的老师保持<br>课程的一致性';
+$lang['step3'] = '第3步<br>家庭作业';
+$lang['step3_para'] = '继续延长学习<br>完 &nbsp;&nbsp; 成家庭作业';
+$lang['step4'] = '第4步<br>复习';
+$lang['step4_para'] = '通过每日课堂备忘录 从老师的评论中改进';
+$lang['view_4_step'] = '查看四个学习系统';
 
-$lang['login_main_title'] = '11talk Video English';
-$lang['login_main_desc'] = '<b>与最优秀的外籍老师进行一对一视频课程。</b><br/><br/>
-在固定时间与固定老师上固定课程，无需每日预约<br/>
-固定课程也可进行上课时间与日期（包括周六）的更改<br/>
-固定课程可在一定课程节奏下保持较高的出勤率<br/>
-固定课程可帮助你把讲英语变成一种习惯';
-$lang['free_trial'] = '免费试用';
-$lang['Find us on social media'] = '在社交媒体上找到我们';
-$lang['ID or Email Address'] = 'ID or Email';
+//Home section6
+$lang['advance_convenient'] = '先进便捷的学生系统';
+$lang['free_learning_materials'] = '免费的学习教材';
+$lang['easy_video_sharing'] = '便捷的影音分享';
+$lang['improve_chat_sysytem'] = '先进的学习系统';
+$lang['virtual_classroom'] = '完整的虚拟教室系统';
+$lang['experience_barrier_free'] = '体验极佳的在线课程，通过zoom在线上课，上课体验与线下面对面课程无异';
+$lang['free_class+_level_test'] = '免费体验 + 等级测试';
 
-//Class
-$lang['Trial'] = 'Trial';
-$lang['All_ongoing_classes'] = '所有正在进行的课程';
-$lang['Please_select_a_class'] = '请选择课程';
-$lang['Long_term_postpone'] = '长时间延期';
-$lang['Not_registered'] = '未注册';
-$lang['Finished'] = '结束';
-$lang['Proceeding'] = '进行中';
-$lang['Free'] = '免费';
-$lang['Month'] = '月';
-$lang['Week'] = '周';
-$lang['Times'] = '课时';
-$lang['Time'] = '时间';
-$lang['Hour'] = '小时';
-$lang['Minute'] = '分';
-$lang['Tel_Cable'] = 'Tel(Cable)';
-$lang['Tel_Wireless'] = 'Tel(Wireless)';
-$lang['Video'] = '视频';
-$lang['Skype'] = 'Skype';
-$lang['Facebook'] = 'Facebook';
-$lang['Term'] = '学期';
-$lang['Free_Booking_Class'] = '免费预定';
-$lang['Total'] = '总共';
-$lang['Minute_Class'] = '课程时间';
-$lang['Minute_Used'] = '已使用时间';
-$lang['You_have_selected_a_class_that_has_ended'] = '您选择的课程已经结束';
-$lang['You_have_selected_a_trial_class'] = '您选择了一个试听课。';
-$lang['Holiday'] = '假日';
-$lang['No_Class'] = '没有课程';
-$lang['Start'] = '开始';
-$lang['To the list'] = '到清单';
-$lang['step1_name'] = 'Preview';
-$lang['step2_name'] = 'Class';
-$lang['step3_name'] = 'Homework';
-$lang['step4_name'] = 'Feedback / Review';
-$lang['part script'] = 'Script';
-$lang['part Quiz A'] = 'Quiz A';
-$lang['part Quiz B'] = 'Quiz B';
-$lang['part Mimic'] = 'Mimic';
-$lang['part Dictation'] = 'Dictation';
-$lang['part Result'] = 'Result';
-$lang['part Reading'] = 'Reading';
-$lang['part Expressions Patterns'] = 'Expression / Patterns';
-$lang['part Roleplay'] = 'Role-play';
-$lang['part Discussion'] = 'Discussion';
-$lang['part Feedback'] = 'Feedback';
+//Home section7
+$lang['stable_tested_curriculum'] = '千锤百炼，不惧对比的线上课程';
+$lang['stable_tested_curriculum_para'] = '我们的综合和定制课程可确保全面提高英语技能 保证学生感受到明显的进步 例如获得更高的英语标准化考试成绩 及获得流畅使用英语的信心 欢迎查看我们学习资料的概述';
+$lang['job_interview'] = '工作面试英语';
+$lang['senior_english'] = '成人英语';
+$lang['bussiness_english'] = '商务英语';
+$lang['ielts'] = '雅思';
+$lang['toefl'] = '托福';
+$lang['toeic'] = '托业';
+$lang['view_course_details'] = '查看课程细节';
+//Home section7 modal1
+$lang['job_interview_dsc'] = '我们提供两个工作面试的课程：一般工作面试和空乘应聘面试课程，在课堂上，通过常见的面试问题练习面试技巧，老师会检查您的答案，并提供一些更好的建议。目的是在真实的面试中使用流利的英语回答您的想法和意见。本课程是针对中级英语程度的学生';
+$lang['interview_title_modal1_1'] = '面试课程';
+$lang['interview_list_modal1_1'] = '建议学生英语水平：中级或以上';
+$lang['interview_list_modal1_2'] = '教科书的内容';
+$lang['interview_list_modal1_2_1'] = '外国企业';
+$lang['interview_list_modal1_2_2'] = '外商公司的文化';
+$lang['interview_list_modal1_2_3'] = '工作的动机和目的';
+$lang['interview_list_modal1_2_4'] = '培养英文技能与经验';
+$lang['interview_title_modal1_2'] = '空乘服务面试课程';
+$lang['interview_title_modal1_2_1'] = '建议学生英语水平：中級或以上';
+$lang['interview_title_modal1_2_2'] = '首选学生：准备面试航空公司机组人员的学生';
+$lang['interview_title_modal1_2_3'] = '教科书的内容';
+$lang['interview_title_modal1_2_3_1'] = '个人信息';
+$lang['interview_title_modal1_2_3_2'] = '职业相关';
+$lang['interview_title_modal1_2_3_3'] = '（共87个问题)';
+//Home section7 modal2
+$lang['senior_eng_dsc'] = '11Talk提供各种教材。根据学生的英语水平挑选最合适的课程。教材是根据试听后的评估进行分配的。现在就来体验我们的免费试听课吧。';
+$lang['interview_title_modal2_1'] = 'Pattern（句式）用';
+$lang['interview_list_modal2_1'] = '建议学生程度：初学者〜中级';
+$lang['interview_list_modal2_2'] = '教科书级别：1级到5级';
+$lang['interview_list_modal2_3'] = ' 教材等级1：学习基本的发音，单词和基本的英语表达方式，使学生习惯英语的句子结构和语感。';
+$lang['interview_list_modal2_4'] = '教材等级2〜3：专注于学习基本的会话模式和常用单词，这本书的目的是让学生可以流利的开口说英文。';
+$lang['interview_list_modal2_5'] = '教材等级4〜5：专注于学习在特定英语环境中怎样表达自己的思想';
+$lang['interview_title_modal2_2'] = '讨论课程教材(Discussion textbook)';
+$lang['interview_list_modal2_6'] = '建议学生程度：中级〜高级';
+$lang['interview_list_modal2_7'] = '教材等级：4级到10级';
+$lang['interview_list_modal2_8'] = '教材等级4〜7：阅读短文，并表达您对这些文章内容的想法和看法。您可以练习合适的中等程度的单词和理解力';
+$lang['interview_list_modal2_9'] = '8〜10级教科书：朗读一段长篇文章，并与老师讨论主题，该级别的目标是深入了解语言组织能力。';
+$lang['interview_title_modal2_3'] = '初学者会话教材(Conversation textbook for beginners)';
+$lang['interview_list_modal2_10'] = '建议学生：刚开始学习英语的学生';
+$lang['interview_list_modal2_11'] = ' 教材等级：1级以下';
+$lang['interview_list_modal2_12'] = '学习日常对话中使用的基本问题和答案，目的在消除恐惧并建立说英语的信心。（例如）自我介绍，购物等。';
+//Home section7 modal3
+$lang['business_eng_dsc'] = '学习目标：在商业的环境中，您可以用复杂且精准的与业务相关的英语进行电话、面谈，并与外国人开会和讨论。';
+$lang['business_list_modal3_1'] = '教材';
+$lang['business_list_modal3_3'] = '通过讨论和商务对话的方式来熟悉商务英语';
+$lang['business_list_modal3_4'] = '增加您的商务英语单词量和表达能力，并用于业务相关（如面试和开会）';
+$lang['business_list_modal3_5'] = '通过加深您的写作能力，使用学到的单词进行表达';
+//Home section7 modal4
+$lang['ielts_dsc'] = '我们提供雅思口语、阅读和写作课程。本课程适用于中级或以上英语程度的学生';
+$lang['ielts_title_modal4_1'] = '雅思口语';
+$lang['ielts_list_modal4_1'] = '在雅思考试中练习各种类型的问题，并帮助您取得理想的分数';
+$lang['ielts_list_modal4_2'] = '老师会帮您纠正错语的句子，语法等。';
+$lang['ielts_list_modal4_3'] = '雅思教材分基础、中级和高级三种';
+$lang['ielts_title_modal4_2'] = '雅思阅读（学术类Academic）';
+$lang['ielts_list_modal4_4'] = '掌握回答问题的策略';
+$lang['ielts_list_modal4_5'] = '通过考试的方式进行仿真练习。';
+$lang['ielts_list_modal4_6'] = '上课过程：在上课前给予答案，在课堂上检查答案。对于错误的答案，老师会说明问题和正确答案，并给您指导意见。';
+$lang['ielts_title_modal4_3'] = '雅思写作';
+$lang['ielts_list_modal4_7'] = '掌握问题和策略的类型';
+$lang['ielts_list_modal4_8'] = '通过过去的测试问题练习雅思考试';
+$lang['ielts_list_modal4_9'] = '上课过程：在上课之前提交您的作业，老师会在课堂上提供写作的改进方法。';
+//Home section7 modal5
+$lang['toefl_dsc'] = '提供托福口语和写作课程。本课程适用于中级或以上英语水平的学生';
+$lang['toefl_title_modal5_1'] = '托福口语';
+$lang['toefl_list_modal5_1'] = '在TOEFL中练习各种类型的问题，并检查提示以通过示例答案获得高分';
+$lang['toefl_list_modal5_2'] = '老师会给您纠正您的弱点，对于很难通过自学掌握的语法错误句子';
+$lang['toefl_list_modal5_3'] = '基础和中级教材';
+$lang['toefl_title_modal5_2'] = '雅思阅读（学术';
+$lang['toefl_list_modal5_4'] = '托福写作';
+$lang['toefl_list_modal5_5'] = '通过185个测试主题练习写作';
+$lang['toefl_list_modal5_6'] = '上课过程：在上课之前提交您的作业。老师会提供有关您在课堂上写作的修正建议';
+//Home section7 modal6
+$lang['toeic_dsc'] = '托业听力和阅读测验是一个2阶段的选择题测验，由200个问题组成。每位考生在5到495分的范围内获得独立的听力和阅读理解分数。总分为10到990分。
+下表总结了考试成绩和分级';
+$lang['toeic_list_modal6_1'] = '分数等级';
+$lang['toeic_list_modal6_2'] = '905 – 990';
+$lang['toeic_list_modal6_3'] = '(91% – 100%)';
+$lang['toeic_list_modal6_4'] = '国际专业水平';
+$lang['toeic_list_modal6_5'] = '能够在任何情况下有效的沟通';
+$lang['toeic_list_modal6_6'] = '785 – 900';
+$lang['toeic_list_modal6_7'] = '(79% – 90%)';
+$lang['toeic_list_modal6_8'] = '足以应用于大多数工作场合
+';
+$lang['toeic_list_modal6_9'] = '能够日常使用，但不能够满足大多数工作要求';
+$lang['toeic_list_modal6_10'] = '605 – 780';
+$lang['toeic_list_modal6_11'] = '(61% – 78%)';
+$lang['toeic_list_modal6_12'] = '有限的工作能力';
+$lang['toeic_list_modal6_13'] = '能够满足大多数社会需求和有限的工作要求';
+$lang['toeic_list_modal6_14'] = '405 – 600';
+$lang['toeic_list_modal6_15'] = '(41% – 60%)';
+$lang['toeic_list_modal6_16'] = '基本的工作沟通';
+$lang['toeic_list_modal6_17'] = '可以发起和维持可预测的面对面谈话，并满足有限的社交需求';
+$lang['toeic_list_modal6_18'] = '255 – 400';
+$lang['toeic_list_modal6_19'] = '(26% – 40%)';
+$lang['toeic_list_modal6_20'] = '基础熟练程度';
+$lang['toeic_list_modal6_21'] = '谈话者有很强的社交能力，但英语技能有限，仅能够就熟悉的主题保持非常简单的面对面谈话';
+$lang['toeic_list_modal6_22'] = '10 – 250';
+$lang['toeic_list_modal6_23'] = '(0% – 25%)';
+$lang['toeic_list_modal6_24'] = '基本能力';
+$lang['toeic_list_modal6_25'] = '能够满足即时的生存需求';
 
-$lang['Feedback'] = '回馈';
-$lang['Again'] = '再一次=';
-$lang['No_result'] = '没有结果';
-$lang['Scheduled'] = '未完成课时';
-$lang['Scheduled_desc'] = '指示计划的课程。';
-$lang['Attended'] = '已完成课时';
-$lang['Attended_desc'] = '表示参加的班级.';
-$lang['Absent'] = '缺席';
-$lang['Absent_desc'] = '表示缺席.';
-$lang['Cancelled'] = '取消';
-$lang['Closed'] = '关闭';
-$lang['Postponed'] = '保持';
-$lang['Postponed_desc'] = '表示已暂停的课程.';
-$lang['Student_cancelled'] = '学生在开始之前被取消';
-$lang['Student_cancelled_desc'] = '指示学生在课程开始之前取消的课程.';
-$lang['Schedulable'] = '可预约课时';
-$lang['Schedulable_desc'] = '表示可以预订的课程.';
-$lang['Class_period_progress'] = '上课时间进度';
-$lang['Lesson_Title'] = '课程标题';
-$lang['Todays_Corrections'] = '今日\'s 更正';
-$lang['Homework_Next_Topic'] = '作业 / 下一个标题';
-$lang['Teachers_Feedback'] = '老师的\'s 回馈';
-$lang['Close'] = '关闭';
-$lang['Save'] = '保存';
-$lang['Saved'] = '救了';
+//Home section8
+$lang['study_with_professional_teachers'] = '受过专业训练的线上英语老师';
+$lang['study_with_professional_teachers_para'] = '11talk老师已经全部完成了Pines Academy的14个阶段的应征流程。被录用后，他们还必须参加定期的培训课程，以提搞自己的技能，通过升级测验后方能教授更高级别的英语课程。我们培训他们以灵活的方式教授ESL和雅思等考试科目。';
+$lang['meet_more_teachers'] = '查看更多老师';
+$lang['kakao_customer_service'] = 'KAKAO客户服务协助';
+$lang['kakao_customer_service_para'] = '11talk的Kakao会很好的照顾学生。这不仅仅是只能回答您问题的机器人客服中心。这是一位在乎您的贴心小伙伴！';
+$lang['Girl2'] = 'Hi this is Amy Lee I have to postpone my class <br>tommorow because of my university activity';
+$lang['phone_list1'] = 'Send in your concerns';
+$lang['phone_list2'] = 'Long-absences';
+$lang['phone_list3'] = 'Learning Material Consultation';
+$lang['phone_list4'] = 'Daily Feedback Consultation';
+$lang['phone_list5'] = 'Class Quality Check';
+$lang['phone_list6'] = 'Apply for free class';
+$lang['Girl1'] = 'Greetings Amy Lee! Your request has been successfully processed.You may re-schedule your classes at 2pm tommorow';
 
-$lang['Scheduled_class_desc'] = 'This class is reserved.';
-$lang['Attended_class_desc'] = 'Student attended this class.';
-$lang['Absent_class_desc'] = 'Student did not participate in this class.';
-$lang['Cancelled_class_desc'] = 'Student canceled before this class.';
-$lang['Closed_class_desc'] = 'This class is closed.';
-$lang['Postponed_class_desc'] = 'This class that has been put on hold.';
-$lang['Long_term_postpone_class_desc'] = 'This class was postponed for a long time.';
-$lang['Student_cancelled_class_desc'] = 'This Class that can be booked.';
+//Home section9
+$lang['feeback_title'] = '11TALK学生心得分享';
+$lang['comment_1'] = '11talk Junior Course was perfect for my son and daughter. Both of them have tried the "Let s Go Series" class, and it was very beneficial for them...';
+$lang['comment_2'] = 'I was a student who always had hesitations when speaking in English. Through the 11Talk online English class, I had the opportunity to break the language barrier...';
+$lang['comment_3'] = 'Since I was a student, I wanted to study English continuously, but when I started working, I didn t have enough time to attend an Offline...';
+$lang['comment_4'] = 'While studying at the university,I have already gained a TOEIC score, but I found out that my conversation skill was insufficient...';
+$lang['see_more_comments'] = 'See more Comments';
 
-$lang['CLASS_FEEDBACK'] = '课堂反馈';
-$lang['Lesson_Title'] = '课程标题';
-$lang['Corrections_Mispronounced_Words'] = '更正 - 错误发音的单词';
-$lang['Corrections_Sentence_Structure'] = '更正 - 句子结构';
-$lang['Comments'] = '注释';
-$lang['CLASS_RESULTS'] = '班级成绩';
-$lang['Level'] = '级';
-$lang['Evaluation'] = '评价';
-$lang['Listening'] = '倾听';
-$lang['Speaking'] = '请讲';
-$lang['Reading'] = '阅读';
-$lang['Writing'] = '写作';
-$lang['Overall'] = '总体';
-$lang['Suggested_Book'] = '建议书';
-$lang['Book_PDF'] = '图书PDF';
+//Home section10
+$lang['11talk_register_step'] = '11TALK注册步骤';
+$lang['signup_trial_class'] = '报名试听课';
+$lang['avail_trial_class'] = '加一堂试听课<br> 使用ZOOM 或 Skype或QQ';
+$lang['checkout_trial_class'] = '查看您的试听课程<br> 及课堂评估(等级)';
+$lang['course_tuition_package'] = '选择您的<br> 课程和价目表';
+$lang['payment_term'] = '选择您的付款程序并<br> 进行注册';
 
-$lang['Print'] = '打印';
-$lang['Class_Date'] = '上课日期';
-$lang['Reference'] = '参考';
-$lang['General_Framework'] = '通用框架';
-$lang['Precautions'] = '预防措施';
-$lang['Trial_Result_Desc'] = '这是完成免费样本课程后的结果。 这是因为时间相对较短且内容有限，因此请仅将其用作参考。';
-
-$lang['timezone_confirm_title'] = '检查和保存时区';
-$lang['timezone_confirm_desc'] = '你好，为了更准确显示上课时间，需要您手动操作并保存个人所在时区信息，中国内地的学生请选择东八区。其他国家的学生请选择相应的时区。<br/> 请从下面的列表中选择并保存与您的所在地相匹配的时区（若时区选择错误则上课时间的显示会出现错误）<br/> 如果你转移到不同的时区，请再次修改并保存相应的时区信息。谢谢！';
-
-$lang['Please_select_a_class_first'] = '请选择一个课程';
-$lang['in_class'] = '加入课程';
-$lang['waiting'] = '等待';
-$lang['end'] = '结束';
-$lang['No_class_information'] = '没有课程讯息';
-$lang['No_schedule_information'] = '没有课表讯息';
-$lang['No_Trial_class_information'] = '没有免费课程讯息';
-$lang['The_evaluation_has_not_been_completed'] = '尚未完成评估';
-$lang['No_matching_schedule_information_was_found'] = '找不到已排定课程讯息';
-$lang['Selected date is not in class period'] = '所选日期不在上课期间.';
-
-$lang['Homework'] = '家庭作业';
-$lang['Today'] = '今天';
-$lang['All_Schedules'] = '所有时间表';
-$lang['Date'] = '日期';
-$lang['Title'] = '标题';
-$lang['State'] = '状态';
-$lang['Action'] = '行动';
-$lang['Initial'] = '初始';
-$lang['Submitted'] = '已提交';
-$lang['Completed'] = '完成';
-$lang['Subject'] = '主题';
-$lang['Sample_Answer'] = '样本答案';
-$lang['Contents'] = '内容';
-$lang['File'] = '文件';
-$lang['Correction'] = '更正';
-$lang['Write'] = '写';
-$lang['Edit'] = '编辑';
-$lang['Delete'] = '删除';
-$lang['Cancel'] = '取消';
-$lang['Done'] = '完成';
-$lang['Do_you_want_to_delete'] = '您要删除吗?';
-$lang['Do_you_want_to_cancel'] = '你想取消吗?';
-$lang['Please_use_Skype'] = '请使用Skype';
-$lang['Please_use_QQ'] = '请用QQ';
-$lang['Homework_file_desc'] = '只允许一个文件。 如果您上传其他文件，则会删除现有的已上传文件。';
-
-//Schedule Change
-$lang['Schedule_Change'] = '更改时间';
-$lang['There_are_no_scheduled_classes'] = '该时间没有课程';
-$lang['Desc_time_limit_to_add'] = '请提前数小时至一天以上取消或预约课程e。';
-$lang['Desc_time_limit_to_add2'] = '如果计划中已有学生，则优先考虑现有学生.';
-$lang['Desc_time_limit_to_add3'] = '只能在授课结束日前申请授课。';
-$lang['Desc_time_limit_to_delete'] = '如果是当天取消课程，则只能在当前时间20分钟前取消课程';
-$lang['no_schedule_to_delete'] = '没有要取消的课程表讯息';
-$lang['Comfirm_delete_schedule'] = '确定取消课程吗? 您确定要删除课程么？删除的课程需要在有效期内补完哦! 你必须在今天起计的8天内注册该课程。';
-$lang['Deleted'] = '取消';
-$lang['Add_Schedule'] = '增加课程';
-$lang['Date_Time'] = '日期/时间';
-$lang['Teacher_Name'] = '老师姓名';
-$lang['Search'] = '搜索';
-$lang['Its_Holiday'] = '假日';
-$lang['Teacher'] = '老师';
-$lang['Select'] = '选择';
-$lang['There_are_no_teachers_available'] = '没有有空的老师';
-$lang['Desc_time_limit_to_search'] = '你可以在课程开始前30分钟进行搜寻';
-$lang['It_cannot_be_added_as_a_past_date'] = '从今天开始，可以在两周内查看。';
-$lang['The_date_has_exceeded_the_maximum_date'] = '该日期已超过最大日期。';
-$lang['Please_select_a_valid_date'] = '请选择一个有效的日期';
-$lang['Please_select_a_valid_time'] = '请选择一个有效的时间';
-$lang['Desc_time_limit_to_register'] = '一天当中，你只能在当前时间之前30分钟注册';
-$lang['Do_you_want_to_add_schedule'] = '你确定要新增课程吗?';
-$lang['Added'] = '新增';
-
-$lang['Desc_overlap_register_schedule_error'] = '你所选的日期和时间已经重复。请选择其他课程日期或时间';
-$lang['Desc_already_registered_error'] = '在某些课程中，所选的老师已在该日期和时间注册。 请选择其他课程日期或时间。';
-$lang['Desc_scheduled_cannot_delete_error'] = '只有计划取消的课程可以取消';
-
-//Contact info
-$lang['Contact_Info'] = '联系信息';
-$lang['Desc_Contact_Info'] = '请通过下面的联系方式联系我们';
-
-//Sign up
-$lang['Already_a_member'] = '已经是会员了吗？';
-$lang['Register_now'] = '现在注册';
-$lang['Email_address'] = '电子邮箱地址';
-$lang['Please_enter_a_valid_email'] = '请输入有效的电子邮箱';
-$lang['desc_enter_4_more_20_less'] = '请输入4-20个字符';
-$lang['Password_Confirm'] = '确认密码';
-$lang['Your_Name'] = '你的名字';
-$lang['Name_Foreign'] = '名字拼音';
-$lang['Name_English'] = '英文名字';
-$lang['Country'] = '国藉';
-$lang['Gender'] = '性别';
-$lang['Select_one'] = '选择一个';
-$lang['Other'] = '其他';
-$lang['No_you_missed_this_one'] = '不，你错过了这个';
-$lang['Enter_at_least_7_characters'] = 'Please enter at least 7 characters.';
-$lang['Male'] = '男';
-$lang['Female'] = '女';
-$lang['Cellular_Number'] = '移动手机号码';
-$lang['Phone_Number'] = '固定电话号码';
-$lang['Messenger'] = 'Messenger';
-$lang['Messenger_ID'] = 'Messenger ID';
-$lang['Kakao_Talk'] = 'Kakao Talk';
-$lang['Line'] = 'Line';
-$lang['Zalo'] = 'Zalo';
-$lang['WeChat'] = '微信';
-$lang['Skype'] = 'Skype';
-$lang['QQ'] = 'QQ';
-$lang['Course'] = '课程';
-$lang['Type'] = '类型';
-$lang['Senior_speaking'] = '高级口语';
-$lang['Junior_speaking'] = '初级口语';
-$lang['IELTS'] = '雅思';
-$lang['TOEIC'] = '托业';
-$lang['TOEIC_SPEAKING'] = '托业口语';
-$lang['TOEFL'] = '托福';
-$lang['OPIC'] = 'OPIC';
-$lang['Business_English'] = '商务英语';
-$lang['Job_Interview'] = '工作面试';
-$lang['Junior'] = '青少年';
-$lang['Senior'] = '成年人';
-$lang['Trial_desire_time'] = '所需的上课时间';
-$lang['Specials_and_requests'] = '特价和要求';
-$lang['checkbox_terms_conditions'] = '我同意以上条款';
-$lang['You_must_agree_before_proceeding'] = '您必须先同意再继续';
-$lang['checkbox_personal_information'] = '个人信息收集和使用协议';
-$lang['checkbox_sign_up_email'] = '通过电子邮件注册通讯';
-$lang['checkbox_sign_up_sms'] = '通过短信注册通讯';
-$lang['Register'] = '注册';
-$lang['Succeed'] = '成功';
-$lang['enter_verification_code'] = '请输入下面显示的验证码。';
-$lang['verification_code_is_wrong'] = '验证码不正确。 请再试一遍。';
-$lang['Date_Time_Reservation_available_after_1_hour'] = '日期/时间（1小时后可预订）';
-
-$lang['Desc_error_exist_id'] = '此ID已经有人使用，请更换';
-$lang['Desc_error_id_4_20_eng_num'] = '该ID必须为电子邮件格式。';
-$lang['Desc_error_pw_4_20_eng_num'] = '密码只能是4-20个字母，数字，字符的组合';
-$lang['Desc_error_pw_confirm_wrong'] = '密码和密码确认不一致';
-$lang['Desc_check_terms_conditions'] = '请检查条款';
-$lang['Desc_check_personal_information'] = '请查阅个人资料收集和使用协议';
-$lang['Desc_check_class_time_information'] = '请选择您的首选上课时间。';
-$lang['Please enter all required fields'] = '请输入所有必填字段。';
-
-//Remote Help
-$lang['Remote_help'] = '远程支持指南';
-$lang['Program_download'] = '程序下载';
-$lang['Desc_remote_help_1_1'] = '请点击上面的程序下载或从下面的站点下载';
-$lang['Desc_remote_help_1_2'] = '非远程支持用途';
-$lang['Desc_remote_help_1_3'] = '进入网站并点击免费下载按钮';
-$lang['Desc_remote_help_2_1'] = '请运行下载的程序并安装它';
-$lang['Desc_remote_help_3_1'] = '运行已安装的程序，为了远程访问，请将此工作站号码发送到工作人员微信';
-$lang['Do_you_have_problem_to_take_class'] = '您进入课室的时候有问题么';
-
-$lang['Apply for extension'] = '申请延期续读商谈';
-$lang['Description of extension application'] = '为避免其他学生布课了您喜欢的老师和时间段，请于结课前八天同您的代办申请续课，在此提醒尽早申请延期续读的必要。';
-
-//NotSupportBrower
-$lang['NotSupportBrower_title'] = 'Internet Explorer是不受支持的浏览器。';
-$lang['NotSupportBrower_desc'] = '请用Chrome 浏览器平稳的进行学习';
-$lang['NotSupportBrower_download'] = '下载和安装Chrome';
-
-$lang['Classes_are_available_on_Saturdays'] = '星期六也可以申请上课';
-$lang['recommender'] = '推荐人';
-
-//Change My Info
-$lang['Change My Info'] = '更改我的信息';
-$lang['confirm delete picture'] = '您要删除您的图片吗?';
-$lang['The picture uploaded'] = '照片已经上传了。';
-$lang['change password desc'] = '请仅在更改密码时输入密码和确认。';
-$lang['kakaotalk notification'] = 'KakaoTalk通知';
-$lang['kakaotalk notification desc'] = '请输入您的手机号码以接收KakaoTalk通知。';
-
-//Help
-$lang['Online HELP'] = '网上帮助';
-$lang['How to study with us'] = '如何与我们一起学习';
-$lang['Class start'] = '上课开始';
-$lang['Class state'] = '类状态';
-$lang['Help page link'] = '帮助页面链接';
-
-//Meta
-$lang['meta_title'] = '11 Talk Video English';
-$lang['meta_description'] = 'Experience the perfect 1:1 class with the best foreign tutor through 11 Talk Video English.';
-$lang['meta_keywords'] = '1:1, 11Talk, Pinestalk, video English conversation, video English conversation, video English recommendation, video English recommendation, video English price, video English conversation price, telephone English, philippine English, pictorial English, online English conversation, online video English, English academy, native English speaking, IELTS preparation,';
-
-//Payment
-$lang['Register certificate'] = '注册证书';
-$lang['Attendance certificate'] = '出席证书';
-$lang['Receipt'] = '收据';
-$lang['Name'] = '姓名';
-$lang['Class form'] = '课程表单';
-$lang['Course period'] = '课程期限';
-$lang['Instructor in charge'] = '负责老师';
-$lang['Representation'] = '代表';
-$lang['Company Name'] = '公司名称';
-$lang['Business Number'] = '商业登记号码';
-$lang['Location'] = '位置';
-$lang['Business Type'] = '公司类型';
-$lang['Business Sector'] = '部门';
-$lang['Kim Inbon'] = '金仁本';
-$lang['Dream Networks'] = 'Dream Networks';
-$lang['Company address'] = '首尔市江南区奉恩寺路129 (论岘洞，Geopyeong Town 1106)';
-$lang['Services'] = '服务';
-$lang['Educations'] = '教育';
-$lang['Online English conversation'] = '在线英语会话';
-$lang['Total school days'] = '总在校日';
-$lang['Number of lectures taken'] = '出勤时数';
-$lang['Number of Lectures Missed'] = '缺勤时数';
-$lang['attendance rate'] = '出勤率';
-$lang['Cancellation by student'] = '学生取消';
-$lang['Class cancelled'] = '课时取消';
-$lang['Short-term postpone'] = '短期保留';
-$lang['Long-term postpone'] = '长期保留';
-$lang['Times Empty'] = '';
-$lang['Amount'] = '金额';
-$lang['Payment state'] = '付款状态';
-$lang['Paid'] = '已付';
-$lang['Unpaid'] = '未付';
-$lang['Payment date'] = '付款日期';
-$lang['Paypal'] = 'Paypal';
-$lang['This currency is not supported'] = '暂不支持此币种支付.';
-$lang['Payment information has not been set'] = '付款信息未设置，请联系管理员.';
-$lang['Payment tuition'] = '付款';
-$lang['You cannot pay it here'] = '此网站无法支付款项。 请与管理员联系。';
-
-//find password
-$lang['Find Password'] = '找回密码';
-$lang['We will email you a link to reset password'] = '我们将通过电子邮件发送给您重置密码的链接。';
-$lang['Send'] = '发送';
-$lang['Sent reset password email'] = '已发送一封电子邮件以重置您的密码。';
-$lang['Reset Password'] = '重设密码';
-$lang['Reset'] = '重启';
-$lang['Changed password'] = '修改密码。';
-$lang['email address is not exist in our system'] = '电子邮件地址在我们的系统中不存在。';
-$lang['password confirm wrong'] = '它与密码和密码确认不同。';
-$lang['key is expired'] = '由于相应的密码丢失或超时，因此无法重置密码。 请通过密码搜索再次获取您的电子邮件。';
-
-$lang['The consultant is confirming'] = '顾问正在确认。';
-
-//v3
-$lang['Listen All'] = 'Hear the whole conversation.';
-$lang['Listen A and Play B'] = 'Listen to the first person (A) and act as the second person (B).';
-$lang['Play A and Listen B'] = 'The first person (A) acts, and the second person (B) listens.';
-$lang['Go to Quiz A'] = 'Go to Quiz A';
-$lang['Go to Quiz B'] = 'Go to Quiz B';
-$lang['Go to Mimic'] = 'Go to Mimic';
-$lang['Go to Dictation'] = 'Go to Dictation';
-$lang['Go to Result'] = 'Go to Result';
-$lang['Do you want next lesson'] = 'Would you like to proceed to the next lesson?';
-$lang['Did not finish yet'] = 'You have not finished this part yet.';
-$lang['finished this part'] = 'You have finished this part.';
-$lang['Progress'] = 'Progress';
-$lang['Yes'] = 'Yes';
-$lang['No'] =  'No';
-
-$lang['signup_alert_message'] = '仅当您注册了正确的信息和联系信息时，样本类别才可用。';
-$lang['signup_ok_message'] = '上课前，经理将与您联系。 如果联系信息不正确并且我们无法与您联系，则您的预订可能会被取消。 （每人仅一次。）';
+//footer
+$lang['contact_us'] = '联系我们';
+$lang['address'] = '地址';
+$lang['phone_number'] = 'We Chat';
+$lang['tel_number'] = '13926280726';
+$lang['email'] = 'Email';

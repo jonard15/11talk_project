@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
     <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css">
     <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
+    <link  rel="stylesheet" href="assets/vendor/custombox/custombox.min.css">
     <!-- CSS Unify Theme -->
     <link rel="stylesheet" href="css/styles.multipage-marketing.css">
     <!-- CSS Customization -->
@@ -37,6 +38,7 @@
     <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
     <script src="assets/vendor/popper.js/popper.min.js"></script>
     <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+
     <!-- JS Implementing Plugins -->
     <script src="assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
     <script src="assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
@@ -44,6 +46,8 @@
     <script src="assets/vendor/dzsparallaxer/advancedscroller/plugin.js"></script>
     <script src="assets/vendor/fancybox/jquery.fancybox.min.js"></script>
     <script src="assets/vendor/slick-carousel/slick/slick.js"></script>
+    <script  src="assets/vendor/custombox/custombox.min.js"></script>
+
     <!-- JS Unify -->
     <script src="assets/js/hs.core.js"></script>
     <script src="assets/js/components/hs.header.js"></script>
@@ -52,7 +56,7 @@
     <script src="assets/js/components/hs.popup.js"></script>
     <script src="assets/js/components/hs.carousel.js"></script>
     <script src="assets/js/components/hs.go-to.js"></script>
-    <script src="assets/js/components/hs.tabs.js"></script>
+    <script  src="assets/js/components/hs.modal-window.js"></script>
     <!-- JS Customization -->
     <script src="assets/js/custom.js"></script>
     <!-- JS Plugins Init. -->
@@ -92,57 +96,57 @@
                         <ul class="navbar-nav ml-auto g-pb-30 g-pb-0--lg">
                             <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
                                 <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="home.html">
-                                    Home
+                                    <?=$lang['home']?>
                                 </a>
                             </li>
                             <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
                                 <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="company.html">
-                                    About&nbsp;11talk
+                                    <?=$lang['about']?>
                                 </a>
                             </li>
                             <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
                                 <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="book.html">
-                                    Book
+                                    <?=$lang['book']?>
                                 </a>
                             </li>
                             <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
                                 <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="book_list.html">
-                                    Book(DB)
+                                    <?=$lang['book']?>(DB)
                                 </a>
                             </li>
                             <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
                                 <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="price.html">
-                                    Tuition
+                                    <?=$lang['tuition']?>
                                 </a>
                             </li>
                             <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
                                 <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="teacher.html">
-                                    Teacher
+                                    <?=$lang['teacher']?>
                                 </a>
                             </li>
                             <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
                                 <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="teacher_list.html">
-                                    Teacher(DB)
+                                    <?=$lang['teacher']?>(DB)
                                 </a>
                             </li>
                             <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
                                 <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="FAQ.html">
-                                    FAQ's
+                                    <?=$lang['faq']?>
                                 </a>
                             </li>
                             <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
                                 <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="testimonilas.html">
-                                    Testimonials
+                                    <?=$lang['testimonials']?>
                                 </a>
                             </li>
                             <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
                                 <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="blog.html">
-                                    Blog
+                                    <?=$lang['blog']?>
                                 </a>
                             </li>
                             <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
                                 <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="https://pinesonline.cafe24.com/m/logins.html">
-                                    Sign&nbsp;in
+                                    <?=$lang['class_system']?>
                                 </a>
                             </li>
                         </ul>
@@ -150,12 +154,11 @@
                     <!-- End Navigation -->
 
                     <!-- Language -->
-                    <li class="nav-item hs-has-sub-menu g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
+                    <!-- <li class="nav-item hs-has-sub-menu g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
                       <a class="language nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-9 g-py-10"  href="#">
                         <?=$lang['No_you_missed_this_one']?>
                       </a>
   
-                      <!-- Submenu -->
                       <ul id="nav-submenu--pages" class="hs-sub-menu list-unstyled u-shadow-v11 g-min-width-220 g-brd-top g-brd-primary g-brd-top-2 g-mt-17 animated" aria-labelledby="nav-link--pages" style="display: none;">
                         <li class="dropdown-item ">
                           <a href="#" class="nav-link" onclick="test();">English (US)</a>
@@ -179,12 +182,15 @@
                           <a href="#" class="nav-link" onclick="$.MultiLanguage('language/vi.json', 'vi'),window.location.reload()">Tiếng việt (Vietnamese)</a>
                         </li>
                       </ul>
-                      <!-- End Submenu -->
-                    </li>
+                    </li> -->
                     <select id="select_language" onChange="change_language()">
-                      <option value="ch" <? if($sel_lang=='ch') echo 'selected'; ?> >ch</option>
-                      <option value="en" <? if($sel_lang=='en') echo 'selected'; ?> >en</option>
-                      <option value="ko" <? if($sel_lang=='ko') echo 'selected'; ?> >ko</option>
+                      <option value="ch" <? if($sel_lang=='ch') echo 'selected'; ?> >中文 (Chinese)</option>
+                      <option value="en" <? if($sel_lang=='en') echo 'selected'; ?> >English (US)</option>
+                      <option value="ko" <? if($sel_lang=='ko') echo 'selected'; ?> >日本語 (Japanese)</option>
+                      <option value="ko" <? if($sel_lang=='ko') echo 'selected'; ?> >한국어 (Korean)</option>
+                      <option value="ko" <? if($sel_lang=='ko') echo 'selected'; ?> >台灣 (Taiwanese)</option>
+                      <option value="ko" <? if($sel_lang=='ko') echo 'selected'; ?> >ไทย (Thai)</option>
+                      <option value="ko" <? if($sel_lang=='ko') echo 'selected'; ?> >Tiếng việt (Vietnamese)</option>
                     </select>
                 <!-- End Language -->
 
@@ -199,14 +205,3 @@
         </div>
     </header>
     <!-- end header -->
-<script>
-    function change_language() {
-        var sel_lang = $("#select_language").val();
-        if(sel_lang === 'ko'){
-          location.href = "ko_de/index.html?lang=" + sel_lang;
-        }else{
-          location.href = "book_list.html?lang=" + sel_lang;
-        }
-
-    }
-</script>

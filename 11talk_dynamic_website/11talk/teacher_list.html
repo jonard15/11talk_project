@@ -125,16 +125,6 @@ $tutor_list = sqlToArray($sql);
 
     });
 
-    function change_language() {
-        var sel_lang = $("#select_language").val();
-        if(sel_lang === 'ko'){
-          location.href = "teacher_list.html?lang=" + sel_lang;
-        }else{
-          location.href = "teacher_list.html?lang=" + sel_lang;
-        }
-
-    }
-
 </script>
 
 <? include_once("inc/_end.html"); ?>
