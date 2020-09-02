@@ -1,43 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Title -->
-    <title>11talk - New Website</title>
-
-    <!-- Required Meta Tags Always Come First -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon1.ico">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Encode+Sans:400,500,600" rel="stylesheet">
-
-    <!-- CSS Global Compulsory -->
-    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
-
-    <!-- CSS Implementing Plugins -->
-    <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/vendor/icon-line-pro/style.css">
-    <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
-    <link rel="stylesheet" href="assets/vendor/dzsparallaxer/dzsparallaxer.css">
-    <link rel="stylesheet" href="assets/vendor/dzsparallaxer/dzsscroller/scroller.css">
-    <link rel="stylesheet" href="assets/vendor/dzsparallaxer/advancedscroller/plugin.css">
-    <link rel="stylesheet" href="assets/vendor/animate.css">
-    <link rel="stylesheet" href="assets/vendor/hs-megamenu/src/hs.megamenu.css">
-    <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
-    <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css">
-    <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
-
-    <!-- CSS Unify Theme -->
-    <link rel="stylesheet" href="css/styles.multipage-marketing.css">
-
-    <!-- CSS Customization -->
-    <link rel="stylesheet" href="assets/css/custom.css">
-  </head>
-
+<? include_once("../common_member.lib.php"); ?>
+<? include_once("inc/_begin.html"); ?>
   <body>
     <main>
       <!-- Header -->
@@ -597,53 +559,11 @@
               </div>
             </div>
             <!-- End Call to Action -->
-      <!-- Footer -->
-        <div id="footer"></div>
-      <!-- End Footer -->
-
-      <!-- Go to Top -->
-      <a class="js-go-to u-go-to-v1 g-width-40 g-height-40 g-color-primary g-bg-main-opacity-0_5 g-bg-main--hover g-bg-main--focus g-font-size-12 rounded" href="#" data-type="fixed" data-position='{
-       "bottom": 15,
-       "right": 15
-     }' data-offset-top="400" data-compensation="#js-header" data-show-effect="zoomIn">
-        <i class="hs-icon hs-icon-arrow-top"></i>
-      </a>
-      <!-- End Go to Top -->
-    </main>
-
-    <!-- JS Global Compulsory -->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
-    <script src="assets/vendor/popper.js/popper.min.js"></script>
-    <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
-
-    <!-- JS Implementing Plugins -->
-    <script src="assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-    <script src="assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
-    <script src="assets/vendor/dzsparallaxer/dzsscroller/scroller.js"></script>
-    <script src="assets/vendor/dzsparallaxer/advancedscroller/plugin.js"></script>
-    <script src="assets/vendor/fancybox/jquery.fancybox.min.js"></script>
-    <script src="assets/vendor/slick-carousel/slick/slick.js"></script>
-
-    <!-- JS Unify -->
-    <script src="assets/js/hs.core.js"></script>
-    <script src="assets/js/components/hs.header.js"></script>
-    <script src="assets/js/helpers/hs.hamburgers.js"></script>
-    <script src="assets/js/components/hs.dropdown.js"></script>
-    <script src="assets/js/components/hs.popup.js"></script>
-    <script src="assets/js/components/hs.carousel.js"></script>
-    <script src="assets/js/components/hs.go-to.js"></script>
-    <script src="assets/js/components/hs.tabs.js"></script>
-
-    <!-- JS Customization -->
-    <script src="assets/js/custom.js"></script>
+            <? include_once("inc/_end.html"); ?>
 
     <!-- JS Plugins Init. -->
     <script>
       $(document).on('ready', function () {
-        //load header & footer
-        $("#header").load("header.html"); 
-        $("#footer").load("footer.html"); 
         // initialization of header
         $.HSCore.components.HSHeader.init($('#js-header'));
         $.HSCore.helpers.HSHamburgers.init('.hamburger');
@@ -680,6 +600,11 @@
           $.HSCore.components.HSTabs.init('[role="tablist"]');
         }, 200);
       });
+
+      function change_language() {
+        var sel_lang = $("#select_language").val();
+          location.href = "FAQ.html?lang=" + sel_lang;
+        }
     </script>
   </body>
 </html>

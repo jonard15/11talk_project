@@ -32,6 +32,9 @@
     <link rel="stylesheet" href="css/styles.multipage-marketing.css">
     <!-- CSS Customization -->
     <link rel="stylesheet" href="assets/css/custom.css">
+    <!-- Master Slider -->
+    <link rel="stylesheet" href="assets/vendor/master-slider/source/assets/css/masterslider.main.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
 
     <!-- JS Global Compulsory -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
@@ -59,7 +62,8 @@
     <script  src="assets/js/components/hs.modal-window.js"></script>
     <!-- JS Customization -->
     <script src="assets/js/custom.js"></script>
-    <!-- JS Plugins Init. -->
+    <!-- JS Master Slider -->
+    <script src="assets/vendor/master-slider/source/assets/js/masterslider.min.js"></script>
 
 </head>
 <body>
@@ -69,12 +73,12 @@
     <header id="js-header" class="u-header u-header--sticky-top u-header--toggle-section u-header--change-appearance u-shadow-v19">
         <div class="u-header__section g-bg-white g-transition-0_3">
             <nav class="js-mega-menu navbar navbar-expand-lg g-pa-0">
-                <div class="container">
-                    <!-- Logo -->
-                    <a class="navbar-brand g-pl-15 py-3" href="home.html">
-                        <img class="g-width-100" src="img/header/logo.png" alt="Logo">
-                    </a>
-                    <!-- End Logo -->
+                                    <!-- Logo -->
+                                    <a class="navbar-brand g-pl-120" href="home.html">
+                                        <img class="g-width-150" src="img/header/logo.png" alt="Logo">
+                                    </a>
+                                    <!-- End Logo -->
+                <div class="g-pr-150 container-fluid">
 
                     <!-- Responsive Toggle Button -->
                     <button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pos-abs g-top-10 g-right-0 g-pa-0 g-mt-2" type="button"
@@ -135,7 +139,7 @@
                                 </a>
                             </li>
                             <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
-                                <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="testimonilas.html">
+                                <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="testimonials.html">
                                     <?=$lang['testimonials']?>
                                 </a>
                             </li>
@@ -183,17 +187,18 @@
                         </li>
                       </ul>
                     </li> -->
-                    <select id="select_language" onChange="change_language()">
-                      <option value="ch" <? if($sel_lang=='ch') echo 'selected'; ?> >中文 (Chinese)</option>
-                      <option value="en" <? if($sel_lang=='en') echo 'selected'; ?> >English (US)</option>
-                      <option value="ko" <? if($sel_lang=='ko') echo 'selected'; ?> >日本語 (Japanese)</option>
-                      <option value="ko" <? if($sel_lang=='ko') echo 'selected'; ?> >한국어 (Korean)</option>
-                      <option value="ko" <? if($sel_lang=='ko') echo 'selected'; ?> >台灣 (Taiwanese)</option>
-                      <option value="ko" <? if($sel_lang=='ko') echo 'selected'; ?> >ไทย (Thai)</option>
-                      <option value="ko" <? if($sel_lang=='ko') echo 'selected'; ?> >Tiếng việt (Vietnamese)</option>
-                    </select>
                 <!-- End Language -->
-
+                <div class="g-pos-abs g-top-35 g-right-65 g-pos-rel--lg g-top-0--lg g-right-0--lg g-pt-3--lg g-ml-30 g-ml-0--lg">
+                    <select id="select_language" onChange="change_language()">
+                        <option value="ch" <? if($sel_lang=='ch') echo 'selected'; ?> >中文 (Chinese)</option>
+                        <option value="en" <? if($sel_lang=='en') echo 'selected'; ?> >English (US)</option>
+                        <option value="jp" <? if($sel_lang=='jp') echo 'selected'; ?> >日本語 (Japanese)</option>
+                        <!-- <option value="ko" <? if($sel_lang=='ko') echo 'selected'; ?> >한국어 (Korean)</option> -->
+                        <option value="tw" <? if($sel_lang=='tw') echo 'selected'; ?> >台灣 (Taiwanese)</option>
+                        <option value="th" <? if($sel_lang=='th') echo 'selected'; ?> >ไทย (Thai)</option>
+                        <option value="vi" <? if($sel_lang=='vi') echo 'selected'; ?> >Tiếng việt (Vietnamese)</option>
+                      </select>
+                </div>
                     <div class="col-auto g-hidden-md-down g-pr-0">
                         <div class="g-bg-main g-cursor-pointer g-px-25 g-py-20">
                             <!-- <span class="d-block g-color-primary g-font-size-11 mb-1">(074) 1644-4518</span> -->

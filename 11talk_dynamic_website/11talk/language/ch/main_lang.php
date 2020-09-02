@@ -2,14 +2,14 @@
 $lang = array();
 
 //Navigation
-$lang['home'] = '首&nbsp;页';
+$lang['home'] = '首页';
 $lang['about'] = 'About 11talk';
-$lang['book'] = '教&nbsp;材';
-$lang['tuition'] = '费&nbsp;用';
-$lang['teacher'] = '老&nbsp;师';
-$lang['faq'] = '常&nbsp;见&nbsp;问&nbsp;题';
+$lang['book'] = '教材';
+$lang['tuition'] = '费用';
+$lang['teacher'] = '老师';
+$lang['faq'] = '常见问题';
 $lang['testimonials'] = 'Testimonials';
-$lang['blog'] = '论&nbsp;坛';
+$lang['blog'] = '论坛';
 $lang['class_system'] = 'Class System';
 
 //Home section1
@@ -81,11 +81,23 @@ $lang['free_class+_level_test'] = '免费体验 + 等级测试';
 $lang['stable_tested_curriculum'] = '千锤百炼，不惧对比的线上课程';
 $lang['stable_tested_curriculum_para'] = '我们的综合和定制课程可确保全面提高英语技能 保证学生感受到明显的进步 例如获得更高的英语标准化考试成绩 及获得流畅使用英语的信心 欢迎查看我们学习资料的概述';
 $lang['job_interview'] = '工作面试英语';
+$lang['job_interview_para'] = 'One stop English job interview preparation';
+$lang['job_interview_btn'] = 'View';
 $lang['senior_english'] = '成人英语';
+$lang['senior_english_para'] = 'Focuses on English conversation based on student’s level (1~10). Class types available are expressions, discussion or pre-basic English coversation class (for beginners)';
+$lang['senior_english_btn'] = 'View';
 $lang['bussiness_english'] = '商务英语';
+$lang['bussiness_english_para'] = 'Acquire English skills necessary for business activities such as business communication, presentation and coping ability in unexpected situations.';
+$lang['bussiness_english_btn'] = 'View';
 $lang['ielts'] = '雅思';
+$lang['ielts_para'] = 'Prepare for the test with expected test questions and recent test questions to help you achieve your target band score.';
+$lang['ielts_btn'] = 'View';
 $lang['toefl'] = '托福';
+$lang['toefl_para'] = 'Comprehensive test preparation through review of expected questions and recent test questions to excel on the test.';
+$lang['toefl_btn'] = 'View';
 $lang['toeic'] = '托业';
+$lang['toeic_para'] = 'TOEIC Scores & Conversion Table';
+$lang['toeic_btn'] = 'View';
 $lang['view_course_details'] = '查看课程细节';
 //Home section7 modal1
 $lang['job_interview_dsc'] = '我们提供两个工作面试的课程：一般工作面试和空乘应聘面试课程，在课堂上，通过常见的面试问题练习面试技巧，老师会检查您的答案，并提供一些更好的建议。目的是在真实的面试中使用流利的英语回答您的想法和意见。本课程是针对中级英语程度的学生';
@@ -184,16 +196,6 @@ $lang['toeic_list_modal6_25'] = '能够满足即时的生存需求';
 $lang['study_with_professional_teachers'] = '受过专业训练的线上英语老师';
 $lang['study_with_professional_teachers_para'] = '11talk老师已经全部完成了Pines Academy的14个阶段的应征流程。被录用后，他们还必须参加定期的培训课程，以提搞自己的技能，通过升级测验后方能教授更高级别的英语课程。我们培训他们以灵活的方式教授ESL和雅思等考试科目。';
 $lang['meet_more_teachers'] = '查看更多老师';
-$lang['kakao_customer_service'] = 'KAKAO客户服务协助';
-$lang['kakao_customer_service_para'] = '11talk的Kakao会很好的照顾学生。这不仅仅是只能回答您问题的机器人客服中心。这是一位在乎您的贴心小伙伴！';
-$lang['Girl2'] = 'Hi this is Amy Lee I have to postpone my class <br>tommorow because of my university activity';
-$lang['phone_list1'] = 'Send in your concerns';
-$lang['phone_list2'] = 'Long-absences';
-$lang['phone_list3'] = 'Learning Material Consultation';
-$lang['phone_list4'] = 'Daily Feedback Consultation';
-$lang['phone_list5'] = 'Class Quality Check';
-$lang['phone_list6'] = 'Apply for free class';
-$lang['Girl1'] = 'Greetings Amy Lee! Your request has been successfully processed.You may re-schedule your classes at 2pm tommorow';
 
 //Home section9
 $lang['feeback_title'] = '11TALK学生心得分享';
@@ -211,9 +213,10 @@ $lang['checkout_trial_class'] = '查看您的试听课程<br> 及课堂评估(�
 $lang['course_tuition_package'] = '选择您的<br> 课程和价目表';
 $lang['payment_term'] = '选择您的付款程序并<br> 进行注册';
 
+
 //footer
 $lang['contact_us'] = '联系我们';
 $lang['address'] = '地址';
-$lang['phone_number'] = 'We Chat';
-$lang['tel_number'] = '13926280726';
-$lang['email'] = 'Email';
+$lang['phone_number'] = 'Phone number';
+$lang['tel_number'] = '(074) 1644-4518';
+$lang['email'] = '邮箱';

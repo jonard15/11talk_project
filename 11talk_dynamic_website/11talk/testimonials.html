@@ -146,6 +146,11 @@
              // initialization of go to
              $.HSCore.components.HSGoTo.init('.js-go-to');
            });
+
+        function change_language() {
+        var sel_lang = $("#select_language").val();
+          location.href = "testimonials.html?lang=" + sel_lang;
+        }
          </script>
        </body>
      </html>
