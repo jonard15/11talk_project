@@ -2,71 +2,73 @@
 $lang = array();
 
 //Navigation
-$lang['home'] = 'Home';
-$lang['about'] = 'About 11talk';
-$lang['book'] = 'Book';
-$lang['tuition'] = 'Tuition';
-$lang['teacher'] = 'Teacher';
+$lang['home'] = 'หน้าหลัก';
+$lang['about'] = 'เกี่ยวกับ 11talk';
+$lang['book'] = 'หนังสือ';
+$lang['tuition'] = 'หลักสูตร';
+$lang['teacher'] = 'ครู';
 $lang['faq'] = 'FAQ';
-$lang['testimonials'] = 'Testimonials';
+$lang['testimonials'] = 'ความพึงพอใจ';
 $lang['blog'] = 'Blog';
-$lang['class_system'] = 'Class System';
+$lang['class_system'] = 'ชั้นเรียน';
 
 //Home section1
-$lang['learn_from'] = 'LEARN FROM THE';
-$lang['top_online'] = 'Top Online';
-$lang['english_school'] = 'English&nbsp;School';
-$lang['anytime_anywhere'] = 'anytime, anywhere in the world, <br>and reach global success.';
-$lang['free_class'] = '1 FREE Class  & English Level Test';
+$lang['learn_from'] = 'เรียนกับ';
+$lang['top_online'] = 'สถาบันสอนภาษาอังกฤษ';
+$lang['english_school'] = 'ออนไลน์ชั้นนำ';
+$lang['anytime_anywhere'] = 'เรียนได้ทุกที่ ทุกเวลา เพื่อก้าวสู่ความสำเร็จอันยิ่งใหญ่';
+$lang['free_class'] = 'วัดระดับภาษาและทดลองเรียนฟรี';
 
 //Home section2
-$lang['affordable_online'] = '11talk offers high quality and affordable online classes';
-$lang['affordable_online_para'] = 'thru the direct management of the best language school PINES ACADEMY that has been operating for 20 years. Be one of our globally successful students! Learn English online with us now.';
-$lang['about_11talk'] = 'Know more about 11talk';
-$lang['join_our'] = 'Join our';
+$lang['affordable_online'] = '11talk มอบการเรียนออนไลน์ที่มีคุณภาพสูงและราคาที่คุ้มค่า';
+$lang['affordable_online_para'] = 'การเรียนการสอนจะถูกบริหารโดย PINES ACADEMY โรงเรียนสอนภาษาที่ดีที่สุดที่เปิดดำเนินการมากว่า 20 ปี มาร่วมเป็นหนึ่งในนักเรียนที่ประสบความสำเร็จสู่สากลโลกกับเรา! เริ่มเรียนภาษาอังกฤษออนไลน์กับเราตอนนี้กันเถอะ';
+$lang['about_11talk'] = 'เรียนรู้เพิ่มเติมเกี่ยวกับ 11talk';
+$lang['join_our'] = 'ร่วมเป็นส่วนหนึ่ง';
 $lang['30k'] = '30k';
-$lang['successsful_graduates'] = 'Successful<br>Graduates';
+$lang['successsful_graduates'] = 'ในนักเรียนที่<br>ประสบความสำเร็จ!';
 
 //Home section3
-$lang['be_global'] = 'Be Globally Successful With 11talk';
-$lang['100_instructor'] = '100+instructors with Certain Specialization';
-$lang['100_instructor_para'] = 'Our  professional teachers have 3-5 course specializations making them flexible and remarkable in handling online English classes';
-$lang['general_courses'] = '6 general courses';
-$lang['general_courses_para'] = ' 11talk Courses  guarantee improvement on  4 Core English Skills for getting higher English standardized test scores and gaining confidence in facing current global needs.';
-$lang['book_types'] = '2 booking types';
-$lang['book_types_para'] = 'We support what works for our students based on their lifestyle.';
-$lang['2000_topics'] = '2 booking types';
-$lang['2000_topics_para'] = 'Achieve English fluency through our  2000+ new and trending discussion topics and get immediate class feedback.';
+$lang['be_global'] = 'ก้าวสู่ความสำเร็จไปด้วยกันกับ 11talk';
+$lang['100_instructor'] = 'อาจารย์ที่มีความเชี่ยวชาญเฉพาะด้านมากกว่า 100 คน';
+$lang['100_instructor_para'] = 'ครูของเรามีความเป็นมืออาชีพและสอนอย่างเชี่ยวชาญ 3-5 หลักสูตร ทำให้มีความยืดหยุ่นและโดดเด่นในการจัดการชั้นเรียนภาษาอังกฤษออนไลน์ ';
+$lang['general_courses'] = 'หลักสูตรทั่วไป 6 หลักสูตร';
+$lang['general_courses_para'] = 'หลักสูตรของ 11talk รับประกันการพัฒนาทักษะภาษาอังกฤษทั้ง 4 ทักษะ ในการทำคะแนนการสอบภาษาอังกฤษมาตฐานที่สูงขึ้นและมีความมั่นใจในการเผชิญกับความต้องการของโลกในปัจจุบันที่ต้องใช้ภาษาอังกฤษ';
+$lang['book_types'] = 'ชั้นเรียน 2 สไตล์';
+$lang['book_types_para'] = 'เรามอบสิ่งที่เหมาะกับนักเรียนตามไลฟ์สไตล์ของนักเรียนแต่ละคน มีทั้งแบบกำหนดตารางเวลาชัดเจนและสามารถกำหนดเองได้ตามที่นักเรียนสะดวกทำให้มีความยืดหยุ่นสูงและสะดวกสบาย';
+$lang['2000_topics'] = 'หัวข้อมากกว่า 2,000 หัวข้อ';
+$lang['2000_topics_para'] = 'เพื่อให้นักเรียนใช้ภาษาอังกฤษได้อย่างคล่องแคล่วผ่านหัวข้อสนทนาใหม่และกำลังมาแรงกว่า 2,000 รายการและรับคำนำจากครูในชั้นเรียนได้ทันที';
 
 //Home section4
-$lang['top_choice'] = 'Top Choice';
-$lang['top_choice_para'] = 'among 400 PH Academies';
-$lang['20_years'] = '20 Years';
-$lang['20_years_para'] = 'of History';
+$lang['top_choice'] = 'ติดอันดับต้น';
+$lang['top_choice_para'] = 'ของสถาบันสอนภาษาในฟิลิปปินส์กว่า 400 แห่ง';
+$lang['20_years'] = '20 ปี';
+$lang['20_years_para'] = 'มีประสบการณ์สอนมาอย่างยาวนาน';
 $lang['student_statisfaction_percent'] = '99.9%';
-$lang['student_statisfaction'] = 'student satisfaction';
+$lang['student_statisfaction'] = 'ความพึงพอใจของนักเรียน';
 $lang['num_successful_graduates'] = '30,000';
-$lang['successful_graduates_2'] = 'successful graduates';
+$lang['successful_graduates_2'] = 'ความสำเร็จ';
 
 //Home section5
-$lang['learning_features'] = '11talk s Perfect Learning Features';
-$lang['customized_courses'] = 'Customized<br>Courses';
-$lang['7.0_ielts_instructor'] = '7.0 IELTS<br>Instructors';
-$lang['professional_teachers'] = 'Professional<br>Teachers';
-$lang['cefr_level'] = 'CEFR Aligned Level System';
-$lang['device_options'] = 'Device-Friendly Options';
-$lang['reasonable_price'] = 'Reasonable<br>Price';
-$lang['systematic_learning_method'] = 'SYSTEMATIC AND EFFECTIVE LEARNING METHOD';
-$lang['systematic_learning_method_para'] = '11talk s 4-step learning method has created great results in improving students English macro skills from listening, writing, and reading, and speaking.';
-$lang['step1'] = 'Step 1<br>Preview';
-$lang['step1_para'] = 'Invest time for self-studying to achieve the 100% online class result.';
-$lang['step2'] = 'Step 2<br>CLASS';
-$lang['step2_para'] = 'Have a consistent<br> English practice with <br>your teacher';
-$lang['step3'] = 'Step 3<br>HOMEWORK';
-$lang['step3_para'] = 'Extend your learning <br>hours by doing your <br>homework';
-$lang['step4'] = 'Step 4<br>REVIEW';
-$lang['step4_para'] = 'Learn from your teacher s comments by checking the daily class memo';
-$lang['view_4_step'] = 'View 4-STEP LEARNING SYSTEM';
+$lang['learning_features'] = 'คุณสมบัติการเรียนที่โดดเด่นของ 11Talk';
+$lang['customized_courses'] = 'หลังสูตรที่<br>ออกแบบเอง';
+$lang['7.0_ielts_instructor'] = 'ครูมีคะแนน 
+<br>IELTS 7.00';
+$lang['professional_teachers'] = 'ครูผู้สอนมีความ<br>เป็นมืออาชีพ';
+$lang['cefr_level'] = 'ระบบคะแนนวัด ตามระดับ CEFR';
+$lang['device_options'] = 'ระบบใช้งานง่าย';
+$lang['reasonable_price'] = 'ราคาสมเหตุสมผล';
+$lang['systematic_learning_method'] = 'วิธีการเรียนที่เป็นระบบและมีประสิทธิภาพ';
+$lang['systematic_learning_method_para'] = 'วิธีการเรียน 4 ขั้นตอนของ 11talk ได้สร้างผลลัพธ์ที่ยอดเยี่ยมในการพัฒนาทักษะภาษาอังกฤษทั้งหมดของนักเรียนจากการฟัง การเขียน การอ่านและการพูด';
+$lang['step1'] = 'ขั้นตอนที่ 1<br>การดูตัวอย่าง';
+$lang['step1_para'] = 'การให้เวลาในการเรียนรู้ด้วยตนเอง เพื่อให้การเรียนออนไลน์ได้ผล 100%';
+$lang['step2'] = 'ขั้นตอนที่ 2<br>ชั้นเรียน';
+$lang['step2_para'] = 'ฝึกภาษาอังกฤษด้วย
+ความสม่ำเสมอกับครูของคุณ';
+$lang['step3'] = 'ขั้นตอนที่ 3<br>การบ้าน';
+$lang['step3_para'] = 'เพิ่มชั่วโมงการเรียนของคุณด้วยการทำการบ้านที่ได้รับมอบหมาย';
+$lang['step4'] = 'ขั้นตอนที่ 4<br>ตรวจสอบ';
+$lang['step4_para'] = 'เรียนรู้จากความคิดเห็นของครูโดยตรวจสอบรายงานประจำวันของชั้นเรียนในแต่ละวัน';
+$lang['view_4_step'] = 'ดูระบบการเรียน 4 ขั้นตอน';
 
 //Home section6
 $lang['advance_convenient'] = 'Advanced and Convenient Learning System';
