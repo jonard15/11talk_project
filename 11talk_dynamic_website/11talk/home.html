@@ -2,10 +2,7 @@
 <? include_once("inc/_begin.html"); ?>
 
   <body>
-    <main>
-      <!-- Header -->
-     <div id="header"></div>
-     <!-- End Header -->   
+    <main>   
         <section class="g-flex-centered g-min-height-500 g-bg-img-hero g-pt-80" style="background-image: url(img/home/PHOTO\ TEST\ TWO.jpg);">
           <div class="container">
             <div class="g-pa-40 g-pa-60--md g-width-380 g-bg-black-opacity-0_3">
@@ -18,7 +15,6 @@
             </div>
           </div>
         </section>
-
       <!-- End Hero Section -->
 
 
@@ -468,7 +464,7 @@
                 <!-- <img src="img/home/monitor.png" alt=""> -->
                 <div class="g-absolute-centered--y g-left-0 g-right-0 text-center mx-auto">
                   <a class="js-fancybox d-inline-block u-block-hover g-bg-white g-rounded-50 g-text-underline--none--hover g-transition-0_3 g-px-20 g-py-10" href="javascript:;"
-                     data-src="https://www.youtube.com/embed/AGDt02jMHVI"
+                     data-src="<?=$lang['advance_convenient_video']?>"
                      data-speed="350">
                     <span class="d-flex align-items-center">
                       
@@ -1078,8 +1074,8 @@
       <!-- Testimonials -->
       <div class="u-shadow-v19 g-brd-bottom g-brd-3 g-brd-primary g-bg-white text-center g-px-35 g-py-60">
         <img class="g-width-70 g-height-70 g-brd-2 g-brd-style-solid g-brd-primary rounded-circle g-mb-20" src="img/home/feedback 3.jpg" alt="Image Description">
-        <h4 class="h5 g-color-main g-font-weight-700 g-mb-0">Park Hee Seo</h4>
-        <em class="d-block g-color-gray-dark-v4 g-font-style-normal g-font-size-13 g-mb-20">Working Mom</em>
+        <h4 class="h5 g-color-main g-font-weight-700 g-mb-0"><?=$lang['comment_1_author']?></h4>
+        <em class="d-block g-color-gray-dark-v4 g-font-style-normal g-font-size-13 g-mb-20"><?=$lang['comment_1_profession']?></em>
         <p class="g-color-gray-dark-v4 g-font-size-default mb-0"><?=$lang['comment_1']?></p>
       </div>
       <!-- End Testimonials -->
@@ -1089,8 +1085,8 @@
       <!-- Testimonials -->
       <div class="u-shadow-v19 g-brd-bottom g-brd-3 g-brd-primary g-bg-white text-center g-px-35 g-py-60">
         <img class="g-width-70 g-height-70 g-brd-2 g-brd-style-solid g-brd-primary rounded-circle g-mb-20" src="img/home/feedback 2.gif" alt="Image Description">
-        <h4 class="h5 g-color-main g-font-weight-700 g-mb-0">Song Ju Ho</h4>
-        <em class="d-block g-color-gray-dark-v4 g-font-style-normal g-font-size-13 g-mb-20">Student</em>
+        <h4 class="h5 g-color-main g-font-weight-700 g-mb-0"><?=$lang['comment_2_author']?></h4>
+        <em class="d-block g-color-gray-dark-v4 g-font-style-normal g-font-size-13 g-mb-20"><?=$lang['comment_2_profession']?></em>
         <p class="g-color-gray-dark-v4 g-font-size-default mb-0"><?=$lang['comment_2']?></p>
       </div>
       <!-- End Testimonials -->
@@ -1100,8 +1096,8 @@
       <!-- Testimonials -->
       <div class="u-shadow-v19 g-brd-bottom g-brd-3 g-brd-primary g-bg-white text-center g-px-35 g-py-60">
         <img class="g-width-70 g-height-70 g-brd-2 g-brd-style-solid g-brd-primary rounded-circle g-mb-20" src="img/home/feedback 1.GIF" alt="Image Description">
-        <h4 class="h5 g-color-main g-font-weight-700 g-mb-0">Park Hee Seo</h4>
-        <em class="d-block g-color-gray-dark-v4 g-font-style-normal g-font-size-13 g-mb-20">Businessman</em>
+        <h4 class="h5 g-color-main g-font-weight-700 g-mb-0"><?=$lang['comment_3_author']?></h4>
+        <em class="d-block g-color-gray-dark-v4 g-font-style-normal g-font-size-13 g-mb-20"><?=$lang['comment_3_profession']?></em>
         <p class="g-color-gray-dark-v4 g-font-size-default mb-0"><?=$lang['comment_3']?></p>
       </div>
       <!-- End Testimonials -->
@@ -1111,8 +1107,8 @@
       <!-- Testimonials -->
       <div class="u-shadow-v19 g-brd-bottom g-brd-3 g-brd-primary g-bg-white text-center g-px-35 g-py-60">
         <img class="g-width-70 g-height-70 g-brd-2 g-brd-style-solid g-brd-primary rounded-circle g-mb-20" src="img/home/feedback 6.gif" alt="Image Description">
-        <h4 class="h5 g-color-main g-font-weight-700 g-mb-0">AKang Young Seok</h4>
-        <em class="d-block g-color-gray-dark-v4 g-font-style-normal g-font-size-13 g-mb-20">Student</em>
+        <h4 class="h5 g-color-main g-font-weight-700 g-mb-0"><?=$lang['comment_4_author']?></h4>
+        <em class="d-block g-color-gray-dark-v4 g-font-style-normal g-font-size-13 g-mb-20"><?=$lang['comment_4_profession']?></em>
         <p class="g-color-gray-dark-v4 g-font-size-default mb-0"><?=$lang['comment_4']?></p>
       </div>
       <!-- End Testimonials -->
@@ -1276,11 +1272,12 @@
           location.href = "home.html?lang=" + sel_lang;
           localStorage.setItem('show', 'false');
           $('#kakao').hide();
+        }else if(sel_lang === 'ko'){
+          location.href = "home_ko.html?lang=" + sel_lang;
         }else{
           location.href = "home.html?lang=" + sel_lang;
           localStorage.setItem('show', 'true');
         }
-
       }
     </script>
   </body>

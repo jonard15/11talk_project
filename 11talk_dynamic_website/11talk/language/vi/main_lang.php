@@ -2,84 +2,85 @@
 $lang = array();
 
 //Navigation
-$lang['home'] = 'Home';
-$lang['about'] = 'About 11talk';
-$lang['book'] = 'Book';
-$lang['tuition'] = 'Tuition';
-$lang['teacher'] = 'Teacher';
-$lang['faq'] = 'FAQ';
-$lang['testimonials'] = 'Testimonials';
-$lang['blog'] = 'Blog';
-$lang['class_system'] = 'Class System';
+$lang['home'] = 'Trang chủ';
+$lang['about'] = 'Về 11Talk';
+$lang['book'] = 'Sách';
+$lang['tuition'] = 'Học phí';
+$lang['teacher'] = 'Giáo viên';
+$lang['faq'] = 'Câu hỏi thường gặp';
+$lang['testimonials'] = 'Cảm nhận học viên';
+$lang['blog'] = 'Chia sẻ';
+$lang['class_system'] = 'Hệ thống lớp học';
 
 //Home section1
-$lang['learn_from'] = 'LEARN FROM THE';
-$lang['top_online'] = 'Top Online';
-$lang['english_school'] = 'English&nbsp;School';
-$lang['anytime_anywhere'] = 'anytime, anywhere in the world, <br>and reach global success.';
-$lang['free_class'] = '1 FREE Class  & English Level Test';
+$lang['learn_from'] = 'Tham gia ngay';
+$lang['top_online'] = 'CHƯƠNG TRÌNH TIẾNG&nbsp;ANH&nbsp;ONLINE ';
+$lang['english_school'] = 'HÀNG ĐẦU';
+$lang['anytime_anywhere'] = 'Bất cứ lúc nào, bất cứ đâu để trở thành công dân toàn cầu';
+$lang['free_class'] = '1 LỚP HỌC THỬ MIỄN PHÍ VÀ KIỂM TRA TRÌNH ĐỘ';
 
 //Home section2
-$lang['affordable_online'] = '11talk offers high quality and affordable online classes';
-$lang['affordable_online_para'] = 'thru the direct management of the best language school PINES ACADEMY that has been operating for 20 years. Be one of our globally successful students! Learn English online with us now.';
+$lang['affordable_online'] = '11Talk cung cấp các lớp học trực tuyến chất lượng cao và giá cả hợp lí';
+$lang['affordable_online_para'] = 'Thông qua sự quản lý trực tiếp của học viện ngôn ngữ hàng đầu PINES ACADEMY với lịch sử hoạt động hơn 20 năm. Hãy trở thành một trong những học viên toàn cầu xuất sắc của chúng tôi! 
+Học tiếng Anh trực tuyến ngay bạn nhé';
 $lang['about_11talk'] = 'Know more about 11talk';
 $lang['join_our'] = 'Join our';
 $lang['30k'] = '30k';
 $lang['successsful_graduates'] = 'Successful<br>Graduates';
 
 //Home section3
-$lang['be_global'] = 'Be Globally Successful With 11talk';
-$lang['100_instructor'] = '100+instructors with Certain Specialization';
-$lang['100_instructor_para'] = 'Our  professional teachers have 3-5 course specializations making them flexible and remarkable in handling online English classes';
-$lang['general_courses'] = '6 general courses';
-$lang['general_courses_para'] = ' 11talk Courses  guarantee improvement on  4 Core English Skills for getting higher English standardized test scores and gaining confidence in facing current global needs.';
-$lang['book_types'] = '2 booking types';
-$lang['book_types_para'] = 'We support what works for our students based on their lifestyle.';
-$lang['2000_topics'] = '2 booking types';
-$lang['2000_topics_para'] = 'Achieve English fluency through our  2000+ new and trending discussion topics and get immediate class feedback.';
+$lang['be_global'] = 'THÀNH CÔNG TRÊN TOÀN CẦU VỚI 11TALK';
+$lang['100_instructor'] = '100 + GIÁO VIÊN CÓ CHUYÊN MÔN TIẾNG ANH';
+$lang['100_instructor_para'] = 'Các giáo viên chuyên nghiệp có chuyên môn từ 3-5 chuyên ngành khác nhau, giúp linh hoạt và vượt trội hơn trong việc xử lý các lớp học tiếng Anh trực tuyến.';
+$lang['general_courses'] = '6 KHÓA HỌC TỔNG QUÁT';
+$lang['general_courses_para'] = 'Các khóa học 11talk đảm bảo cải thiện 4 Kỹ năng tiếng Anh cốt lõi để đạt điểm kiểm tra tiếng Anh chuẩn hóa tốt hơn và đạt được sự tự tin khi đối mặt với yêu cầu toàn cầu hiện tại.';
+$lang['book_types'] = '2 HÌNH THỨC HỌC';
+$lang['book_types_para'] = 'Chúng tôi hỗ trợ những gì phù hợp với học viên của chúng tôi dựa trên thời gian biểu sống hang ngày';
+$lang['2000_topics'] = '2000 + CHỦ ĐỀ';
+$lang['2000_topics_para'] = 'Đạt được tiếng Anh lưu loát thông qua hơn 2000 chủ đề thảo luận mới và thịnh hành của chúng tôi và nhận xét sau lớp học ngay tức thời';
 
 //Home section4
-$lang['top_choice'] = 'Top Choice';
-$lang['top_choice_para'] = 'among 400 PH Academies';
-$lang['20_years'] = '20 Years';
-$lang['20_years_para'] = 'of History';
+$lang['top_choice'] = 'Lựa Chọn Hàng Đầu';
+$lang['top_choice_para'] = 'Giữa 400 học viện Philippines';
+$lang['20_years'] = '20 năm';
+$lang['20_years_para'] = 'Lịch sử';
 $lang['student_statisfaction_percent'] = '99.9%';
-$lang['student_statisfaction'] = 'student satisfaction';
+$lang['student_statisfaction'] = 'Sự hài lòng của học viên';
 $lang['num_successful_graduates'] = '30,000';
-$lang['successful_graduates_2'] = 'successful graduates';
+$lang['successful_graduates_2'] = 'Tốt nghiệp thành công';
 
 //Home section5
-$lang['learning_features'] = '11talk s Perfect Learning Features';
-$lang['customized_courses'] = 'Customized<br>Courses';
-$lang['7.0_ielts_instructor'] = '7.0 IELTS<br>Instructors';
-$lang['professional_teachers'] = 'Professional<br>Teachers';
-$lang['cefr_level'] = 'CEFR Aligned Level System';
-$lang['device_options'] = 'Device-Friendly Options';
-$lang['reasonable_price'] = 'Reasonable<br>Price';
-$lang['systematic_learning_method'] = 'SYSTEMATIC AND EFFECTIVE LEARNING METHOD';
-$lang['systematic_learning_method_para'] = '11talk s 4-step learning method has created great results in improving students English macro skills from listening, writing, and reading, and speaking.';
-$lang['step1'] = 'Step 1<br>Preview';
-$lang['step1_para'] = 'Invest time for self-studying to achieve the 100% online class result.';
-$lang['step2'] = 'Step 2<br>CLASS';
-$lang['step2_para'] = 'Have a consistent<br> English practice with <br>your teacher';
-$lang['step3'] = 'Step 3<br>HOMEWORK';
-$lang['step3_para'] = 'Extend your learning <br>hours by doing your <br>homework';
-$lang['step4'] = 'Step 4<br>REVIEW';
-$lang['step4_para'] = 'Learn from your teacher s comments by checking the daily class memo';
-$lang['view_4_step'] = 'View 4-STEP LEARNING SYSTEM';
+$lang['learning_features'] = 'HỆ THỐNG HỌC TẬP ƯU VIỆT';
+$lang['customized_courses'] = 'Tuỳ chỉnh<br>khoá học';
+$lang['7.0_ielts_instructor'] = 'Giáo viên 7.0<br>IELTS';
+$lang['professional_teachers'] = 'Giáo viên<br>chuyên nghiệp';
+$lang['cefr_level'] = 'Hệ thống chia cấp độ CEFR';
+$lang['device_options'] = 'Nhiều tính năng tương thích';
+$lang['reasonable_price'] = 'Học phí ưu đãi';
+$lang['systematic_learning_method'] = 'PHƯƠNG PHÁP KHOA HỌC VÀ HIỆU QUẢ';
+$lang['systematic_learning_method_para'] = 'Phương pháp học tập 4 bước giúp tạo nên hiệu quả qua bốn kĩ năng tiếng Anh cơ bản: Nghe, Nói, Đọc, Viết';
+$lang['step1'] = 'Bước 1 <br>Chuẩn bị';
+$lang['step1_para'] = 'Dành thời gian tự học để đạt 100% kết quả tốt trên lớp online';
+$lang['step2'] = 'Bước 2<br>Lớp học';
+$lang['step2_para'] = 'Kiên trì luyện tập tiếng Anh với giáo viên của bạn';
+$lang['step3'] = 'Bước 3<br>Bài tập về nhà';
+$lang['step3_para'] = 'Gia tăng thời gian học tập bằng bài tập về nhà';
+$lang['step4'] = 'Bước 4<br>Ôn tập';
+$lang['step4_para'] = 'Củng cố kiến thức từ nhận xét của giáo viên thông qua nhắc nhở hàng ngày';
+$lang['view_4_step'] = 'Xem ngay hệ thống học tập 4 bước';
 
 //Home section6
-$lang['advance_convenient'] = 'Advanced and Convenient Learning System';
-$lang['free_learning_materials'] = 'Free<br>Learning<br>Materials';
-$lang['easy_video_sharing'] = 'Easy<br>Video<br>Audio Sharing';
-$lang['improve_chat_sysytem'] = 'Improved<br>Chat<br>System';
-$lang['virtual_classroom'] = 'Complete<br>Vitual Classroom<br>tools';
-$lang['experience_barrier_free'] = 'Experience barrier-free classes like<br>studying OFFLINE made possible  with zoom';
-$lang['free_class+_level_test'] = 'Free Class+Level Test';
+$lang['advance_convenient'] = 'Hệ thống học tập tiên tiến và thuận tiện';
+$lang['free_learning_materials'] = 'Miễn phí<br>tài liệu học tập';
+$lang['easy_video_sharing'] = 'Dễ dàng chia<br>sẻ lớp học';
+$lang['improve_chat_sysytem'] = 'Hệ thống trò<br> chuyện cải tiến';
+$lang['virtual_classroom'] = 'Hệ thống hoàn<br>chỉnh các công cụ trực tuyến';
+$lang['experience_barrier_free'] = 'Trải nghiệm các lớp học không rào cản như học<br>OFFLINE hoàn toàn có thể thực hiện được qua Zoom';
+$lang['free_class+_level_test'] = 'LỚP HỌC + BÀI KIỂM TRA CẤP ĐỘ MIỄN PHÍ';
 
 //Home section7
-$lang['stable_tested_curriculum'] = 'Stable and Tested Curriculum';
-$lang['stable_tested_curriculum_para'] = 'Our integrated and customized courses guarantee over-all English skills improvement.Students see great results like getting higher English standardized test scores and gaining confidence in using the English language. Check out our learning material overview.';
+$lang['stable_tested_curriculum'] = 'CHƯƠNG TRÌNH TIÊU CHUẨN ĐÃ ĐƯỢC KIỂM ĐỊNH';
+$lang['stable_tested_curriculum_para'] = 'Các khóa học tích hợp và tùy chỉnh của chúng tôi đảm bảo giúp cải thiện hơn tất cả các kỹ năng tiếng Anh. Học viên sẽ thấy kết quả rõ rệt như đạt được điểm kiểm tra chuẩn hóa tiếng Anh cao hơn và tự tin hơn trong việc sử dụng ngôn ngữ tiếng Anh. Xem qua ngay tổng quan tài liệu học tập của chúng tôi.';
 $lang['job_interview'] = 'Job Interview';
 $lang['job_interview_para'] = 'One stop English job interview preparation';
 $lang['job_interview_btn'] = 'View';
@@ -193,39 +194,49 @@ $lang['toeic_list_modal6_24'] = 'Basic Proficiency';
 $lang['toeic_list_modal6_25'] = 'Able to satisfy immediate survival needs.';
 
 //Home section8
-$lang['study_with_professional_teachers'] = 'Study Online with Well-trained and Professional Teachers';
-$lang['study_with_professional_teachers_para'] = '11talk teachers have completed Pines Academy’s 14-stage recruitment process. After getting hired, they also attend regular training sessions to elevate their teaching credentials to teach a higher grade of English classes. We train them to become flexible in teaching both ESL courses and Test Module Courses like IELTS.';
-$lang['meet_more_teachers'] = 'Meet More Teachers';
-$lang['kakao_customer_service'] = 'KAKAO Customer Service Assistance';
-$lang['kakao_customer_service_para'] = '11talk takes good care of its students through its 1-step KAKAO Assistance. It is not a general customer center that only answers and handles customer requests or inquiries; it s a customer center that cares!';
-$lang['Girl2'] = 'Hi this is Amy Lee I have to postpone my class <br>tommorow because of my university activity';
-$lang['phone_list1'] = 'Send in your concerns';
-$lang['phone_list2'] = 'Long-absences';
-$lang['phone_list3'] = 'Learning Material Consultation';
-$lang['phone_list4'] = 'Daily Feedback Consultation';
-$lang['phone_list5'] = 'Class Quality Check';
+$lang['study_with_professional_teachers'] = 'HỌC TRỰC TUYẾN VỚI GIÁO VIÊN CHUYÊN NGHIỆP VÀ
+ĐƯỢC ĐÀO TẠO';
+$lang['study_with_professional_teachers_para'] = 'Các giáo viên của 11talk đã hoàn thành quy trình tuyển dụng 14 giai đoạn của Pines Acedemy. Sau khi được tuyển dụng, họ cũng tham gia các buổi đào tạo thường xuyên để nâng cao kĩ năng giảng dạy của mình để hướng dẫn các lớp tiếng Anh ở cấp độ cao hơn. Chúng tôi huấn luyện họ trở nên linh hoạt trong việc giảng dạy các khóa học ESL và các Khóa học thi chứng chỉ như IELTS.';
+$lang['meet_more_teachers'] = 'GẶP GỠ GIÁO VIÊN';
+$lang['kakao_customer_service'] = 'KAKAO HỖ TRỢ DỊCH VỤ KHÁCH HÀNG';
+$lang['kakao_customer_service_para'] = '11Talk chăm sóc học viên tận tình thông qua Hỗ trợ KAKAO. Nó không đơn thuần là một trung tâm chăm sóc khách hàng mà còn giúp xử lý các yêu cầu hoặc thắc mắc của khách hang.';
+$lang['Girl2'] = 'Xin chào, tôi là Amy Lee. Tôi phải hoãn buổi học vào ngày mai vì hoạt động trên trường của mình';
+$lang['phone_list1'] = 'Gửi các quan tâm của bạn';
+$lang['phone_list2'] = 'Vắng mặt dài hạn';
+$lang['phone_list3'] = 'Tư vấn tài liệu học tập';
+$lang['phone_list4'] = 'Tư vấn phản hồi hàng ngày';
+$lang['phone_list5'] = 'Kiểm tra chất lượng lớp học';
 $lang['phone_list6'] = 'Apply for free class';
-$lang['Girl1'] = 'Greetings Amy Lee! Your request has been successfully processed.You may re-schedule your classes at 2pm tommorow';
+$lang['Girl1'] = 'Xin chào Amy Lee! Yêu cầu của bạn đã được xử lý thành công. Bạn có thể sắp xếp lại các lớp học của mình lúc 2 giờ chiều nhé';
 
 //Home section9
-$lang['feeback_title'] = 'Testimonials From Real 11talk Students';
-$lang['comment_1'] = '11talk Junior Course was perfect for my son and daughter. Both of them have tried the "Let s Go Series" class, and it was very beneficial for them...';
-$lang['comment_2'] = 'I was a student who always had hesitations when speaking in English. Through the 11Talk online English class, I had the opportunity to break the language barrier...';
-$lang['comment_3'] = 'Since I was a student, I wanted to study English continuously, but when I started working, I didn t have enough time to attend an Offline...';
-$lang['comment_4'] = 'While studying at the university,I have already gained a TOEIC score, but I found out that my conversation skill was insufficient...';
-$lang['see_more_comments'] = 'See more Comments';
+$lang['feeback_title'] = 'CẢM NHẬN TỪ CÁC HỌC VIÊN ĐÃ HỌC TẠI 11TALK ';
+$lang['comment_1_author'] = 'Park Hee Seo';
+$lang['comment_1_profession'] = 'Người đi làm';
+$lang['comment_1'] = '11talk Junior Course hoàn hảo cho con trai và con gái tôi. Cả hai đều đã thử lớp học "Let s Go Series", và nó rất hiệu quả cho chúng ...';
+$lang['comment_2'] = 'Tôi là một sinh viên luôn ngập ngừng khi nói tiếng Anh. Thông qua lớp học tiếng Anh trực tuyến 11Talk, tôi đã có cơ hội phá bỏ rào cản ngôn ngữ ...';
+$lang['comment_2_author'] = 'Song Ju Ho';
+$lang['comment_2_profession'] = 'Sinh viên';
+$lang['comment_3'] = 'Từ khi còn là sinh viên, tôi đã muốn học tiếng Anh liên tục, nhưng khi bắt đầu đi làm, tôi không có đủ thời gian để tham gia một buổi học Offline ...';
+$lang['comment_3_author'] = 'Park Hee Seo';
+$lang['comment_3_profession'] = 'Doanh nhân';
+$lang['comment_4'] = 'Trong thời gian học đại học, tôi đã đạt được điểm TOEIC, nhưng tôi phát hiện ra rằng kỹ năng giao tiếp của tôi không đủ ...';
+$lang['comment_4_author'] = 'AKang Young Seok';
+$lang['comment_4_profession'] = 'Sinh viên';
+$lang['see_more_comments'] = 'Xem thêm các nhận xét';
 
 //Home section10
-$lang['11talk_register_step'] = '11talk Registration Steps';
-$lang['signup_trial_class'] = 'Sign up for a trial class';
-$lang['avail_trial_class'] = 'Avail 1 Free trial class via<br> zoom or skype';
-$lang['checkout_trial_class'] = 'Check out your trial<br> class assessment';
-$lang['course_tuition_package'] = 'Select your course and<br> tuition package';
-$lang['payment_term'] = 'Choose your payment term<br> for registration';
+$lang['11talk_register_step'] = 'CÁC BƯỚC ĐĂNG KÍ TẠI 11TALK';
+$lang['signup_trial_class'] = 'Đăng kí lớp học thử';
+$lang['avail_trial_class'] = '1 lớp học thử miễn phí qua<br> Zoom hoặc SKype';
+$lang['checkout_trial_class'] = 'Kiểm tra đánh giá trình độ<br>qua lớp học thử';
+$lang['course_tuition_package'] = 'Chọn khóa học và<br>gói học phí';
+$lang['payment_term'] = 'Chọn phương thức<br>thanh toán';
 
 //footer
-$lang['contact_us'] = 'Contact us';
-$lang['address'] = 'Address';
-$lang['phone_number'] = 'Phone number';
-$lang['tel_number'] = '(074) 1644-4518';
+$lang['contact_us'] = 'LIÊN HỆ';
+$lang['address'] = 'Địa chỉ';
+$lang['phone_number'] = 'Zalo';
+$lang['tel_number'] = 'Jacky_Le';
 $lang['email'] = 'Email';
+$lang['reserve'] = '&copy; 2020 11talk. All Rights Reserved.';

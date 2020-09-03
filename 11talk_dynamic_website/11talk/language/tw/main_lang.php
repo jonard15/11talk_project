@@ -208,9 +208,17 @@ $lang['Girl1'] = 'Greetings Amy Lee! Your request has been successfully processe
 //Home section9
 $lang['feeback_title'] = '11TALK學生心得分享';
 $lang['comment_1'] = '11talk Junior Course was perfect for my son and daughter. Both of them have tried the "Let s Go Series" class, and it was very beneficial for them...';
+$lang['comment_1_author'] = 'Park Hee Seo';
+$lang['comment_1_profession'] = 'Working Mom';
 $lang['comment_2'] = 'I was a student who always had hesitations when speaking in English. Through the 11Talk online English class, I had the opportunity to break the language barrier...';
+$lang['comment_2_author'] = 'Song Ju Ho';
+$lang['comment_2_profession'] = 'Student';
 $lang['comment_3'] = 'Since I was a student, I wanted to study English continuously, but when I started working, I didn t have enough time to attend an Offline...';
+$lang['comment_3_author'] = 'Park Hee Seo';
+$lang['comment_3_profession'] = 'Businessman';
 $lang['comment_4'] = 'While studying at the university,I have already gained a TOEIC score, but I found out that my conversation skill was insufficient...';
+$lang['comment_4_author'] = 'AKang Young Seok';
+$lang['comment_4_profession'] = 'Student';
 $lang['see_more_comments'] = 'See more Comments';
 
 //Home section10
@@ -227,3 +235,4 @@ $lang['address'] = '地址';
 $lang['phone_number'] = 'Line';
 $lang['tel_number'] = 'pukurin321';
 $lang['email'] = 'Email';
+$lang['reserve'] = '&copy; 2020 11talk. All Rights Reserved.';
