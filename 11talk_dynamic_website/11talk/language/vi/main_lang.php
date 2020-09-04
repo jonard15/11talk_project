@@ -3,6 +3,7 @@ $lang = array();
 
 //Navigation
 $lang['home'] = 'Trang chủ';
+$lang['home_link'] = 'home.html';
 $lang['about'] = 'Về 11Talk';
 $lang['book'] = 'Sách';
 $lang['tuition'] = 'Học phí';

@@ -3,6 +3,7 @@ $lang = array();
 
 //Navigation
 $lang['home'] = 'Home';
+$lang['home_link'] = 'home.html';
 $lang['about'] = 'About 11talk';
 $lang['book'] = 'Book';
 $lang['tuition'] = 'Tuition';
@@ -35,7 +36,7 @@ $lang['general_courses'] = '6 general courses';
 $lang['general_courses_para'] = ' 11talk Courses  guarantee improvement on  4 Core English Skills for getting higher English standardized test scores and gaining confidence in facing current global needs.';
 $lang['book_types'] = '2 booking types';
 $lang['book_types_para'] = 'We support what works for our students based on their lifestyle.';
-$lang['2000_topics'] = '2 booking types';
+$lang['2000_topics'] = '2000+ Discussion Topics';
 $lang['2000_topics_para'] = 'Achieve English fluency through our  2000+ new and trending discussion topics and get immediate class feedback.';
 
 //Home section4

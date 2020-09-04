@@ -70,144 +70,140 @@
 <body>
 <main>
 
-    <!-- Header -->
-    <header id="js-header" class="u-header u-header--sticky-top u-header--toggle-section u-header--change-appearance u-shadow-v19">
-        <div class="u-header__section g-bg-white g-transition-0_3">
-            <nav class="js-mega-menu navbar navbar-expand-lg g-pa-0">
-                                    <!-- Logo -->
-                                    <a class="navbar-brand g-pl-120" href="home.html">
-                                        <img class="g-width-150" src="img/header/logo.png" alt="Logo">
-                                    </a>
-                                    <!-- End Logo -->
-                <div class="g-pr-150 container-fluid">
+    <header id="js-header" class="u-header u-header--static u-shadow-v19">
+        <!-- Top Bar -->
+        <div class="u-header__section g-brd-bottom g-brd-gray-light-v4 g-py-10">
+          <div class="container">
+            <div class="row align-items-center">
+              <!-- Logo -->
+              <div class="col-md-3 g-hidden-md-down">
+                <a class="navbar-brand" href="<?=$lang['home_link']?>">
+                    <img class="g-width-150" src="img/header/logo.png" alt="Logo">
+                </a>
+              </div>
+              <!-- End Logo -->
 
-                    <!-- Responsive Toggle Button -->
-                    <button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pos-abs g-top-10 g-right-0 g-pa-0 g-mt-2" type="button"
-                            aria-label="Toggle navigation"
-                            aria-expanded="false"
-                            aria-controls="navBar"
-                            data-toggle="collapse"
-                            data-target="#navBar">
-                <span class="hamburger hamburger--slider g-px-15">
+              <!-- Language -->
+              <div class="col-6 col-lg-3 g-pos-rel ml-auto">
+                <select id="select_language" onChange="change_language()">
+                    <option value="ch" <? if($sel_lang=='ch') echo 'selected'; ?> >中文 (Chinese)</option>
+                    <option value="en" <? if($sel_lang=='en') echo 'selected'; ?> >English (US)</option>
+                    <option value="jp" <? if($sel_lang=='jp') echo 'selected'; ?> >日本語 (Japanese)</option>
+                    <option value="ko" <? if($sel_lang=='ko') echo 'selected'; ?> >한국어 (Korean)</option>
+                    <option value="tw" <? if($sel_lang=='tw') echo 'selected'; ?> >台灣 (Taiwanese)</option>
+                    <option value="th" <? if($sel_lang=='th') echo 'selected'; ?> >ไทย (Thai)</option>
+                    <option value="vi" <? if($sel_lang=='vi') echo 'selected'; ?> >Tiếng việt (Vietnamese)</option>
+                  </select>
+              </div>
+              <!-- End Language -->
+            </div>
+          </div>
+        </div>
+        <!-- End Top Bar -->
+
+        <div class="u-header__section u-header__section--light g-bg-white g-transition-0_3 g-py-10">
+          <nav class="js-mega-menu navbar navbar-expand-lg g-px-0 hs-menu-initialized hs-menu-horizontal hs-mobile-state">
+            <div class="container g-px-15">
+              <!-- Logo -->
+              <a class="navbar-brand g-hidden-lg-up" href="bm-classic-home-page-1.html">
+                <img class="g-width-100" src="img/header/logo.png" alt="Logo">
+              </a>
+              <!-- End Logo -->
+
+              <!-- Responsive Toggle Button -->
+              <button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pa-0 ml-auto" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+                <span class="hamburger hamburger--slider g-pa-0">
                   <span class="hamburger-box">
                     <span class="hamburger-inner"></span>
                   </span>
                 </span>
-                    </button>
-                    <!-- End Responsive Toggle Button -->
+              </button>
+              <!-- End Responsive Toggle Button -->
 
-                    <!-- Navigation -->
-                    <div id="navBar" class="collapse navbar-collapse align-items-center flex-sm-row">
-                        <ul class="navbar-nav ml-auto g-pb-30 g-pb-0--lg">
-                            <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
-                                <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="home.html">
-                                    <?=$lang['home']?>
-                                </a>
-                            </li>
-                            <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
-                                <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="company.html">
-                                    <?=$lang['about']?>
-                                </a>
-                            </li>
-                            <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
-                                <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="book.html">
-                                    <?=$lang['book']?>
-                                </a>
-                            </li>
-                            <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
-                                <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="book_list.html">
-                                    <?=$lang['book']?>(DB)
-                                </a>
-                            </li>
-                            <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
-                                <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="price.html">
-                                    <?=$lang['tuition']?>
-                                </a>
-                            </li>
-                            <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
-                                <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="teacher.html">
-                                    <?=$lang['teacher']?>
-                                </a>
-                            </li>
-                            <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
-                                <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="teacher_list.html">
-                                    <?=$lang['teacher']?>(DB)
-                                </a>
-                            </li>
-                            <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
-                                <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="FAQ.html">
-                                    <?=$lang['faq']?>
-                                </a>
-                            </li>
-                            <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
-                                <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="testimonials.html">
-                                    <?=$lang['testimonials']?>
-                                </a>
-                            </li>
-                            <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
-                                <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="blog.html">
-                                    <?=$lang['blog']?>
-                                </a>
-                            </li>
-                            <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
-                                <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="https://pinesonline.cafe24.com/m/logins.html">
-                                    <?=$lang['class_system']?>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- End Navigation -->
+              <!-- Navigation -->
+              <div class="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg" id="navBar">
+                <ul class="navbar-nav g-font-weight-600">
+                  <!-- Home - Submenu -->
+                  <li class="nav-item g-mr-10--lg g-mr-15--xl">
+                    <a id="nav-link--home" class="nav-link text-uppercase g-color-primary--hover g-px-0" href="<?=$lang['home_link']?>" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--home">
+                        <?=$lang['home']?>
+                    </a>
+                  </li>
+                  <!-- End Home - Submenu -->
 
-                    <!-- Language -->
-                    <!-- <li class="nav-item hs-has-sub-menu g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
-                      <a class="language nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-9 g-py-10"  href="#">
-                        <?=$lang['No_you_missed_this_one']?>
-                      </a>
-  
-                      <ul id="nav-submenu--pages" class="hs-sub-menu list-unstyled u-shadow-v11 g-min-width-220 g-brd-top g-brd-primary g-brd-top-2 g-mt-17 animated" aria-labelledby="nav-link--pages" style="display: none;">
-                        <li class="dropdown-item ">
-                          <a href="#" class="nav-link" onclick="test();">English (US)</a>
-                        </li>
-                        <li class="dropdown-item ">
-                          <a href="#" class="nav-link" onclick="$.MultiLanguage('language/ch.json', 'ch'),window.location.reload()"> 中文 (Chinese)</a>
-                        </li>
-                        <li class="dropdown-item ">
-                          <a href="#" class="nav-link" onclick="$.MultiLanguage('language/jp.json', 'jp'),window.location.reload()" >日本語 (Japanese)</a>
-                        </li>
-                        <li class="dropdown-item ">
-                          <a href="#" class="nav-link" onclick="$.MultiLanguage('language/ko.json', 'ko'),window.location.reload()">한국어 (Korean)</a>
-                        </li>
-                        <li class="dropdown-item ">
-                          <a href="#" class="nav-link" onclick="$.MultiLanguage('language/th.json', 'th'),window.location.reload()">台灣 (Taiwanese)</a>
-                        </li>
-                        <li class="dropdown-item ">
-                          <a href="#" class="nav-link" onclick="$.MultiLanguage('language/tw.json', 'tw'),window.location.reload()">ไทย (Thai)</a>
-                        </li>
-                        <li class="dropdown-item ">
-                          <a href="#" class="nav-link" onclick="$.MultiLanguage('language/vi.json', 'vi'),window.location.reload()">Tiếng việt (Vietnamese)</a>
-                        </li>
-                      </ul>
-                    </li> -->
-                <!-- End Language -->
-                <div class="g-pos-abs g-top-35 g-right-65 g-pos-rel--lg g-top-0--lg g-right-0--lg g-pt-3--lg g-ml-30 g-ml-0--lg">
-                    <select id="select_language" onChange="change_language()">
-                        <option value="ch" <? if($sel_lang=='ch') echo 'selected'; ?> >中文 (Chinese)</option>
-                        <option value="en" <? if($sel_lang=='en') echo 'selected'; ?> >English (US)</option>
-                        <option value="jp" <? if($sel_lang=='jp') echo 'selected'; ?> >日本語 (Japanese)</option>
-                        <option value="ko" <? if($sel_lang=='ko') echo 'selected'; ?> >한국어 (Korean)</option>
-                        <option value="tw" <? if($sel_lang=='tw') echo 'selected'; ?> >台灣 (Taiwanese)</option>
-                        <option value="th" <? if($sel_lang=='th') echo 'selected'; ?> >ไทย (Thai)</option>
-                        <option value="vi" <? if($sel_lang=='vi') echo 'selected'; ?> >Tiếng việt (Vietnamese)</option>
-                      </select>
-                </div>
-                    <div class="col-auto g-hidden-md-down g-pr-0">
-                        <div class="g-bg-main g-cursor-pointer g-px-25 g-py-20">
-                            <!-- <span class="d-block g-color-primary g-font-size-11 mb-1">(074) 1644-4518</span> -->
-                            <span class="d-block g-color-primary"> <a href="junior.html">11talk Junior</a> </span>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+                  <!-- Pages - Submenu -->
+                  <li class="nav-item g-mx-10--lg g-mr-15--xl">
+                    <a id="nav-link--pages" class="nav-link text-uppercase g-color-primary--hover g-px-0" href="company.html" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--pages">
+                        <?=$lang['about']?>
+                    </a>
+                  </li>
+
+                <!-- Pages - Submenu -->
+                <li class="nav-item g-mx-10--lg g-mr-15--xl">
+                    <a id="nav-link--pages" class="nav-link text-uppercase g-color-primary--hover g-px-0" href="book.html" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--pages">
+                        <?=$lang['book']?>
+                    </a>
+                </li>
+
+                <!-- Pages - Submenu -->
+                <li class="nav-item g-mx-10--lg g-mr-15--xl">
+                    <a id="nav-link--pages" class="nav-link text-uppercase g-color-primary--hover g-px-0" href="book_list.html" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--pages">
+                        <?=$lang['book']?>(DB)
+                    </a>
+                </li>
+
+                <!-- Pages - Submenu -->
+                <li class="nav-item g-mx-10--lg g-mr-15--xl">
+                    <a id="nav-link--pages" class="nav-link text-uppercase g-color-primary--hover g-px-0" href="price.html" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--pages">
+                        <?=$lang['tuition']?>
+                    </a>
+                </li>
+
+                <!-- Pages - Submenu -->
+                <li class="nav-item g-mx-10--lg g-mr-15--xl">
+                    <a id="nav-link--pages" class="nav-link text-uppercase g-color-primary--hover g-px-0" href="teacher.html" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--pages">
+                        <?=$lang['teacher']?>
+                    </a>
+                </li>
+
+                <!-- Pages - Submenu -->
+                <li class="nav-item g-mx-10--lg g-mr-15--xl">
+                    <a id="nav-link--pages" class="nav-link text-uppercase g-color-primary--hover g-px-0" href="teacher_list.html" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--pages">
+                        <?=$lang['teacher']?>(DB)
+                    </a>
+                </li>
+
+                <!-- Pages - Submenu -->
+                <li class="nav-item g-mx-10--lg g-mr-15--xl">
+                    <a id="nav-link--pages" class="nav-link text-uppercase g-color-primary--hover g-px-0" href="FAQ.html" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--pages">
+                        <?=$lang['faq']?>
+                    </a>
+                </li>
+
+                <!-- Pages - Submenu -->
+                <li class="nav-item g-mx-10--lg g-mr-15--xl">
+                    <a id="nav-link--pages" class="nav-link text-uppercase g-color-primary--hover g-px-0" href="testimonials.html" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--pages">
+                        <?=$lang['testimonials']?>
+                    </a>
+                </li>
+
+                <!-- Pages - Submenu -->
+                <li class="nav-item g-mx-10--lg g-mr-15--xl">
+                    <a id="nav-link--pages" class="nav-link text-uppercase g-color-primary--hover g-px-0" href="blog.html" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--pages">
+                        <?=$lang['blog']?>
+                    </a>
+                </li>
+
+                <!-- Pages - Submenu -->
+                <li class="nav-item g-mx-10--lg g-mr-15--xl">
+                    <a id="nav-link--pages" class="nav-link text-uppercase g-color-primary--hover g-px-0" href="https://pinesonline.cafe24.com/m/logins.html" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--pages">
+                        <?=$lang['class_system']?>
+                    </a>
+                </li>
+                </ul>
+              </div>
+              <!-- End Navigation -->
+            </div>
+          </nav>
         </div>
-    </header>
-    <!-- end header -->
+      </header>

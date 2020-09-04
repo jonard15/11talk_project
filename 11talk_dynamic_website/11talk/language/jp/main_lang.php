@@ -3,6 +3,7 @@ $lang = array();
 
 //Navigation
 $lang['home'] = 'トップ';
+$lang['home_link'] = 'home.html';
 $lang['about'] = '11 talk について';
 $lang['book'] = '教科書';
 $lang['tuition'] = '料金プラン';

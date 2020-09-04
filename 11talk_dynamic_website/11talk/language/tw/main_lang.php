@@ -3,6 +3,7 @@ $lang = array();
 
 //Navigation
 $lang['home'] = '首頁';
+$lang['home_link'] = 'home.html';
 $lang['about'] = '關於 11talk';
 $lang['book'] = '教材';
 $lang['tuition'] = '費用';

@@ -3,6 +3,7 @@ $lang = array();
 
 //Navigation
 $lang['home'] = 'หน้าหลัก';
+$lang['home_link'] = 'home.html';
 $lang['about'] = 'เกี่ยวกับ 11talk';
 $lang['book'] = 'หนังสือ';
 $lang['tuition'] = 'หลักสูตร';
