@@ -222,6 +222,388 @@ $lang['checkout_trial_class'] = '查看您的试听课程<br> 及课堂评估(�
 $lang['course_tuition_package'] = '选择您的<br> 课程和价目表';
 $lang['payment_term'] = '选择您的付款程序并<br> 进行注册';
 
+//company
+$lang['about_us'] = '关于我们';
+$lang['about_us_para'] = '11TALK一所专业的在线英语学校';
+$lang['we_are_11talk'] = '我们是11talk';
+$lang['we_are_11talk_para1'] = '11Talk是隶属于菲律宾专业语言学校Pines International Academy的在线英语学校，我们提供的1对1英语教学服务是提高您英语水平最佳方法。';
+$lang['we_are_11talk_para2'] = '我们能在您最方便的时间帮助您提高英语水平。从事英语教学行业超过20年且能够提供最佳师资和优质教育的我们是您在线学习英语的最佳选择';
+$lang['mission_and_vision'] = '使命与愿景';
+$lang['mission_and_vision_title1'] = '以匠人精神，传授技能';
+$lang['mission_and_vision_para1'] = 'Pines独特的教学方法将使您有信心和能力开口说英文';
+$lang['mission_and_vision_title2'] = '通过经验，进行传承';
+$lang['mission_and_vision_para2'] = '人格特质是教育中最重要的价值观之一。我们会体验和了解文化的多样性。为您提供最佳的方式来提高您的英文实力';
+$lang['mission_and_vision_title3'] = '沟通交流的重要性';
+$lang['mission_and_vision_para3'] = '与形形色色的人相处并非易事，但我们可以通过沟通和交流进行相互理解，共同实现梦想。';
+$lang['mission_and_vision_title4'] = '培养国际化人才';
+$lang['mission_and_vision_para4'] = '接触多样的人与文化，扩展您对世界的见解，思考您的角色。我们将为您提供练习的机会，帮助您成为国际化人才。';
+$lang['history_of_11talk'] = '11TALK的历史';
+$lang['history_of_11talk_2018'] = '2018';
+$lang['history_of_11talk_2018_list1'] = 'Opening Main Campus';
+$lang['history_of_11talk_2017'] = '2017';
+$lang['history_of_11talk_2017_list1'] = 'Winter Vacation Camp for students from Chonbuk University, Sunmoon';
+$lang['history_of_11talk_2017_list2'] = 'University, Kyeongnam National University of Science and Technology, Inje';
+$lang['history_of_11talk_2017_list3'] = 'University, Daejin University, Kunsan University';
+$lang['history_of_11talk_2017_list4'] = 'Winter Vacation Camp for juniors from <br>Hanwha';
+$lang['history_of_11talk_2016'] = '2016';
+$lang['history_of_11talk_2016_list1'] = 'Hosting of the 8th ESLympics';
+$lang['history_of_11talk_2016_list2'] = 'Launching of the University Students Chonbuk and Inje Buddy Program';
+$lang['history_of_11talk_2016_list3'] = 'Summer and Winter Vacation Camp for juniors from Hanwha';
+$lang['history_of_11talk_2015'] = '2015';
+$lang['history_of_11talk_2015_list1'] = 'Opening of the sister school in Cebu, Cebu Blue Ocean Academy (CBOA)';
+$lang['history_of_11talk_2015_list2'] = 'Holding the 7th ESLympics';
+$lang['history_of_11talk_2014'] = '2014';
+$lang['history_of_11talk_2014_list1'] = 'Hosting of the 8th ESLympics';
+$lang['history_of_11talk_2014_list2'] = 'Launching of the University Students Chonbuk and Inje Buddy Program';
+$lang['history_of_11talk_2014_list3'] = 'Summer and Winter Vacation Camp for juniors from Hanwha';
+$lang['history_of_11talk_2013'] = '2013';
+$lang['history_of_11talk_2013_list1'] = 'Opening of Chapis Advanced Course Campus';
+$lang['history_of_11talk_2013_list2'] = 'Launching of Golf and English Camp by Choice Golf Academy';
+$lang['history_of_11talk_2012'] = '2012';
+$lang['history_of_11talk_2012_list1'] = 'Winter Vacation camp for students from Hanyang University';
+$lang['history_of_11talk_2012_list2'] = 'Yonam Institute of Digital Technology, Cheonam Yonam College, Kookje College, Osan University';
+$lang['history_of_11talk_2012_list3'] = 'Hosting of the 4th ESLympics';
+$lang['history_of_11talk_2012_list4'] = 'MOU with IVY Stewardess Academy';
+$lang['history_of_11talk_2012_list5'] = '100th Batch of students';
+$lang['history_of_11talk_2011'] = '2011';
+$lang['history_of_11talk_2011_list1'] = 'MOU between the University of Cordilleras and Yonam Digital Institute and College, Pines acting as Intermediary';
+$lang['history_of_11talk_2011_list2'] = 'Hosting of the 3rd ESLympics';
+$lang['history_of_11talk_2010'] = '2010';
+$lang['history_of_11talk_2010_list1'] = 'Affiliation with University of Cordilleras and Sunmoon University, Pines acting as Intermediary';
+$lang['history_of_11talk_2010_list2'] = 'Launching of Pines “English Rush Hour” Program';
+$lang['history_of_11talk_2010_list3'] = 'Hosting of the 1st ESLympics for university  students from Baguio';
+$lang['history_of_11talk_2010_list4'] = 'Launching of a program for university students from Korea';
+$lang['history_of_11talk_2009'] = '2009';
+$lang['history_of_11talk_2009_list1'] = 'Number of students peaked at 500';
+$lang['history_of_11talk_2009_list2'] = 'Launching of “WYM” Camp of EFL Learners';
+$lang['history_of_11talk_2009_list3'] = 'Opening of Pines Academy in Clark';
+$lang['history_of_11talk_2008'] = '2008';
+$lang['history_of_11talk_2008_list1'] = 'Opening of Romel Suite Campus as training center for new students';
+$lang['history_of_11talk_2007'] = '2007';
+$lang['history_of_11talk_2007_list1'] = 'Launching of “KPS” intensified night program';
+$lang['history_of_11talk_2007_list2'] = 'Number of students peaked at 300';
+$lang['history_of_11talk_2006'] = '2006';
+$lang['history_of_11talk_2006_list1'] = 'Launching of Junior Camp';
+$lang['history_of_11talk_2006_list2'] = 'Opening of Star Mountain Campus';
+$lang['history_of_11talk_2005'] = '2005';
+$lang['history_of_11talk_2005_list1'] = 'Transfer to Cooyeesan Plaza Hotel as an extension of Main Campus';
+$lang['history_of_11talk_2005_list2'] = 'Opening of Advanced Course Campus in Summer Place Hotel';
+$lang['history_of_11talk_2003'] = '2003';
+$lang['history_of_11talk_2003_list1'] = 'Formal Introduction of EFL courses';
+$lang['history_of_11talk_2001'] = '2001';
+$lang['history_of_11talk_2001_list1'] = 'Launching of Pines International Academy in Green Valley, Baguio City, Philippines';
+$lang['history_of_11talk_2001_list2'] = 'Accreditation of Pines by the Technical Education and Skills Development';
+$lang['history_of_11talk_2001_list3'] = 'Authority (TESDA) and the Education Ministry of the Philippine';
+$lang['free_books'] = '免费的教材';
+$lang['free_books_para'] = '您可以下载保存我们课程中的所有电子材料。可以随时通过11talk学生应用进行英语学习，所有材料均免费提供。';
+$lang['english_level_assessment'] = '1堂免费的英语水平测试';
+$lang['english_level_assessment_para'] = '通过我们的CEFR统一等级测试了解您的英语水平。学校将推荐适合您的教材，从而可以最有效地学习英语。';
+$lang['class_videos'] = '课程录影';
+$lang['class_videos_para'] = '学校可根据学生需求提供上课全程的录影资料，您可以随时随地复习上课内容。';
+$lang['special_courses'] = '特别课程';
+$lang['special_courses_para'] = '11talk的特别课程可根据学生的实际需求来提高英语技能。我们为专业人士设立了空服人员应聘英语、工作面试英语和商务英语课程，目的是在会议和演讲等专业环境中精准地使用英文。
+';
+$lang['junior_courses'] = '初级少儿英语';
+$lang['junior_courses_para'] = '11talk 初级少儿英语课程可激发青少年学生在学习英文字母、拼读、单词排列方面的使用思维。该课程会促进学生与老师的互动，以帮助孩子们在日常生活中自信地使用英语。
+';
+$lang['senior_courses'] = '高级成人英语(口语)课程';
+$lang['senior_courses_para'] = '我们的高级英语(口语)课程是专为成年人设计，目的在发展和增强学生对英语使用的掌握，旨在让学生提高在日常情景中的实用沟通口语技能。';
+$lang['exam_courses'] = '考试课程';
+$lang['exam_courses_para'] = '11Talk的毕业生在各类官方和政府设定的英语等级考试中通过率高达98%。我们提供雅思、托业、托福和OPIC课程';
+$lang['choose_your_course'] = '选择你的课程';
+$lang['checkout'] = 'Checkout';
+
+//CEFR
+$lang['cefr_title'] = 'PINES 11TALK CEFR之课程和分级系统';
+$lang['cefr_para'] = 'Pines 11talk在提供英语课程方面是参考欧洲通用语言框架（CEFR）的国际英语分级标准，该标准详细表述学生的英语水平。该分级有三个大类，六个小类A，B，C（A1，A2， B1，B2，C1，C2）';
+$lang['cefr_table_level'] = 'CEFR Level';
+$lang['cefr_table_cefr_11talk_level'] = 'Pines 11talk Level';
+$lang['cefr_table_cefr_description'] = '描述说明';
+$lang['cefr_table_cefr_level_c1'] = 'C1';
+$lang['cefr_table_level0_td2'] = '10';
+$lang['cefr_table_level0_td3'] = '能够理解广泛的主题，能够准备理解长篇文章甚至隐含的意义；可以在任何社交，学术或专业环境中流畅、有效地表达观点； 甚至可以在复杂的主题上进行清晰、有结构且合理的说明，并有逻辑的表达。';
+$lang['cefr_table_cefr_level_b2'] = 'B2';
+$lang['cefr_table_leve9_td1'] = '9';
+$lang['cefr_table_leve9_td2'] = '可以参与各种对话；可以阅读和理解复杂的内容文字，例如报纸文章、杂志或期刊；可以理解他人的观点，并就某个特定的问题发表意见，可以和母语人士自如交流。';
+$lang['cefr_table_leve8_td1'] = '8';
+$lang['cefr_table_leve8_td2'] = '能够理解熟悉的或所在的兴趣或专业领域内的主题、对话或讨论的重点；可以重点理解出必要的信息并提出问题，以进一步的解释、澄清或说明；可以表达详细的内容，阐述有关主题的观点。';
+$lang['cefr_table_cefr_level_b1'] = 'B1';
+$lang['cefr_table_leve7_td1'] = '7';
+$lang['cefr_table_leve7_td2'] = '可以详细、有把握地解释在特定情况下出现的问题，并可以提出处理与建议；可以理解自身有兴趣或擅长的状况问题，并适当地回应与其相关的其他拓展或后续问题。';
+$lang['cefr_table_leve6_td1'] = '6';
+$lang['cefr_table_leve6_td2'] = '可以理解大多数与熟悉事物有关的想法，并且可以在旅行时处理大多数情况；可以描述经历、事件、梦想、希望和抱负，并简单说明观点和计划；可以维持有关个人兴趣的具体话题的社交对话。';
+$lang['cefr_table_cefr_level_a2'] = 'A2';
+$lang['cefr_table_leve5_td1'] = '5';
+$lang['cefr_table_leve5_td2'] = '可以交换意见和情绪，表达不同的意见，并使用简单的表达方式表达人与事；可以在社区、工作场所和
+学校的日常情况下使用多种表达方式与他人互动。';
+$lang['cefr_table_leve4_td1'] = '4';
+$lang['cefr_table_leve4_td2'] = '可以为熟悉的特定地方提供简单的指导；可以借由照片、地图和一系列记忆的表达方式简短地谈论如学校和工作的相关信息；可以使用基本单词撰写邀请函和其他简单的个人信件。';
+$lang['cefr_table_cefr_level_a1'] = 'A1';
+$lang['cefr_table_leve3_td1'] = '3';
+$lang['cefr_table_leve3_td2'] = '可以问和回答有关熟悉主题的简单问题； 可以使用基本短语提问； 在有书面说明的情况下可以谈论个人经历。';
+$lang['cefr_table_leve2_td1'] = '2';
+$lang['cefr_table_leve2_td2'] = '可以使用有限的单词量和其他表达方式来理解有关熟悉的话题的简短对话，例如兴趣爱好、食物、学校和工作。';
+$lang['cefr_table_leve1_td1'] = '1';
+$lang['cefr_table_leve1_td2'] = '可以阅读和理解非常简单的说明和书面通知；可以询问和回答有关时间、日期和价格的简单问题；可以使用记忆式句型以非常缓慢和清晰的方式表达自己，可以抓住关键点并遵循基本指示。';
+$lang['cefr_table_cefr_level_pre_a1'] = 'Pre-A1';
+$lang['cefr_table_leve1p_td1'] = '1P';
+$lang['cefr_table_leve1p_td2'] = '可以使用日常熟悉的单词，表达一般问候；可以识别简单的书面文字，也可以通过模仿进行表达；可以传达有关自己的简单信息，例如姓名，年龄，地址和国籍。';
+
+//4-step
+$lang['4step_title'] = '高效的线上课学习系统';
+$lang['4step_para'] = '11talk的四步学习方法旨在提高学生的听、说、读、写四个英语能力，并取得成绩';
+$lang['4step_button'] = '1 Free Class & English Level Test';
+$lang['4step_link'] = 'https://pinestalking.com/m/signup.html?lang=en';
+$lang['4step_step1'] = '步骤1（预习)';
+$lang['4step_step1_para'] = '在上课之前，通过初步测验，英语录音档等文件以及后续对话来学习词汇和表达方式。';
+$lang['4step_step1_list1_title'] = 'Script';
+$lang['4step_step1_list1'] = '您可以通过听录音档为下一堂的课程练习新的表达方式和单词';
+$lang['4step_step1_list2_title'] = 'Quiz A';
+$lang['4step_step1_list2'] = '参加测验A，通过配对，形成完整的句子/正确的单词/片语';
+$lang['4step_step1_list3_title'] = 'Quiz B';
+$lang['4step_step1_list3'] = '记住新的表达方式通过参加测验B并重新排列单词';
+$lang['4step_step1_list4_title'] = 'Mimic';
+$lang['4step_step1_list4'] = '模仿是最好的英语学习方式之一。通过模仿录音文档，您将更容易记住单词和表达方式。';
+$lang['4step_step1_list5_title'] = 'Dictation';
+$lang['4step_step1_list5'] = '通过听写练习，学习效课会更好';
+$lang['4step_step1_list6_title'] = 'Result';
+$lang['4step_step1_list6'] = '查看你在课程预习中错过的知识点，并确保记住本单元中的新单词和新表达方式';
+$lang['4step_step2'] = '第2步（與您的老師一對一上課） ';
+$lang['4step_step2_para'] = '與您的線上英語老師一起在課堂上使用所學到的單詞和表達式';
+$lang['4step_step2_list1_title'] = 'Reading';
+$lang['4step_step2_list1'] = '通过阅读课程，与1：1老师练习口语和发音';
+$lang['4step_step2_list2_title'] = 'Expression/Patterns';
+$lang['4step_step2_list2'] = '学习日常使用的实用表达式/模式和类似表达式';
+$lang['4step_step2_list3_title'] = 'Role-Play';
+$lang['4step_step2_list3'] = '通过对话练习的部分与老师进行互动';
+$lang['4step_step2_list4_title'] = 'Discussion';
+$lang['4step_step2_list4'] = '通过使用实用的表达方式来回答老师的问题，以达到流利使用程度';
+$lang['4step_step2_list5_title'] = 'Result';
+$lang['4step_step2_list5'] = '通过在课本中所学到的知识来加强记忆';
+$lang['4step_step3'] = '步驟3（作業）';
+$lang['4step_step3_para'] = '通過完成作業，並從中使用學到的表達方式和詞彙量，讓自己多做些練習';
+$lang['4step_step3_list1_title'] = 'Homework';
+$lang['4step_step3_list1'] = 'Write using the expression and vocabulary you learn.Write about 200 to 1000 characters';
+$lang['4step_step3_list2_title'] = 'Feedback';
+$lang['4step_step3_list2'] = 'Feedback from the instructor for Homework ';
+$lang['4step_step4'] = '第4步（課後複習';
+$lang['4step_step4_para'] = '關看您的每日課堂反饋，並複習老師的評論和建議。再次作答A和B的測驗，模仿聽寫練習，然後看看您錯過了什麼。';
+$lang['4step_step4_list1_title'] = 'Feedback';
+$lang['4step_step4_list1'] = 'Feedback fom the instructor for the class';
+$lang['4step_step4_list2_title'] = 'Quiz A';
+$lang['4step_step4_list2'] = 'Select the correct answer';
+$lang['4step_step4_list3_title'] = 'Quiz B';
+$lang['4step_step4_list3'] = 'List the words in order according to the grammar';
+$lang['4step_step4_list4_title'] = 'Mimic';
+$lang['4step_step4_list4'] = 'Read the sentence and record it';
+$lang['4step_step4_list5_title'] = 'Dictation';
+$lang['4step_step4_list5'] = 'Listen to the following conversations and fill in the missing words';
+$lang['4step_step4_list6_title'] = 'Result';
+$lang['4step_step4_list6'] = 'Check the overall result';
+
+//tuition
+$lang['tuition_percent'] = '30%';
+$lang['tuition_off'] = 'OFF';
+$lang['tuition_percent_off_para'] = 'Less is MORE! Enjoy lower tuition when you register on longer duration';
+$lang['tuition_percent_off_button'] = 'Get 1 Free Class';
+$lang['tuition_currrent_available'] = 'Currently Available';
+$lang['tuition_price_table'] = 'Pricing Tables';
+$lang['tuition_price_tab_all'] = 'All';
+$lang['tuition_price_tab_free_booking'] = 'Free Booking';
+$lang['tuition_price_tab_fixed_booking'] = 'Fixed Booking';
+$lang['tuition_price_tab_expert_course'] = 'Expert Course';
+$lang['tuition_price_tab_ielts_expert'] = 'IELTS EXPERT Fixed Booking';
+$lang['tuition_price_per_month'] = 'per month';
+$lang['tuition_price_button'] = 'Register Now';
+$lang['tuition_table_head_1m'] = '1M (Original)';
+$lang['tuition_table_head_3m'] = '3M 25%';
+$lang['tuition_table_head_6m'] = '6M 30%';
+$lang['tuition_table_head_popular'] = '* Popular';
+$lang['tuition_table_free_title1'] = '20 Minutes 25 Classes/M';
+$lang['tuition_table_free_title2'] = '20 Minutes 12 Classes/M';
+$lang['tuition_table_free_title3'] = '40 Minutes 25 Classes/M';
+$lang['tuition_table_free_title4'] = '40 Minutes 12 Classes/M';
+$lang['tuition_table_fixed_title1'] = '20 Minutes 12 Classes/M';
+$lang['tuition_table_fixed_title2'] = '20 Minutes 12 Classes/M';
+$lang['tuition_table_fixed_title3'] = '40 Minutes 40 Classes/M';
+$lang['tuition_table_fixed_title4'] = '40 Minutes 20 Classes/M';
+$lang['tuition_table_fixed_title5'] = '40 Minutes 12 Classes/M';
+$lang['tuition_table_expert_title1'] = '40 Minutes 40 Classes/M';
+$lang['tuition_table_expert_title2'] = '40 Minutes 12 Classes/M';
+$lang['tuition_table_expert_title3'] = '40 Minutes 20 Classes/M';
+$lang['tuition_table_free_para1'] = '1. Free booking is for professionals who want to have flexible study time';
+$lang['tuition_table_free_para2'] = '2. students who want to take free discussion and other courses to attain an English level upgrade.';
+$lang['tuition_table_fixed_para1'] = '*Skip your worries on daily booking! is recommended for';
+$lang['tuition_table_fixed_para2'] = '1. students who need schedule management and study motivation for immediate English skills improvement.';
+$lang['tuition_table_fixed_para3'] = '2. Recommended for courses like job interview and English test scores in short duration.';
+$lang['tuition_table_expert_para1'] = '11Talk teachers have effective class strategies gained through experiences and actual English standardized tests.Achieve results even on short learning duration with our expert teachers.';
+//free table1
+$lang['tuition_table_free_table1_price1'] = '$108';
+$lang['tuition_table_free_table1_price2'] = '$243';
+$lang['tuition_table_free_table1_price3'] = '$454';
+$lang['tuition_table_free_table1_price2_30'] = '$64';
+$lang['tuition_table_free_table1_price3_30'] = '$60';
+//free table2
+$lang['tuition_table_free_table2_price1'] = '$86';
+$lang['tuition_table_free_table2_price2'] = '$192';
+$lang['tuition_table_free_table2_price3'] = '$359';
+$lang['tuition_table_free_table2_price2_30'] = '$81';
+$lang['tuition_table_free_table2_price3_30'] = '$76';
+//free table3
+$lang['tuition_table_free_table3_price1'] = '$153';
+$lang['tuition_table_free_table3_price2'] = '$344';
+$lang['tuition_table_free_table3_price3'] = '$643';
+$lang['tuition_table_free_table3_price2_30'] = '$95';
+$lang['tuition_table_free_table3_price3_30'] = '$88';
+//free table4
+$lang['tuition_table_free_table4_price1'] = '$126';
+$lang['tuition_table_free_table4_price2'] = '$284';
+$lang['tuition_table_free_table4_price3'] = '$529';
+$lang['tuition_table_free_table4_price2_30'] = '$115';
+$lang['tuition_table_free_table4_price3_30'] = '$107';
+
+//fixed table1
+$lang['tuition_table_fixed_table1_price1'] = '$120';
+$lang['tuition_table_fixed_table1_price2'] = '$270';
+$lang['tuition_table_fixed_table1_price3'] = '$504';
+$lang['tuition_table_fixed_table1_price2_30'] = '$90';
+$lang['tuition_table_fixed_table1_price3_30'] = '$84';
+
+//fixed table2
+$lang['tuition_table_fixed_table2_price1'] = '$95';
+$lang['tuition_table_fixed_table2_price2'] = '$214';
+$lang['tuition_table_fixed_table2_price3'] = '$399';
+$lang['tuition_table_fixed_table2_price2_30'] = '$71';
+$lang['tuition_table_fixed_table2_price3_30'] = '$67';
+
+//fixed table3
+$lang['tuition_table_fixed_table3_price1'] = '$300';
+$lang['tuition_table_fixed_table3_price2'] = '$675';
+$lang['tuition_table_fixed_table3_price3'] = '$1,260';
+$lang['tuition_table_fixed_table3_price2_30'] = '$225';
+$lang['tuition_table_fixed_table3_price3_30'] = '$210';
+
+//fixed table4
+$lang['tuition_table_fixed_table4_price1'] = '$170';
+$lang['tuition_table_fixed_table4_price2'] = '$383';
+$lang['tuition_table_fixed_table4_price3'] = '$714';
+$lang['tuition_table_fixed_table4_price2_30'] = '$128';
+$lang['tuition_table_fixed_table4_price3_30'] = '$119';
+
+//fixed table5
+$lang['tuition_table_fixed_table5_price1'] = '$140';
+$lang['tuition_table_fixed_table5_price2'] = '$315';
+$lang['tuition_table_fixed_table5_price3'] = '$588';
+$lang['tuition_table_fixed_table5_price2_30'] = '$105';
+$lang['tuition_table_fixed_table5_price3_30'] = '$98';
+
+//expert table1
+$lang['tuition_table_expert_table1_price1'] = '2,800';
+$lang['tuition_table_expert_table1_price2'] = '7,560';
+$lang['tuition_table_expert_table1_price3'] = '14,280';
+$lang['tuition_table_expert_table1_price2_30'] = '$300';
+$lang['tuition_table_expert_table1_price3_30'] = '$280';
+
+//expert table2
+$lang['tuition_table_expert_table2_price1'] = '$180';
+$lang['tuition_table_expert_table2_price2'] = '$405';
+$lang['tuition_table_expert_table2_price3'] = '$756';
+$lang['tuition_table_expert_table2_price2_30'] = '$135';
+$lang['tuition_table_expert_table2_price3_30'] = '$126';
+
+//expert table3
+$lang['tuition_table_expert_table3_price1'] = '$220';
+$lang['tuition_table_expert_table3_price2'] = '$495';
+$lang['tuition_table_expert_table3_price3'] = '$924';
+$lang['tuition_table_expert_table3_price2_30'] = '$165';
+$lang['tuition_table_expert_table3_price3_30'] = '$154';
+
+//testimonials page
+$lang['testimonials_say_about_11talk'] = 'What people say about 11talk?';
+$lang['testimonials_say_about_para'] = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi omnis, voluptates quod quisquam rem dolores!';
+$lang['testimonials_comment1'] = '11talk Junior Course was perfect for my son and daughter. Both of them have tried the "Let`s Go Series" class, and it was very beneficial for them. T. Ramon was persistent and very capable of handling kids. For sure, my kids have improved in English. They can pronounce words and identify things around them in English. I would highly recommend 11talk to parents who want their children to learn English in their formative years.';
+$lang['testimonials_comment1_name'] ='Park Hee Seo';
+$lang['testimonials_proffession1'] ='Working Mom';
+$lang['testimonials_comment2'] = 'I was a student who always had hesitations when speaking in English. Through the 11Talk online English class, I had the opportunity to break the language barrier and become more confident in communicating with foreigners. I am thankful to my teacher for giving me high-quality lessons. As of now, I can use expressions that I have learned from my Senior ESL speaking class in communicating with foreigners.';
+$lang['testimonials_comment2_name'] ='Song Ju Ho';
+$lang['testimonials_proffession2'] ='Student';
+$lang['testimonials_comment3'] = 'There were always difficulties in preparing for an English interview. So while I was looking for English classes related to practical business and jobs, I came across 11talk. There were many courses in 11talk, among which I was able to focus on English interviews and business English by applying for classes from Special Courses. I learned a lot about English through this class, but the major thing seems to be that I have developed English confidence. I am so satisfied, and I think I can do well in the upcoming English interview.';
+$lang['testimonials_comment3_name'] ='Seo Jun-Young';
+$lang['testimonials_proffession3'] ='Job Seeker';
+$lang['testimonials_comment4'] = 'While studying at the university, I have already gained a TOEIC score, but I found out that my conversation skill was insufficient when I stayed abroad. With the recommendation of an acquaintance, I registered at 11talk. At first, I thought that taking online classes would not be enough for my conversation skill improvement. It was just my first impression, and my thoughts have completely changed to 180 degrees after completing my Senior Speaking Course.';
+$lang['testimonials_comment4_name'] ='AKang Young Seok';
+$lang['testimonials_proffession4'] ='Student';
+$lang['testimonials_comment5'] = 'Since I was a student, I wanted to study English continuously, but when I started working, I didn`t have enough time to attend an Offline English academy.However, it was great to be able to study English comfortably at home after work through 11talk Online Class. I had a great class experience because I could interact with my teacher through virtual tools like pens and emojis.';
+$lang['testimonials_comment5_name'] ='Park Dong Hyun';
+$lang['testimonials_proffession5'] ='Businessman';
+$lang['testimonials_comment6'] = 'I was thinking about how to study English in Korea while preparing for a job abroad. I am learning English every day with 11talk. Above all, I think the course training allows the feeling to be confident and fun about English. I highly recommend the course for those who are planning to go on a working holiday.';
+$lang['testimonials_comment6_name'] ='Koh Eun Bi';
+$lang['testimonials_proffession6'] ='Working Holiday Visa Holder';
+
+//faq
+$lang['faq_customer_support'] ='24 hours Customer Support';
+$lang['faq_any_question'] ='We`ll Answer any<br>Questions You Might Have';
+$lang['faq_have_question'] ='Have a Question?';
+$lang['faq_question'] ='常见问题';
+$lang['faq_about'] ='关于11talk';
+$lang['faq_online_learning'] ='线上课程设定';
+$lang['faq_account_register'] ='11talk帐号注册';
+$lang['faq_student_page'] ='11talk学生登陆界面';
+$lang['faq_class_method'] ='上课方式';
+$lang['faq_student_policy'] ='学生上课政策';
+$lang['faq_payment'] ='付款';
+$lang['faq_accordion_title_1'] ='关于11talk';
+$lang['faq_accordion_para_1'] ='11Talk是由菲律宾顶级语言学校Pines International Academy所管理运营的在线英语学校。只要您具有稳定的网络连接，就可以从任何设备（例如电脑、智能手机或平板电脑）进行学习。<br><br>11talk拥有专业的课程团队，可以设计所有级别的课程资料。我们的课程资料涵盖了广泛的主题，使学生可以选择符合自己兴趣的课程。团队已确保课程资料与CEFR分级系统一致。';
+$lang['faq_accordion_title_2'] ='线上学习平台';
+$lang['faq_accordion_para_2'] ='11talk使用Zoom作为平台提供在线英语教学服务。<br>
+<span>此平台支持任何设备及操作系统。</span>';
+$lang['faq_accordion_list_2_1'] = 'Windows';
+$lang['faq_accordion_list_2_2'] = 'Mac';
+$lang['faq_accordion_list_2_3'] = '安卓系統';
+$lang['faq_accordion_list_2_4'] = 'IOS';
+$lang['faq_accordion_title_3'] ='帐号注册';
+$lang['faq_accordion_para_3'] ='学生可自己注册通过游学代办得到学校制作的一个11talk帐户。 然后可以享受一次免费的用于测试水平的试听课。';
+$lang['faq_accordion_para_3_1'] ='11talk注册仅需几分钟。首先，请输入pinestalking.com，然后开始以下步骤';
+$lang['faq_accordion_para_3_2'] ='填写注册表，并提供您的试听课信息，例如时间，科目和您的联系方式。';
+$lang['faq_accordion_para_3_3'] ='完成注册后，您将收到确认电子邮件，点击电子邮件中的链接以确认您的电子邮件地址。';
+$lang['faq_accordion_para_3_4'] ='点击注册按钮，开始使用11talk。';
+$lang['faq_accordion_title_4'] ='如何使用11Talk在线学英语';
+$lang['faq_accordion_para_4'] ='欢迎来到 <a href="https://pinestalking.com/m/signup.html">pinestalking.com</a> ! N网站操作非常容易，学生只需要在页面点击几下，就可以轻松地更改时间表，做家庭作业，并从老师那里收到课后反馈。进一步了解如何使用11talk学习！';
+$lang['faq_accordion_4_1'] ='在“我的课程”选项中查看您的课程表';
+$lang['faq_accordion_4_2'] ='You can easily change your class schedule in the Schedule Change tab.';
+$lang['faq_accordion_4_3'] ='Delete the schedule you want to change by clicking the pink ‘x’ icon.';
+$lang['faq_accordion_4_4'] ='The previous schedule has now been deleted and you can now add a new one. Click on the blue ‘+’ icon.';
+$lang['faq_accordion_4_4_1'] ='**Note: You can add and delete a schedule 30 MINUTES BEFORE the actual class.';
+$lang['faq_accordion_4_5'] ='Add the date on your preferred schedule and time. You can add a Saturday class if you have no time for classes during the weekdays.';
+$lang['faq_accordion_4_6'] ='After choosing a date and time, search for a teacher and select an available slot.';
+$lang['faq_accordion_4_7'] ='After selecting a teacher, confirm your new schedule by clicking OK.';
+$lang['faq_accordion_4_8'] ='Your schedule has now been changed and added.';
+$lang['faq_accordion_4_9'] ='Students can also receive and turn in homework through the site. Click on the pen icon to view your homework. The green number icon indicates how many homework tasks have been completed.';
+$lang['faq_accordion_4_10'] ='Students are able to do daily homework and receive free writing correction as well.';
+$lang['faq_accordion_title_5'] ='付款
+';
+$lang['faq_accordion_para_5_1'] ='我可以使用什么付款方式进行课程注册？';
+$lang['faq_accordion_list_5_1'] ='您可以通过以下方式支付';
+$lang['faq_accordion_list_5_2'] ='银行转帐';
+$lang['faq_accordion_list_5_3'] ='信用卡';
+$lang['faq_accordion_list_5_4'] ='Paypal';
+$lang['faq_accordion_para_5_2'] ='当你决定申请某课程时，你可以向你的游学代办付款';
+$lang['faq_accordion_title_6'] ='上课出勤规定';
+$lang['faq_accordion_quest_6_1'] ='上课时间是几点？';
+$lang['faq_accordion_ans_6_1'] ='上课时间为星期一到星期五 7:00-23:00';
+$lang['faq_accordion_quest_6_2'] ='我可以在国外留学时上英语课吗？';
+$lang['faq_accordion_ans_6_2'] ='只要拥有稳定的网络连接就可以在任何地方上课(菲律宾时间7 -23点之间的任何时间)。11talk的学生在加拿大、澳大利亚、新西兰、日本、中国和台湾都可以上课。';
+$lang['faq_accordion_quest_6_3'] ='如果我因为个人原因不能上课，我的课怎么办?';
+$lang['faq_accordion_ans_6_3'] ='如果您因个人原因无法上课，您可以通过我们的课程预订系统提前取消您的课程。
+<br><br>你也可以在系统预约或联系游学代办来安排补课。注意：补课必须在注册有效期内完成。';
+$lang['faq_accordion_quest_6_4'] ='你们在假期上课吗?';
+$lang['faq_accordion_ans_6_4'] ='菲律宾国定假日期间不开课，星期六和星期天不开课，除此之外其他时间都可以正常上课。如果因为临时假期不能上课的话，我们会在学生系统发布放假公告来通知学生。';
+$lang['faq_accordion_title_7'] ='线上课程的上课方法';
+$lang['faq_accordion_quest_7'] ='线上课程中我需要准备什么？';
+$lang['faq_accordion_ans_7'] = '准备带有麦克风的耳机和摄像头<br><br>
+*如果使用笔记本电脑的同学，由于您的手提电脑已有内置摄像头，所以仅需准备带麦克风的耳机<br><br>
+*对于手机用户，请准备带麦克风的耳机。';
+
 
 //footer
 $lang['contact_us'] = '联系我们';

@@ -1,54 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <!-- Title -->
-      <title>11talk - New Website</title>
-      <!-- Required Meta Tags Always Come First -->
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta http-equiv="x-ua-compatible" content="ie=edge">
-      <!-- Favicon -->
-      <link rel="shortcut icon" href="favicon1.ico">
-      <!-- Google Fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Encode+Sans:400,500,600" rel="stylesheet">
-      <!-- CSS Global Compulsory -->
-      <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
-      <!-- CSS Implementing Plugins -->
-      <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css">
-      <link rel="stylesheet" href="assets/vendor/icon-line-pro/style.css">
-      <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
-      <link rel="stylesheet" href="assets/vendor/dzsparallaxer/dzsparallaxer.css">
-      <link rel="stylesheet" href="assets/vendor/dzsparallaxer/dzsscroller/scroller.css">
-      <link rel="stylesheet" href="assets/vendor/dzsparallaxer/advancedscroller/plugin.css">
-      <link rel="stylesheet" href="assets/vendor/animate.css">
-      <link rel="stylesheet" href="assets/vendor/hs-megamenu/src/hs.megamenu.css">
-      <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
-      <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css">
-      <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
-      <!-- CSS Unify Theme -->
-      <link rel="stylesheet" href="css/styles.multipage-marketing.css">
-      <!-- CSS Customization -->
-      <link rel="stylesheet" href="assets/css/custom.css">
-   </head>
+<? include_once("../common_member.lib.php"); ?>
+<? include_once("inc/_begin.html"); ?>
 <body>
   <main>
-    <!-- header -->
-    <div id="header"></div>
-    <!-- end header -->
-
-
-
         <!-- Hero Info #05 -->
-        <section class="g-pt-150--md g-pt-100 g-pb-50">
+        <section class="g-py-30">
           <div class="container text-center">
             <div class="row">
               <div class="col-md-10 ml-md-auto mr-md-auto">
                 <!-- <h3 class="h5 text-uppercase g-font-weight-700 g-mb-20">Purchase now and</h3> -->
                 <h2 class="display-4 text-uppercase g-font-weight-600 g-mb-20">
-                  <span class="g-color-main">Pines 11talk CEFR-based Curriculum and Level System</span>
+                  <span class="g-color-main"><?=$lang['payment_term']?></span>
                 </h2>
 
-                <p class="lead g-mb-40">Pines 11talk meets international standards in providing English education. Common European Framework of Reference for Languages (CEFR) is an INTERNATIONAL STANDARD to describe language ability that contains a detailed description of learner level by English skill.It has three broad bands divided into six levels – A, B, C (A1, A2, B1, B2, C1, C2)
+                <p class="lead g-mb-40"><?=$lang['payment_term']?>
                 </p>
                 <img class="img-fluid" src="img/home/CERF.png" alt="Cerf level">
               </div>
@@ -57,72 +21,72 @@
                 <table class="table table-bordered">
                   <thead>
                     <tr>
-                      <th class="g-brd-bottom-none g-brd-white-opacity-0_1 g-color-white g-bg-main g-pa-20">CEFR Level</th>
-                      <th class="g-brd-bottom-none g-brd-white-opacity-0_1 g-color-white g-bg-main g-pa-10">Pines 11talk Level</th>
-                      <th class="g-brd-bottom-none g-brd-white-opacity-0_1 g-color-white g-bg-main g-pa-30">Description</th>
+                      <th class="g-brd-bottom-none g-brd-white-opacity-0_1 g-color-white g-bg-main g-pa-20"><?=$lang['cefr_table_level']?></th>
+                      <th class="g-brd-bottom-none g-brd-white-opacity-0_1 g-color-white g-bg-main g-pa-10"><?=$lang['cefr_table_cefr_11talk_level']?></th>
+                      <th class="g-brd-bottom-none g-brd-white-opacity-0_1 g-color-white g-bg-main g-pa-30"><?=$lang['cefr_table_cefr_description']?></th>
                     </tr>
                   </thead>
   
                   <tbody>
                     <tr>
-                        <td class="g-font-weight-500 g-pa-20">C1</td>
-                        <td class="g-color-text g-pa-20">10</td>
-                        <td class="g-color-text g-pa-20">Can understand a wide range of topics, longer texts, and recognize implicit meanings; can express him/herself fluently and effectively in any social, academic, or professional setting without difficulty in searching for the precise expression; can produce clear, well-structured, detailed texts even on complex subjects and shows control in the use of organizational patterns and other cohesive devices.</td>
+                        <td class="g-font-weight-500 g-pa-20"><?=$lang['cefr_table_cefr_level_c1']?></td>
+                        <td class="g-color-text g-pa-20"><?=$lang['cefr_table_level0_td2']?></td>
+                        <td class="g-color-text g-pa-20"><?=$lang['cefr_table_level0_td3']?></td>
                       </tr>
 
                       <tr>
-                        <td class="g-font-weight-500 g-pa-20" rowspan="2" style="vertical-align : middle;text-align:center;">B2</td>
-                        <td class="g-color-text g-pa-20">9</td>
-                        <td class="g-color-text g-pa-20">Can follow and take part in a variety of conversations; can read and understand complex texts such as newspaper articles, magazines, or journals; can clarify the viewpoints of others and give his / her opinion on a particular issue without difficulty even with native speakers..</td>
+                        <td class="g-font-weight-500 g-pa-20" rowspan="2" style="vertical-align : middle;text-align:center;"><?=$lang['cefr_table_cefr_level_b2']?></td>
+                        <td class="g-color-text g-pa-20"><?=$lang['cefr_table_leve9_td1']?></td>
+                        <td class="g-color-text g-pa-20"><?=$lang['cefr_table_leve9_td2']?></td>
                       </tr>
 
                       <tr>
-                        <td class="g-color-text g-pa-20">8</td>
-                        <td class="g-color-text g-pa-20">Can understand main points of a conversation or discussion provided the topic is familiar or within his / her field of interest and or expertise; can extract necessary information and ask questions for further debate and clarification; can produce a detailed texts that aims to elaborate viewpoint on a topical issue.</td>
+                        <td class="g-color-text g-pa-20"><?=$lang['cefr_table_leve8_td1']?></td>
+                        <td class="g-color-text g-pa-20"><?=$lang['cefr_table_leve8_td2']?></td>
                       </tr>
 
                       <tr>
-                        <td class="g-font-weight-500 g-pa-20" rowspan="2" style="vertical-align : middle;text-align:center;">B1</td>
-                        <td class="g-color-text g-pa-20">7</td>
-                        <td class="g-color-text g-pa-20">Can explain in detail and with confidence an issue that has arisen in a particular setting and can present suggestions on how to deal with it; can present a social situation of personal interest and respond appropriately to follow-up questions from other people.</td>
+                        <td class="g-font-weight-500 g-pa-20" rowspan="2" style="vertical-align : middle;text-align:center;"><?=$lang['cefr_table_cefr_level_b1']?></td>
+                        <td class="g-color-text g-pa-20"><?=$lang['cefr_table_leve7_td1']?></td>
+                        <td class="g-color-text g-pa-20"><?=$lang['cefr_table_leve7_td2']?></td>
                       </tr>
 
                       <tr>
-                        <td class="g-color-text g-pa-20">6</td>
-                        <td class="g-color-text g-pa-20">Can understand majority of ideas related to familiar matters and can deal with most situations when travelling; can describe experiences and events, dreams, hopes, and ambitions, and brief explanations for opinions and plans; can maintain social conversation about concrete topics of personal interest.</td>
+                        <td class="g-color-text g-pa-20"><?=$lang['cefr_table_leve6_td1']?></td>
+                        <td class="g-color-text g-pa-20"><?=$lang['cefr_table_leve6_td2']?></td>
                       </tr>
 
                       <tr>
-                        <td class="g-font-weight-500 g-pa-20" rowspan="2" style="vertical-align : middle;text-align:center;">A2</td>
-                        <td class="g-color-text g-pa-20">5</td>
-                        <td class="g-color-text g-pa-20">Can exchange opinions and feelings, express agreement and disagreement, and compare people and things using simple expressions; can interact with others in routine situations in the neighborhood, workplace, and school using a variety of expressions.</td>
+                        <td class="g-font-weight-500 g-pa-20" rowspan="2" style="vertical-align : middle;text-align:center;"><?=$lang['cefr_table_cefr_level_a2']?></td>
+                        <td class="g-color-text g-pa-20"><?=$lang['cefr_table_leve5_td1']?></td>
+                        <td class="g-color-text g-pa-20"><?=$lang['cefr_table_leve5_td2']?></td>
                       </tr>
 
                       <tr>
-                        <td class="g-color-text g-pa-20">4</td>
-                        <td class="g-color-text g-pa-20">Can give simple directions for specific places he/she is familiar with; can give a brief talk about his / her neighborhood, school, and work with the aid of photos, maps, and series of memorized expressions; can write invitations and other simple personal letters using basic vocabulary.</td>
+                        <td class="g-color-text g-pa-20"><?=$lang['cefr_table_leve4_td1']?></td>
+                        <td class="g-color-text g-pa-20"><?=$lang['cefr_table_leve4_td2']?></td>
                       </tr>
 
                       <tr>
-                        <td class="g-font-weight-500 g-pa-20" rowspan="3" style="vertical-align : middle;text-align:center;">A1</td>
-                        <td class="g-color-text g-pa-20">3</td>
-                        <td class="g-color-text g-pa-20">Can ask and answer simple questions about familiar topics; can make, accept, and decline offers using basic phrases; can talk about personal experiences provided he/she has a written guideline.</td>
+                        <td class="g-font-weight-500 g-pa-20" rowspan="3" style="vertical-align : middle;text-align:center;"><?=$lang['cefr_table_cefr_level_a1']?></td>
+                        <td class="g-color-text g-pa-20"><?=$lang['cefr_table_leve3_td1']?></td>
+                        <td class="g-color-text g-pa-20"><?=$lang['cefr_table_leve3_td2']?></td>
                       </tr>
 
                       <tr>
-                        <td class="g-color-text g-pa-20">2</td>
-                        <td class="g-color-text g-pa-20">Can understand short conversations about familiar topics like hobbies, likes and dislikes, food, school, and work using a limited range of vocabulary and other expressions.</td>
+                        <td class="g-color-text g-pa-20"><?=$lang['cefr_table_leve2_td1']?></td>
+                        <td class="g-color-text g-pa-20"><?=$lang['cefr_table_leve2_td2']?></td>
                       </tr>
 
                       <tr>
-                        <td class="g-color-text g-pa-20">1</td>
-                        <td class="g-color-text g-pa-20">Can read and understand very simple instructions and written notices; can ask and answer typical questions about time, date, and prices; can express him/herself using memorized formulaic sentence patterns; can catch key points and follow basic instructions provided they are delivered in a very slow and clear manner.</td>
+                        <td class="g-color-text g-pa-20"><?=$lang['cefr_table_leve1_td1']?></td>
+                        <td class="g-color-text g-pa-20"><?=$lang['cefr_table_leve1_td2']?></td>
                       </tr>
 
                       <tr>
-                        <td class="g-color-text g-pa-15">Pre-A1</td>
-                        <td class="g-color-text g-pa-20">1P</td>
-                        <td class="g-color-text g-pa-20">Can catch everyday familiar words and can express memorized expressions and seasonal greetings; Can recognize written text they’ve been exposed too and can produce the same by copying; can convey simple information about themselves like name, age, address, and country of origin.</td>
+                        <td class="g-color-text g-pa-15"><?=$lang['cefr_table_cefr_level_pre_a1']?></td>
+                        <td class="g-color-text g-pa-20"><?=$lang['cefr_table_leve1p_td1']?></td>
+                        <td class="g-color-text g-pa-20"><?=$lang['cefr_table_leve1p_td2']?></td>
                       </tr>
                   </tbody>
                 </table>
@@ -130,53 +94,9 @@
           </div>
         </section>
         <!-- Hero Info #05 -->
-
-    
-
-          <!-- footer -->
-          <div id="footer"></div>
-          <!-- end footer -->
-    
-          <!-- Go to Top -->
-          <a class="js-go-to u-go-to-v1 g-width-40 g-height-40 g-color-primary g-bg-main-opacity-0_5 g-bg-main--hover g-bg-main--focus g-font-size-12 rounded" href="#" data-type="fixed" data-position='{
-            "bottom": 15,
-            "right": 15
-            }' data-offset-top="400" data-compensation="#js-header" data-show-effect="zoomIn">
-          <i class="hs-icon hs-icon-arrow-top"></i>
-          </a>
-          <!-- End Go to Top -->
-          </div>
-      </main>
-          <!-- JS Global Compulsory -->
-          <script src="assets/vendor/jquery/jquery.min.js"></script>
-          <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
-          <script src="assets/vendor/popper.js/popper.min.js"></script>
-          <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
-          <!-- JS Implementing Plugins -->
-          <script src="assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-          <script src="assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
-          <script src="assets/vendor/dzsparallaxer/dzsscroller/scroller.js"></script>
-          <script src="assets/vendor/dzsparallaxer/advancedscroller/plugin.js"></script>
-          <script src="assets/vendor/fancybox/jquery.fancybox.min.js"></script>
-          <script src="assets/vendor/slick-carousel/slick/slick.js"></script>
-          <!-- JS Unify -->
-          <script src="assets/js/hs.core.js"></script>
-          <script src="assets/js/components/hs.header.js"></script>
-          <script src="assets/js/helpers/hs.hamburgers.js"></script>
-          <script src="assets/js/components/hs.dropdown.js"></script>
-          <script src="assets/js/components/hs.popup.js"></script>
-          <script src="assets/js/components/hs.carousel.js"></script>
-          <script src="assets/js/components/hs.go-to.js"></script>
-          <script src="assets/js/components/hs.tabs.js"></script>
-          <!-- JS Customization -->
-          <script src="assets/js/custom.js"></script>
-          <!-- JS Plugins Init. -->
+        <? include_once("inc/_end.html"); ?>
           <script>
              $(document).on('ready', function () {
-    
-                      //load header & footer
-            $("#header").load("header.html"); 
-            $("#footer").load("footer.html");
             
               // initialization of carousel
               $.HSCore.components.HSCarousel.init('[class*="js-carousel"]');
@@ -255,6 +175,24 @@
               $.HSCore.components.HSTabs.init('[role="tablist"]');
             }, 200);
           });
+
+          function change_language() {
+            var sel_lang = $("#select_language").val();
+            if(sel_lang === 'ch'){
+              location.href = "CERF_level.html?lang=" + sel_lang;
+              localStorage.setItem('show', 'false');
+              $('#kakao').hide();
+            }else if(sel_lang === 'jp'){
+              location.href = "CERF_level.html?lang=" + sel_lang;
+              localStorage.setItem('show', 'false');
+              $('#kakao').hide();
+            }else if(sel_lang === 'ko'){
+              location.href = "CERF_level.html?lang=" + sel_lang;
+            }else{
+              location.href = "CERF_level.html?lang=" + sel_lang;
+              localStorage.setItem('show', 'true');
+            }
+          }
           </script>
        </body>
     </html>

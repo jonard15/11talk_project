@@ -16,11 +16,12 @@ $lang['class_system'] = 'マイページ';
 //Home section1
 $lang['learn_from'] = '語学学校の伝統校が提供する';
 $lang['top_online'] = 'オンライン英会話 11 talk';
-$lang['anytime_anywhere'] = 'いつでも、どこからでも<br> 簡単にオンライン英会話を始めてみませんか。';
+$lang['anytime_anywhere'] = 'いつでも、どこからでも<br>簡単にオンライン英会話を始めてみませんか。';
 $lang['free_class'] = 'まずは無料体験レッスンをお申し込み';
 
 //Home section2
-$lang['affordable_online'] = '11 talk では、教育現場での経験の長い講師と共に 効率よく英語学習をすることができます。';
+$lang['affordable_online'] = '11talk は、フィリピン語学学校の伝統校パインスアカデミーが提供している<br>
+オンライン英会話サービスです。';
 $lang['affordable_online_para'] = '11 talk は、フィリピン語学学校の伝統校パインスアカデミーが提供しているオンライン英会話サービスです。';
 $lang['about_11talk'] = '11talk についての詳しい詳細はこちら';
 $lang['join_our'] = 'Join our';
