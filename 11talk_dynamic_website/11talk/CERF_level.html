@@ -9,10 +9,10 @@
               <div class="col-md-10 ml-md-auto mr-md-auto">
                 <!-- <h3 class="h5 text-uppercase g-font-weight-700 g-mb-20">Purchase now and</h3> -->
                 <h2 class="display-4 text-uppercase g-font-weight-600 g-mb-20">
-                  <span class="g-color-main"><?=$lang['payment_term']?></span>
+                  <span class="g-color-main"><?=$lang['cefr_title']?></span>
                 </h2>
 
-                <p class="lead g-mb-40"><?=$lang['payment_term']?>
+                <p class="lead g-mb-40"><?=$lang['cefr_para']?>
                 </p>
                 <img class="img-fluid" src="img/home/CERF.png" alt="Cerf level">
               </div>
@@ -175,24 +175,24 @@
               $.HSCore.components.HSTabs.init('[role="tablist"]');
             }, 200);
           });
-
-          function change_language() {
-            var sel_lang = $("#select_language").val();
-            if(sel_lang === 'ch'){
-              location.href = "CERF_level.html?lang=" + sel_lang;
-              localStorage.setItem('show', 'false');
-              $('#kakao').hide();
-            }else if(sel_lang === 'jp'){
-              location.href = "CERF_level.html?lang=" + sel_lang;
-              localStorage.setItem('show', 'false');
-              $('#kakao').hide();
-            }else if(sel_lang === 'ko'){
-              location.href = "CERF_level.html?lang=" + sel_lang;
-            }else{
-              location.href = "CERF_level.html?lang=" + sel_lang;
-              localStorage.setItem('show', 'true');
-            }
-          }
+        
+      function change_language() {
+        var sel_lang = $("#select_language").val();
+        if(sel_lang === 'ch'){
+          location.href = "CERF_level.html?lang=" + sel_lang;
+          localStorage.setItem('show', 'false');
+          $('#kakao').hide();
+        }else if(sel_lang === 'jp'){
+          location.href = "CERF_level.html?lang=" + sel_lang;
+          localStorage.setItem('show', 'false');
+          $('#kakao').hide();
+        }else if(sel_lang === 'ko'){
+          location.href = "CERF_level.html?lang=" + sel_lang;
+        }else{
+          location.href = "CERF_level.html?lang=" + sel_lang;
+          localStorage.setItem('show', 'true');
+        }
+      }
           </script>
        </body>
     </html>

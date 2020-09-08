@@ -7,6 +7,7 @@ $lang['home_link'] = 'home.html';
 $lang['about'] = 'About 11talk';
 $lang['book'] = 'Book';
 $lang['tuition'] = 'Tuition';
+$lang['tuition_link'] = 'price.html';
 $lang['teacher'] = 'Teacher';
 $lang['faq'] = 'FAQ`s';
 $lang['testimonials'] = 'Testimonials';
@@ -321,6 +322,19 @@ $lang['exam_courses_para'] = 'We are proud to share that 11 Talk graduates have 
 $lang['choose_your_course'] = 'Choose &nbsp;&nbsp;&nbsp;Your Course';
 $lang['checkout'] = 'Checkout';
 
+//book
+$lang['book_title'] = 'LESSON MATERIALS';
+$lang['book_para'] = '11talk materials are free to use! <a class="u-link-v5" href="CERF_level.html"><span class="g-color-blue">Learn more about CEFR  levels.</span></a>';
+
+//teacher
+$lang['best_teacher'] = 'Best Teachers';
+$lang['professional_background'] = 'MEET OUR TEACHERS';
+$lang['professional_background'] = 'Professional Background';
+$lang['global_talent'] = 'How do we produce successful global talents ?';
+$lang['certified_english_teacher'] = '11talk Teachers are  certified English Experts';
+$lang['certified_english_teacher_para'] = 'After the comprehensive training, 11talk teachers have experienced  teaching offline foreign students at Pines International Academy for at least  4 months (with at least 8 sessions of teaching  loads per day).  They have handled various English courses, attended post hiring training and attained certain qualifications like IELTS certification Know the difference.';
+
+
 //CEFR
 $lang['cefr_title'] = 'Pines 11talk CEFR-based Curriculum and Level System';
 $lang['cefr_para'] = 'Pines 11talk meets international standards in providing English education. Common European Framework of Reference for Languages (CEFR) is an INTERNATIONAL STANDARD to describe language ability that contains a detailed description of learner level by English skill.It has three broad bands divided into six levels – A, B, C (A1, A2, B1, B2, C1, C2)';
@@ -419,7 +433,9 @@ $lang['tuition_price_tab_all'] = 'All';
 $lang['tuition_price_tab_free_booking'] = 'Free Booking';
 $lang['tuition_price_tab_fixed_booking'] = 'Fixed Booking';
 $lang['tuition_price_tab_expert_course'] = 'Expert Course';
-$lang['tuition_price_tab_ielts_expert'] = 'IELTS EXPERT Fixed Booking';
+$lang['tuition_price_title_free_booking'] = ' Free Booking';
+$lang['tuition_price_title_fixed_booking'] = ' Fixed Booking';
+$lang['tuition_price_title_expert_course'] = 'IELTS EXPERT Fixed Booking';
 $lang['tuition_price_per_month'] = 'per month';
 $lang['tuition_price_button'] = 'Register Now';
 $lang['tuition_table_head_1m'] = '1M (Original)';

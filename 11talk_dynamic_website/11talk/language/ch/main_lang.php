@@ -7,6 +7,7 @@ $lang['home_link'] = 'home.html';
 $lang['about'] = 'About 11talk';
 $lang['book'] = '教材';
 $lang['tuition'] = '费用';
+$lang['tuition_link'] = 'price.html';
 $lang['teacher'] = '老师';
 $lang['faq'] = '常见问题';
 $lang['testimonials'] = 'Testimonials';
@@ -412,8 +413,10 @@ $lang['tuition_price_tab_all'] = 'All';
 $lang['tuition_price_tab_free_booking'] = 'Free Booking';
 $lang['tuition_price_tab_fixed_booking'] = 'Fixed Booking';
 $lang['tuition_price_tab_expert_course'] = 'Expert Course';
-$lang['tuition_price_tab_ielts_expert'] = 'IELTS EXPERT Fixed Booking';
-$lang['tuition_price_per_month'] = 'per month';
+$lang['tuition_price_title_free_booking'] = ' Free Booking';
+$lang['tuition_price_title_fixed_booking'] = ' Fixed Booking';
+$lang['tuition_price_title_expert_course'] = ' Expert Teacher';
+$lang['tuition_price_per_month'] = '每月';
 $lang['tuition_price_button'] = 'Register Now';
 $lang['tuition_table_head_1m'] = '1M (Original)';
 $lang['tuition_table_head_3m'] = '3M 25%';
@@ -438,85 +441,85 @@ $lang['tuition_table_fixed_para2'] = '1. students who need schedule management a
 $lang['tuition_table_fixed_para3'] = '2. Recommended for courses like job interview and English test scores in short duration.';
 $lang['tuition_table_expert_para1'] = '11Talk teachers have effective class strategies gained through experiences and actual English standardized tests.Achieve results even on short learning duration with our expert teachers.';
 //free table1
-$lang['tuition_table_free_table1_price1'] = '$108';
-$lang['tuition_table_free_table1_price2'] = '$243';
-$lang['tuition_table_free_table1_price3'] = '$454';
-$lang['tuition_table_free_table1_price2_30'] = '$64';
-$lang['tuition_table_free_table1_price3_30'] = '$60';
+$lang['tuition_table_free_table1_price1'] = '756';
+$lang['tuition_table_free_table1_price2'] = '1,928';
+$lang['tuition_table_free_table1_price3'] = '3,629';
+$lang['tuition_table_free_table1_price2_30'] = '643';
+$lang['tuition_table_free_table1_price3_30'] = '605';
 //free table2
-$lang['tuition_table_free_table2_price1'] = '$86';
-$lang['tuition_table_free_table2_price2'] = '$192';
-$lang['tuition_table_free_table2_price3'] = '$359';
-$lang['tuition_table_free_table2_price2_30'] = '$81';
-$lang['tuition_table_free_table2_price3_30'] = '$76';
+$lang['tuition_table_free_table2_price1'] = '594';
+$lang['tuition_table_free_table2_price2'] = '1,515';
+$lang['tuition_table_free_table2_price3'] = '2,851';
+$lang['tuition_table_free_table2_price2_30'] = '505';
+$lang['tuition_table_free_table2_price3_30'] = '475';
 //free table3
-$lang['tuition_table_free_table3_price1'] = '$153';
-$lang['tuition_table_free_table3_price2'] = '$344';
-$lang['tuition_table_free_table3_price3'] = '$643';
-$lang['tuition_table_free_table3_price2_30'] = '$95';
-$lang['tuition_table_free_table3_price3_30'] = '$88';
+$lang['tuition_table_free_table3_price1'] = '1,071 ';
+$lang['tuition_table_free_table3_price2'] = '2,731';
+$lang['tuition_table_free_table3_price3'] = '5,141';
+$lang['tuition_table_free_table3_price2_30'] = '910';
+$lang['tuition_table_free_table3_price3_30'] = '857';
 //free table4
-$lang['tuition_table_free_table4_price1'] = '$126';
-$lang['tuition_table_free_table4_price2'] = '$284';
-$lang['tuition_table_free_table4_price3'] = '$529';
-$lang['tuition_table_free_table4_price2_30'] = '$115';
-$lang['tuition_table_free_table4_price3_30'] = '$107';
+$lang['tuition_table_free_table4_price1'] = '882';
+$lang['tuition_table_free_table4_price2'] = '2,249';
+$lang['tuition_table_free_table4_price3'] = '4,234';
+$lang['tuition_table_free_table4_price2_30'] = '750';
+$lang['tuition_table_free_table4_price3_30'] = '706';
 
 //fixed table1
-$lang['tuition_table_fixed_table1_price1'] = '$120';
-$lang['tuition_table_fixed_table1_price2'] = '$270';
-$lang['tuition_table_fixed_table1_price3'] = '$504';
-$lang['tuition_table_fixed_table1_price2_30'] = '$90';
-$lang['tuition_table_fixed_table1_price3_30'] = '$84';
+$lang['tuition_table_fixed_table1_price1'] = '840';
+$lang['tuition_table_fixed_table1_price2'] = '2,268';
+$lang['tuition_table_fixed_table1_price3'] = '4,284';
+$lang['tuition_table_fixed_table1_price2_30'] = '756';
+$lang['tuition_table_fixed_table1_price3_30'] = '714';
 
 //fixed table2
-$lang['tuition_table_fixed_table2_price1'] = '$95';
-$lang['tuition_table_fixed_table2_price2'] = '$214';
-$lang['tuition_table_fixed_table2_price3'] = '$399';
-$lang['tuition_table_fixed_table2_price2_30'] = '$71';
-$lang['tuition_table_fixed_table2_price3_30'] = '$67';
+$lang['tuition_table_fixed_table2_price1'] = '660';
+$lang['tuition_table_fixed_table2_price2'] = '1,782';
+$lang['tuition_table_fixed_table2_price3'] = '3,366';
+$lang['tuition_table_fixed_table2_price2_30'] = '594';
+$lang['tuition_table_fixed_table2_price3_30'] = '561';
 
 //fixed table3
-$lang['tuition_table_fixed_table3_price1'] = '$300';
-$lang['tuition_table_fixed_table3_price2'] = '$675';
-$lang['tuition_table_fixed_table3_price3'] = '$1,260';
-$lang['tuition_table_fixed_table3_price2_30'] = '$225';
-$lang['tuition_table_fixed_table3_price3_30'] = '$210';
+$lang['tuition_table_fixed_table3_price1'] = '2,100';
+$lang['tuition_table_fixed_table3_price2'] = '5,670';
+$lang['tuition_table_fixed_table3_price3'] = '10,710';
+$lang['tuition_table_fixed_table3_price2_30'] = '1,890';
+$lang['tuition_table_fixed_table3_price3_30'] = '1,785';
 
 //fixed table4
-$lang['tuition_table_fixed_table4_price1'] = '$170';
-$lang['tuition_table_fixed_table4_price2'] = '$383';
-$lang['tuition_table_fixed_table4_price3'] = '$714';
-$lang['tuition_table_fixed_table4_price2_30'] = '$128';
-$lang['tuition_table_fixed_table4_price3_30'] = '$119';
+$lang['tuition_table_fixed_table4_price1'] = '1,190';
+$lang['tuition_table_fixed_table4_price2'] = '3,213';
+$lang['tuition_table_fixed_table4_price3'] = '6,069';
+$lang['tuition_table_fixed_table4_price2_30'] = '1,071';
+$lang['tuition_table_fixed_table4_price3_30'] = '1,012';
 
 //fixed table5
-$lang['tuition_table_fixed_table5_price1'] = '$140';
-$lang['tuition_table_fixed_table5_price2'] = '$315';
-$lang['tuition_table_fixed_table5_price3'] = '$588';
-$lang['tuition_table_fixed_table5_price2_30'] = '$105';
-$lang['tuition_table_fixed_table5_price3_30'] = '$98';
+$lang['tuition_table_fixed_table5_price1'] = '980';
+$lang['tuition_table_fixed_table5_price2'] = '2,646';
+$lang['tuition_table_fixed_table5_price3'] = '4,998';
+$lang['tuition_table_fixed_table5_price2_30'] = '882';
+$lang['tuition_table_fixed_table5_price3_30'] = '833';
 
 //expert table1
 $lang['tuition_table_expert_table1_price1'] = '2,800';
 $lang['tuition_table_expert_table1_price2'] = '7,560';
 $lang['tuition_table_expert_table1_price3'] = '14,280';
-$lang['tuition_table_expert_table1_price2_30'] = '$300';
-$lang['tuition_table_expert_table1_price3_30'] = '$280';
+$lang['tuition_table_expert_table1_price2_30'] = '2,520 ';
+$lang['tuition_table_expert_table1_price3_30'] = '2,380';
 
 //expert table2
-$lang['tuition_table_expert_table2_price1'] = '$180';
-$lang['tuition_table_expert_table2_price2'] = '$405';
-$lang['tuition_table_expert_table2_price3'] = '$756';
-$lang['tuition_table_expert_table2_price2_30'] = '$135';
-$lang['tuition_table_expert_table2_price3_30'] = '$126';
+$lang['tuition_table_expert_table2_price1'] = '1,250 ';
+$lang['tuition_table_expert_table2_price2'] = '3,375';
+$lang['tuition_table_expert_table2_price3'] = '6,375';
+$lang['tuition_table_expert_table2_price2_30'] = '1125';
+$lang['tuition_table_expert_table2_price3_30'] = '1,063';
 
 //expert table3
-$lang['tuition_table_expert_table3_price1'] = '$220';
-$lang['tuition_table_expert_table3_price2'] = '$495';
-$lang['tuition_table_expert_table3_price3'] = '$924';
-$lang['tuition_table_expert_table3_price2_30'] = '$165';
-$lang['tuition_table_expert_table3_price3_30'] = '$154';
+$lang['tuition_table_expert_table3_price1'] = '1,500';
+$lang['tuition_table_expert_table3_price2'] = '4,050';
+$lang['tuition_table_expert_table3_price3'] = '7,650';
+$lang['tuition_table_expert_table3_price2_30'] = '1,350';
+$lang['tuition_table_expert_table3_price3_30'] = '1,275';
 
 //testimonials page
 $lang['testimonials_say_about_11talk'] = 'What people say about 11talk?';

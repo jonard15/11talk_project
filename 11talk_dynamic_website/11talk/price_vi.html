@@ -1,0 +1,508 @@
+<? include_once("../common_member.lib.php"); ?>
+<? include_once("inc/_begin.html"); ?>
+         <body>
+            <main>
+               <section class="g-bg-main-opacity-0_5 g-pt-30 g-pb-20">
+                  <div class="container">
+                     <div class="row">
+                        <div class = "col-lg-3 g-flex-centered">
+                           <div class="g-color-primary">
+                              <h1 class=" g-font-weight-600 g-font-size-45 mb-0"><?=$lang['tuition_percent']?><span class="align-top g-color-primary g-font-size-30"><?=$lang['tuition_off']?></span></h1>
+                              <!-- <h2 class="text-center g-font-weight-500 g-font-size-40 g-line-height-0_7 mb-4">OFF</h2> -->
+                           </div>
+                        </div>
+                        <div class="col-lg-7 g-pt-15">
+                           <span class=" g-color-white g-flex-centered g-font-size-18 g-font-weight-500 g-mb-10"><?=$lang['tuition_percent_off_para']?></span>
+                        </div>
+
+                        <div class="col-lg-2 g-flex-centered">
+                           <a href="https://pinestalking.com/m/signup.html?lang=en" class=" text-uppercase btn btn-block g-color-primary g-color-main--hover g-bg-main g-bg-white--hover g-font-weight-600">
+                              <?=$lang['tuition_percent_off_button']?>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                </section>
+               <!-- Pricing Tables -->
+               <div class="container g-py-30">
+                  <div class="d-flex align-items-center g-mb-40">
+                     <div>
+                        <span class="d-block text-uppercase g-color-gray-dark-v5 g-font-weight-500 g-font-size-13 mb-4"><?=$lang['tuition_currrent_available']?></span>
+                        <h2 class="mr-5 mb-0"><?=$lang['tuition_price_table']?></h2>
+                     </div>
+                     <!-- Nav tabs -->
+                     <ul class="nav u-nav-v1-1 ml-auto mt-auto" role="tablist" data-target="nav-1-1-default-hor-left" data-tabs-mobile-type="slide-up-down" data-btn-classes="btn btn-md btn-block rounded-0 u-btn-outline-lightgray">
+                        <li class="nav-item">
+                           <a class="nav-link active g-brd-around g-brd-gray-light-v4 g-brd-main--active g-color-text g-color-white--active g-bg-secondary g-bg-main--active g-rounded-left-3" data-toggle="tab" href="#nav-1-1-default-hor-left--1" role="tab">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link g-brd-around g-brd-gray-light-v4 g-brd-main--active g-color-text g-color-white--active g-bg-secondary g-bg-main--active g-rounded-right-3" data-toggle="tab" href="#nav-1-1-default-hor-left--2" role="tab">Free Booking</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link g-brd-around g-brd-gray-light-v4 g-brd-main--active g-color-text g-color-white--active g-bg-secondary g-bg-main--active g-rounded-right-3" data-toggle="tab" href="#nav-1-1-default-hor-left--3" role="tab">Fixed Booking</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link g-brd-around g-brd-gray-light-v4 g-brd-main--active g-color-text g-color-white--active g-bg-secondary g-bg-main--active g-rounded-right-3" data-toggle="tab" href="#nav-1-1-default-hor-left--4" role="tab">Expert Course</a>
+                        </li>
+                     </ul>
+                     <!-- End Nav tabs -->
+                  </div>
+                  <!-- Tab panes -->
+                  <div id="nav-1-1-default-hor-left" class="tab-content">
+                     <div class="tab-pane show active" id="nav-1-1-default-hor-left--1" role="tabpanel">
+                        <!-- Table Bordered -->
+                        <div class="col-12 table-responsive">
+                           <div class="text-center g-mb-10">
+                              <h2 class="g-color-black mb-4">Gói A : Giờ học linh hoạt và tuỳ chọn giáo viên</h2>
+
+                                 <div class="col-lg-12 g-pt-10">
+                                    <table class="table table-bordered">
+                                       <thead>
+                                          <tr>
+                                             <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">Khóa học</th>
+                                             <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">Thời lượng<br>mỗi lớp</th>
+                                             <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">Giá gốc<br>1 tháng</th>
+                                             <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">1 tháng<br>(Giảm 15%)</th>
+                                             <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">2 tháng<br>(Giảm 20%)</th>
+                                             <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">3 tháng<br>(Giảm 30%)</th>
+                                             <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">4 tháng<br>(Giảm 40%)</th>
+                                          </tr>
+                                       </thead>
+                                       <tbody>
+                                          <tr>
+                                            <td>25 buổi</td>
+                                            <td>40 phút</td>
+                                            <td>3,100,000</td>
+                                            <td>2,635,000</td>
+                                            <td>4,960,000</td>
+                                            <td>6,510,000</td>
+                                            <td>11,160,000</td>
+                                          </tr>
+                                          <tr>
+                                            <td>25 phút</td>
+                                            <td>20 phút</td>
+                                            <td>2,100,000</td>
+                                            <td>1,785,000</td>
+                                            <td>3,360,000</td>
+                                            <td>4,410,000</td>
+                                            <td>7,560,000</td>
+                                          </tr>
+                                          <tr>
+                                            <td>15  buổi</td>
+                                            <td>40 phút</td>
+                                            <td>2,500,000</td>
+                                            <td>2,125,000</td>
+                                            <td>4,000,000</td>
+                                            <td>5,250,000</td>
+                                            <td>9,000,000</td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                 </div>
+                              <div class="g-flex-centered g-pb-10">
+                                 <a href="https://pinestalking.com/m/signup.html?lang=en" class="col-lg-3 text-uppercase btn btn-block g-color-white g-color-white--hover g-bg-main g-bg-primary--hover g-py-13">
+                                    <?=$lang['tuition_price_button']?>
+                                  </a>
+                              </div>
+                              <hr>
+                              <div class="text-center mx-auto g-mb-10">
+                                 <h2 class="g-color-black mb-4">GÓI B: GIỜ HỌC VÀ GIÁO VIÊN CỐ ĐỊNH</h2>
+                                 <div class="row">
+                                 <div class="col-lg-12 g-py-10">
+                                 <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">Khóa học</th>
+                                            <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">Thời lượng<br>mỗi lớp</th>
+                                            <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">Giá gốc<br>1 tháng</th>
+                                            <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">1 tháng<br>(Giảm 15%)</th>
+                                            <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">2 tháng<br>(Giảm 20%)</th>
+                                            <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">3 tháng<br>(Giảm 30%)</th>
+                                            <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">4 tháng<br>(Giảm 40%)</th>
+                                         </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>12 buổi</td>
+                                            <td>40 phút</td>
+                                            <td>3,120,000</td>
+                                            <td>2,652,000</td>
+                                            <td>4,992,000</td>
+                                            <td>6,552,000</td>
+                                            <td>11,232,000</td>
+                                          </tr>
+                                          <tr>
+                                            <td>20 buổi</td>
+                                            <td>40 phút</td>
+                                            <td>3,900,000</td>
+                                            <td>3,315,000</td>
+                                            <td>6,240,000</td>
+                                            <td>8,190,000</td>
+                                            <td>14,040,000</td>
+                                          </tr>
+                                          <tr>
+                                            <td>40 buổi</td>
+                                            <td>40 phút</td>
+                                            <td>6,800,000</td>
+                                            <td>5,780,000</td>
+                                            <td>10,880,000</td>
+                                            <td>14,280,000</td>
+                                            <td>24,480,000</td>
+                                          </tr>
+                                          <tr>
+                                            <td>20 buổi</td>
+                                            <td>20 phút</td>
+                                            <td>2,700,000</td>
+                                            <td>2,295,000</td>
+                                            <td>4,320,000</td>
+                                            <td>5,670,000</td>
+                                            <td>9,720,000</td>
+                                          </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+
+                           <div class="g-flex-centered g-pb-10">
+                              <a href="https://pinestalking.com/m/signup.html?lang=en" class="col-lg-3 text-uppercase btn btn-block g-color-white g-color-white--hover g-bg-main g-bg-primary--hover g-py-13">
+                                 <?=$lang['tuition_price_button']?>
+                               </a>
+                           </div>
+                           <hr>
+                           <div class="text-center mx-auto g-mb-10">
+                              <h2 class="g-color-black mb-4">GÓI HỌC IELTS EXPERT</h2>
+                              <div class="row">
+                              <div class="col-lg-12 g-py-10">
+                              <table class="table table-bordered">
+                                 <thead>
+                                    <tr>
+                                        <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">Khóa học</th>
+                                        <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">Thời lượng<br>mỗi lớp</th>
+                                        <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">Giá gốc<br>1 tháng</th>
+                                        <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">1 tháng<br>(Giảm 15%)</th>
+                                        <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">2 tháng<br>(Giảm 20%)</th>
+                                        <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">3 tháng<br>(Giảm 30%)</th>
+                                        <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">4 tháng<br>(Giảm 40%)</th>
+                                     </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                        <td>12 buổi</td>
+                                        <td>60 phút</td>
+                                        <td>4,050,000</td>
+                                        <td>3,442,500</td>
+                                        <td>6,480,000</td>
+                                        <td>8,505,000</td>
+                                        <td>14,580,000</td>
+                                      </tr>
+                                      <tr>
+                                        <td>20 buổi</td>
+                                        <td>40 phút</td>
+                                        <td>4,500,000</td>
+                                        <td>3,825,000</td>
+                                        <td>7,200,000</td>
+                                        <td>9,450,000</td>
+                                        <td>16,200,000</td>
+                                      </tr>
+                                      <tr>
+                                        <td>40 buổi</td>
+                                        <td>40 phút</td>
+                                        <td>7,800,000</td>
+                                        <td>6,630,000</td>
+                                        <td>12,480,000</td>
+                                        <td>16,380,000</td>
+                                        <td>28,080,000</td>
+                                      </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                        </div>
+
+                           </div>
+                        </div>
+
+                        <div class="g-flex-centered">
+                           <a href="https://pinestalking.com/m/signup.html?lang=en" class="col-lg-3 text-uppercase btn btn-block g-color-white g-color-white--hover g-bg-main g-bg-primary--hover g-py-13">
+                              <?=$lang['tuition_price_button']?>
+                            </a>
+                        </div>
+                        </div>
+                        </div>
+                        <!-- End Table Bordered -->
+                     </div>
+                     <div class="tab-pane" id="nav-1-1-default-hor-left--2" role="tabpanel">
+                        <!-- Table Bordered -->
+                        <div class="col-12">
+                           <h2 class="g-color-black mb-4">Gói A : 	Giờ học linh hoạt và tuỳ chọn giáo viên</h2>
+                           <!-- <span class="d-block g-color-red g-font-weight-600">*** Suggestion</span> -->
+                           <p class="g-color-black g-font-weight-500">Áp dụng các lớp học từ thứ 2 - 7 (6h00 ~ 22h00), Riêng thứ 7 (7h00 ~ 17h00) <br>
+                            Gói Freebooking được lựa chọn giáo viên và giờ học linh hoạt, không cố định. Lịch học thứ 7 có  giới hạn <br>
+                            Nhà trường không áp dụng chính sách huỷ, hay hoàn tiền. Học viên có sang nhượng phần học còn lại cho học viên khác
+                           </p>
+                        </div>
+                        <!-- Table Bordered -->
+                        <div class="col-lg-12 g-pt-10">
+                            <table class="table table-bordered">
+                               <thead>
+                                  <tr>
+                                     <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">Khóa học</th>
+                                     <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">Thời lượng<br>mỗi lớp</th>
+                                     <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">Giá gốc<br>1 tháng</th>
+                                     <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">1 tháng<br>(Giảm 15%)</th>
+                                     <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">2 tháng<br>(Giảm 20%)</th>
+                                     <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">3 tháng<br>(Giảm 30%)</th>
+                                     <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">4 tháng<br>(Giảm 40%)</th>
+                                  </tr>
+                               </thead>
+                               <tbody>
+                                  <tr>
+                                    <td>25 buổi</td>
+                                    <td>40 phút</td>
+                                    <td>3,100,000</td>
+                                    <td>2,635,000</td>
+                                    <td>4,960,000</td>
+                                    <td>6,510,000</td>
+                                    <td>11,160,000</td>
+                                  </tr>
+                                  <tr>
+                                    <td>25 phút</td>
+                                    <td>20 phút</td>
+                                    <td>2,100,000</td>
+                                    <td>1,785,000</td>
+                                    <td>3,360,000</td>
+                                    <td>4,410,000</td>
+                                    <td>7,560,000</td>
+                                  </tr>
+                                  <tr>
+                                    <td>15  buổi</td>
+                                    <td>40 phút</td>
+                                    <td>2,500,000</td>
+                                    <td>2,125,000</td>
+                                    <td>4,000,000</td>
+                                    <td>5,250,000</td>
+                                    <td>9,000,000</td>
+                                  </tr>
+                               </tbody>
+                            </table>
+                         </div>
+                        <div class="g-flex-centered g-pb-10">
+                           <a href="https://pinestalking.com/m/signup.html?lang=en" class="col-lg-3 text-uppercase btn btn-block g-color-white g-color-white--hover g-bg-main g-bg-primary--hover g-py-13">
+                              <?=$lang['tuition_price_button']?>
+                            </a>
+                        </div>
+                        <!-- End Table Bordered -->
+                     </div>
+                     <!-- End Tab panes -->
+                     <div class="tab-pane" id="nav-1-1-default-hor-left--3" role="tabpanel">
+                        <div class="col-12">
+                           <h2 class="g-color-black mb-4">GÓI B: GIỜ HỌC VÀ GIÁO VIÊN CỐ ĐỊNH</h2>
+                           <p class="g-color-black g-font-weight-500">Chương trình Giao tiếp Người lớn / Trẻ em, Tiếng Anh thương mại, Phỏng vấn, IELTS, TOEIC, TOEIC Speaking, TOEFL
+                              <br>Học viên được 11Talk xếp cố định lịch học trong tuần, không bị thay đổi giáo viên và giờ học trong suốt quá trình học
+
+                           </p>
+                        </div>
+                        <!-- Table Bordered -->
+                        <div class="row">
+                            <div class="col-lg-12 g-py-10">
+                            <table class="table table-bordered">
+                               <thead>
+                                   <tr>
+                                       <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">Khóa học</th>
+                                       <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">Thời lượng<br>mỗi lớp</th>
+                                       <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">Giá gốc<br>1 tháng</th>
+                                       <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">1 tháng<br>(Giảm 15%)</th>
+                                       <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">2 tháng<br>(Giảm 20%)</th>
+                                       <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">3 tháng<br>(Giảm 30%)</th>
+                                       <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">4 tháng<br>(Giảm 40%)</th>
+                                    </tr>
+                               </thead>
+                               <tbody>
+                                   <tr>
+                                       <td>12 buổi</td>
+                                       <td>40 phút</td>
+                                       <td>3,120,000</td>
+                                       <td>2,652,000</td>
+                                       <td>4,992,000</td>
+                                       <td>6,552,000</td>
+                                       <td>11,232,000</td>
+                                     </tr>
+                                     <tr>
+                                       <td>20 buổi</td>
+                                       <td>40 phút</td>
+                                       <td>3,900,000</td>
+                                       <td>3,315,000</td>
+                                       <td>6,240,000</td>
+                                       <td>8,190,000</td>
+                                       <td>14,040,000</td>
+                                     </tr>
+                                     <tr>
+                                       <td>40 buổi</td>
+                                       <td>40 phút</td>
+                                       <td>6,800,000</td>
+                                       <td>5,780,000</td>
+                                       <td>10,880,000</td>
+                                       <td>14,280,000</td>
+                                       <td>24,480,000</td>
+                                     </tr>
+                                     <tr>
+                                       <td>20 buổi</td>
+                                       <td>20 phút</td>
+                                       <td>2,700,000</td>
+                                       <td>2,295,000</td>
+                                       <td>4,320,000</td>
+                                       <td>5,670,000</td>
+                                       <td>9,720,000</td>
+                                     </tr>
+                               </tbody>
+                            </table>
+                         </div>
+                      </div>
+                        <!-- End Table Bordered -->
+                        <div class="g-flex-centered g-pb-10">
+                           <a href="https://pinestalking.com/m/signup.html?lang=en" class="col-lg-3 text-uppercase btn btn-block g-color-white g-color-white--hover g-bg-main g-bg-primary--hover g-py-13">
+                              <?=$lang['tuition_price_button']?>
+                            </a>
+                        </div>
+                     </div>
+                     <!-- End Tab panes -->
+                     <div class="tab-pane" id="nav-1-1-default-hor-left--4" role="tabpanel">
+                           <div class="col-12">
+                              <h2 class="g-color-black mb-4">GÓI HỌC IELTS EXPERT</h2>
+                              <!-- <span class="d-block g-color-black g-font-weight-600">*Skip your worries on daily booking! <?=$lang['tuition_price_tab_free_booking']?> is recommended for </span> -->
+                              <p class="g-color-black g-font-weight-500">Chương trình IELTS chuyên sâu được giảng dạy bởi các chuyên gia IELTS nhiều năm kinh nghiệm giảng dạy cho chương trình IELTS đảm bảo tại Pines<br>
+                                Giáo viên theo sát học viên và dạy chuyên sâu 4 kỹ năng đối với trên 2 buổi/ngày với tài liệu được biên soạn riêng để ôn luyện 
+                            </p>
+                           </div>
+                        <!-- Table Bordered -->
+                        <div class="row">
+                            <div class="col-lg-12 g-py-10">
+                            <table class="table table-bordered">
+                               <thead>
+                                   <tr>
+                                       <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">Khóa học</th>
+                                       <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">Thời lượng<br>mỗi lớp</th>
+                                       <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">Giá gốc<br>1 tháng</th>
+                                       <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">1 tháng<br>(Giảm 15%)</th>
+                                       <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">2 tháng<br>(Giảm 20%)</th>
+                                       <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">3 tháng<br>(Giảm 30%)</th>
+                                       <th class="g-brd-bottom-none g-brd-white-opacity-0_8 g-color-white g-bg-cool g-pa-20">4 tháng<br>(Giảm 40%)</th>
+                                    </tr>
+                               </thead>
+                               <tbody>
+                                   <tr>
+                                       <td>12 buổi</td>
+                                       <td>40 phút</td>
+                                       <td>3,120,000</td>
+                                       <td>2,652,000</td>
+                                       <td>4,992,000</td>
+                                       <td>6,552,000</td>
+                                       <td>11,232,000</td>
+                                     </tr>
+                                     <tr>
+                                       <td>20 buổi</td>
+                                       <td>40 phút</td>
+                                       <td>3,900,000</td>
+                                       <td>3,315,000</td>
+                                       <td>6,240,000</td>
+                                       <td>8,190,000</td>
+                                       <td>14,040,000</td>
+                                     </tr>
+                                     <tr>
+                                       <td>40 buổi</td>
+                                       <td>40 phút</td>
+                                       <td>6,800,000</td>
+                                       <td>5,780,000</td>
+                                       <td>10,880,000</td>
+                                       <td>14,280,000</td>
+                                       <td>24,480,000</td>
+                                     </tr>
+                                     <tr>
+                                       <td>20 buổi</td>
+                                       <td>20 phút</td>
+                                       <td>2,700,000</td>
+                                       <td>2,295,000</td>
+                                       <td>4,320,000</td>
+                                       <td>5,670,000</td>
+                                       <td>9,720,000</td>
+                                     </tr>
+                               </tbody>
+                            </table>
+                         </div>
+                      </div>
+                        <!-- End Table Bordered -->
+                        <div class="g-flex-centered g-pb-10">
+                           <a href="https://pinestalking.com/m/signup.html?lang=en" class="col-lg-3 text-uppercase btn btn-block g-color-white g-color-white--hover g-bg-main g-bg-primary--hover g-py-13">
+                              <?=$lang['tuition_price_button']?>
+                            </a>
+                        </div>
+                     </div>
+                     <!-- End Tab panes -->
+                     </div>
+                  </div>
+                  <!-- End Tab panes -->
+               </div>
+               <!-- End Pricing Tables -->
+               <? include_once("inc/_end.html"); ?>
+            </main>
+      <!-- JS Plugins Init. -->
+      <script>
+         $(document).on('ready', function () {
+           // initialization of header
+           $.HSCore.components.HSHeader.init($('#js-header'));
+           $.HSCore.helpers.HSHamburgers.init('.hamburger');
+         
+           // initialization of HSMegaMenu component
+           $('.js-mega-menu').HSMegaMenu({
+             event: 'hover',
+             pageContainer: $('.container'),
+             breakpoint: 991
+           });
+         
+           // initialization of HSDropdown component
+           $.HSCore.components.HSDropdown.init($('[data-dropdown-target]'), {
+             afterOpen: function () {
+               $(this).find('input[type="search"]').focus();
+             }
+           });
+         
+           // initialization of popups
+           $.HSCore.components.HSPopup.init('.js-fancybox');
+         
+           // initialization of carousel
+           $.HSCore.components.HSCarousel.init('.js-carousel');
+         
+           // initialization of go to
+           $.HSCore.components.HSGoTo.init('.js-go-to');
+         
+           // initialization of tabs
+           $.HSCore.components.HSTabs.init('[role="tablist"]');
+         });
+         
+         $(window).on('resize', function () {
+           setTimeout(function () {
+             $.HSCore.components.HSTabs.init('[role="tablist"]');
+           }, 200);
+         });
+        
+      function change_language() {
+        var sel_lang = $("#select_language").val();
+        if(sel_lang === 'ch'){
+          location.href = "price.html?lang=" + sel_lang;
+          localStorage.setItem('show', 'false');
+          $('#kakao').hide();
+        }else if(sel_lang === 'jp'){
+          location.href = "price.html?lang=" + sel_lang;
+          localStorage.setItem('show', 'false');
+          $('#kakao').hide();
+        }else if(sel_lang === 'ko'){
+          location.href = "price.html?lang=" + sel_lang;
+        }else if(sel_lang === 'vi'){
+            location.href = "price_vi.html?lang=" + sel_lang; 
+        }else{
+          location.href = "price.html?lang=" + sel_lang;
+          localStorage.setItem('show', 'true');
+        }
+      }
+      </script>
+   </body>
+</html>

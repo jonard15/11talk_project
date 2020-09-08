@@ -147,10 +147,23 @@
              $.HSCore.components.HSGoTo.init('.js-go-to');
            });
 
-        function change_language() {
+      function change_language() {
         var sel_lang = $("#select_language").val();
+        if(sel_lang === 'ch'){
           location.href = "testimonials.html?lang=" + sel_lang;
+          localStorage.setItem('show', 'false');
+          $('#kakao').hide();
+        }else if(sel_lang === 'jp'){
+          location.href = "testimonials.html?lang=" + sel_lang;
+          localStorage.setItem('show', 'false');
+          $('#kakao').hide();
+        }else if(sel_lang === 'ko'){
+          location.href = "testimonials.html?lang=" + sel_lang;
+        }else{
+          location.href = "testimonials.html?lang=" + sel_lang;
+          localStorage.setItem('show', 'true');
         }
+      }
          </script>
        </body>
      </html>

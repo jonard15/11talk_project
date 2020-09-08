@@ -1,48 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <!-- Title -->
-      <title>11talk - New Website</title>
-      <!-- Required Meta Tags Always Come First -->
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta http-equiv="x-ua-compatible" content="ie=edge">
-      <!-- Favicon -->
-      <link rel="shortcut icon" href="favicon1.ico">
-      <!-- Google Fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Encode+Sans:400,500,600" rel="stylesheet">
-      <!-- CSS Global Compulsory -->
-      <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
-      <!-- CSS Implementing Plugins -->
-      <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css">
-      <link rel="stylesheet" href="assets/vendor/icon-line-pro/style.css">
-      <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
-      <link rel="stylesheet" href="assets/vendor/dzsparallaxer/dzsparallaxer.css">
-      <link rel="stylesheet" href="assets/vendor/dzsparallaxer/dzsscroller/scroller.css">
-      <link rel="stylesheet" href="assets/vendor/dzsparallaxer/advancedscroller/plugin.css">
-      <link rel="stylesheet" href="assets/vendor/animate.css">
-      <link rel="stylesheet" href="assets/vendor/hs-megamenu/src/hs.megamenu.css">
-      <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
-      <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css">
-      <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
-      <link  rel="stylesheet" href="assets/vendor/custombox/custombox.min.css">
-      <!-- CSS Unify Theme -->
-      <link rel="stylesheet" href="css/styles.multipage-marketing.css">
-      <!-- CSS Customization -->
-      <link rel="stylesheet" href="assets/css/custom.css">
-   </head>
+<? include_once("../common_member.lib.php"); ?>
+<? include_once("inc/_begin.html"); ?>
    <body>
       <main>
          <!-- Header -->
          <div id="header"></div>
          <!-- End Header -->
          <!-- Consultants -->
-         <div class="container g-pt-120">
+         <div class="container g-pt-30">
             <!-- Consultants - Heading -->
             <div class="d-flex align-items-center g-mb-40">
                <div>
                   <span class="d-block text-uppercase g-color-gray-dark-v5 g-font-weight-500 g-font-size-13 mb-4">Experts</span>
-                  <h2 class="mr-5 mb-0">Best Teachers</h2>
+                  <h2 class="mr-5 mb-0"><?=$lang['best_teacher']?></h2>
                </div>
                <!-- Nav tabs -->
                <ul class="nav u-nav-v1-1 ml-auto mt-auto" role="tablist" data-target="nav-1-1-default-hor-left" data-tabs-mobile-type="slide-up-down" data-btn-classes="btn btn-md btn-block rounded-0 u-btn-outline-lightgray">
@@ -2601,16 +2570,16 @@
                            <div class="col-md-5 g-py-100">
                            <div class="mb-5">
                               <!-- <span class="d-block text-uppercase g-color-dark-light-v1 g-font-weight-500 g-font-size-13 mb-4">How does it work?</span> -->
-                                 <span class="d-block text-uppercase g-color-dark-light-v1 g-font-weight-500 g-font-size-13 mb-4">Meet our Teachers</span>
-                                 <h2 class="mb-4">Professional Background</h2>
+                                 <span class="d-block text-uppercase g-color-dark-light-v1 g-font-weight-500 g-font-size-13 mb-4"><?=$lang['professional_background']?></span>
+                                 <h2 class="mb-4"><?=$lang['professional_background']?></h2>
                               <blockquote class="g-color-dark-light-v1 g-font-weight-500 g-font-size-16 text-left">
-                                 How do we produce successful global talents ?
+                                 <?=$lang['global_talent']?>
                               </blockquote>
-                              <p class="g-font-size-16 g-color-black g-font-weight-500 g-line-height-2 text-left">11talk Teachers are  certified English Experts</p>
-                              <p class="g-font-size-16 g-color-black g-font-weight-500 g-line-height-2 text-left">After the comprehensive training, 11talk teachers have experienced  teaching offline foreign students at Pines International Academy for at least  4 months (with at least 8 sessions of teaching  loads per day).  They have handled various English courses, attended post hiring training and attained certain qualifications like IELTS certification Know the difference.</p>
+                              <p class="g-font-size-16 g-color-black g-font-weight-500 g-line-height-2 text-left"><?=$lang['certified_english_teacher']?></p>
+                              <p class="g-font-size-16 g-color-black g-font-weight-500 g-line-height-2 text-left"><?=$lang['certified_english_teacher_para']?></p>
                            </div>
                            <a class="btn u-btn-black g-brd-main g-brd-primary--hover g-bg-main g-bg-primary--hover g-font-weight-600 g-font-size-12 text-uppercase g-px-25 g-py-13" href="https://pinestalking.com/m/signup.html">
-                              Free Class + Level Test
+                              <?=$lang['free_class+_level_test']?>
                               <i class="g-pos-rel g-top-minus-1 ml-2 fa fa-angle-right"></i>
                            </a>
                            </div>
@@ -2618,50 +2587,9 @@
                      </div>
                      </div>
                      <!-- End  Meet Teachers Section -->
-         <!-- Footer -->
-         <div id="footer"></div>
-         <!-- End Footer -->
-         <!-- Go to Top -->
-         <a class="js-go-to u-go-to-v1 g-width-40 g-height-40 g-color-primary g-bg-main-opacity-0_5 g-bg-main--hover g-bg-main--focus g-font-size-12 rounded" href="#" data-type="fixed" data-position='{
-            "bottom": 15,
-            "right": 15
-            }' data-offset-top="400" data-compensation="#js-header" data-show-effect="zoomIn">
-         <i class="hs-icon hs-icon-arrow-top"></i>
-         </a>
-         <!-- End Go to Top -->
-      </main>
-      <!-- JS Global Compulsory -->
-      <script src="assets/vendor/jquery/jquery.min.js"></script>
-      <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
-      <script src="assets/vendor/popper.js/popper.min.js"></script>
-      <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
-      <!-- JS Implementing Plugins -->
-      <script src="assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-      <script src="assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
-      <script src="assets/vendor/dzsparallaxer/dzsscroller/scroller.js"></script>
-      <script src="assets/vendor/dzsparallaxer/advancedscroller/plugin.js"></script>
-      <script src="assets/vendor/fancybox/jquery.fancybox.min.js"></script>
-      <script src="assets/vendor/slick-carousel/slick/slick.js"></script>
-      <script  src="assets/vendor/custombox/custombox.min.js"></script>
-      <!-- JS Unify -->
-      <script src="assets/js/hs.core.js"></script>
-      <script src="assets/js/components/hs.header.js"></script>
-      <script src="assets/js/helpers/hs.hamburgers.js"></script>
-      <script src="assets/js/components/hs.dropdown.js"></script>
-      <script src="assets/js/components/hs.popup.js"></script>
-      <script src="assets/js/components/hs.carousel.js"></script>
-      <script src="assets/js/components/hs.go-to.js"></script>
-      <script src="assets/js/components/hs.tabs.js"></script>
-      <script src="assets/js/components/hs.rating.js"></script>
-      <script  src="assets/js/components/hs.modal-window.js"></script>
-      <!-- JS Customization -->
-      <script src="assets/js/custom.js"></script>
-      <!-- JS Plugins Init. -->
+                     <? include_once("inc/_end.html"); ?>
       <script>
          $(document).on('ready', function () {
-           //load header & footer
-           $("#header").load("header.html"); 
-           $("#footer").load("footer.html"); 
            // initialization of header
            $.HSCore.components.HSHeader.init($('#js-header'));
            $.HSCore.helpers.HSHamburgers.init('.hamburger');
@@ -2708,6 +2636,10 @@
          // initialization of popups
          $.HSCore.components.HSModalWindow.init('[data-modal-target]');
          });
+         function change_language() {
+            var sel_lang = $("#select_language").val();
+              location.href = "teacher.html?lang=" + sel_lang;
+          }
       </script>
    </body>
 </html>
