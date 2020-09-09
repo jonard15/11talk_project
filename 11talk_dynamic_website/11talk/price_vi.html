@@ -484,25 +484,25 @@
            }, 200);
          });
         
-      function change_language() {
-        var sel_lang = $("#select_language").val();
-        if(sel_lang === 'ch'){
-          location.href = "price.html?lang=" + sel_lang;
-          localStorage.setItem('show', 'false');
-          $('#kakao').hide();
-        }else if(sel_lang === 'jp'){
-          location.href = "price.html?lang=" + sel_lang;
-          localStorage.setItem('show', 'false');
-          $('#kakao').hide();
-        }else if(sel_lang === 'ko'){
-          location.href = "price.html?lang=" + sel_lang;
-        }else if(sel_lang === 'vi'){
-            location.href = "price_vi.html?lang=" + sel_lang; 
-        }else{
-          location.href = "price.html?lang=" + sel_lang;
-          localStorage.setItem('show', 'true');
-        }
-      }
+      // function change_language() {
+      //   var sel_lang = $("#select_language").val();
+      //   if(sel_lang === 'ch'){
+      //     location.href = "price.html?lang=" + sel_lang;
+      //     localStorage.setItem('show', 'false');
+      //     $('#kakao').hide();
+      //   }else if(sel_lang === 'jp'){
+      //     location.href = "price.html?lang=" + sel_lang;
+      //     localStorage.setItem('show', 'false');
+      //     $('#kakao').hide();
+      //   }else if(sel_lang === 'ko'){
+      //     location.href = "price.html?lang=" + sel_lang;
+      //   }else if(sel_lang === 'vi'){
+      //       location.href = "price_vi.html?lang=" + sel_lang; 
+      //   }else{
+      //     location.href = "price.html?lang=" + sel_lang;
+      //     localStorage.setItem('show', 'true');
+      //   }
+      // }
       </script>
    </body>
 </html>

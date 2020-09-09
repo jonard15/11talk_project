@@ -14,6 +14,148 @@ $lang['testimonials'] = 'Testimonials';
 $lang['blog'] = 'Blog';
 $lang['class_system'] = 'Class System';
 
+//Home section2
+$lang['affordable_online'] = 'WHO WE ARE';
+$lang['affordable_online_para'] = ' “ 11talk ” 는<br>  “ 필리핀어학연수 20년 1위 “<br>  “ 파인스국제 어학원”  “ 세부블루오션 어학원 “ 에서 직접 운영하는 온라인 전화, 화상영어 브랜드 입니다. ';
+$lang['about_11talk'] = 'Know more about 11talk';
+$lang['join_our'] = 'Join our';
+$lang['30k'] = '30k';
+$lang['successsful_graduates'] = 'Successful<br>Graduates';
+
+//Home section3
+$lang['be_global'] = '“ 매번 유명한 업체들의 이름만 보고 정작 수업을 진행하는<br>강사님의 자격을 검증 해 본 적이 있나요 ? ';
+$lang['100_instructor'] = 'BRITISH COUNCIL IELTS 공인시험 7.0 ';
+$lang['100_instructor_para'] = '전문 강사진 수업 진행';
+$lang['general_courses'] = '필리핀 교육부에서 인정한 교육 자격증';
+$lang['general_courses_para'] = 'TESDA 취득 강사진 수업 진행';
+$lang['book_types'] = '필리핀 교육부에서 인정한 교육 자격증';
+$lang['book_types_para'] = 'TESDA 취득 강사진 수업 진행';
+
+//Home section4
+$lang['top_choice'] = 'Top Choice';
+$lang['top_choice_para'] = 'among 400 PH Academies';
+$lang['20_years'] = '20 Years';
+$lang['20_years_para'] = 'of History';
+$lang['student_statisfaction_percent'] = '99.9%';
+$lang['student_statisfaction'] = 'student satisfaction';
+$lang['num_successful_graduates'] = '30,000';
+$lang['successful_graduates_2'] = 'successful graduates';
+
+//Home section7
+$lang['stable_tested_curriculum'] = '“ 1:1 맞춤형 커리큘럼”';
+$lang['stable_tested_curriculum_para'] = '일상회화~ 시험 대비 과정까지<br>자신에게 필요한 레벨에 딱 맞는 과정을 선택하세요';
+$lang['job_interview'] = '일반 회화 과정';
+$lang['job_interview_para'] = 'One stop English job interview preparation';
+$lang['job_interview_btn'] = 'View';
+$lang['senior_english'] = '주니어 과정';
+$lang['senior_english_para'] = 'Focuses on English conversation based on student’s level (1~10). Class types available are expressions, discussion or pre-basic English coversation class (for beginners)';
+$lang['senior_english_btn'] = 'View';
+$lang['bussiness_english'] = '비즈니스 과정';
+$lang['bussiness_english_para'] = 'Acquire English skills necessary for business activities such as business communication, presentation and coping ability in unexpected situations.';
+$lang['bussiness_english_btn'] = 'View';
+$lang['ielts'] = '잡 인터뷰 과정';
+$lang['ielts_para'] = 'Prepare for the test with expected test questions and recent test questions to help you achieve your target band score.';
+$lang['ielts_btn'] = 'View';
+$lang['toefl'] = '잡 인터뷰 과정';
+$lang['toefl_para'] = 'Comprehensive test preparation through review of expected questions and recent test questions to excel on the test.';
+$lang['toefl_btn'] = 'View';
+$lang['toeic'] = '토익';
+$lang['toeic_para'] = 'TOEIC Scores & Conversion Table';
+$lang['toeic_btn'] = 'View';
+$lang['view_course_details'] = 'View Course Details';
+//Home section7 modal1
+$lang['job_interview_dsc'] = 'We offer two job interview courses; a general job interview and an interview for flight attendants course. In class, practice the interview with common interview questions and teachers would check your answer and teach a better answer. The goal is to answer your thoughts and opinions in fluent English in a real interview. This course is for intermediate-level English proficiency.';
+$lang['interview_title_modal1_1'] = 'Interview course';
+$lang['interview_list_modal1_1'] = 'Preferred Level of student : intermediate or above';
+$lang['interview_list_modal1_2'] = 'Contents of the textbook';
+$lang['interview_list_modal1_2_1'] = 'Passion For Business';
+$lang['interview_list_modal1_2_2'] = 'Motivation and Purpose';
+$lang['interview_list_modal1_2_3'] = 'Skills and Experience';
+$lang['interview_list_modal1_2_4'] = 'Diligence and Professionalism';
+$lang['interview_title_modal1_2'] = 'Interview for flight attendant course';
+$lang['interview_title_modal1_2_1'] = 'Preferred Level of student: intermediate or above';
+$lang['interview_title_modal1_2_2'] = 'Preferred student: Those who are preparing an interview for domestic airline and foreign airline crew';
+$lang['interview_title_modal1_2_3'] = 'Contents of the textbook.';
+$lang['interview_title_modal1_2_3_1'] = 'Personal Information';
+$lang['interview_title_modal1_2_3_2'] = 'Career';
+$lang['interview_title_modal1_2_3_3'] = '(Total questions: 87 questions)';
+//Home section7 modal2
+$lang['senior_eng_dsc'] = '11Talk has variety of textbooks. Classes are tailored to the student’s level. Textbooks are assigned based on trial class  assessment. Check our trial classes now!';
+$lang['interview_title_modal2_1'] = 'Pattern textbook';
+$lang['interview_list_modal2_1'] = 'Preferred level of students: Beginner ~ Intermediate';
+$lang['interview_list_modal2_2'] = 'Level of textbook: level 1 to level 5';
+$lang['interview_list_modal2_3'] = 'Textbook level 1 : Learn basic pronunciation, vocabulary and basic English expressions. Makes the students get accustomed with English sentence structures and phrases.';
+$lang['interview_list_modal2_4'] = 'Textbook level 2 ~ 3 : Focuses on learning basic conversation patterns and frequently used vocabulary words. The book targets speaking fluency and expressing thoughts in English.';
+$lang['interview_list_modal2_5'] = 'Textbook level 4 ~ 5 :Focuses on learning patterns and expressions while practicing  to express your thoughts in specific English situation';
+$lang['interview_title_modal2_2'] = 'Discussion textbook';
+$lang['interview_list_modal2_6'] = 'Preferred Level of student: Intermediate ~ Advanced';
+$lang['interview_list_modal2_7'] = 'Level of textbook: level 4 to level 10';
+$lang['interview_list_modal2_8'] = 'Textbooks levels 4 ~ 7 : Read short stories and express your thoughts  and opinions about the stories. You can practice choosing proper vocabularies  as well as comprehension.';
+$lang['interview_list_modal2_9'] = 'Textbook level 8 ~ 10 : Read a long passage and discuss with a teacher about the topic. The goal of this level is to have  depth in language execution.';
+$lang['interview_title_modal2_3'] = 'Conversation textbook for beginners';
+$lang['interview_list_modal2_10'] = 'Preferred level of student : The person who starts English conversation for the first time';
+$lang['interview_list_modal2_11'] = 'Level of textbook : Pre-level 1';
+$lang['interview_list_modal2_12'] = 'Learning basic questions and answers used in daily conversation. Aims to eliminate fear and  build confidence in speaking English.
+(Ex) Self introduction, shopping and ordering.';
+//Home section7 modal3
+$lang['business_eng_dsc'] = 'Learning Objectives: In business situations, you can reach the stage wherein you need to use sophisticated and accurate business-related English expressions and words for phone conversation, meeting and discussion with foreigners.';
+$lang['business_list_modal3_1'] = 'Textbook';
+$lang['business_list_modal3_2'] = 'Organization';
+$lang['business_list_modal3_3'] = 'Become familiar with business English situations through discussion and business conversation drills.';
+$lang['business_list_modal3_4'] = 'Increase your business English vocabulary and expression  use it on drills that are related to business set-ups like interviews and meetings';
+$lang['business_list_modal3_5'] = 'Deepend your understanding on words and expressions you learned through writing drills';
+//Home section7 modal4
+$lang['ielts_dsc'] = 'We offer IELTS Speaking, Reading and Writing classes. This course is for students who have intermediate level of English or above.';
+$lang['ielts_title_modal4_1'] = 'IELTS Speaking';
+$lang['ielts_list_modal4_1'] = 'Practice various types of questions in IELTS Speaking and give you the tips to gain high scores';
+$lang['ielts_list_modal4_2'] = 'A teacher gives you corrections of the wrong sentences in grammar you said that are difficult to grasp by self-study';
+$lang['ielts_list_modal4_3'] = 'We have Basic, Intermediate, and Advanced level textbooks';
+$lang['ielts_title_modal4_2'] = 'IELTS Reading (Academic)';
+$lang['ielts_list_modal4_4'] = 'Grasp the types of questions and strategies';
+$lang['ielts_list_modal4_5'] = 'Practice IELTS test with past test questions';
+$lang['ielts_list_modal4_6'] = 'Class process : Submit your answer before the class. In class, check the answers. For wrong answer, the teacher explains the question and the correct answer and gives you feedback';
+$lang['ielts_title_modal4_3'] = 'IELTS Writing';
+$lang['ielts_list_modal4_7'] = 'Grasp the types of questions and strategies';
+$lang['ielts_list_modal4_8'] = 'Practice IELTS test with past test questions';
+$lang['ielts_list_modal4_9'] = 'Class process : Submit your writing before the class. Teacher provides feedback regarding your writing in class.';
+//Home section7 modal5
+$lang['toefl_dsc'] = 'TOEFL Speaking and Writing classes are offered.  This course is for students who have intermediate level of English or above.';
+$lang['toefl_title_modal5_1'] = 'TOEFL Speaking';
+$lang['toefl_list_modal5_1'] = 'Practice various types of questions in TOEFL and check tips to gain high score with sample answers';
+$lang['toefl_list_modal5_2'] = 'A teacher gives you corrections of the wrong sentences in grammar you said that are difficult to grasp by self-study.';
+$lang['toefl_list_modal5_3'] = 'Basic and Intermediate level textbook';
+$lang['toefl_title_modal5_2'] = 'TOEFL Reading (Academic)';
+$lang['toefl_list_modal5_4'] = 'TOEFL Writing';
+$lang['toefl_list_modal5_5'] = 'Practice writing with 185 past test topics';
+$lang['toefl_list_modal5_6'] = 'Class process : Submit your writing before the class. Teacher provides feedback regarding your writing in class.';
+//Home section7 modal6
+$lang['toeic_dsc'] = 'The TOEIC Listening & Reading Test is a 2-session multiple-choice test consisting of 200 questions. Each candidate receives independent scores for listening and reading comprehension on a scale that ranges from 5 to 495 points.  The total score adds up to a scale of 10 to 990 points. The table below summarizes the test scores and what they mean.';
+$lang['toeic_list_modal6_1'] = 'Score Level';
+$lang['toeic_list_modal6_2'] = '905 – 990';
+$lang['toeic_list_modal6_3'] = '(91% – 100%)';
+$lang['toeic_list_modal6_4'] = 'International Professional Proficiency';
+$lang['toeic_list_modal6_5'] = 'Able to communicate effectively in any situation.';
+$lang['toeic_list_modal6_6'] = '785 – 900';
+$lang['toeic_list_modal6_7'] = '(79% – 90%)';
+$lang['toeic_list_modal6_8'] = 'Working Proficiency Plus';
+$lang['toeic_list_modal6_9'] = 'Able to satisfy most work requirements with language that is often, but not always, acceptable and effective.';
+$lang['toeic_list_modal6_10'] = '605 – 780';
+$lang['toeic_list_modal6_11'] = '(61% – 78%)';
+$lang['toeic_list_modal6_12'] = 'Limited Working Proficiency';
+$lang['toeic_list_modal6_13'] = 'Able to satisfy most social demands and limited work requirements.';
+$lang['toeic_list_modal6_14'] = '405 – 600';
+$lang['toeic_list_modal6_15'] = '(41% – 60%)';
+$lang['toeic_list_modal6_16'] = 'Elementary Proficiency Plus';
+$lang['toeic_list_modal6_17'] = 'Can initiate and maintain predictable face-to-face conversations and satisfy limited social demands.';
+$lang['toeic_list_modal6_18'] = '255 – 400';
+$lang['toeic_list_modal6_19'] = '(26% – 40%)';
+$lang['toeic_list_modal6_20'] = 'Elementary Proficiency';
+$lang['toeic_list_modal6_21'] = 'Speaker has functional, but limited proficiency. Able to maintain very simple face-to-face conversations on familiar topics';
+$lang['toeic_list_modal6_22'] = '10 – 250';
+$lang['toeic_list_modal6_23'] = '(0% – 25%)';
+$lang['toeic_list_modal6_24'] = 'Basic Proficiency';
+$lang['toeic_list_modal6_25'] = 'Able to satisfy immediate survival needs.';
+
 //Home section8
 $lang['study_with_professional_teachers'] = 'Study Online with Well-trained and Professional Teachers';
 $lang['study_with_professional_teachers_para'] = '11talk teachers have completed Pines Academy’s 14-stage recruitment process. After getting hired, they also attend regular training sessions to elevate their teaching credentials to teach a higher grade of English classes. We train them to become flexible in teaching both ESL courses and Test Module Courses like IELTS.';
@@ -64,59 +206,59 @@ $lang['history_of_11talk'] = '파인스 역사';
 $lang['history_of_11talk_2018'] = '2018';
 $lang['history_of_11talk_2018_list1'] = '파인스 메인캠퍼스 OPEN';
 $lang['history_of_11talk_2017'] = '2017';
-$lang['history_of_11talk_2017_list1'] = 'Winter Vacation Camp for students from Chonbuk University, Sunmoon';
-$lang['history_of_11talk_2017_list2'] = 'University, Kyeongnam National University of Science and Technology, Inje';
-$lang['history_of_11talk_2017_list3'] = 'University, Daejin University, Kunsan University';
-$lang['history_of_11talk_2017_list4'] = 'Winter Vacation Camp for juniors from <br>Hanwha';
+$lang['history_of_11talk_2017_list1'] = '전북대, 선문대, 경남과학기술대, 인제대, 대진대, 군산대 단체 연수 진행';
+$lang['history_of_11talk_2017_list2'] = '한화 생명 겨울 주니어 캠프 진행';
+// $lang['history_of_11talk_2017_list3'] = 'University, Daejin University, Kunsan University';
+// $lang['history_of_11talk_2017_list4'] = 'Winter Vacation Camp for juniors from <br>Hanwha';
 $lang['history_of_11talk_2016'] = '2016';
-$lang['history_of_11talk_2016_list1'] = 'Hosting of the 8th ESLympics';
-$lang['history_of_11talk_2016_list2'] = 'Launching of the University Students Chonbuk and Inje Buddy Program';
-$lang['history_of_11talk_2016_list3'] = 'Summer and Winter Vacation Camp for juniors from Hanwha';
+$lang['history_of_11talk_2016_list1'] = '연암공대, 선문대, 순천향대, 신안산대, 인덕대, 야마구치대 단체 연수 진행';
+$lang['history_of_11talk_2016_list2'] = '제6회 ESLYMPICS 바기오 대학생 영어 대회 주최';
+// $lang['history_of_11talk_2016_list3'] = 'Summer and Winter Vacation Camp for juniors from Hanwha';
 $lang['history_of_11talk_2015'] = '2015';
-$lang['history_of_11talk_2015_list1'] = 'Opening of the sister school in Cebu, Cebu Blue Ocean Academy (CBOA)';
-$lang['history_of_11talk_2015_list2'] = 'Holding the 7th ESLympics';
+$lang['history_of_11talk_2015_list1'] = '자매 학원 설립(세부 막탄) : Cebu Blue Ocean Academy';
+$lang['history_of_11talk_2015_list2'] = '제7회 ESLYMPICS 바기오 대학생 영어 대회 주';
 $lang['history_of_11talk_2014'] = '2014';
-$lang['history_of_11talk_2014_list1'] = 'Hosting of the 8th ESLympics';
-$lang['history_of_11talk_2014_list2'] = 'Launching of the University Students Chonbuk and Inje Buddy Program';
-$lang['history_of_11talk_2014_list3'] = 'Summer and Winter Vacation Camp for juniors from Hanwha';
+$lang['history_of_11talk_2014_list1'] = '연암공대, 선문대, 순천향대, 신안산대, 인덕대, 야마구치대 단체 연수 진행Intensive ESL 과정 신설';
+$lang['history_of_11talk_2014_list2'] = '제6회 ESLYMPICS 바기오 대학생 영어 대회 주최';
+// $lang['history_of_11talk_2014_list3'] = 'Summer and Winter Vacation Camp for juniors from Hanwha';
 $lang['history_of_11talk_2013'] = '2013';
-$lang['history_of_11talk_2013_list1'] = 'Opening of Chapis Advanced Course Campus';
-$lang['history_of_11talk_2013_list2'] = 'Launching of Golf and English Camp by Choice Golf Academy';
+$lang['history_of_11talk_2013_list1'] = '한양대,연암공대,선문대학교,순천향대 단체 연수 진행한화생명 기업 연수 프로그램 진행';
+$lang['history_of_11talk_2013_list2'] = '파인스 차피스 캠퍼스(고급반) 오픈';
 $lang['history_of_11talk_2012'] = '2012';
-$lang['history_of_11talk_2012_list1'] = 'Winter Vacation camp for students from Hanyang University';
-$lang['history_of_11talk_2012_list2'] = 'Yonam Institute of Digital Technology, Cheonam Yonam College, Kookje College, Osan University';
-$lang['history_of_11talk_2012_list3'] = 'Hosting of the 4th ESLympics';
-$lang['history_of_11talk_2012_list4'] = 'MOU with IVY Stewardess Academy';
-$lang['history_of_11talk_2012_list5'] = '100th Batch of students';
+$lang['history_of_11talk_2012_list1'] = '한양대, 연암공대, 천안연암대, 선문대, 국제대, 오산대 단체 연수 진행';
+$lang['history_of_11talk_2012_list2'] = '제4회 ESLYMPICS 바기오 초, 중, 고, 대학생 영어 대회 주최';
+$lang['history_of_11talk_2012_list3'] = 'IVY Stewardess Academy와 영어교육 협력 MOU 체결';
+$lang['history_of_11talk_2012_list4'] = '신입생 100기 입학 (6월y';
+// $lang['history_of_11talk_2012_list5'] = '100th Batch of students';
 $lang['history_of_11talk_2011'] = '2011';
-$lang['history_of_11talk_2011_list1'] = 'MOU between the University of Cordilleras and Yonam Digital Institute and College, Pines acting as Intermediary';
-$lang['history_of_11talk_2011_list2'] = 'Hosting of the 3rd ESLympics';
+$lang['history_of_11talk_2011_list1'] = '선문대와 UC 교환학생 / 교수 MOU 체결';
+$lang['history_of_11talk_2011_list2'] = '제3회 ESLYMPICS 바기오 초, 중, 고, 대학생 영어 대회 주최';
 $lang['history_of_11talk_2010'] = '2010';
-$lang['history_of_11talk_2010_list1'] = 'Affiliation with University of Cordilleras and Sunmoon University, Pines acting as Intermediary';
-$lang['history_of_11talk_2010_list2'] = 'Launching of Pines “English Rush Hour” Program';
-$lang['history_of_11talk_2010_list3'] = 'Hosting of the 1st ESLympics for university  students from Baguio';
-$lang['history_of_11talk_2010_list4'] = 'Launching of a program for university students from Korea';
+$lang['history_of_11talk_2010_list1'] = 'University of the Cordilleras 부설 어학원 지정';
+$lang['history_of_11talk_2010_list2'] = '한국 대학 단체 장기, 단기 연수 진행';
+$lang['history_of_11talk_2010_list3'] = '제1회 ESLYMPICS 바기오 대학생 영어 대회 개최';
+$lang['history_of_11talk_2010_list4'] = '파인스 스페셜 옵션 수업 ENGLISH RUSH HOUR PROGRAM 시작';
 $lang['history_of_11talk_2009'] = '2009';
-$lang['history_of_11talk_2009_list1'] = 'Number of students peaked at 500';
-$lang['history_of_11talk_2009_list2'] = 'Launching of “WYM” Camp of EFL Learners';
-$lang['history_of_11talk_2009_list3'] = 'Opening of Pines Academy in Clark';
+$lang['history_of_11talk_2009_list1'] = '파인스 학생 500명 초과';
+$lang['history_of_11talk_2009_list2'] = '파인스 우영미 특별 프로그램 운영';
+$lang['history_of_11talk_2009_list3'] = '필리핀 클락에 파인스 캠퍼스 OPEN';
 $lang['history_of_11talk_2008'] = '2008';
-$lang['history_of_11talk_2008_list1'] = 'Opening of Romel Suite Campus as training center for new students';
+$lang['history_of_11talk_2008_list1'] = '파인스 로멜 캠퍼스 OPEN';
 $lang['history_of_11talk_2007'] = '2007';
-$lang['history_of_11talk_2007_list1'] = 'Launching of “KPS” intensified night program';
-$lang['history_of_11talk_2007_list2'] = 'Number of students peaked at 300';
+$lang['history_of_11talk_2007_list1'] = '파인스 기필성 1기 시작';
+$lang['history_of_11talk_2007_list2'] = '파인스 학생 300명 초과';
 $lang['history_of_11talk_2006'] = '2006';
-$lang['history_of_11talk_2006_list1'] = 'Launching of Junior Camp';
-$lang['history_of_11talk_2006_list2'] = 'Opening of Star Mountain Campus';
+$lang['history_of_11talk_2006_list1'] = '파인스 Juniors Camp 시작<br>파인스 쿠이산 캠퍼스 4층 확장';
+$lang['history_of_11talk_2006_list2'] = '파인스 쿠이산 캠퍼스 4층 확장파인스 스타 마운틴 캠퍼스 OPEN';
 $lang['history_of_11talk_2005'] = '2005';
-$lang['history_of_11talk_2005_list1'] = 'Transfer to Cooyeesan Plaza Hotel as an extension of Main Campus';
-$lang['history_of_11talk_2005_list2'] = 'Opening of Advanced Course Campus in Summer Place Hotel';
+$lang['history_of_11talk_2005_list1'] = '파인스 쿠이산 캠퍼스 OPEN';
+$lang['history_of_11talk_2005_list2'] = '파인스 Summer Place 캠퍼스 고급반 OPEN';
 $lang['history_of_11talk_2003'] = '2003';
-$lang['history_of_11talk_2003_list1'] = 'Formal Introduction of EFL courses';
+$lang['history_of_11talk_2003_list1'] = '파인스 12개월 상시 과정 OPEN';
 $lang['history_of_11talk_2001'] = '2001';
-$lang['history_of_11talk_2001_list1'] = 'Launching of Pines International Academy in Green Valley, Baguio City, Philippines';
-$lang['history_of_11talk_2001_list2'] = 'Accreditation of Pines by the Technical Education and Skills Development';
-$lang['history_of_11talk_2001_list3'] = 'Authority (TESDA) and the Education Ministry of the Philippine';
+$lang['history_of_11talk_2001_list1'] = '필리핀 바기오에 파인스 국제어학원 설립';
+$lang['history_of_11talk_2001_list2'] = '필리핀 교육부 TESDA 인증<br>필리핀 이민국 SSP 인증';
+$lang['history_of_11talk_2001_list3'] = '파인스 Green Valley 캠퍼스 OPEN';
 $lang['free_books'] = '무료 교재';
 $lang['free_books_para'] = '수업을 위한 디지털 교재가 제공됩니다. 다운로드하는 것이 어렵지 않아 언제  어디서든 공부 할 수 있습니다. 모든 교재는 무료!';
 $lang['english_level_assessment'] = '무료 레벨 테스트';
@@ -407,10 +549,10 @@ $lang['faq_accordion_para_3_4'] ='Click the register button to start using 11tal
 $lang['faq_accordion_title_4'] ='How To Use 11Talk in Studying English Online';
 $lang['faq_accordion_para_4'] ='Welcome to <a href="https://pinestalking.com/m/signup.html">pinestalking.com</a> ! Navigating the site is quite easy and students can easily change their schedule, do homework, and receive feedback from their teachers with just a few clicks here and there. Learn more about how to study with 11talk!';
 $lang['faq_accordion_4_1'] ='View your class schedules in the My Class tab';
-$lang['faq_accordion_4_2'] ='You can easily change your class schedule in the Schedule Change tab.';
+$lang['faq_accordion_4_2'] ='스케줄 변경 탭을 이용하여 쉽게 수업 스케줄을 변경 하실 수 있습니다.';
 $lang['faq_accordion_4_3'] ='Delete the schedule you want to change by clicking the pink ‘x’ icon.';
-$lang['faq_accordion_4_4'] ='The previous schedule has now been deleted and you can now add a new one. Click on the blue ‘+’ icon.';
-$lang['faq_accordion_4_4_1'] ='**Note: You can add and delete a schedule 30 MINUTES BEFORE the actual class.';
+$lang['faq_accordion_4_4'] ='삭제 하고 싶은 수업을 선택 후 X버튼을 눌러주세요';
+$lang['faq_accordion_4_4_1'] ='**중요: 수업 삭제는 수업 시작시간 기준 30분전까지만 삭제가 가능하십니다.';
 $lang['faq_accordion_4_5'] ='Add the date on your preferred schedule and time. You can add a Saturday class if you have no time for classes during the weekdays.';
 $lang['faq_accordion_4_6'] ='After choosing a date and time, search for a teacher and select an available slot.';
 $lang['faq_accordion_4_7'] ='After selecting a teacher, confirm your new schedule by clicking OK.';
@@ -435,10 +577,11 @@ $lang['faq_accordion_ans_6_3'] ='수강생님의 사정으로 수업 출석이 �
 $lang['faq_accordion_quest_6_4'] ='Do you have classes on holidays?';
 $lang['faq_accordion_ans_6_4'] ='We are closed during the National Philippine holidays and the Korean New Year and Chuseok holidays. Information shall be disseminated to students for the cancellation of classes.';
 $lang['faq_accordion_title_7'] ='Online Class Method';
-$lang['faq_accordion_quest_7'] ='What do I need in my online classes?';
-$lang['faq_accordion_ans_7'] = 'Prepare a headset with a built-in microphone and a webcam. <br><br>
-*For laptop users, prepare a headset with a microphone if your laptop already has a built-in camera<br><br>
-*For cell phone users, prepare earphones with a built-in mic.';
+$lang['faq_accordion_quest_7'] ='수업 수강에 필요한 준비물은 무엇인가요?';
+$lang['faq_accordion_ans_7'] = '1. 마이크가 달린 헤드셋과 <br>2. 화상 카메라를 준비해 주세요.<br><br>
+* 노트북으로 수강하실 경우, 화상 카메라가 노트북에 내장되어 있으면 마이크가 달린 헤드셋만 준비해 주시면 됩니다.<br><br>
+* 핸드폰으로 수강하실 경우, 통화시 사용하시는 마이크가 달린 이어폰만 준비해 주시면 됩니다.
+';
 
 //footer
 $lang['contact_us'] = 'Contact us';

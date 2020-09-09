@@ -49,20 +49,39 @@
 
           <div class="col-md-4 g-mb-30">
             <!-- Social Icons -->
-            <ul class="list-inline text-center mb-0">
-              <li class="list-inline-item">
-                <a class="u-icon-v3 u-icon-size--sm g-color-gray-light-v1 g-color-primary--hover g-bg-transparent g-bg-main--hover rounded" href="#"><i class="fa fa-facebook"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a class="u-icon-v3 u-icon-size--sm g-color-gray-light-v1 g-color-primary--hover g-bg-transparent g-bg-main--hover rounded" href="#"><i class="fa fa-twitter"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a class="u-icon-v3 u-icon-size--sm g-color-gray-light-v1 g-color-primary--hover g-bg-transparent g-bg-main--hover rounded" href="#"><i class="fa fa-instagram"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a class="u-icon-v3 u-icon-size--sm g-color-gray-light-v1 g-color-primary--hover g-bg-transparent g-bg-main--hover rounded" href="#"><i class="fa fa-youtube"></i></a>
-              </li>
-            </ul>
+            <!-- <select id="select_language" onChange="change_language()">
+              <option value="ch" <? if($sel_lang=='ch') echo 'selected'; ?> >中文 (Chinese)</option>
+              <option value="en" <? if($sel_lang=='en') echo 'selected'; ?> >English (US)</option>
+              <option value="jp" <? if($sel_lang=='jp') echo 'selected'; ?> >日本語 (Japanese)</option>
+              <option value="ko" <? if($sel_lang=='ko') echo 'selected'; ?> >한국어 (Korean)</option>
+              <option value="tw" <? if($sel_lang=='tw') echo 'selected'; ?> >台灣 (Taiwanese)</option>
+              <option value="th" <? if($sel_lang=='th') echo 'selected'; ?> >ไทย (Thai)</option>
+              <option value="vi" <? if($sel_lang=='vi') echo 'selected'; ?> >Tiếng việt (Vietnamese)</option>
+            </select> -->
+            <a href="#" class="btn btn-md u-btn-skew u-btn-bluegray g-font-weight-600 g-letter-spacing-0_5 text-uppercase g-brd-2 g-rounded-50 g-mr-10 g-mb-15" href="#modal_language" data-modal-target="#modal_language" data-modal-effect="slidetogether">
+              <span class="u-btn-skew__inner">
+                <i class="fa fa-language" aria-hidden="true"></i>
+                Languages
+              </span>
+            </a>
+            <!-- Demo modal window -->
+            <div id="modal_language" class="text-left g-max-width-600 g-bg-white g-overflow-y-auto g-pa-20" style="display: none;">
+              <button type="button" class="close" onclick="Custombox.modal.close();">
+                <i class="hs-icon hs-icon-close"></i>
+              </button>
+              <h4 class="g-mb-20 text-center">Languages</h4>
+              <div class="g-mb-20 text-center">
+                <button id="ch" class="btn btn-md u-btn-gradient-v1 g-mr-10 g-mb-15"> 中文 (Chinese)</button>
+                <button id="en" class="btn btn-md u-btn-gradient-v2 g-mr-10 g-mb-15"> English (US)</button>
+                <button id="jp" class="btn btn-md u-btn-gradient-v1 g-mr-10 g-mb-15"> 日本語 (Japanese)</button>
+                <button id="ko" class="btn btn-md u-btn-gradient-v2 g-mr-10 g-mb-15"> 한국어 (Korean)</button>
+                <button id="tw" class="btn btn-md u-btn-gradient-v1 g-mr-10 g-mb-15"> 台灣 (Taiwanese)</button><br>
+                <button id="th" class="btn btn-md u-btn-gradient-v2 g-mr-10 g-mb-15"> ไทย (Thai)</button>
+                <button id="vi" class="btn btn-md u-btn-gradient-v1 g-mr-10 g-mb-15"> Tiếng việt (Vietnamese)</button>
+              </div>
+
+            </div>
+            <!-- End Demo modal window -->
             <!-- End Social Icons -->
           </div>
         </div>
@@ -71,5 +90,43 @@
   </footer>
     <!-- End Footer -->
   </div>
+
+  <script >
+    $(document).on('ready', function () {
+      // initialization of popups
+      $.HSCore.components.HSModalWindow.init('[data-modal-target]');
+    });
+
+    $('#ch').on('click',function(){
+          location.href = "home.html?lang=" + 'ch';
+          localStorage.setItem('show', 'false');
+          $('#kakao').hide();
+      });
+      $('#en').on('click',function(){
+          location.href = "home.html?lang=" + 'en';
+          localStorage.setItem('show', 'true');
+      })
+      $('#jp').on('click',function(){
+          location.href = "home.html?lang=" + 'jp';
+          localStorage.setItem('show', 'false');
+          $('#kakao').hide();
+      });
+      $('#ko').on('click',function(){
+        location.href = "home_ko.html?lang=" + 'ko';
+        localStorage.setItem('show', 'true')
+      });
+      $('#tw').on('click',function(){
+        location.href = "home.html?lang=" + 'tw';
+        localStorage.setItem('show', 'true')
+      });
+      $('#th').on('click',function(){
+        location.href = "home.html?lang=" + 'th';
+        localStorage.setItem('show', 'true')
+      });
+      $('#vi').on('click',function(){
+        location.href = "home.html?lang=" + 'vi';
+        localStorage.setItem('show', 'true')
+      });
+  </script>
 </body>
 </html>

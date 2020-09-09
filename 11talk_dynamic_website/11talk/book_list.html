@@ -11,7 +11,7 @@ if($sel_level != "0") {
 $book_list = sqlToArray("select * from lms_textbook where bo_use_yn='Y' $where order by bo_level_low, bo_level_high");
 ?>
 
-    <div class="container g-pt-100">
+    <div class="container g-pt-30">
 
         <? include_once("book_level_tab.html"); ?>
 
@@ -36,7 +36,7 @@ $book_list = sqlToArray("select * from lms_textbook where bo_use_yn='Y' $where o
                     <? foreach ($group_list as $group) { ?>
                         <div class="col-lg-4 g-px-30 g-mb-40">
                             <!--book-->
-                            <h3 class="h5 text-uppercase g-font-size-16 g-color-black g-mb-10 g-font-weight-500"><?= $group[bg_name] ?></h3>
+                            <h3 class="h5 text-uppercase g-font-size-16 g-color-black g-mb-10 g-font-weight-500"><?= $group[bg_name . $lang_postfix] ?></h3>
                             <hr class="g-bg-main">
                             <?
                             $cnt = 0;
@@ -50,7 +50,12 @@ $book_list = sqlToArray("select * from lms_textbook where bo_use_yn='Y' $where o
                                                 <figcaption class="col-lg-5 g-mb-5 g-px-15 g-mr-15 g-bg-pink text-center">
                                                     <span class="g-color-white g-font-size-13 text-uppercase g-letter-spacing-1 g-font-weight-500 g-text-underline--none--hover" tabindex="0">Level <?= $book[bo_level_low] ?></span>
                                                 </figcaption>
-                                                <span class="h6 d-block g-font-weight-500 g-color-black g-mr-50"><?= $book[bo_title] ?></span>
+                                                <? if($lang_postfix == "") {
+                                                    $bo_title = $book[bo_title];
+                                                } else {
+                                                    $bo_title = $book[bo_title] . ' (' . $book[bo_title . $lang_postfix] . ')';
+                                                } ?>
+                                                <span class="h6 d-block g-font-weight-500 g-color-black g-mr-50"><?= $bo_title ?></span>
                                             </a>
                                         </div>
                                     <?

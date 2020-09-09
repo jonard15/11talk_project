@@ -1262,23 +1262,24 @@
           $('#kakao').show();
         }
         
-      function change_language() {
-        var sel_lang = $("#select_language").val();
-        if(sel_lang === 'ch'){
-          location.href = "home.html?lang=" + sel_lang;
-          localStorage.setItem('show', 'false');
-          $('#kakao').hide();
-        }else if(sel_lang === 'jp'){
-          location.href = "home.html?lang=" + sel_lang;
-          localStorage.setItem('show', 'false');
-          $('#kakao').hide();
-        }else if(sel_lang === 'ko'){
-          location.href = "home_ko.html?lang=" + sel_lang;
-        }else{
-          location.href = "home.html?lang=" + sel_lang;
-          localStorage.setItem('show', 'true');
-        }
-      }
+      // function change_language() {
+      //   var sel_lang = $("#select_language").val();
+      //   if(sel_lang === 'ch'){
+      //     location.href = "home.html?lang=" + sel_lang;
+      //     localStorage.setItem('show', 'false');
+      //     $('#kakao').hide();
+      //   }else if(sel_lang === 'jp'){
+      //     location.href = "home.html?lang=" + sel_lang;
+      //     localStorage.setItem('show', 'false');
+      //     $('#kakao').hide();
+      //   }else if(sel_lang === 'ko'){
+      //     location.href = "home_ko.html?lang=" + sel_lang;
+      //   }else{
+      //     location.href = "home.html?lang=" + sel_lang;
+      //     localStorage.setItem('show', 'true');
+      //   }
+      // }
+      
     </script>
   </body>
 </html>

@@ -35,8 +35,15 @@ $unit_list = sqlToArray($sql);
         <div class="row u-timeline-v2-wrap list-unstyled">
 
             <div class="col-lg-6 text-center g-px-30 g-py-20 mx-auto g-max-width-600">
-                <h2 class="g-color-black mb-4"><?=$book[bo_title]?></h2>
-                <p class="g-line-height-2 g-color-black "><?=$book[bo_content]?></p>
+                <? if($lang_postfix == "") {
+                    $bo_title = $book[bo_title];
+                    $bo_content = $book[bo_content];
+                } else {
+                    $bo_title = $book[bo_title] . ' (' . $book[bo_title . $lang_postfix] . ')';
+                    $bo_content = $book[bo_content] . ' (' . $book[bo_content . $lang_postfix] . ')';
+                } ?>
+                <h2 class="g-color-black mb-4"><?=$bo_title?></h2>
+                <p class="g-line-height-2 g-color-black "><?=$bo_content?></p>
             </div>
 
             <div class="col-md-12 g-brd-bottom g-brd-0--md g-brd-gray-light-v4 g-pb-30 g-pb-0--md g-mb-30 g-mb-0--md">

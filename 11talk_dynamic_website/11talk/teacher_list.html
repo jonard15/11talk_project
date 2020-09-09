@@ -9,13 +9,18 @@ if ($sel_group != "0") {
     $where = " and tg_id=$sel_group ";
 }
 $sql = "select *
- , (select group_concat(tg_name_short) from lms_tutor_group where tg_id in (select tm_tg_id from lms_tutor_map where tm_tu_idx=t.idx)) tutor_group
- from lms_tutor t where del_yn_tu='N' and home_yn='Y' and tu_name='C.Jemil'";
+, (select group_concat(tg_name_short".$lang_postfix.") from lms_tutor_group 
+    where tg_id in (select tm_tg_id from lms_tutor_map where tm_tu_idx=t.idx)) tutor_group
+from lms_tutor t where del_yn_tu='N' and home_yn='Y' ";//and tu_name='C.Jemil'
+if ($sel_group != "0") {
+    $sql .= "and idx in (select tm_tu_idx from lms_tutor_map where tm_tg_id='$sel_group')";
+}
+
 $tutor_list = sqlToArray($sql);
 ?>
 
 <!-- Consultants -->
-<div class="container g-pt-120">
+<div class="container g-pt-30">
     <!-- Consultants - Heading -->
     <div class="d-flex align-items-center g-mb-40">
         <div>
@@ -23,13 +28,21 @@ $tutor_list = sqlToArray($sql);
             <h2 class="mr-5 mb-0">Best Teachers</h2>
         </div>
         <!-- Nav tabs -->
-        <ul class="nav u-nav-v1-1 ml-auto mt-auto" role="tablist" data-target="nav-1-1-default-hor-left" data-tabs-mobile-type="slide-up-down" data-btn-classes="btn btn-md btn-block rounded-0 u-btn-outline-lightgray">
+        <ul class="nav u-nav-v1-1 ml-auto mt-auto" role="tablist" data-target="nav-1-1-default-hor-left"
+            data-tabs-mobile-type="slide-up-down" data-btn-classes="btn btn-md btn-block rounded-0 u-btn-outline-lightgray">
             <li class="nav-item">
-                <a class="nav-link active g-brd-around g-brd-gray-light-v4 g-brd-main--active g-color-text g-color-white--active g-bg-secondary g-bg-main--active g-rounded-left-3" data-toggle="tab" href="#nav-1-1-default-hor-left--1" role="tab">&nbsp;&nbsp;All&nbsp;&nbsp;</a>
+                <a class="nav-link <? if ($sel_group == 0) echo "active" ?>
+                    g-brd-around g-brd-gray-light-v4 g-brd-main--active g-color-text g-color-white--active g-bg-secondary g-bg-main--active g-rounded-left-3"
+                   onclick="location.href='teacher_list.html?g=0'"
+                   data-toggle="tab"
+                   href="#nav-1-1-default-hor-left--1" role="tab">&nbsp;&nbsp;All&nbsp;&nbsp;</a>
             </li>
             <? foreach ($group_list as $group) { ?>
                 <li class="nav-item">
-                    <a class="nav-link g-brd-around g-brd-gray-light-v4 g-brd-main--active g-color-text g-color-white--active g-bg-secondary g-bg-main--active g-rounded-right-3" href="teacher1.html"><?= $group[tg_name_short] ?></a>
+                    <a class="nav-link <? if ($sel_group == $group[tg_id]) echo "active" ?>
+                        g-brd-around g-brd-gray-light-v4 g-brd-main--active g-color-text g-color-white--active g-bg-secondary g-bg-main--active g-rounded-right-3"
+                       onclick="location.href='teacher_list.html?g=<?= $group[tg_id] ?>'"
+                       href="javascript:void()"><?= $group[tg_name_short . $lang_postfix] ?></a>
                 </li>
             <? } ?>
         </ul>
@@ -45,42 +58,38 @@ $tutor_list = sqlToArray($sql);
                 <div class="col-lg-6">
 
                     <div class="row">
-                        <div class="col-md-5">
+                        <div class="col-md-6">
                             <div class="g-bg-secondary text-center g-pa-20">
-                                <div class="u-shadow-v19 g-width-180 g-height-180 g-brd-around g-brd-5 g-brd-white rounded-circle mx-auto mb-4">
-                                    <img class="img-fluid rounded-circle" src="img/teacher/Jemil_upper.png" alt="Image description">
-                                </div>
+                                <? if($tutor[tu_pic] == "") { ?>
+                                    <div class="u-shadow-v19 g-width-180 g-height-180 g-brd-around g-brd-5 g-brd-white rounded-circle mx-auto mb-4">
+                                        <img class="img-fluid rounded-circle" src="/m/image/noimage.gif" alt="Image description">
+                                    </div>
+                                <? } else { ?>
+                                    <div class="u-shadow-v19 g-width-180 g-height-180 g-brd-around g-brd-5 g-brd-white rounded-circle mx-auto mb-4">
+                                        <img class="img-fluid rounded-circle" src="/data/tutor/<?=$tutor[tu_pic]?>" alt="Image description">
+                                    </div>
+                                <? } ?>
                                 <h3 class="h6 mb-3"><?= $tutor[tu_name] ?></h3>
-                                <a class="u-icon-v3 u-icon-size--xs g-color-white g-bg-primary g-bg-main--hover rounded g-pos-rel g-z-index-1 g-cursor-pointer"
-                                      href=" javascript:;" data-src="https://www.youtube.com/embed/cncpzko9_0M" data-speed="350" data-caption="Video Popup">
+
+                                <? if ($tutor[tu_movie] != "") { ?>
+                                <a class="js-fancybox u-icon-v3 u-icon-size--xs g-color-white g-bg-primary g-bg-main--hover rounded g-pos-rel g-z-index-1 g-cursor-pointer"
+                                   href=" javascript:;" data-src="<?= $tutor[tu_movie] ?>" data-speed="350" data-caption="Video Popup">
                                     <i class="g-font-size-13 g-pos-rel g-left-2 fa fa-play"></i>
                                 </a>
+                                <? } ?>
                             </div>
-
-                            <div id="accordion-12-1-heading-01" class="g-pa-0" role="tab">
-                                <? //if ($tutor[tu_movie] != "") { ?>
-<!--                                    <a class="btn btn-block u-btn-primary g-brd-main--hover g-color-main g-color-primary--hover g-color-main--focus g-bg-main--hover g-font-weight-600 g-font-size-12 text-uppercase rounded-0 g-px-25 g-py-13 js-fancybox d-inline-block g-text-underline--none--hover mb-3"-->
-<!--                                       href="javascript:;" data-src="https://www.youtube.com/embed/cncpzko9_0M" data-speed="350" data-caption="Video Popup">-->
-<!--                                        <i class="g-font-size-13 g-pos-rel g-left-2 fa fa-play"></i>-->
-<!--                                    </a>-->
-<!--                                    <a class="btn btn-block u-btn-primary g-brd-main--hover g-color-main g-color-primary--hover g-color-main--focus g-bg-main--hover g-font-weight-600 g-font-size-12 text-uppercase rounded-0 g-px-25 g-py-13 js-fancybox d-inline-block g-text-underline--none--hover mb-3"-->
-<!--                                       href="javascript:;">-->
-<!--                                        &nbsp;-->
-<!--                                    </a>-->
-                            </div>
-
                         </div>
 
-                        <div class="col-md-7">
+                        <div class="col-md-6">
                             <h3 class="h5">Teacher <?= $tutor[tu_nick] ?></h3>
                             <p class="g-line-height-2">
                                 <?= str_replace(",", " | ", $tutor[tutor_group]) ?>
                             </p>
-                            <p class="g-font-size-13"><?= $tutor[tu_homepage_desc1] ?></p>
+                            <p class="g-font-size-13"><?= $tutor[tu_homepage_desc1 . $lang_postfix] ?></p>
                             <div class="u-accordion__body g-color-gray-dark-v4">
-                                <?= $tutor[tu_homepage_desc2] ?>
+                                <?= $tutor[tu_homepage_desc2 . $lang_postfix] ?>
                             </div>
-                            <div class="js-rating g-color-yellow" data-rating="5"></div>
+                            <div class="js-rating g-color-yellow" data-rating="<?=$tutor[tu_star]?>"></div>
                         </div>
                     </div>
                 </div>
@@ -122,6 +131,9 @@ $tutor_list = sqlToArray($sql);
         $.HSCore.components.HSRating.init($('.js-rating'), {
             spacing: 2
         });
+
+        // initialization of popups
+        $.HSCore.components.HSPopup.init('.js-fancybox');
 
     });
 

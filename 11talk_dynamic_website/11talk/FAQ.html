@@ -568,23 +568,50 @@
         }, 200);
       });
 
-      function change_language() {
-        var sel_lang = $("#select_language").val();
-        if(sel_lang === 'ch'){
-          location.href = "FAQ.html?lang=" + sel_lang;
+      // function change_language() {
+      //   var sel_lang = $("#select_language").val();
+      //   if(sel_lang === 'ch'){
+      //     location.href = "FAQ.html?lang=" + sel_lang;
+      //     localStorage.setItem('show', 'false');
+      //     $('#kakao').hide();
+      //   }else if(sel_lang === 'jp'){
+      //     location.href = "FAQ.html?lang=" + sel_lang;
+      //     localStorage.setItem('show', 'false');
+      //     $('#kakao').hide();
+      //   }else if(sel_lang === 'ko'){
+      //     location.href = "FAQ.html?lang=" + sel_lang;
+      //   }else{
+      //     location.href = "FAQ.html?lang=" + sel_lang;
+      //     localStorage.setItem('show', 'true');
+      //   }
+      // }
+
+      $('#ch').on('click',function(){
+          location.href = "home.html?lang=" + 'ch';
           localStorage.setItem('show', 'false');
           $('#kakao').hide();
-        }else if(sel_lang === 'jp'){
-          location.href = "FAQ.html?lang=" + sel_lang;
-          localStorage.setItem('show', 'false');
-          $('#kakao').hide();
-        }else if(sel_lang === 'ko'){
-          location.href = "FAQ.html?lang=" + sel_lang;
-        }else{
-          location.href = "FAQ.html?lang=" + sel_lang;
+      });
+      $('#en').on('click',function(){
+          location.href = "home.html?lang=" + 'en';
           localStorage.setItem('show', 'true');
-        }
-      }
+      })
+      $('#jp').on('click',function(){
+          location.href = "home.html?lang=" + 'jp';
+          localStorage.setItem('show', 'false');
+          $('#kakao').hide();
+      });
+      $('#ko').on('click',function(){
+        location.href = "home_ko.html?lang=" + 'ko';
+      });
+      $('#tw').on('click',function(){
+        location.href = "home.html?lang=" + 'tw';
+      });
+      $('#th').on('click',function(){
+        location.href = "home.html?lang=" + 'th';
+      });
+      $('#vi').on('click',function(){
+        location.href = "home.html?lang=" + 'vi';
+      });
     </script>
   </body>
 </html>
