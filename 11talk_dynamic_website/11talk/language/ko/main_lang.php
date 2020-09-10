@@ -2,17 +2,17 @@
 $lang = array();
 
 //Navigation
-$lang['home'] = 'Home';
+$lang['home'] = '홈';
 $lang['home_link'] = 'home_ko.html';
 $lang['about'] = 'About 11talk';
-$lang['book'] = 'Book';
-$lang['tuition'] = 'Tuition';
+$lang['book'] = '교재보기';
+$lang['tuition'] = '수강료';
 $lang['tuition_link'] = 'price.html';
-$lang['teacher'] = 'Teacher';
-$lang['faq'] = 'FAQ';
-$lang['testimonials'] = 'Testimonials';
+$lang['teacher'] = '강사소개';
+$lang['faq'] = 'Q &A';
+$lang['testimonials'] = '수 강 후 기';
 $lang['blog'] = 'Blog';
-$lang['class_system'] = 'Class System';
+$lang['class_system'] = '지금 시작하기 ';
 
 //Home section2
 $lang['affordable_online'] = 'WHO WE ARE';
@@ -283,8 +283,8 @@ $lang['book_para'] = '11talk materials are free to use! <a class="u-link-v5" hre
 
 //teacher
 $lang['best_teacher'] = 'Best Teachers';
-$lang['professional_background'] = 'MEET OUR TEACHERS';
-$lang['professional_background'] = 'Professional Background';
+$lang['professional_background'] = '파인스어학원 선생님은 필리핀 최고의 ';
+$lang['professional_background'] = '선생님이라 자부합니다.';
 $lang['global_talent'] = 'How do we produce successful global talents ?';
 $lang['certified_english_teacher'] = '11talk Teachers are  certified English Experts';
 $lang['certified_english_teacher_para'] = 'After the comprehensive training, 11talk teachers have experienced  teaching offline foreign students at Pines International Academy for at least  4 months (with at least 8 sessions of teaching  loads per day).  They have handled various English courses, attended post hiring training and attained certain qualifications like IELTS certification Know the difference.';
@@ -298,32 +298,41 @@ $lang['cefr_table_cefr_11talk_level'] = 'Pines 11talk Level';
 $lang['cefr_table_cefr_description'] = 'Description';
 $lang['cefr_table_cefr_level_c1'] = 'C1';
 $lang['cefr_table_level0_td2'] = '10';
-$lang['cefr_table_level0_td3'] = 'Can understand a wide range of topics, longer texts, and recognize implicit meanings; can express him/herself fluently and effectively in any social, academic, or professional setting without difficulty in searching for the precise expression; can produce clear, well-structured, detailed texts even on complex subjects and shows control in the use of organizational patterns and other cohesive devices.';
+$lang['cefr_table_level0_td3'] = '광범위한 주제, 긴 문장을 이해하고 암시 적 의미를 인식 할 수 있습니다. 정확한 표현을 찾는 데 어려움 없이 사회적, 학문적 또는 전문적 환경에서 유창하고 효과적으로 자신을 표현할 수 있습니다. 복잡한 주제에 대해서도 명확하고 잘 구조화 된 상세한 문장을 만들 수 있습니다.';
 $lang['cefr_table_cefr_level_b2'] = 'B2';
 $lang['cefr_table_leve9_td1'] = '9';
-$lang['cefr_table_leve9_td2'] = 'Can follow and take part in a variety of conversations; can read and understand complex texts such as newspaper articles, magazines, or journals; can clarify the viewpoints of others and give his / her opinion on a particular issue without difficulty even with native speakers.';
+$lang['cefr_table_leve9_td2'] = '다양한 대화를 따르고 참여할 수 있습니다. 신문 기사, 잡지 또는 저널과 같은 복잡한 텍스트를 읽고 이해할 수 있습니다. 타인의 관점을 명확히 이해 하고 특정 문제에 대한 의견을 원어민 과도어려움 없이 전달할 수 있습니다.';
 $lang['cefr_table_leve8_td1'] = '8';
-$lang['cefr_table_leve8_td2'] = 'Can understand main points of a conversation or discussion provided the topic is familiar or within his / her field of interest and or expertise; can extract necessary information and ask questions for further debate and clarification; can produce a detailed texts that aims to elaborate viewpoint on a topical issue.';
+$lang['cefr_table_leve8_td2'] = '주제가 친숙하거나 관심 분야 및 / 또는 전문 지식 내에 있는 경우 대화 또는 토론의 주요 요점파악 및 이해할 수 있습니다. 필요한 정보를 추출하고 추가 토론 및 설명을 위해 질문 할 수 있습니다. 문제에 대한 상세한 관점을 목표로 하는 상세한 문장을 생성 할 수 있습니다.';
 $lang['cefr_table_cefr_level_b1'] = 'B1';
 $lang['cefr_table_leve7_td1'] = '7';
-$lang['cefr_table_leve7_td2'] = 'Can explain in detail and with confidence an issue that has arisen in a particular setting and can present suggestions on how to deal with it; can present a social situation of personal interest and respond appropriately to follow-up questions from other people.';
+$lang['cefr_table_leve7_td2'] = '특정 환경에서 발생한 문제를 자세하고 자신 있게 설명 할 수 있으며 이를 처리하는 방법을 제안 및 제시 할 수 있습니다. 개인적으로 관심이 있는 사회적 상황을 제시하고 다른 사람들의 후속 질문에 적절하게 응답 할 수 있습니다.';
 $lang['cefr_table_leve6_td1'] = '6';
-$lang['cefr_table_leve6_td2'] = 'Can understand majority of ideas related to familiar matters and can deal with most situations when travelling; can describe experiences and events, dreams, hopes, and ambitions, and brief explanations for opinions and plans; can maintain social conversation about concrete topics of personal interest.';
+$lang['cefr_table_leve6_td2'] = '익숙한 문제와 관련된 대부분의 아이디어를 이해할 수 있고 여행 할 때 대부분의 상황을 대처  할 수 있습니다. 경험과 사건, 꿈, 희망, 야망, 의견과 계획에 대한 간략한 설명을 설명 할 수 있습니다. 개인적인 관심주제에  대한 대화를 유지할 수 있습니다.';
 $lang['cefr_table_cefr_level_a2'] = 'A2';
 $lang['cefr_table_leve5_td1'] = '5';
-$lang['cefr_table_leve5_td2'] = 'Can exchange opinions and feelings, express agreement and disagreement, and compare people and things using simple expressions; can interact with others in routine situations in the neighborhood, workplace, and school using a variety of expressions.';
+$lang['cefr_table_leve5_td2'] = '익숙한 문제와 관련된 대부분의 아이디어를 이해할 수 있고 여행 할 때 대부분의 상황을 대처  할 수 있습니다. 경험과 사건, 꿈, 희망, 야망, 의견과 계획에 대한 간략한 설명을 설명 할 수 있습니다. 개인적인 관심주제에  대한 대화를 유지할 수 있습니다.';
 $lang['cefr_table_leve4_td1'] = '4';
-$lang['cefr_table_leve4_td2'] = 'Can give simple directions for specific places he/she is familiar with; can give a brief talk about his / her neighborhood, school, and work with the aid of photos, maps, and series of memorized expressions; can write invitations and other simple personal letters using basic vocabulary.';
+$lang['cefr_table_leve4_td2'] = '익숙한 특정 장소에 대하여 간단하게 특정하거나 설명을 할수있습니다. 
+암기 된 표현을 사용하여 자신의 이웃, 학교 및 작업에 대해 간략하게 말할 수 있습니다. 
+기본적인 어휘를 사용하여 초대장 및 기타 간단한 개인 편지를 쓸 수 있습니다.';
 $lang['cefr_table_cefr_level_a1'] = 'A1';
 $lang['cefr_table_leve3_td1'] = '3';
-$lang['cefr_table_leve3_td2'] = 'Can ask and answer simple questions about familiar topics; can make, accept, and decline offers using basic phrases; can talk about personal experiences provided he/she has a written guideline.';
+$lang['cefr_table_leve3_td2'] = '익숙한 주제에 대해 간단한 질문을 하고 대답 할 수 있습니다. 
+기본 문구를 사용하여 제안을 하고, 수락 및 거절을 할 수 있습니다. 
+약간의 가이드라인이 있으면 개인적인 경험에 대해 이야기 할 수 있습니다.';
 $lang['cefr_table_leve2_td1'] = '2';
-$lang['cefr_table_leve2_td2'] = 'Can understand short conversations about familiar topics like hobbies, likes and dislikes, food, school, and work using a limited range of vocabulary and other expressions.';
+$lang['cefr_table_leve2_td2'] = '제한된 범위의 어휘 및 표현을 사용하며 취미, 좋아하는 것과 싫어하는 것, 음식, 학교, 일과 같은 익숙한 주제에 대한 짧은 대화를 이해할 수 있습니다.';
 $lang['cefr_table_leve1_td1'] = '1';
-$lang['cefr_table_leve1_td2'] = 'Can read and understand very simple instructions and written notices; can ask and answer typical questions about time, date, and prices; can express him/herself using memorized formulaic sentence patterns; can catch key points and follow basic instructions provided they are delivered in a very slow and clear manner.';
+$lang['cefr_table_leve1_td2'] = '매우 간단한 지침과 공지를 읽고 이해할 수 있습니다.
+시간, 날짜, 가격에 대한 일반적인 질문을하고 대답 할 수 있습니다.
+암기한 문장 패턴만 사용하여 자신을 표현할 수 있습니다.
+요점을 파악하는데 시간이 많이 걸리고 명확하게 제공되는 기본 지침만을 따를 수 있습니다.';
 $lang['cefr_table_cefr_level_pre_a1'] = 'Pre-A1';
 $lang['cefr_table_leve1p_td1'] = '1P';
-$lang['cefr_table_leve1p_td2'] = 'Can catch everyday familiar words and can express memorized expressions and seasonal greetings; Can recognize written text they’ve been exposed too and can produce the same by copying; can convey simple information about themselves like name, age, address, and country of origin.';
+$lang['cefr_table_leve1p_td2'] = '익숙한 단어만을 포착할수 있고 암기 된 표현과 계절 인사말 을 표현할 수 있습니다.
+배운 단어및 글을 인식 할 수 있으며 복사하여 똑같이 만들 수 있습니다.
+이름, 나이, 주소, 출신 국가와 같은 간단한 정보만을 전달할 수 있습니다.s';
 
 //4-step
 $lang['4step_title'] = 'Systematic and Effective Learning Method';
@@ -533,9 +542,9 @@ $lang['faq_payment'] ='결제방법';
 $lang['faq_accordion_title_1'] ='11talk에 관하여';
 $lang['faq_accordion_para_1'] ='11Talk is an Online English school run by the Philippines top language school, Pines International Academy. You may learn English online from any device like a computer, smartphone, or tablet as long as you have a stable internet connection.
 <br><br>11talk has a curriculum team that designs lesson materials for all skill levels. Our lesson materials cover a wide range of topics to allow students to choose lessons that match their interests. The team has made sure that the lesson materials are in par with the CEFR leveling system.';
-$lang['faq_accordion_title_2'] ='Online Learning Environment';
-$lang['faq_accordion_para_2'] ='11talk offers a video lesson platform on Zoom. Students may also use alternative platforms like Skype and QQ.<br>
-<span>11talk Video Lesson Platform supports any devices and OS.</span>';
+$lang['faq_accordion_title_2'] ='온라인 수업 환경';
+$lang['faq_accordion_para_2'] ='11talk는 Zoom플랫폼을 이용하여 온라인 수업을 제공하고 있습니다. 그리고 Zoom사용이 어려운 학생들을 위하여 Skype 와 QQ를 대체 플랫폼으로 사용중입니다. <br>
+<span>11talk 온라인 수업은 OS 윈도우만 아닌 아래의 운영체제도 지원해드리고 있습니다</span>';
 $lang['faq_accordion_list_2_1'] = 'Windows';
 $lang['faq_accordion_list_2_2'] = 'Mac';
 $lang['faq_accordion_list_2_3'] = 'Android';
@@ -590,3 +599,5 @@ $lang['phone_number'] = 'Phone number';
 $lang['tel_number'] = '(074) 1644-4518';
 $lang['email'] = 'Email';
 $lang['reserve'] = '&copy; 2020 11talk. All Rights Reserved.';
+$lang['address_location'] = '#3 Rommel Mansion Building Ignacio Villamor St., Lualhati, Baguio City, Philippines';
+$lang['company_email'] = 'pinesbaguio@gmail.com';

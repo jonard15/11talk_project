@@ -20,6 +20,7 @@ $lang['top_online'] = 'สถาบันสอนภาษาอังกฤษ
 $lang['english_school'] = 'ออนไลน์ชั้นนำ';
 $lang['anytime_anywhere'] = 'เรียนได้ทุกที่ ทุกเวลา เพื่อก้าวสู่ความสำเร็จอันยิ่งใหญ่';
 $lang['free_class'] = 'วัดระดับภาษาและทดลองเรียนฟรี';
+$lang['free_class_link'] = 'https://pinestalking.com/m/signup.html?lang=th';
 
 //Home section2
 $lang['affordable_online'] = '11talk มอบการเรียนออนไลน์ที่มีคุณภาพสูงและราคาที่คุ้มค่า';
@@ -49,6 +50,7 @@ $lang['student_statisfaction_percent'] = '99.9%';
 $lang['student_statisfaction'] = 'ความพึงพอใจของนักเรียน';
 $lang['num_successful_graduates'] = '30,000';
 $lang['successful_graduates_2'] = 'ความสำเร็จ';
+$lang['pines_academy_link'] = 'http://pinesacademy.com/';
 
 //Home section5
 $lang['learning_features'] = 'คุณสมบัติการเรียนที่โดดเด่นของ 11Talk';
@@ -74,12 +76,14 @@ $lang['view_4_step'] = 'ดูระบบการเรียน 4 ขั้�
 
 //Home section6
 $lang['advance_convenient'] = 'ระบบการสอนที่มีความทันสมัยและสะดวกสบาย';
+$lang['advance_convenient_video'] = 'https://www.youtube.com/embed/PrwTZR8f8Qo';
 $lang['free_learning_materials'] = 'สื่อการเรียนฟรี';
 $lang['easy_video_sharing'] = 'การเชื่อมต่อและ<br>แชร์วิดีโอที่ง่าย';
 $lang['improve_chat_sysytem'] = 'ระบบการสื่อสาร<br>ที่ทันสมัย';
 $lang['virtual_classroom'] = 'อุปกรณ์การ<br>สอนเสมือน<br>จริง';
 $lang['experience_barrier_free'] = 'สัมผัสประสบการณ์การเรียนที่ไร้อุปสรรค<br>ด้วยระบบ ZOOM';
 $lang['free_class+_level_test'] = 'วัดระดับ + ทดลองเรียน ฟรี';
+$lang['free_class+_level_test_link'] = 'https://pinestalking.com/m/signup.html?lang=en';
 
 //Home section7
 $lang['stable_tested_curriculum'] = 'หลักสูตรที่อัดแน่นและผ่านการทดสอบ';
@@ -201,6 +205,7 @@ $lang['study_with_professional_teachers_para'] = 'ครู 11talk ต้อง�
 $lang['meet_more_teachers'] = 'Meet More Teachers';
 $lang['kakao_customer_service'] = 'การบริการช่วยเหลือลูกค้าของ KAKAO';
 $lang['kakao_customer_service_para'] = '11talk ดูแลนักเรียนเป็นอย่างดีเพียงขั้นตอนเดียวผ่านการช่วยเหลือทาง KAKAO มันไม่ใช่ศูนย์ลูกค้าทั่วไปที่ตอบและจัดการคำขอหรือข้อสงสัยของลูกค้าเท่านั้น เป็นศูนย์บริการลูกค้าที่มีความใส่ใจ!';
+$lang['kakao_customer_service_img'] = '<img class="g-height-150 g-width-180" src="img/home/taiwan_kko.png" alt="Image Description">';
 $lang['Girl2'] = 'สวัสดีฉันคือ Amy Lee ฉันต้องเลื่อนชั้นเรียนในวันพรุ่งนี้เนื่องจากติดกิจกรรมที่มหาวิทยาลัย';
 $lang['phone_list1'] = 'ส่งข้อกังวลของคุณ';
 $lang['phone_list2'] = 'ขาดเรียนระยะนาน';
@@ -329,7 +334,8 @@ $lang['book_para'] = '11Talk มีสื่อการเรียนให้
 
 //teacher
 $lang['best_teacher'] = 'ครูที่ดีที่สุด';
-$lang['professional_background'] = 'พบกับอาจารย์ของเรา';
+$lang['best_teacher_para'] = '11Talk teachers’ employment rate is about 10 %. We have strict employment standards which is called 14-step recruitment process. The teachers who passed the steps are the qualified ones who will conduct the English classes. With these standards, we keep the quality of our teachers above a certain level and provide high quality English class.With competent English teachers,expect to have a fruitful English learning experience.';
+$lang['meet_our_teachers'] = 'พบกับอาจารย์ของเรา';
 $lang['professional_background'] = 'ประสบการณ์สอนที่มีความเป็นมืออาชีพ';
 $lang['global_talent'] = 'เราจะผลิตคนเก่งระดับโลกที่ประสบความสำเร็จได้อย่างไร?';
 $lang['certified_english_teacher'] = 'ครูของ 11talk ได้รับการรับรองว่าป็นผู้เชี่ยวชาญด้านภาษาอังกฤษ';
@@ -630,6 +636,8 @@ $lang['faq_accordion_ans_7'] = 'เตรียมชุดหูฟังพร
 $lang['contact_us'] = 'ติดต่อเรา';
 $lang['address'] = 'ที่อยู่';
 $lang['phone_number'] = 'LINE';
-$lang['tel_number'] = 'Beech1900';
+$lang['tel_number'] = 'Beech1900<br>Mod Daengnok<br>(Thailand Marketing Manager)';
 $lang['email'] = 'Email';
 $lang['reserve'] = '&copy; สงวนลิขสิทธิ์';
+$lang['address_location'] = '#3 Rommel Mansion Building Ignacio Villamor St., Lualhati, Baguio City, Philippines';
+$lang['company_email'] = 'pinesbaguio@gmail.com';
